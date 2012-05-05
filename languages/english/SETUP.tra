@@ -1,0 +1,851 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Setup Messages                                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+     @0 = ~NPC Tweaks~
+     @1 = ~This step may take a few moments ...~
+     @2 = ~The Add Bags of Holding to BG is required for this component.~
+     @3 = ~Requires 'Allow Arcane Spellcasting in Armor' component~
+     @4 = ~Convenience Tweaks/Cheats~
+     @5 = ~The Exotic Item Pack is required for this component.~
+     @6 = ~Requires 'Allow Stealth and Thieving Abilities in Heavy Armor' component~
+     @7 = ~This component is not available in your language.~
+     @8 = ~This component is only for BGT.~
+     @9 = ~Rule Changes~
+    @10 = ~This component is not available for Tutu.~
+    @11 = ~Cosmetic Changes~
+    @12 = ~Throne of Bhaal is required for this component.~
+    @13 = ~Content Changes~
+    @14 = ~This component is only for Tutu or BGT.~
+    @15 = ~This component is only for Tutu.~
+    @16 = ~The functionality of this component is either already included or superceded by one of your already installed mods.~
+    @17 = ~Requires the Make +x/+y Weapons Consistent component to be installed.~
+    @18 = ~This component has been deprecated.~
+    @19 = ~Cam's House Rules~
+    @20 = ~View the readme?
+  a) Yes
+  b) No~
+    @21 = ~Requires the 'Change Experience Point Cap: Remove Experience Cap' component.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Cosmetic Changes Components                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+  @1000 = ~Remove Helmet Animations~
+
+  @2000 = ~Change Imoen's Avatar to Mage~
+
+  @3000 = ~Change Nalia's Avatar to Thief~
+
+  @4000 = ~Change Viconia's Skin Color to Dark Blue~
+
+  @5000 = ~Avatar Morphing Script~
+  @5001 = ~AVATAR MORPHING SCRIPT:~
+  @5002 = ~This script lets the user have control over the avatar of the character. Press 'S' to activate the avatar selection screen. (<script>)~
+
+  @6000 = ~Weapon Animation Tweaks~
+
+  @7000 = ~Icewind Dale Casting Graphics (Andyr)~
+
+  @8000 = ~Restore SoA Load Screen Logo (ToB Only)~
+
+  @9000 = ~Disable Portrait Icons Added by Equipped Items~
+
+ @10000 = ~Commoners Use Drab Colors~
+
+ @11000 = ~Icon Improvements~
+
+ @12000 = ~Change Avatar When Wearing Robes or
+Armor (Galactygon)~
+
+ @13000 = ~Force All Dialogue to Pause Game~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Content Changes Components                       \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@101000 = ~More Interjections~
+
+@102000 = ~Alter HP Triggers for NPC Wounded Dialogues~
+
+@103000 = ~Reveal Wilderness Areas Before Chapter Six~
+
+@103500 = ~Make Cloakwood Areas Available Before Completing the Bandit Camp~
+@103501 = ~First Area Only~
+
+@103600 = ~All of Cloakwood Except the Mines~
+
+@104000 = ~Improved Athkatlan City Guard~
+@104001 = ~Amnish Soldier~
+@104002 = ~Sanctioned Wizard~
+@104003 = ~Militia Cleric~
+
+@105000 = ~Gradual Drow Item Disintegration~
+@105001 = ~Your drow item has disintegrated~
+
+@106000 = ~Breakable Iron Nonmagical Shields, Helms, and Armor~
+@106001 = ~Your armor has broken~
+@106002 = ~Your shield has broken~
+@106003 = ~Your helm has broken~
+
+@107000 = ~Improved Multi-Player Kick-out Dialogues~
+@107001 = ~Go wait for us at the Friendly Arm Inn. If things change, we'll meet you there.~
+@107002 = ~Please rejoin the party.~
+@107003 = ~I'll send you back to the pocket plane... wait for me there.~
+
+@108000 = ~Add Bags of Holding~
+@108001 = ~Ammo Belt~
+@108002 = ~This shoulder belt is ideally suited for holding sling bullets, darts, arrows or bolts.
+
+STATISTICS:
+
+Capacity: 2,000 sling bullets, darts, arrows or bolts in total
+Weight: 2~
+@108003 = ~Potion Case~
+@108004 = ~Typically carried by traveling healers, this leather case folds open and allows the user to strap delicate potion bottles to its cushioned side with numerous leather thongs for safe storage during travel. Regardless of how many potions are contained in this case, it always weighs the same amount.
+
+STATISTICS:
+
+Capacity: 100 bottles
+Weight: 2~
+
+@109000 = ~Exotic Item Pack~
+@109001 = ~Quiver of Plenty~
+@109002 = ~The history of this magical quiver has been long forgotten, though it likely had something to do with the inexplicable but well documented shortage of competent fletchers during the Time of Troubles.
+
+STATISTICS:
+
+Unlimited Arrows~
+@109003 = ~Case of Plenty~
+@109004 = ~The history of this magical case has been long forgotten, though it likely had something to do with the inexplicable but well-documented shortage of competent fletchers during the Time of Troubles.
+
+STATISTICS:
+
+Unlimited Bolts~
+@109005 = ~Bag of Plenty~
+@109006 = ~Although this soft cloth pouch is empty right now, there is still a powerful aura of magic surrounding it.
+
+STATISTICS:
+
+Unlimited sling bullets~
+@109007 = ~Deep Purple Ioun Stone~
+@109008 = ~Deep Purple Ioun Stone
+
+This stone, deep purple in hue, allows the bearer to see into the shadows of darkness.
+
+STATISTICS:
+
+Special ability: 60' infravision
+Weight: 2~
+@109009 = ~Flickering White Ioun Stone~
+@109010 = ~Flickering White Ioun Stone
+
+This stone is cool to the touch and radiates energy.
+
+STATISTICS:
+
+Bonus: +10% cold resistance
+Weight: 2~
+@109011 = ~Katana~
+@109012 = ~Katana
+
+The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process, that is more art form than anything else. This blade is an important facet of Kara-Tur culture. To touch or wield a samurai's katana is to insult the samurai and to incite his wrath. For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or the gaijin has murdered a samurai.
+
+STATISTICS:
+
+Damage:  1D10
+Damage type:  slashing
+Weight:  6
+Speed Factor: 4
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@109013 = ~Katana +2, Tsu-O-Shi~
+@109014 = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi, also known as the Coveted Blade, was forged in the nation of Wa more than five centuries ago, by the sword smith Murakaken Shinji, whose skill was so great he was rumored to be able to awaken the very spirit of the metal. Tsu-O-Shi passed through the hands of the various heirs of the otherwise unremarkable Kasune family, until the powerful daimyo and well-known sword lover Fushima Takagi saw it. Takagi became obsessed with the sword and made many frustrated attempts to acquire the blade. Finally, he hired a clan of ninja to steal the blade for him, covering its loss with the burning of the Kasune family compound. When the ninja presented the blade to their employer, it was used to cut them down, forever removing any link between Takagi and the sword's legitimate owners. Takagi hid the sword, often withdrawing to its hiding place to gaze upon its beauty and perfection. On the day Takagi died, his spirit refused to depart the earth and leave the sword behind, so he stayed with Tsu-O-Shi, becoming one with it. From that day forth, any who wield the mighty Tsu-O-Shi must beware of the spirit of Fushima Takagi, who drinks the life essence of those who touch the weapon, in order to remain on Toril with the object of his desire. As a result, this cursed blade has a chance to drain the wielder every time it is used.
+
+STATISTICS:
+
+THAC0: +2 bonus
+Damage:  1D10 + 2
+Damage type:  slashing
+Weight:  4
+Speed Factor: 2
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+
+Chance to permanently drain life or attributes from wielder when used
+
+Not Usable By:
+Druid
+Cleric
+Mage
+Beast Master~
+@109015 = ~Wisdom Modification~
+@109016 = ~Constitution Modification~
+@109017 = ~Dexterity Modification~
+@109018 = ~Charisma Modification~
+@109019 = ~Hit Point Modification~
+@109020 = ~Intelligence Modification~
+@109021 = ~Strength Modification~
+@109022 = ~Gullykin Temple~
+
+@110000 = ~Reveal City Maps When Entering Area~
+
+@111000 = ~Add Map Notes~
+@111001 = ~Candlekeep Inn~
+@111002 = ~Priest's Quarters~
+@111003 = ~Temple of Oghma~
+@111004 = ~Storehouse~
+@111005 = ~Front Gate~
+@111006 = ~Candlekeep Library~
+@111007 = ~Bunkhouse~
+@111008 = ~Barracks~
+@111009 = ~Infirmary~
+@111010 = ~Entar Silvershield's Estate~
+@111011 = ~Helm and Cloak~
+@111012 = ~Tavern~
+@111013 = ~Temple of Helm~
+@111014 = ~Black Dragon Gate~
+@111015 = ~Ramazith's Tower~
+@111016 = ~Duchal Palace~
+@111017 = ~Three Old Kegs~
+@111018 = ~Blushing Mermaid~
+@111019 = ~Splurging Sturgeon~
+@111020 = ~Ilmater's Shrine~
+@111021 = ~Counting House~
+@111022 = ~Cellars~
+@111023 = ~Caravan~
+@111024 = ~Friendly Arm Inn~
+@111025 = ~Temple of Wisdom~
+@111026 = ~Jovial Juggler~
+@111027 = ~Feldepost's Inn~
+@111028 = ~Thunder Hammer Smithy~
+@111029 = ~Red Sheaf~
+@111030 = ~Burning Wizard~
+@111031 = ~Manor~
+@111032 = ~High Hedge~
+@111033 = ~House~
+@111034 = ~Cave~
+@111035 = ~Submerged House~
+@111036 = ~Nashkel Inn~
+@111037 = ~Nashkel Store~
+@111038 = ~Belching Dragon Tavern~
+@111039 = ~Manor House~
+@111040 = ~Garrison~
+@111041 = ~Gnoll Stronghold~
+@111042 = ~Mine Entrance~
+@111043 = ~Cabin~
+@111044 = ~Sculpture~
+@111045 = ~Abandoned House~
+@111046 = ~Vestibule~
+@111047 = ~Song of the Morning Temple~
+@111048 = ~Ulcaster Ruins~
+@111049 = ~Exit~
+@111050 = ~Down to Next Level~
+@111051 = ~Up to Next Level~
+@111052 = ~Exit to Surface~
+@111053 = ~Gullykin Village~
+@111054 = ~Firewine Ruins Entrance~
+@111055 = ~Shipwreck~
+@111056 = ~Abandoned Lighthouse~
+@111057 = ~Pit~
+@111058 = ~Farm~
+@111059 = ~Wyrm's Crossing~
+@111060 = ~Large Tent~
+@111061 = ~Spider Nest~
+@111062 = ~Tree House~
+@111063 = ~River Plug~
+@111064 = ~Mine Elevator~
+@111065 = ~Elfsong Tavern~
+@111066 = ~Sorcerous Sundries~
+@111067 = ~Lucky Aello's Discount Store~
+@111068 = ~Maltz' Weapon Shop~
+@111069 = ~Keexie Tavern~
+@111070 = ~Shop of Silence~
+@111071 = ~Blade and Stars~
+@111072 = ~General Store~
+@111073 = ~Inn~
+@111074 = ~HarborMaster's Building~
+@111075 = ~Low Lantern~
+@111076 = ~WaterQueen's House~
+@111077 = ~Iron Throne~
+@111078 = ~Jopalin's Tavern~
+@111079 = ~Seven Suns~
+@111080 = ~Flaming Fist~
+@111081 = ~Merchant League~
+@111082 = ~Ye Olde Inn~
+@111083 = ~The Lady's House~
+@111084 = ~Hall of Wonders~
+@111085 = ~High House of Wonders~
+@111086 = ~Ragefast's Home~
+@111087 = ~The Fortune Teller~
+@111088 = ~Poultry Store~
+@111089 = ~Drakon Tavern~
+@111090 = ~Felonius Gist's Manor~
+@111091 = ~Ulgoth's Beard Inn~
+@111092 = ~Deserted Tower~
+@111093 = ~Durlag's Tower Entrance~
+@111094 = ~Mine Exit~
+@111095 = ~Exit~
+@111096 = ~Temple of Bhaal~
+
+@112000 = ~Stores Sell Higher Stacks of Items~
+
+@113000 = ~Reputation Resets in BG2 (BGT Only)~
+
+@114000 = ~Gems and Potions Require Identification~
+@114001 = ~A gem is a mineral that when cut or faceted and polished is collectible or can be used in jewellery.~
+
+@115000 = ~Shapeshifter Rebalancing~
+@115001 = ~Conjure Animals
+(Conjuration/Summoning) 
+Level: 6
+Sphere: Summoning 
+Range: 60 yards
+Duration: 4 turns
+Casting Time: 9
+Area of Effect: Special 
+Saving Throw: None
+
+This spell allows the caster to summon forth and control two 20 HD Bearweres. The bears will respond to the caster's every whim for the duration of the spell. Bearweres are slower than Greater Wolfweres but they are tougher as well. Bearweres are resistant to elemental and magical attacks and regenerate rapidly.~
+@115002 = ~Greater Bearwere~
+@115003 = ~Bearwere~
+@115004 = ~This symbolic paw represents a Shapeshifter Druid's control over lycanthropy. While the paw is wielded the Shapeshifter becomes a Werewolf.  When the paw is removed, the Shapeshifter returns to human form. The paws of a Werewolf count as +2 weapons.
+
+STATISTICS:
+
+Attributes:  19 STR, 16 DEX, 15 CON
+Base Armor Class:  1
+Resistances:  20% magic resistance, immunity to non-magical weapons
+Attacks Per Round:  2
+Damage:  1D12
+Damage type:  slashing
+Speed Factor:  3
+Proficiency Type:  Dagger 
+Type:  1-handed
+Usable By:  Shapeshifter~ 
+@115005 = ~This symbolic paw represents a Shapeshifter Druid's ultimate control over lycanthropy. While the paw is wielded the Shapeshifter becomes a Greater Werewolf. When the paw is removed, the Shapeshifter returns to human form. The paws of a Greater Werewolf count as +3 weapons.
+
+STATISTICS:
+
+Attributes:  21 STR, 20 DEX, 25 CON
+Base Armor Class:  -6
+Base Saving Throws:  1/1/1/2/1
+Resistances:  40% magic resistance, 50% elemental resistance, immunity to non-magical weapons
+Regeneration:  3 hit points per second
+Attacks Per Round:  3
+Base Paw THAC0:  6 
+Damage:  2D8
+Damage type:  slashing
+Speed Factor:  3
+Proficiency Type:  Dagger 
+Type:  1-handed
+Usable By:  Shapeshifter~
+
+@116000 = ~Multiple Strongholds (Baldurdash)~
+@116001 = ~No Restrictions (Baldurdash)~
+@116002 = ~I have the deed to the playhouse, if you wish to try your talents in the theater. Samuel is a good man and will honor the deed in your hands.~
+@116003 = ~I'm sorry Raelis, but I simply do not have the time.~
+@116004 = ~Thank you for the kind offer, but I must decline. I wouldn't even know where to begin running a theater.~
+@116005 = ~Your theater under the Five Flagons? I would be honored to make it my own.~
+@116006 = ~Aye, you will do as you must. I never could stop you. I owe our savior more than parting words, however.~
+@116007 = ~I have the deed to the playhouse, if you wish to try your talents in the theater. Samuel is a good man and will honor the deed in your hands.~
+@116008 = ~Then you must be satisfied with our heartfelt thanks. Come, ye Doomguard, we must be off and swiftly. Perhaps we all shall meet again, <CHARNAME>.~
+@116009 = ~I am sorry, but I can not. I need to track down a friend of mine and I doubt I can be this far away from Athkatla often.~
+@116010 = ~I can not, minister, as I shall not be out this way much. I seek a powerful mage and my best leads are all back in Athkatla.~
+@116011 = ~I must decline. Events in Athkatla require my presence and I can not be this far afield regularly.~
+@116012 = ~It would be an honor. I accept, and will do my best to be here for the village.~
+@116013 = ~Sorry mayor, not interested. I expect to be paid!~
+@116014 = ~I'll admit I am disappointed but I understand the hardships of your profession, <CHARNAME>. I do not envy you on your chosen path.~
+@116015 = ~You, my <LADYLORD>, are a true friend of the land. The land could be restored with the steady hand of one such as you.~ 
+@116016 = ~Can you guide this grove during this time of rebirth?~
+@116017 = ~I will do my best to restore balance to this land.~
+@116018 = ~This land has suffered, and I will strive to undo the damage wrought by Faldorn's actions.~
+@116019 = ~A poor steward I would be. My business lies in Athkatla, and I must decline.~
+@116020 = ~I am seeking a powerful mage, and I can not be distracted with other conerns.~
+@116021 = ~My friend has been kidnapped. Though it pains me, I can not set aside these concerns to assist the grove.~
+@116022 = ~You have earned the blessing of the Grove, and I present to you the Staff of Thunder and Lightning.~
+@116023 = ~Very well. I shall continue to stand as challenge master, and the steward until the rites of ascension are fulfilled.~
+
+@116100 = ~Keep Class Restrictions~
+
+@117000 = ~Bonus Merchants (Baldurdash)~
+
+@118000 = ~Female Edwina~
+
+@119000 = ~Romance Bug Fixes~
+
+@120000 = ~Imoen ToB Dialogue Fix~
+
+@121000 = ~Use BG Walking Speeds (BETA)~
+    
+@122000 = ~Allow Cromwell to Upgrade Watcher's Keep Items~
+@122001 = ~Ah, a Case of Plenty. I can enchant this to produce even stronger bolts, but it'll cost ye. 5,000 gold it is.~
+@122002 = ~Well, let's see what else ye got.~
+@122003 = ~A thieves hood, aye?~
+@122004 = ~With a bottle of antidote and an invisibility ring, this can be dead useful.~
+@122005 = ~There's a ring of invisibility alright... and an antidote. Ye got everything I need. For 10,000 gold I can make this much more powerful.~
+@122006 = ~What's this, then?~
+@122007 = ~I have a recipe to attach two horns to a Helm of the Rock, making it more powerful. When you've got the pieces, I can make it for ye.~
+@122008 = ~You have the Helm of the Rock, and two horns that attach to it. For 5,000 gold I can attach the Horns, making a great helmet for fighters.~
+@122009 = ~These are Bard Gloves.~
+@122010 = ~With some crushed gems, these can be improved. Bring me a diamond, emerald, rogue stone, and star sapphire and I can do it for ye.~
+@122011 = ~By crushing a diamond, emerald, star sapphire, and rogue stone I can improve these. It'll cost you 5,000 gold.~
+@122012 = ~These are bracers for a paladin.~
+@122013 = ~For 10,000 gold, I can re-forge these into something even better.~
+@122014 = ~Hmm, an old golem manual.~
+@122015 = ~With certain pages, you can improve the golems summoned by these books.~
+@122016 = ~With that clay golem page and 5,000 gold, I can improve your manual to summon clay golems.~
+@122017 = ~Ach, now this is a real protection cloak.~
+@122018 = ~With scrolls of invisibility and improved haste, this can be made even better.~
+@122019 = ~We can use those invisibility and improved haste scrolls to make this cloak even better. It's a tricky process and'll cost you 20,000 gold.~
+@122020 = ~Aye, scales from a white wyrm.  I can make a suit of armor from yon scales, if ye like, for only 5,000 gold.~
+@122021 = ~Now this is some fine elven chain, even by dwarven standards.~
+@122022 = ~But there's still some dwarven tricks they don't yet ken. With a scroll of protection from normal weapons, it'll take something magic to get past it.~
+@122023 = ~With that scroll of protection from normal weapons, we can enchant the armor to resist anything but a magical blade. It's not easy adding dwarven magic to elven chain, and it'll cost ye 40,000 gold.~
+@122024 = ~This is a gnomish sling. For 5,000 gold, I've got a few tricks up my sleeve that can make it more accurate.~
+@122025 = ~What's this quiver here then? Aye, produces infinite magic arrows.~
+@122026 = ~If ye come across a rogue stone, we can improve those arrows even more.~
+@122027 = ~With this rogue stone and 10,000 gold I can enchant the arrows another level.~
+@122028 = ~Ach, now this is a fine sight! The Flail of Ages!~
+@122029 = ~There are rumors of even more heads for this flail. If you find any, I can add them.~
+@122030 = ~I see you've found another head for it, too. Looks like poison. For 5,000 gold I can attach it.~
+@122031 = ~Could this be... ? Aye, it's a detonating club.~
+@122032 = ~If ye find a ring of fire resistance, we can make that one flash club.~
+@122033 = ~For 5,000 gold I can combine this with your ring of fire resistance for an even better club.~
+@122034 = ~Ah, now that looks like something of Ixil's.~
+@122035 = ~This is part of a great spear of Ixil's. If you find the other half, I can complete the weapon.~
+@122036 = ~You've found both parts of Ixil's old spear. For 5,000 gold we can top Ixil's Nail with Ixil's Spike.~
+@122037 = ~Ah, now this is a Dagger of the Star.~
+@122038 = ~If we combine this with five star sapphires, we can increase its enchantment further.~
+@122039 = ~With five of those star sapphires and 5,000 gold we can make it even more effective.~
+@122040 = ~You gots three heads there...I can adds poison and electric heads to it at once.  So five heads, you know? 10,000 gp and I can do it.  You wants?~
+@122041 = ~Could you just attach the electric head for now? We'll give you 5,000 gold.~
+@122042 = ~Could you just attach the poison head for now? We'll give you 5,000 gold.~
+@122043 = ~I knows recipes for two heads for Flail of Ages.  You can adds poison head... or you adds electricity head.  Only recipes I have, sorry.~
+@122044 = ~You gots three heads there... I can adds electric heads to it.  So four heads, you know?  5,000 gp and I can do it.  You wants?~
+@122045 = ~Ooo!  You gots four heads and I can add the final head.  Real pestilent, that one.  5,000 gp and I do it okay.  You want?~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Rule Changes Components                          \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@201000 = ~PnP Spell Progression Tables~
+
+@202000 = ~Two-Handed Bastard Swords~
+
+@203000 = ~Two-Handed Katanas~
+
+@204000 = ~Universal Clubs~
+
+@205000 = ~Description Updates for Universal
+Clubs Component~
+@205001 = ~Requires Universal Clubs to be installed~
+@205002 = ~Ashes of Embers is installed, which already adjusts club descriptions.~
+
+@206000 = ~Weapon Styles for All~
+
+@207000 = ~Druids Use Cleric Level and Spell Progression~
+
+@208000 = ~Delay High Level Abilities~
+
+@209000 = ~Change Experience Point Cap~
+@209001 = ~Remove Experience Cap~
+
+@209100 = ~Level 20 Experience Point Cap~
+
+@209200 = ~Level 30 Experience Point Cap~
+
+@210000 = ~Allow Thieving and Stealth in Heavy Armor~
+
+@211000 = ~Alter Item Descriptions for 'Stealth and
+Thieving Abilities in Heavy Armor' Component~
+
+@212000 = ~Allow Arcane Spellcasting in Heavy Armor~
+
+@213000 = ~Alter Item Descriptions for 'Allow Arcane 
+Spellcasting in Armor' Component~
+
+@214000 = ~Expanded Dual-Class Options~
+@214001 = ~barbarian / mage~
+@214002 = ~barbarian / cleric~
+@214003 = ~barbarian / thief~
+@214004 = ~barbarian / druid~
+
+@215000 = ~Wear Multiple Protection Items~
+@215001 = ~P&P Restrictions~
+
+@215100 = ~No Restrictions~
+
+@216000 = ~Rebalanced Weapon Proficiencies~
+@216001 = ~SHORT SWORD/NINJA-TO:  The preferred weapon of many a thief and halfling, short swords and ninja-tos are light but useful weapons.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216002 = ~KATANA/WAKIZASHI:  Katanas and wakizashis are the finest examples of the swordsmith's craft, and require great care to use.  As skill develops, the wielder and blade become a single being, dedicated completely to the art of warfare.  These weapons are hard to find Outside of Kara-Tur, so care must be taken when considering this proficiency.  After all, skill with katanas and wakizashis is only helpful if you can find one.
+
+WARNING:  Magical katanas are very rare in Baldur's Gate 2!
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216003 = ~SCIMITAR:  This weapon class allows the character to use curved, bladed weapons such as scimitars.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216004 = ~FLAIL: Flails are blunt weapons used to knock your enemies senseless.  They are difficult to use but with skill and practice these weapons are very useful.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216005 = ~MACE/MORNINGSTAR:  The mace is most often associated with clerics.  It is a powerful blunt weapon, similar to the club, but designed to do more damage. A morningstar is similar to a mace, typically with spikes instead of flanges.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216006 = ~Alter Weapon Proficiency System~
+
+@216100 = ~BG-Style Weapon Proficiencies, With Weapon Styles (the bigg)~
+@216200 = ~BG-Style Weapon Proficiencies, Without Weapon Styles (the bigg)~
+
+@217000 = ~Cast Spells from Scrolls (and Other Items) at Character Level~
+
+@218000 = ~Un-Nerfed THAC0 Table, Saving Throws, Grand-Mastery, and Arcane, Divine Spell Progression (Blucher)~
+// ^^ this component deprecated, but the strings below still needed for the components that replace it
+@218001 = ~Alchemy (Mage)~
+@218002 = ~Alchemy (Priest)~
+@218003 = ~Alchemy (Rogue)~
+@218004 = ~Alchemy (Mage)
+This ability allows a mage to create potions. The potions that the mage can create are randomly chosen from the following list:
+1)  Potion of Absorption
+2)  Potion of Fire Resistance
+3)  Potion of Cold Resistance
+4)  Potion of Invisibility
+5)  Potion of Stone Form
+6)  Potion of Strength
+7)  Potion of Agility
+8)  Potion of Firebreath
+9)  Oil of Speed
+10) Oil of Fiery Burning~
+@218005 = ~Alchemy (Priest)
+This ability allows a priest to create potions. The potions that the priest can create are randomly chosen from the following list:
+1)  Potion of Healing
+2)  Potion of Extra Healing
+3)  Potion of Superior Healing
+4)  Elixir of Health
+5)  Potion of Insight
+6)  Potion of Regeneration
+7)  Potion of Clarity
+8)  Antidote
+9)  Potion of Mind Focusing
+10) Potion of Genius~
+@218006 = ~Alchemy (Rogue)
+With cleverness innate to the class, an experienced rogue has seen enough potions in his or her adventuring career to simulate the creation of one. With the Alchemy skill, the rogue can create one of eight types of potions, once per day.
+
+The potions a rogue can create are randomly chosen from the following list:
+1) Potion of Mind Focusing
+2) Potion of Perception
+3) Potion of Invisibility
+4) Potion of Superior Healing
+5) Potion of Regeneration
+6) Antidote
+7) Oil of Speed
+8) Rogue's Potion of Frost Giant Strength~
+@218007 = ~Scribe Scrolls (Mage)~
+@218008 = ~Scribe Scrolls (Priest)~
+@218009 = ~Scribe Scrolls (Rogue)~
+@218010 = ~Scribe Scrolls (Mage)
+This ability allows a mage to create low and mid level spell scrolls. The scrolls that the mage can create are randomly chosen from the following list:
+1)  Magic Missile
+2)  Shield
+3)  Melf's Acid Arrow
+4)  Mirror Image
+5)  Melf's Minute Meteor
+6)  Minor Spell Deflection
+7)  Improved Invisibility
+8)  Ice Storm
+9)  Oracle
+10) Chaos~
+@218011 = ~Scribe Scrolls (Priest)
+This ability allows a priest to create divine spell scrolls. The scrolls that the priest can create are randomly chosen from the following list:
+1)  Cure Critical Wounds
+2)  Flame Strike
+3)  Raise Dead
+4)  Restoration
+5)  Protection from Acid
+6)  Protection from Cold
+7)  Protection from Electricity
+8)  Protection from Fire
+9)  Champion's Strength
+10) Mental Domination~
+@218012 = ~Scribe Scrolls (Rogue)
+This ability allows a rogue to create low and mid level spell scrolls. The scrolls that the rogue can create are randomly chosen from the following list:
+1) Magic Missile
+2) Haste
+3) Fireball
+4) Dispel Magic
+5) Dire Charm
+6) Invisibility
+7) Cone of Cold
+8) Monster Summoning II
+9) Monster Summoning III~
+
+@219000 = ~Limit Ability of Storekeepers to Identify Items~
+@219001 = ~Only Mage and Bard Storekeepers Can Identify Items~
+
+@219100 = ~Identification Ability is Based on Storekeeper's Lore~
+
+@219200 = ~Hybrid of Both Methods~
+
+@220000 = ~Multi-Class Grandmastery (Weimer)~
+
+@221000 = ~True Grandmastery (Baldurdash)~
+
+@222000 = ~Change Magically Created Weapons to Zero Weight~
+
+@223000 = ~Make +x/+y Weapons Consistent~
+
+@223100 = ~Description Updates for Make +x/+y Weapons Consistent Component~
+
+@224000 = ~Un-Nerfed THAC0 Table~
+@224001 = ~Capped, Best THAC0 is 0 (Blucher)~
+
+@224100 = ~Capped, Best THAC0 is -10 (PnP/BG1 Table)~
+
+@225000 = ~Un-Nerfed Sorcerer Spell Progression Table~
+
+@226000 = ~Alter Mage Spell Progression Table~
+@226001 = ~Un-Nerfed Table (Blucher)~
+
+@226100 = ~PnP Table~
+
+@227000 = ~Alter Bard Spell Progression Table~
+
+@228000 = ~Alter Cleric Spell Progression Table~
+
+@229000 = ~Alter Druid Spell and Level Progression Tables~
+@229001 = ~No Level Progression Changes, Un-Nerfed Druid Spell Table Only (Blucher)~
+
+@229100 = ~No Level Progression Changes, PnP Druid/Cleric Spell Table Only~
+
+@229200 = ~Use Cleric Level Progression Changes With Normal Druid Spell Table~
+
+@229300 = ~Use Cleric Level Progression Changes With Un-Nerfed Druid Spell Table (Blucher)~
+
+@229400 = ~Use Cleric Level Progression Changes With PnP Druid/Cleric Spell Table~
+
+@229500 = ~Use Cleric Level Progression Changes With Normal Cleric Spell Table~
+
+@229600 = ~Use Cleric Level Progression Changes With Un-Nerfed Cleric Spell Table (Blucher)~
+
+@230000 = ~Triple-Class HLA Tables~
+
+@231000 = ~Add Save Penalties for Spells Cast by High-Level Casters (BETA)~
+@231001 = ~Arcane Magic Only~
+
+@231100 = ~Divine Magic Only~
+
+@231200 = ~Arcane & Divine Magic~
+
+@232000 = ~Trap Cap Removal (Ardanis/GeN1e)~
+
+@233000 = ~Remove Delay for Magical Traps (Ardanis/GeN1e)~
+
+@234000 = ~Remove Summoning Cap for Celestials (Ardanis/GeN1e)~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Convenience Tweaks                               \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@300000 = ~Higher HP on Level Up~
+@300001 = ~Maximum~
+
+@300100 = ~NWN Style~
+
+@301000 = ~Maximum HP for NPCs (the bigg)~
+@301001 = ~For All Creatures in Game~
+
+@301100 = ~For Non-Party-Joinable NPCs Only~
+
+@301200 = ~For Party-Joinable NPCs Only~
+
+@302000 = ~Identify All Items~
+
+@303000 = ~Easy Spell Learning~
+@303001 = ~100% Learn Spells~
+
+@303100 = ~100% Learn Spells and No Maximum Cap~
+
+@304000 = ~Make Bags of Holding Bottomless~
+
+@305000 = ~Remove fatigue from restoration spells~
+
+@306000 = ~Remove "You Must Gather Your Party..." Sound (Weimer)~
+
+@307000 = ~Low Reputation Store Discount (Sabre)~
+@307001 = ~Change Effect of Reputation on Store Prices~
+
+@307100 = ~Reputation Has No Effect, Stores Price Fixed at 100% (Luiz)~
+
+@307200 = ~Reputation Has No Effect, Stores Price Fixed at 80% (Luiz)~
+
+@307300 = ~Reputation Has No Effect, Stores Price Fixed at 60% (Luiz)~
+
+@308000 = ~Unlimited Ammo Stacking~
+
+@309000 = ~Unlimited Gem and Jewelry Stacking~
+
+@310000 = ~Unlimited Potion Stacking~
+
+@311000 = ~Unlimited Scroll Stacking~
+
+@312000 = ~Happy Patch (Party NPCs do not complain about reputation)~
+
+@312001 = ~NPCs are never angry about reputation~
+
+@312100 = ~NPCs can be angry about reputation but never leave (Salk)~
+
+@312200 = ~NPCs are always neutral about reputation (Anomaly)~
+
+@312300 = ~NPCs don't fight~ 
+
+@312400 = ~Stop Haer'Dalis-Aerie romance from starting~
+
+@312500 = ~Neutral Characters Make Happy Comments at 
+Mid-Range Reputation~
+
+@313000 = ~No Traps or Locks (Weimer)~
+
+@314000 = ~Faster Chapter 1&2 Cut-Scenes and Dreams~
+@314001 = ~Originals from EoU (Karzak, Blucher)~
+
+@314100 = ~Non-Silly Version~
+
+@315000 = ~Turn Off The Hideous Cloak-of-Mirroring, Spell-Trap, and Physical Mirror Animations~
+
+@316000 = ~Keep Drizzt's Loot, Disable Malchor Harpell~
+
+@317000 = ~No Drow Avatars On Party In Underdark~
+
+@317900 = ~No Racial Requirements for Romance~
+
+@318000 = ~Romance Cheats~
+@318001 = ~No Gender/Racial Requirements for Romance~
+
+@318100 = ~No Gender/Racial Requirements for Romance, Allow Multiple Romances~
+
+@318200 = ~No Gender/Racial Requirements for Romance, Allow Multiple Romances, Nothing Kills Romances~
+
+@318300 = ~Romance Cheats~
+@318301 = ~Remove racial requirements for romances? (Select a or b)
+  a) Remove
+  b) No changes~
+@318302 = ~  * Remove racial requirements for romances~
+@318303 = ~Remove gender requirements for romances? (Select a or b)
+  a) Remove
+  b) No changes~
+@318304 = ~  * Remove gender requirements for romances~
+@318305 = ~Allow multiple romances? (Select a or b)
+  a) Allow multiple
+  b) No changes~
+@318306 = ~  * Allow multiple romances~
+@318307 = ~Nothing kills romances? (Select a or b)
+  a) Nothing kills romances
+  b) No changes~
+@318308 = ~  * Nothing kills romances~
+@318309 = ~You have selected to install the following options:~
+@318310 = ~Are these choices correct?
+  a) Yes, proceed with install
+  b) No, let me re-select them~
+@318311 = ~Start romances for new games in ToB?
+  a) Start for new ToB games
+  b) No changes~
+@318312 = ~  * Start romances for new games in ToB~
+@318313 = ~Bring me my lover, Aerie.~
+@318314 = ~Bring me my lover, Jaheira.~
+@318315 = ~Bring me my lover, Sir Anomen, Knight of the Order.~
+@318316 = ~Bring me my lover, Anomen, priest of Helm.~
+@318317 = ~Bring me my lover, Viconia.~
+
+@319000 = ~Rest Anywhere (Japheth)~
+
+@320000 = ~Sellable Items (Icelus)~
+
+@321000 = ~Minimum Stats Cheat~
+@321001 = ~Select a minimum stat value, between 6 and 15:~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// NPC Tweaks                                       \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@400000 = ~Adjust Evil joinable NPC reaction rolls~
+
+@401000 = ~Improved Fate Spirit Summoning~
+
+@402000 = ~ToB-Style NPCs~
+
+@403000 = ~Consistent Stats: Edwin~
+@403001 = ~Use BG Values~
+
+@403100 = ~Use BG2 Values~
+
+@404000 = ~Consistent Stats: Jaheira~
+
+@405000 = ~Change Jaheira to Neutral Good~
+
+@406000 = ~Consistent Stats: Minsc~
+
+@407000 = ~Consistent Stats: Viconia~
+
+@408000 = ~Make Khalid a Fighter-Mage (Domi)~
+@408001 = ~When asked about his past, KHALID nervously reveals that he was born and raised in the nation of Calimshan. He does not say much of his parents, but you get the feeling that his merchant father thought little of him, devoting much more attention to Khalid's half-brothers. Without his father's support, Khalid was unable to pay to become apprenticed with a wizard, so he joined the city militia in hopes to earn enough money. He doesn't go into detail on how he met Jaheira, but his adoration of her is obvious. When asked about how he knew Gorion he will only say that they had long been friends, and that many shared acquaintances will mourn his loss with harpsong.~
+
+@409000 = ~Make Montaron an Assassin (Andyr)~
+
+@410000 = ~Change Korgan to Neutral Evil~
+
+@411000 = ~Give Kagain A Legal Constitution Score of 19~

@@ -1,0 +1,6 @@
+IF
+        Global("Xzarfight","GLOBAL",1)
+THEN
+        RESPONSE #100
+                SetGlobal("Xzarfight","GLOBAL",99)
+END

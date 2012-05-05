@@ -1,0 +1,838 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+/////        Wiadomoœci   Setupu                       \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+     @0 = ~Poprawki dla NPC~
+     @1 = ~To mo¿e chwilê potrwaæ ...~
+     @2 = ~Ten komponent wymaga komponentu "Torby Przechowywyania dla BG1".~
+     @3 = ~Ten komponent wymaga komponentu "Pozwól na rzucanie czarów maga w zbrojach"~
+     @4 = ~Poprawki udogadniaj¹ce grê~
+     @5 = ~Ten komponent wymaga komponentu "Egzotyczne przedmioty".~
+     @6 = ~Ten komponent wymaga komponentu "Pozwól na u¿ywanie zdolnoœci z³odziejskich w ciê¿kich pancerzach"~
+     @7 = ~Ten komponent nie jest dostêpny w tym jêzyku.~
+     @8 = ~Ten komponent jest tylko dla BGT.~
+     @9 = ~Zmiana zasad~
+    @10 = ~Ten komponent nie jest dostêpny dla Tutu.~
+    @11 = ~Zmiany wygl¹du~
+    @12 = ~Ten komponent wymaga Tronu Bhalla.~
+    @13 = ~Zmiany zawartoœci~
+    @14 = ~Ten komponent jest tylko dla Tutu lub BGT.~
+    @15 = ~Ten komponent jest tylko dla Tutu.~
+    @16 = ~Komponent ten byl juz zawarty w innym, zainstalowanym juz modzie.~
+    @17 = ~Wymagane poprawki konsekwentnego umagicznienia broni.~
+    @18 = ~Ten komponent zostal usuniety.~
+    @19 = ~Domowe zasady CamDawga~
+    @20 = ~Pokaz readme?
+  a) Tak
+  b) Nie~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Komponenty Zmian Wygl¹du                         \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+  @1000 = ~Usuñ animacje he³mów~
+
+  @2000 = ~Zmieñ avatar Imoen na Maga~
+
+  @3000 = ~Zmieñ avatar Nalii na Z³odzieja~
+
+  @4000 = ~Zmieñ kolor skóry Viconi na Ciemnoniebieski~
+
+  @5000 = ~Skrypt przemiany avatarów~
+  @5001 = ~Skrypt przemiany avatarów:~
+  @5002 = ~Ten skrypt pozwala graczowi mieæ kontrolê nad avatarem postaci. Wcisnij 'S' aby w³¹czyæ ekran wyboru avatarów. (<skrypt>)~
+
+  @6000 = ~Poprawki animacji bronii~
+
+  @7000 = ~Wygl¹d zaklêæ z Icewind Dale (Andyr)~
+
+  @8000 = ~Przywróæ obraz wczytywania z Cieni Amn (tylko dla Tronu Bhalla)~
+
+  @9000 = ~Wy³¹cz zmiany w portretach zwi¹zane z przedmiotami~
+
+ @10000 = ~Szarzy luzdie u¿ywaj¹ monotonnych kolorów~
+
+ @11000 = ~Poprawki Ikon~
+
+ @12000 = ~Zmieñ avatara przy noszeniu Szat i Pancerzy(Galactygon)~
+
+ @13000 = ~Wszyskie dialogi zatrzymuj¹ grê~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Komponenty Zmian Zawartoœci     \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@101000 = ~Wiêcej interiekcji~
+
+@102000 = ~Zmiana punktów ¿ycia wp³ywa na dialogii NPC~
+
+@103000 = ~Ods³oñ obszary dziczy przed Rzodzia³em Szóstym~
+
+@103500 = ~Pozwol zwiedzic Knieje Otulisko przed pobytem w Obozie Bandytow~ 
+@103501 = ~Tylko pierwsza czesc Kniei~
+
+@103600 = ~Cale Otulisko wylaczajac Kopalnie~
+
+@104000 = ~Ulepszeni Stra¿nicy Athkatli~
+@104001 = ~¯o³nierze Amn~
+@104002 = ~Zaaprobowany mag~
+@104003 = ~Wojskowy kleryk~
+
+@105000 = ~Powolne rozk³adanie siê przedmiotów drowów~
+@105001 = ~Twój drowi przedmiot rozpad³ siê~
+
+@106000 = ~Mo¿liwe do zniszczenia ¿elazne niemagiczne tarcze, he³my i zbroje~
+@106001 = ~Twój pancerz rozpad³ siê~
+@106002 = ~Twoja tarcza rozpad³a siê~
+@106003 = ~Twój he³m rozpad³ siê~
+
+@107000 = ~Ulepszony dialog wyrzucania z druzyny dla wielu graczy~
+@107001 = ~IdŸ poczekaj na nas w gospodzie "Pod Pomocn¹ D³onia". Jeœli bêdziemy ciê potrzebow¹æ spotkamy siê tam.~
+@107002 = ~Proszê do³¹cz do dru¿yny.~
+@107003 = ~Wyœle ciê spowrotem do sfery kieszonkowej... czekaj tam na mnie.~
+
+@108000 = ~Dodaj Torby Przechowywania~
+@108001 = ~Pasy na amunicje~
+@108002 = ~Ten pas na ramiê jest idealny do przechowywania pocisków do procy, strza³ i be³tów.
+
+STATYSTYKI:
+
+Objêtoœæ: w sumie 2,000 pocisków do procy, strza³ i be³tów.
+Waga: 2~
+@108003 = ~Torba na mikstury~
+@108004 = ~Zwykle noszona przez podru¿uj¹cych uzdrawiaczy, ta skórzana torba ma wiele ma³ych kieszeni w których mo¿na bezpiecznie umieœciæ delikatne fiolki z miksturami sla ich bezpieczeñstwa w czasie podró¿y. Niezale¿nie od tego ile mikstur znajduje siê w torbie zawsze wa¿y ona tyle samo.
+
+STATYSTYKI:
+
+Objêtoœæ: 100 butelek
+Waga: 2~
+
+@109000 = ~Egzotyczne Przedmioty~
+@109001 = ~Ko³aczan obfitoœci~
+@109002 = ~Historia tego magicznego ko³czanu dawno zosta³a zapomniana, ale prawdopodobnie by³a zwi¹zana z ma³¹ iloœci¹ wytwórców strza³ w Czasach Niepokoju.
+
+STATYSTYKI:
+
+Nieskoñczona iloœæ strza³~
+@109003 = ~Futera³ obfitoœci~
+@109004 = ~Historia tego magicznego futera³u dawno zosta³a zapomniana, ale prawdopodobnie by³a zwi¹zana z ma³¹ iloœci¹ wytwórców be³tów w Czasach Niepokoju.
+
+STATYSTYKI:
+
+Nieskoñczone iloœæ be³tów~
+@109005 = ~Torba obfitoœci~
+@109006 = ~Mimo, ¿e torebka jest pusta otacza j¹ potê¿na aura magii.
+
+STATYSTYKI:
+
+Nieskoñczona iloœæ pocisków do procy~
+@109007 = ~Kamieñ Ioun o kolorze g³êbokiego fioletu~
+@109008 = ~Kamieñ Ioun o kolorze g³êbokiego fioletu
+
+Ten kamieñ o kolorze g³êbokiego fioletu pozwala nosz¹cemu widzieæ w ciemnoœci.
+
+STATYSTYKI:
+
+Specjalne: Infrawizja na 60 metrów
+Waga: 2~
+@109009 = ~Migocz¹cy bia³y kamieñ Ioun~
+@109010 = ~Migocz¹cy bia³y kamieñ Ioun
+Ten kamieñ jest zimny w dotyku i promieniuje energi¹.
+
+STATISTICS:
+
+Bonus: +10% do dopornoœci na zimno
+Waga: 2~
+@109011 = ~Katana~
+@109012 = ~Katana
+
+Katana to lekko zakrzywiony miecz o jednym ostrzu. S¹ to prawdopodobnie najostrzejsze miecze jakie kiedykolwiek wykuto, proces ich tworzenia jest d³ugi, trzymany w tajemnicy i jest prawdziw¹ sztuk¹. To ostrze jest chyba najwa¿niejsz¹ czêœci¹ kultury Kara-Tur. Dotkniêcie czy wziêcie do rêki katany samuraja to dla niego obraza i zawsze wywo³uje jego gniew. Rzadkoœci¹ jest by gaijin, czyli obcokrajowiec, posiada³ taki miecz. Albo ten gaijin jest serdecznym przyjacielem wa¿nego ministra, albo zamordowa³ samuraja.
+
+STATYSTYKI:
+
+Obra¿enia:  1K10
+Typ obra¿eñ: sieczne 
+Waga:  6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: Katana
+Typ: jednorêczna
+Wymaga: 6 Si³y
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kleryk
+ Mag
+ W³adca Bestii~
+@109013 = ~Katana +2, Tsu-O-Shi~
+@109014 = ~Katana +2, Tsu-O-Shi
+
+Tsu - och - Shi, te¿ znany jako Po¿¹dane Ostrze, zosta³ wytworzony w narodzie Wa, wiêcej ni¿ piêæ wieków temu, przez kowala miecza Murakaken Shinji, umiejêtnoœæ by³a tak wielka on zosta³ puszczony pog³osk¹, ¿e jest w stanie, by obudziæ duch metalu. Tsu - och - Shi przeszed³ przez rêce ró¿nych spadkobierców inaczej przeciêtnej rodziny Kasune, do potê¿nego daimyo i dobrze znany kochanek miecza Fushima Takagi widzia³ to. Takagi sta³ siê nawiedzony z mieczem i zrobi³ wiele sfrustrowanych prób, by nabyæ ostrze. W koñcu, wynaj¹³ klan ninja, by ukraœæ ostrze dla niego, przykrywaj¹c jego stratê z paleniem mieszaniny rodziny Kasune. Kiedy ninja przedstawi³ ostrze ich pracodawcy, zabi³ ich, na zawsze usuwaj¹c jakiœ zwi¹zek miêdzy Takagi i prawowitymi w³aœcicielami miecza. Takagi schowa³ miecz, czêsto wycofuj¹c do jego kryjówki, by przyjrzeæ siê na jego piêkno i doskona³oœæ. W dniu œmierci Takagiego, jego duch odmówi³ odejœæ ziemia i zostawi³ miecz, wiêc pozosta³ z Tsu - Och - Shi, staj¹c jednym z nich. Od tego dnia, w³adca, potê¿ny, Tsu - Och - Shi musia³ uwa¿aæ na ducha Takagi Fushima, który pija istotê ¿ycia tych, który dotyka broni, ¿eby pozostaæ na Torilu z przedmiotem jego pragnienia. Jako skutek, to przeklête ostrze ma szansê, by osuszyæ nosz¹cego zawsze kiedy jest u¿yte.
+
+STATYSTYKI:
+
+Trak0: +2 
+Obra¿enia:  1K10 + 2
+Typ Obra¿eñ: sieczne
+Waga:  4
+OpóŸnienie: 2
+Rodzaj bieg³oœci: Katana
+Typ:  jednorêczna
+Wymaga: 6 Si³y
+
+Szansa na sta³¹ utratê punktów ¿ycia lub cech przez u¿ywaj¹cego.
+
+Nie mo¿e u¿ywaæ:
+Druid
+Kleryk
+Mag
+Wladca Bestii~
+@109015 = ~Modyfikacje M¹droœci~
+@109016 = ~Modyfikacje Kondycji~
+@109017 = ~Modyfikacje Zrêcznoœci~
+@109018 = ~Modyfikacje Charyzmy~
+@109019 = ~Modyfikacje iloœci punktów ¿ycia~
+@109020 = ~IModyfikacje Inteligencji~
+@109021 = ~Modyfikacje Si³y~
+@109022 = ~Œwi¹tynia Gullykin~
+
+@110000 = ~Ods³oniêcie map miast przy wejœciu~
+
+@111000 = ~Dodaj notatki do map~
+@111001 = ~Gospoda Candelkeep~
+@111002 = ~Kwatery Kap³anów~
+@111003 = ~Œwi¹tynia Oghmy~
+@111004 = ~Magazyn~
+@111005 = ~G³owna Brama~
+@111006 = ~Biblioteka Candelkeep~
+@111007 = ~Sypialnia~
+@111008 = ~Barraki~
+@111009 = ~Szpital~
+@111010 = ~Posiad³oœæ Entara Silvershielda~
+@111011 = ~Helm i P³aszcz~
+@111012 = ~Tawerna~
+@111013 = ~Œwi¹tynia Helma~
+@111014 = ~Brama Czarnego Smoka~
+@111015 = ~Wie¿a Ramazitha~
+@111016 = ~Pa³ac Duchalów~
+@111017 = ~Pod Trzema Bary³kami~
+@111018 = ~P³on¹ca Syrena~
+@111019 = ~Pod Napuszonym Jesiotrem~
+@111020 = ~Kaplica Ilmatera~
+@111021 = ~Dom Rozliczeniowy~
+@111022 = ~Lochy~
+@111023 = ~Karawana~
+@111024 = ~Gospoda Pod Pomocn¹ D³oni¹~
+@111025 = ~Œwi¹tynia Wiedzy~
+@111026 = ~Wso³y ¯ongler~
+@111027 = ~Gospoda Feldeposta~
+@111028 = ~KuŸnia Thunderhammera~
+@111029 = ~Czerwony Bukiet~
+@111030 = ~P³on¹cy Czarodziej~
+@111031 = ~Rezydencja~
+@111032 = ~P³on¹cy Czarodziej~
+@111033 = ~Dom~
+@111034 = ~Jaskinia~
+@111035 = ~Zatopiony Dom~
+@111036 = ~Gospoda Nashkel~
+@111037 = ~Sklep Nashkel~
+@111038 = ~Pod Bekaj¹cym Smokiem~
+@111039 = ~Dworek~
+@111040 = ~Garnizon~
+@111041 = ~Twierdza Gnolii~
+@111042 = ~Wejœcie Do Kopalnii~
+@111043 = ~Kabina~
+@111044 = ~RzeŸba~
+@111045 = ~Opuszczony Dom~
+@111046 = ~Westybu³~
+@111047 = ~Œwi¹tynia Pieœni Poranka~
+@111048 = ~Ruiny Ulcaster~
+@111049 = ~Wyjœcie~
+@111050 = ~Zwjœcie na nastêpny poziom~
+@111051 = ~Wejœcie na wy¿szy poziom~
+@111052 = ~Wyjœcie na powierzhniê~
+@111053 = ~Wioska Gullykin~
+@111054 = ~Wejœcie do Ruin Firewine~
+@111055 = ~Wrak Statku~
+@111056 = ~Opuszczona Latarnia Morska~
+@111057 = ~Loch~
+@111058 = ~Farma~
+@111059 = ~Skrzy¿owanie Wyrm~
+@111060 = ~Du¿y Namiot~
+@111061 = ~Gniazdo Paj¹ków~
+@111062 = ~Domek Na Drzewie~
+@111063 = ~Tama na Rzece~
+@111064 = ~Winda Kopalni~
+@111065 = ~Tawetna Elfia Pieœñ ~
+@111066 = ~Czarodziejskie Rozmajtoœci~
+@111067 = ~Sklep Dyskontowy Szczêœliwego Aello~
+@111068 = ~Sklep z Broni¹ Maltza~
+@111069 = ~Tawerna Keexia~
+@111070 = ~Sklep Ciszy~
+@111071 = ~Ostrze i Gwiazdy~
+@111072 = ~Sklep Ogólny~
+@111073 = ~Gospoda~
+@111074 = ~Budynek Mistrza Przytanii~
+@111075 = ~Pochy³a Latarnia~
+@111076 = ~Dom Pani Wód~
+@111077 = ~¯elazny Tron~
+@111078 = ~Tawerna Jopalina~
+@111079 = ~Siedem S³oñc~
+@111080 = ~P³on¹ca Piêœæ~
+@111081 = ~Liga Kupców~
+@111082 = ~Stara Tawerna~
+@111083 = ~Dom Pani~
+@111084 = ~Hala Cudów~
+@111085 = ~Wieka Hala Cudów~
+@111086 = ~Dom Ragefasta~
+@111087 = ~Wró¿bita~
+@111088 = ~Sklep z Drobiem~
+@111089 = ~Tawrna Drakona~
+@111090 = ~Posiad³oœæ Feloniusa Gista~
+@111091 = ~Gospoda Brody Ulgotha~
+@111092 = ~Opuszczona Wie¿a~
+@111093 = ~Wejœcie Do Wie¿y Durlaga~
+@111094 = ~Wyjœcie z Kopalnii~
+@111095 = ~Wyjœcie~
+@111096 = ~Œwi¹tynia Bhaala~
+
+@112000 = ~Sklepy sprzedaj¹ wiêksze stosy przedmiotów~
+
+@113000 = ~Reset Reputacji przed BG2(tylko dla BGT)~
+
+@114000 = ~Klejnoty i mikstury mymagaja identyfikacji~
+@114001 = ~Klejnot jest to minera³ a odpowiednio pociêty i wypolerowny mozê slu¿yæ jako bi¿uteria.~
+
+@115000 = ~Zbalansowanie zmiennokszta³tnych~
+@115001 = ~Sprowadzenie Zwirz¹t
+(Sprowadzenie/Przyzwanie) 
+Poziom: 6
+Sfera: Sprowadznie 
+Zasiêg: 60 metrów
+Czas Trwania: 4 tury
+Czas Rzucenia: 9
+Efekt Dzia³ania: Specjalny 
+Rzut Obronny: Brak 
+
+Ten czasr pozwala rzucaj¹cemy przywaæ i kontolowaæ 1 lub 2 niedŸwiedzio³aki. Odpowiedz¹ one na ka¿dy szept w czasie dzia³ania czaru. S¹ wolniejsze niz Wiêksze Wilko³aki ale te¿ wytrzymalsze. S¹ odporne na ¿ywio³y i magiê oraz szybko siê regeneruj¹.~
+@115002 = ~Wiêkszy NiedŸwiedzio³ak~
+@115003 = ~NiedŸwiedzio³ak~
+@115004 = ~Ta symboliczna ³apa reprezentuje kontrolê rzucaj¹cego nad likantropi¹. Kiedy jest u¿ywana Zmiennokszta³tny staje siê Wilko³akiem. Kiedy j¹ zdejmuje wraca do normalnego kszta³tu. £apy licz¹ siê jako bronie +2.
+
+STATYSTYKI:
+
+Atrybuty:  19 Si³y, 16 Zrêcznoœci , 15 Kondycji
+Podstawowa Klasa Pancerza:  1
+Odpornoœci:  20% odpornoœci na magiê, odpornoœæ na niemagiczne bronie
+Ataki na runde:  2
+Obra¿enia:  1K12
+Typ Obra¿eñ:  sieczne
+OpóŸnienie:  3
+Rodzaj Bieg³oœci:  Sztylet 
+Typ: jednorêczna
+Mo¿e U¿ywaæ:  Zmiennokszta³tny~ 
+@115005 = ~Ta symboliczna ³apa reprezentuje kontrolê rzucaj¹cego nad likantropi¹. Kiedy jest u¿ywana Zmiennokszta³tny staje siê Wiêkszym Wilko³akiem. Kiedy j¹ zdejmuje wraca do normalnego kszta³tu. £apy licz¹ siê jako bronie +3.
+
+STATYSTYKI:
+
+Atrybuty:  21 Si³y, 20 Zrêcznoœci, 25 Kondycji
+Podstawowa Klasa Pancerza:  -6
+Podstawowe Rzuty Obronne:  1/1/1/2/1
+Odpornoœci:  40% odpornoœci na magiê, 50% odpornoœci na ¿ywio³y, odpornoœæ na niemagiczne bronie
+Regeneracja:  3 punkty ¿ycia na rundê
+Ataków na rundê:  3
+Podstawowe Trak0:  6 
+Obra¿enia:  2K8
+Typ Obra¿eñ:  sieczne
+OpóŸnienie:  3
+Rodzaj Bieg³oœci: Sztylet 
+Typ: jednorêczna
+Mo¿e u¿ywaæ: Zmiennokszta³tny~
+
+@116000 = ~Wiele twierdz~
+@116001 = ~Brak ograniczen (Baldurdash)~
+@116002 = ~Nadal mam akt w³asnoœci sceny, byæ mo¿e chcia³byœ spróbowaæ z teatrem. Samuel to dobry cz³owiek, i z pewnoœci¹ ci przeka¿e w³asnoœæ.~
+@116003 = ~Wybacz Raelis, jednak po prostu nie mam na to czasu.~
+@116004 = ~Dziêkujê za t¹ hojn¹ ofertê, jednak bêdê musia³ odmówiæ. Nie wiem nawet od czego zacz¹æ.~
+@116005 = ~Twój teatr w piwnicy Piêciu Dzbanów? To dla mnie zaszczyt.~
+@116006 = ~Ano, czyñ to co chcesz. Nie mogê ciê powstrzymaæ. Jestem winna naszemu zbawcy coœ wiêcej, ni¿li tylko dobre s³owo.~
+@116007 = ~Nadal mam akt w³asnoœci sceny, byæ mo¿e chcia³byœ spróbowaæ z teatrem. Samuel to dobry cz³owiek, i z pewnoœci¹ ci przeka¿e w³asnoœæ.~
+@116008 = ~A wiêc wystarczy³y ci nasze dozgonne podziêkowania. ChodŸ Stra¿niku Zag³ady, musimy siê zmywaæ. Obyœmy siê jeszcze kiedyœ spotkali, <CHARNAME>.~
+@116009 = ~Wybacz, jednak nie mogê. Muszê odnaleŸæ m¹ przyjació³kê, i obawiam siê, ¿e z tego powodu zbyt czêsto mogê byæ poza Athkatl¹.~
+@116010 = ~Nie mogê, panie, gdy¿ obawiam siê, ¿e rzadko tu bêdê móg³ wst¹piæ. Poszukujê potê¿nego czarodzieja, zaœ me tropy prowadz¹ daleko poza Athkatlê.~
+@116011 = ~Muszê niestety odmówiæ. Wydarzenia w Athkatli wymagaj¹ mej obecnoœci i nie mogê byæ wtedy daleko poza ni¹.~
+@116012 = ~To bêdzie dla mnie zaszczyt. Zgadzam siê, i uczyniê wszystko co tylko bêdê móg³ dla tej osady.~
+@116013 = ~Wybacz burmistrzu, nie jestem zainteresowany. Oczekiwa³em zap³aty!~
+@116014 = ~Muszê przyznaæ, ¿e jestem zawiedziony - jednak rozumiem trudy towarzysz¹ce twej profesji, <CHARNAME>. Nie bêdê przeszkadza³ ci w d¹¿eniu wybran¹ przez ciebie œcie¿k¹.~
+@116015 = ~Jesteœcie prawdziwym przyjacielem tych ziem. Pod twoim przewództwem byæ mo¿e ³ad zostanie odnowiony.~
+@116016 = ~Czy móg³byœ w³adaæ gajem przez ten czas odrodzenia?~
+@116017 = ~Uczyniê co bêdê móg³, by przywróciæ równowagê tych ziem.~
+@116018 = ~Te tereny wiele wycierpia³y, i obiecujê usun¹æ obra¿enia zadane przez Faldorn.~
+@116019 = ~By³bym nik³ym s³ug¹. Muszê odmówiæ, gdy¿ interesy prowadz¹ mnie do Athkatli.~
+@116020 = ~Poszukujê potê¿nego czarodzieja, i to jest moje g³ówne zadanie. Nie mam czasu na takie rzeczy.~
+@116021 = ~Moja przyjació³ka zosta³a porwana. To dla mnie bardzo bolesne, przez co nie mogê towarzyszyæ w gaju.~
+@116022 = ~Otrzyma³eœ b³ogos³awieñstwo Gaju, ja zaœ dajê ci Kostur Grzmotu i Pioruna.~
+@116023 = ~Dobrze. Bêdê kontynuowa³ mój obowi¹zek mistrza wyzwañ, do czasu kiedy pretendent pokona mnie w rytuale.~
+
+@116100 = ~Zachowaj restrykcje klasowe~
+
+@117000 = ~Dodatkowi Kupcy (Baldurdash)~
+
+@118000 = ~Kobieca Edwina~
+
+@119000 = ~Romans: Poprawki B³êdów (wymagane dla póŸniejszych komponentów).~
+
+@120000 = ~Poprawka do dialogów Imoen w Tronie Bhaala~
+
+@121000 = ~Szybkosc chodu z BG1 (BETA)~
+
+@122000 = ~Zezwol Cromwellowi na ulepszanie przedmiotow z Twierdzy Straznika~
+@122001 = ~(Wzdycha) Torba obfitoœci. Mogê j¹ umagiczniæ by tworzy³a jeszcze lepsze be³ty, jednak za to sobiê policzê.. niech bêdzie 5000 sztuk z³ota.~
+@122002 = ~Obaczym jeszcze, co my tu mamy...~ 
+@122003 = ~Z³odziejski kaptur, ta?~
+@122004 = ~Wraz z flaszk¹ antidotum i pierœcieniem niewidzialnoœci, mo¿e staæ siê cholernie u¿yteczne.~
+@122005 = ~Mamy tu pierœcieñ niewidzialnoœci.. i antidotum. Ta, to je wszystko czego mi potrzeba! Za 10000 sztuk z³ota sprawiê, ¿e to ci siê do czegoœ nada.~ 
+@122006 = ~A có¿ to?~
+@122007 = ~No mam sposób na to, jak przymocowaæ do He³mu Ska³y dwa rogi i sprawiæ, ¿e ten stanie siê potê¿niejszy. Jak bêdziesz mia³ to wszystko, mogê to zrobiæ.~ 
+@122008 = ~Masz He³m Ska³y i dwa rogi. Za 5000 mogê je przymocowaæ, tworz¹c niezrównany he³m dla wojownika.~
+@122009 = ~A to Rêkawice Barda.~
+@122010 = ~Jakbyœ mio³ pare b³yskotek, móg³bym je ulepszyæ. Daj no diament, kamieñ ³otrzyków, szmaragd no i gwiezdne szafiry, to mo¿e coœ z tego bêdzie.~
+@122011 = ~No z skruszonym diamentem, szmaragdem, gwiezdnym szafirem i kamieniem ³otrzyków, mogê to dla ciebie ulepszyæ. P³acisz pan 5000.~ 
+@122012 = ~No to, to s¹ rêkawice dla rycerzy i paladynów.~
+@122013 = ~Za 10000 sztuk z³ota mogê je przekuæ w coœ lepszego.~ 
+@122014 = ~Mhm. Jakiœ stary podrêcznik o golemach. Recepta? Tfu! Nie lubiê ksi¹¿ek.~ 
+@122015 = ~Jakbyœ mia³ jakieœ nowe kartki, móg³bym sprawiæ by golemy by³y silniejsze.~
+@122016 = ~Z kart¹ glinianego golema i 5 tysi¹cami sztuk z³ota, móg³bym ulepszyæ t¹ ksiêge tak, by przyzywa³a gliniane golemy.~ 
+@122017 = ~Acha! To jest prawdziwy p³aszcz ochronny.~
+@122018 = ~Mogê go usprawniæ, jeœli przyniesiesz mi zwoje niewidzialnoœci i ulepszonego przyspieszenia.~
+@122019 = ~A wiêc masz zwoje niewidzialnoœci i przyspieszenia.. no, jako¿e ca³y proces jest dosyæ trudny, p³acisz 20 000 sztuk z³ota. Biznes to biznes, nie ma przebacz.~
+@122020 = ~Ta, to pochodzi z garba rzadkiego jaszczura. Jak chcesz, stworze z tego pancerz za parszywe 5000. Pasuje?~
+@122021 = ~No, no... nawet jak dla krasnoluda, to ta elfia kolczuga jest naprawdê porz¹dna.~
+@122022 = ~Ale krasnolud zawsze coœ wymyœli! Ze zwojem ochrony przed zwyk³¹ broni¹ wycisnê z tego cacka jeszcze trochê magii przesz³oœci.~
+@122023 = ~Ze zwojem ochrony przed zwyk³ymi broñmi móg³bym spróbowaæ zaczarowaæ pancerz tak, by zwyczajna broñ go nie rusza³a. No ale, jako¿e nie lubiê babraæ siê w cudzej-elfiej magii, bêdzie ciê to kosztowaæ 40 000.~
+@122024 = ~To gnomia proca. Za 5000 móg³bym wyci¹gn¹æ parê sztuczek z rêkawa no i troszkê j¹ poprawiæ..~
+@122025 = ~A to co to za ko³czan? Taa.. nieskoñczenie wiele magicznych strza³. Niez³y bajer, co?~
+@122026 = ~Jakbyœ czasem, przypadkiem znalaz³ gdzieœ kamyczek ³otrów, mo¿e móg³bym coœ z tym zrobiæ.~
+@122027 = ~Z kamieniem ³otrów, i drobn¹ op³at¹ o wysokoœci 10 000 z przyjemnoœci¹ sprawie, ¿e strza³y z tego ko³czana bêd¹ mocniejsze.~
+@122028 = ~~
+@122029 = ~Coœ¿em s³ysza³, ¿e istnieje wiêcej g³owic tego korbacza. Jakbyœ mo¿e jak¹ znalaz³, to móg³bym j¹ tu dodaæ.~
+@122030 = ~Ta, widzê ¿eœ znalaz³ dodatkow¹ g³owicê. Wygl¹da na jakieœ truj¹ce paskudztwo. Daj 5000 a do³¹czy do pozosta³ych.~
+@122031 = ~Czy to czasem nie... ? Ta, to wybuchajaca maczuga.~
+@122032 = ~Jakbyœ znalaz³ pierœcieñ ochrony przed ogniem, móg³bym troszkê dopicowaæ t¹ maczugê.~
+@122033 = ~Za 5000 moge po³¹czyæ to z pierœcieniem odpornoœci na ogieñ.~
+@122034 = ~No a to wygl¹da na coœ od Ixila.~
+@122035 = ~To czêœæ wspania³ej w³óczni Ixila. Jakbyœ znalaz³ drug¹ po³ówkê, to bym móg³ to po³¹czyæ.~
+@122036 = ~Znalaz³eœ obie czêœci w³óczni. Za 5 tysiêcy mogê znów po³¹czyæ drzewiec z gwoŸdziem w³óczni.~
+@122037 = ~Co my tu mamy.. co my tu mamy... o. Sztylet Gwiazd.~
+@122038 = ~Jakbyœ doda³ piêæ gwiezdnych szafirów, to mo¿naby go jeszcze bardziej umagiczniæ.~
+@122039 = ~Z tymi szafirami i 5000 sztukami z³ota mogê to dla ciebie zrobiæ.~
+@122040 = ~No masz trzy g³owice... dodajê do tego dwie naraz. Te, to ma teraz piêæ g³owic, ale fajno - nie? 10000 sztuk z³ota no i chyba damy radê. Chcesz?~
+@122041 = ~Móg³byœ na razie przytwierdziæ tylko elektryczn¹ g³owicê? Dam ci za to 5000. ~
+@122042 = ~Móg³byœ na razie przytwierdziæ tylko zatrut¹ g³owicê? Dam ci za to 5000. ~
+@122043 = ~Mam przepisy na dwie g³owice Korbacza wieków. Dajesz zatrut¹ g³owicê... no albo t¹ elektryczn¹. To wszystko co mam, wybacz.~
+@122044 = ~No masz trzy g³owice... to dodaje t¹ elektryczn¹. No to mamy cztery, nu nie? Taa... 5000 i bêdzie zrobione, stoi?~
+@122045 = ~O! Masz cztery g³owice i mogê teraz dodaæ pi¹t¹, ostatni¹. Ta jest ostra. 5000 i sk³adam to do kupy. Chcesz?~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Komponenty Zmieniaj¹ce Zasady \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@201000 = ~Tabela rozwoju czarów z papierowego AD&D~
+
+@202000 = ~Dwurêczne miecze pó³torarêczne~
+
+@203000 = ~Dwurêczne Katany~
+
+@204000 = ~Maczugi dla Wszystkich~
+
+@205000 = ~Wprowadzenie opisów dla Maczug dla wszystkich~
+@205001 = ~Wymaga komponentu maczugi dla wszystkich~
+@205002 = ~Ashes of Embers jest zainstalowane.Wprowadzi³o ono ju¿ opisy.~
+
+@206000 = ~Style Walki dla wszystkich~
+
+@207000 = ~Druidzi u¿ywaj¹ rozwoju czarów Kleryków~
+
+@208000 = ~OpóŸnij pojawienie siê umiejêtnoœci wysokiego poziomu.~
+
+@209000 = ~Zmieñ maksymaln¹ iloœæ doœwiadczenia~
+@209001 = ~Usuñ ograniczenie doœwiadczenia~
+
+@209100 = ~Ograniczenie doœwiadczenia do 20 poziomu~
+
+@209200 = ~Ograniczenie doœwiadczenia do 30 poziomu~
+
+@210000 = ~Pozwól na u¿ywanie umiejêtnoœci z³odziejskich w ciê¿kich pancerzach~
+
+@211000 = ~Zmieñ opis przedmiotów dla komponentu Pozwól na u¿ywanie umiejêtnoœci z³odziejskich w ciê¿kich pancerzach~
+
+@212000 = ~Pozwól rzucaæ czary maga w Ciê¿kich Pancerzach~
+
+@213000 = ~Zmieñ opis przedmiotów dla komponentu Pozwól rzucaæ czary maga w Ciê¿kich Pancerzach~
+
+@214000 = ~Dodatkowe opcje dwuklasowoœci~
+@214001 = ~barbarzyñca / mag~
+@214002 = ~barbarzyñca / kleryk~
+@214003 = ~barbarzyñca / z³odziej~
+@214004 = ~barbarzyñca / druid~
+
+@215000 = ~Noszenie wielu magicznych przedmiotów z prmi¹ do KP~
+@215001 = ~Ograniczenie jak w papierowym AD&D~
+
+@215100 = ~Brak Ograniczeñ~
+
+@216000 = ~Zbalansowane Bieg³oœci~
+@216001 = ~KRÓTKI MIECZ/NINJA-TO:  Broñ preferowana przez wielu z³odzieji oraz nizio³ków. Krótkie miecze i ninja-to s¹ lekkimi ale u¿ytecznymi broñmi.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216002 = ~KATANA/WAKIZASHI:  Katany i wakizashi to przyk³ady najdoskonalszego wykonania broni i wymagaj¹ dobrej opieki od u¿ywaj¹cego je. Wraz z rozwojem bieg³oœci broñ i u¿ywaj¹cy staj¹ siê jedn¹ istot¹ oddan¹ sztuce walki. Bronie te ciê¿ko znaleŸæ poza Kara-Tur, wiêc opieka nad nimi musi byæ czêœci¹ bieg³oœci w pos³ugiwaniu siê. Mimo wszystko umiejêtnoœci w katanach i wakizashi przydaj¹ siê tylko gdy mo¿esz jakieœ znaleŸæ 
+
+Ostrze¿enie: Magiczne katany s¹ bardzo rzadkie w Baldur`s Gate 2!
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216003 = ~SEJMTAR: Ta klasa broni pozwala postaci u¿ywaæ zakrzywionych broni siecznych jak na przyk³ad sejmtarów.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216004 = ~CEP BOJOWY: Cepy Bojowe s¹ broni¹ obuchow¹ u¿ywan¹ do pozbawienia wroga przytomnoœci. S¹ ciê¿kie w u¿yciu ale z umiejêtnoœciami i praktyk¹ staj¹ siê bardzo przydatne.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216005 = ~BUZDYGAN/GWIAZDA PORANKA:  Maczuga jest najczêœciej kojarzona z klerykami.To potêrzna broñ obuchowa podobna do maczugi lecz stworzona do czynienia wiêkszych obra¿eñ. Gwiazda Poranka jest podoban do buzdyganu ale ma kolce na obrze¿ach.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216006 = ~Alternatywny system bieglosci w broniach~
+
+@216100 = ~System bieglosci z BG1, z stylami walki (the Bigg)~
+
+@216200 = ~System bieglosci z BG1, bez stylow walki (the Bigg)~
+
+@217000 = ~Rzucaj czary ze zwojów(i innych przedmiotów) na poziomie postaci~
+
+@218000 = ~Poprawione tabele Trak0, Rzuty Obronne, Biegloœci, postêp zaklêæ kap³añskich (Blucher)~
+@218001 = ~Alchemia (Mag)~
+@218002 = ~Alchemia (Kap³an)~
+@218003 = ~Alchemia (£otrzyk)~
+@218004 = ~Alchemia (Mag)
+Ta umiejêtnoœæ pozwala magowi tworzyæ mikstury. Tworzone mikstury s¹ losowo wbierane z poni¿szej listy:
+1)  Mikstura Absorbcji
+2)  Mikstura Odpornoœci na Ogieñ
+3)  Mikstura Odpornoœci na Zimno
+4)  Mikstura Niewidzialnoœci
+5)  Mikstura Kamiennej Skóry
+6)  Mikstóra Si³y
+7)  Mikstóra Zrêcznoœci
+8)  Mikstura Ognistego Oddechu
+9)  Olej Szybkoœci
+10) Olej Wœciek³ego P³omienia~
+@218005 = ~Alchemia (Kap³an)
+Ta umiejêtnoœæ pozwala kap³anowi tworzyæ mikstury. Tworzone mikstury s¹ losowo wbierane z poni¿szej listy:
+1)  Mikstura Leczenia
+2)  Mikstura Dodatkowego Leczenia
+3)  Mikstura Wiêkszego Leczenia
+4)  Eliksir zdrowia
+5)  Mikstura Jasnoœci Umys³u
+6)  Mikstura Regeneracji
+7)  Mikstura Klarownoœci
+8)  Antidotum
+9)  Mikstura Skupienia
+10) Mikstura Geniuszu~
+@218006 = ~Alchemia (£otrzyk)
+Z ciekawoœci¹ w³aœciw¹ klasie ³otrzyk widzia³ wystarczaj¹co wiele aby móc odtworzyæ czêœæ mikstur, mo¿e wiêc stworzyæ losowe mikstury z poni¿szej listy raz dziennie.  
+1) Mikstura Skupienia
+2) Mikstura Percepcji
+3) Mikstura Niewidzialnoœci
+4) Mikstura Wiêkszego Leczenia
+5) Mikstura Regeneracji
+6) Antdotum
+7) Olej Szybkoœci
+8) Z³odziejska Mikstura Si³y Lodowego Giganta~
+@218007 = ~Pisanie Zwojów (Mag)~
+@218008 = ~Pisanie Zwojów (Kap³an)~
+@218009 = ~Pisanie Zwojów (£otrzyk)~
+@218010 = ~Pisanie Zwojów (Mag)
+Ta umiejêtnoœæ pozwala magowi zapisaæ czary niskiego i œredniego poziomu na zwoje. Czary które zapisze s¹ losowo wybrane z poni¿szej listy:
+1)  Magiczna Strza³a
+2)  Tarcza
+3)  Kwasowa Strza³a Melfa
+4)  Lustrzane Odbicie
+5)  Miniaturowe Meteory Melfa
+6)  Mniejsze Odbicie Czaru
+7)  Ulepszona Niewidzialnoœæ
+8)  Lodowa Nawa³nica
+9)  Wyrocznia
+10) Chaos~
+@218011 = ~Pisanie Zwojów (Kap³an)
+Ta umiejêtnoœæ pozwala kap³anowi tworzyæ œwiête zwoje. Czary które mo¿e zapisaæ s¹ losowo wybrane z poni¿szej listy:
+1)  Leczenie Krytycznych Ran
+2)  S³up Ognia
+3)  Wskrzeszenie
+4)  Przywrócenie
+5)  Ochrona Przed Kwasem
+6)  Ochrona Przed Zimnem
+7)  Ochrona Przed Elektrycznoœci¹
+8)  Ochrona Przed Ogniem
+9)  Si³a Czempiona
+10) Dominacja Umys³owa~
+@218012 = ~Pisanie Zwojów (£otrzyk)
+Ta umiejêtnoœæ pozwala ³otrzykowi zapisaæ czary niskiego i œredniego poziomu na zwoje. Czary które zapisze s¹ losowo wybrane z poni¿szej listy:
+1) Magiczna Strza³a
+2) Przyspieszenie
+3) Kula Ognia
+4) Rzoproszenie Magii
+5) Okropne Zauroczenie
+6) Niewidzialnoœæ
+7) Sto¿ek Zimna
+8) Przywo³anie Potworów II
+9) Przywo³anie Potworów III~
+
+@219000 = ~Ograniczona Mo¿liwoœæ sklepikarzy do identyfikacji przedmiotów.~
+@219001 = ~Tylko Magowie i Bardowie moga identyfikowaæ przedmioty~
+
+@219100 = ~Identyfikacja bazuje na wiedzy sklepikarza~
+
+@219200 = ~Hybryda obu metod~
+
+@220000 = ~Wielkie Mistrzostwo dla Wieloklasowców (Weimer)~
+
+@221000 = ~Prawdziwe Wielkie Mistrzostwo (Baldurdash)~
+
+@222000 = ~Zmiana wagi Magicznych Broni do 0~
+
+@223000 = ~Poprawki konsekwentnego umagicznienia broni.~
+
+@223100 = ~Zmiana opisow dla poprawek konsekwentnego umagicznienia 
+broni.~
+
+@224000 = ~Nieograniczone tabele trafienia~
+@224001 = ~Ograniczenie: najlepsze TraK0 wynosi 0 (Blucher)~
+
+@224100 = ~Ograniczenie: najlepsze TraK0 wynosi -10 (tabele podrecznikowe/BG1)~
+
+@225000 = ~Nieograniczona tabela zaklec Czarownika~
+
+@226000 = ~Alternatywna tabela zaklec Maga~
+@226001 = ~Tabela nieograniczona (Blucher)~
+
+@226100 = ~Tabela podrecznikowa~
+
+@227000 = ~Zmiana tabeli zaklec Barda~
+
+@228000 = ~Zmiana tabeli zaklec Kaplana~
+
+@229000 = ~Zmiana tabeli rozwoju poziomow i zaklec Druida~
+@229001 = ~Brak zmian w rozwoju poziomow, tylko nieograniczona tabela zaklec Druida (Blucher)~
+
+@229100 = ~Brak zmian w rozwoju poziomow, tylko podrecznikowa tabela zaklec Druida/Kaplana~
+
+@229200 = ~Uzyj tabeli poziomow kaplana z normalna tabela zaklec dla Druida~
+
+@229300 = ~Uzyj tabeli poziomow kaplana z nieograniczona tabela zaklec dla Druida (Blucher)~
+
+@229400 = ~Uzyj tabeli poziomow kaplana z podrecznikowa tabela zaklec dla Druida~
+
+@229500 = ~Uzyj tabeli poziomow kaplana z normalna tabela zaklec kaplana dla Druida~
+
+@229600 = ~Uzyj tabeli poziomow kaplana z nieograniczona tabela zaklec kaplana dla Druida (Blucher)~
+
+@230000 = ~Tabele zdolnosci wysokopoziomowych dla trojklasowcow~
+
+@231000 = ~Dodaj kary do rzutow obronnych na czary rzucane przez wysokopoziomowych magow~
+@231001 = ~Tylko dla zaklec mistycznych~
+@231100 = ~Tylko dla zaklec duchowych~
+@231200 = ~~
+
+@232000 = ~Usuniecie limitu pulapek (Ardanis/GeN1e)~
+
+@233000 = ~Usuniecie opoznienia Magicznych Pulapek (Ardanis/GeN1e)~
+
+@234000 = ~Usuniecie limitu przywolan Niebian (Ardanis/GeN1e)~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Udogodnienia gry                        \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@300000 = ~Wiêksza iloœæ punktów zdrowia prz awansie~
+@300001 = ~Maximum~
+
+@300100 = ~Tak jak w NWN ~
+
+@301000 = ~Maxymalna iloœæ punktów zdrowia dla NPC(the bigg)~
+@301001 = ~Dla wszystkich stowrzeñ w grze~
+
+@301100 = ~Tylko dla NPCów nie mog¹cych do³¹czyæ do dru¿yny~
+
+@301200 = ~Tylko dla NPCów mog¹cych do³¹czyæ do dru¿yny~
+
+@302000 = ~Wszystkie przedmioty zidentyfikowane~
+
+@303000 = ~£atwa Nauka Czarów~
+@303001 = ~100% Szansa Nauczenia Czaru~
+
+@303100 = ~100% Szansa Nauczenia Czaru oraz brak maksymalnej iloœci czarów~
+
+@304000 = ~Uczyñ Torby Przechowywania Bezdennymi~
+
+@305000 = ~Usuñ zmêczenie z czarów przywrócenia~
+
+@306000 = ~Usuñ dŸwiêk "Musisz zebraæ dru¿ynê przed wyruszeniem w drogê..."(Weimer)~
+
+@307000 = ~Obni¿ki dla grup o niskiej reputacji (Sabre)~
+@307001 = ~Zmiana wplywu Reputacji na ceny w sklepach~
+
+@307100 = ~Reputacja nic nie zmienia, ceny w sklepach ustalone na poziomie 100% (Luiz)~
+
+@307200 = ~Reputacja nic nie zmienia, ceny w sklepach ustalone na poziomie 80% (Luiz)~
+
+@307300 = ~Reputacja nic nie zmienia, ceny w sklepach ustalone na poziomie 60% (Luiz)~
+
+@308000 = ~Nieograniczone stackowanie amunicji~
+
+@309000 = ~Nieograniczone stackowanie kamieni i bi¿uterii~
+
+@310000 = ~Nieograniczone stackowanie mikstur~
+
+@311000 = ~Nieograniczone stackowanie zwojów~
+
+@312000 = ~Szczêœliwoœæ(NPC w dru¿ynie nie narzekaj¹ na reputacje)~
+@312001 = ~Postacie przylaczalne nie mowia o nieodpowiedniej dla nich reputacji~
+
+@312100 = ~Postacie przylaczalne wspominaja o nieodpowiedniej dla nich reputacji, lecz nie odchodza (Salk)~
+
+@312200 = ~Postacie przylaczalne sa obojetne wzgledem reputacji (Anomaly)~
+
+@312300 = ~NPC w dru¿ynie nie walcz¹~ 
+
+@312400 = ~Stop Haer'Dalis-Aerie romance from starting~
+
+@312500 = ~Neutralne postacie sa szczesliwe przy wyrownanej reputacji~
+
+@313000 = ~Brak pu³apek i zamków(Weimer)~
+
+@314000 = ~Szybsze Scenki z pierwszego i drugiego aktu (Karzak, Blucher) (ZOBAC OSTRZE¯ENIA)~
+@314001 = ~Skrocone poczatkowe cut-scenki i rozmowy z EoU (Karzak, Blucher)~
+
+@314100 = ~Normalna wersja skrocenia (bez glupich odzywek)~
+
+@315000 = ~Usun okropne animacje Plaszcza Odwzwierciedlen, Pulapki na czary i Materialnego lustra~
+
+@316000 = ~Zatrzymywanie ³upów po Drizzcie, wy³¹czenie Malchora Harpella~
+
+@317000 = ~Brak Awatarów Drowów w Podmroku~
+
+@317900 = ~Brak rasowych wymagan dla romansow~
+
+@318000 = ~Oszustwa w romansach~
+@318001 = ~Brak wymagañ odnoœnie rasyi i p³ci~
+
+@318100 = ~Brak wymagañ odnoœnie rasyi i p³ci, pozwól na wiele romansów~
+
+@318200 = ~Brak wymagañ odnoœnie rasyi i p³ci, pozwól na wiele romansów, nic nie przerywa romansów~
+
+@318300 = ~Oszustwa w romansach~
+@318301 = ~Usun rasowe wymagania dla romansow (wybierz a lub b)
+ a) Usun
+ b) Bez zmian~
+@318302 = ~ * Usun rasowe wymagania dla romansow~
+@318303 = ~Usun wymagania plci dla romansow (wybierz a lub b)
+ a) Usun
+ b) Bez zmian~
+@318304 = ~ * Usun wymagania plci dla romansow~
+@318305 = ~~
+@318306 = ~ * Zezwol na prowadzenie kilku romansow~
+@318307 = ~Usun mozliwosc przerwania romansu (wybierz a lub b)
+ a) Nic nie rujnuje romansu
+ b) Bez zmian~
+@318308 = ~ * Nic nie rujnuje romansow~
+@318309 = ~Wybrales instalacje opcji:~
+@318310 = ~Czy ten wybor jest prawidlowy?
+ a) Tak, kontynuuj instalacje
+ b) Nie, pozwol mi wybrac ponownie~
+@318311 = ~Rozpocznij romans dla nowej gry w Tron Bhaala?
+ a) Zacznij w Tronie Bhaala
+ b) Bez zmian~
+@318312 = ~ * Rozpoczecie romansu w Tronie Bhaala~
+@318313 = ~SprowadŸ tu m¹ ukochan¹, Aerie.~
+@318314 = ~SprowadŸ tu m¹ ukochan¹, Jaheirê.~
+@318315 = ~SprowadŸ tu mego ukochanego Rycerza Zakonu, Sir Anomena.~
+@318316 = ~SprowadŸ tu mego ukochanego, Anomena.~
+@318317 = ~SprowadŸ tu m¹ ukochan¹, Viconiê.~
+
+@319000 = ~Odpoczywaj gdziekolwiek(Japheth)~
+
+@320000 = ~Mo¿liwoœæ sprzedawania kijów, maczug i proc (Icelus)~
+
+@321000 = ~Oszustwo minimalnych atrybutow~
+@321001 = ~Wybierz minimalna wartosc dla atrybutow, od 6 do 15:~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Poprawki NPC                            \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@400000 = ~Dostosuj rakcje z³ych NPC mog¹cych do³¹czyæ do dru¿yny do rzutu~
+
+@401000 = ~Ulepszone przyzywanie Dusz~
+
+@402000 = ~ NPC w stylu Tronu Bhaala~
+
+@403000 = ~Sta³e Statystyki: Edwin~
+@403001 = ~U¿yj wartoœci z BG~
+
+@403100 = ~U¿yj wartoœci z BG2~
+
+@404000 = ~Sta³e Statysyki: Jaheira~
+
+@405000 = ~Zmieñ Charakter Jaheiry na Neutralny Dobry~
+
+@406000 = ~Sta³e Statystyki: Minsc~
+
+@407000 = ~Sta³e Statystyki: Viconia~
+
+@408000 = ~Zmieñ Khalida w Wojownika-Maga (Domi)~
+@408001 = ~Zapytany o swoj¹ przesz³oœæ Khalid nrwowo odpowiada, ¿e urodzi³ siê i wychowa³ w Calimshanie. Nie mówi wiele o swoich rodzicach ale czujesz, ¿e jego ojciec wiele o nim nie myœla³ przeznaczaj¹c wiêkszoœæ uwagi braciom Khalida. Bez jego wsparcia Khalid nie by³ w stanie zap³aciæ aby zostaæ uczniem maga, wiêc wst¹pi³ do miejskiego wojska z nadziej¹ na zarobienie potrzebnyc pieniêdzy. Nie mówi wiele o tym jak spotka³ Jaheire ale jego podziw dla niej jest widoczny. Kiedy pytasz go o Goriona  odpowiada tylko, ¿e przyjaŸnili siê od dawna i ¿e wielu bêdzie op³akiwaæ jego œmieræ.~
+
+@409000 = ~Zmieñ Montarona w Zabójcê(Andyr)~
+
+@410000 = ~Zmien charakter Korgana na Neutralny zly~
+
+@411000 = ~Zmniejsz nielegalna kondycje Kagaina do 19~

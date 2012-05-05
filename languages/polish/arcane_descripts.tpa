@@ -1,0 +1,7 @@
+DEFINE_PATCH_MACRO ~arcane_descripts_polish~ BEGIN
+
+  REPLACE_TEXTUALLY ~\(Waga:[ %tab%]*[0-9]+\)~
+  ~\1
+Szansa na nieudane rzucenie czaru: +%patch_miscast%%~
+
+END

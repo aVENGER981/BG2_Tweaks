@@ -1,0 +1,518 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// universal Clavas                                  \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@99001 = ~La mayoría de los garrotes son palos recios de madera, estrechos en la empuñadura y más anchos en los extremos. Esta sencilla herramienta se ha utilizado desde que el hombre comenzó a utilizar herramientas. Todo el mundo puede encontrar una buena pieza recia de madera con la que golpear, de ahí el amplio uso de los garrotes.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+Tipo de daño: contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99002 = ~La mayoría de las clavas son palos resistentes, duros, estrechos por la empuñadura y más anchos al final. Esta sencilla arma se ha utilizado desde que el hombre empezó a usar herramientas.
+Sientes que este garrote es pesado pero cuando golpeas con él, es preciso y ligero como el cuero.
+
+CARACTERÍSTICAS:
+GAC0: +1
+Daño:  1D6+1
+Tipo de daño:  contundente
+Peso: 2
+Factor de velocidad: 2
+Talento marcial: Clava
+Tipo: una mano~
+@99003 = ~Las Raíces del Problema
+Clava +1, +3 contra criaturas sobrenaturales
+Se dice que esta clava encantada ha existido desde la época de la caída de Netheril y el nacimiento del gran Desierto de Anaurokh. Aunque el coste para la civilización fue grande, las verdaderas víctimas fueron las criaturas de la naturaleza, condenadas a quedarse allí y ver cómo sus hogares se pudrían y morían. Cuando sus habitantes retrocedieron, aquellos que se quedaron fueron invadidos por hordas de criaturas desplazadas; las más impacientes cayeron sobre la tierra que quedaba tomando todo lo que querían. Se dice que esta arma en concreto proviene del árbol de una dríada, un último regalo de la naturaleza para un espíritu del bosque que no podía contener a los invasores de su tierra. El suyo era un dolor agridulce, ya que la madera no tendría que haber sufrido así si no hubiera sido tan fuerte. Los estudiosos menos respetuosos le dieron este irónico nombre, aunque su sentido del humor no es muy apreciado entre los más devotos servidores de la naturaleza.
+
+CARACTERÍSTICAS:
+
+GAC0: +1, +3 contra criaturas sobrenaturales
+Daño: 1D6 +1, +3 contra criaturas sobrenaturales, +1 por daño de ácido
+Tipo de daño: contundente y ácido
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99004 = ~Clava +3: Sangrenegra
+Esta clava de roble está cubierta de oscuros bulbos secos de una sustancia similar a la brea. Durante el combate, esta sustancia brilla con un color negruzco y se vuelve espesa y fluida. Cuando la clava golpea a un oponente, inflinge daño adicional por ácido cuando el líquido cae sobre la víctima.
+
+CARACTERÍSTICAS:
+
+GAC0: +3
+Daño: 1D6 + 3, +3 por daño de ácido
+Tipo de daño: contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99005 = ~Clava de hueso +2, +3 contra muertos vivientes
+Según se dice, esta peligrosa arma fue creada hace cientos de años por un chamán que buscaba venganza. Su familia murió a manos de los muertos vivientes, y su rabia fue tan grande que se arrancó su propia pierna y utilizó el fémur como arma. Las runas mágicas aumentan su poder, aunque es probable que sólo hubiera bastado con la fuerza de su odio.
+
+
+CARACTERÍSTICAS:
+
+GAC0: +2, +3 contra muertos vivientes
+Daño: 1D6 + 2, +3 contra muertos vivientes
+Tipo de daño: contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99006 = ~Clava +2: Rechinante
+Makal del Pino, un astuto druida, talló esta clava y la vinculó con el espíritu de su compañero carcayú. Como esa tenaz criatura, Rechinante es un arma peligrosa en manos expertas. Cuando la clava golpea, astillas afiladas se clavan en la carne de la víctima, causando un gran dolor y daño adicional que continúa durante algún tiempo después del golpe. Makal utilizó esta clava en varias ocasiones, ganándose la enemistad de los orcos que amenazaban su floresta.
+
+
+CARACTERÍSTICAS:
+
+GAC0: +2
+Daño: 1D6 + 2, las astillas añaden 2 puntos de daño adicional cada asalto durante 4 asaltos
+Tipo de daño: contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99007 = ~Esta rudimentaria clava de madera arde con el furioso espíritu del demonio que tiene atrapado en su interior a causa de los poderosos conjuros realizados sobre esta arma. De vez en tanto, sin embargo, la ira del demonio escapa en un golpe fiero.
+
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+20% de posibilidades de que el objetivo inflija 10 puntos adicionales de daños por fuego tras cada ataque realizado con éxito
+7% de posibilidades de que una bola de fuego haga explosión automáticamente tras cada ataque realizado con éxito
+
+GAC0: +3
+Daño: 1D6 + 3, +3 por daño de fuego
+Tipo de daño: contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99008 = ~Los encantamientos de resistencia al Anillo de Fuego hacen que el espíritu del dragón atrapado dentro de este arma sea más fácil de controlar, aunque la furia de la criatura puede liberarse a veces sin previo aviso.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+30% de posibilidades de que el objetivo sufra 15 puntos adicionales de daños por fuego tras cada ataque realizado con éxito
+5% de posibilidades de que una bola de fuego haga explosión automáticamente tras cada ataque realizado con éxito
+
+GAC0: +5
+Daño: 1D6 + 5, +5 por daño de fuego
+Tipo de daño: contundente
+Peso: 1
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99009 = ~La mayoría de las clavas son palos resistentes, duros, estrechos por la empuñadura y más anchos al final. Esta sencilla arma se ha utilizado desde que el hombre empezó a usar herramientas. Cualquiera puede encontrar un buen trozo de madera y blandirlo; de ahí el uso más extendido de la clava. Esta clava en particular ha sido mejorada mágicamente.
+
+CARACTERÍSTICAS:
+
+GAC0: +3
+Daño: 1D6 +3
+Tipo de daño: contundente
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99010 = ~A simple vista, esta parece una porra ordinaria, pero tras la inspección cuidadosa de unos ojos bien entrenados se aprecian una serie de discretas runas trazadas a lo largo del agarre. Un ladrón también señalaría el fino equilibrio del arma.
+
+El garrote fue encantado en edades pasadas por petición de un maestro del gremio de los Ladrones de la Sombra para uno de sus más leales (y prolíficos) protegidos. Además de ser un arma potente, parece acallar el sonido alrededor del ladrón para poder acechar a su objetivo y lograr eliminarlo de un golpe. La última cosa que muchos de sus enemigos oirán antes de deslizarse a la inconsciencia podría ser el suave correr del aire conforme el garrote vaya acercandose por detras a sus cabezas; ganando rápidamente el apodo de "Luces fuera".
+
+Desafortunadamente, como es a menudo con estas cosas, el protegido no era exactamente tan leal como el maestro del gremio había esperado, y una tranquila noche su arma fue usada para aporrear a dicho maestro hasta la muerte en su propia cama. Su mujer, durmiendo a su lado, no escuchó nada.
+
+Cómo el arma ha terminado cayendo en tus manos desde entonces es una historia que probablemente no quieras conocer.
+
+CARACTERÍSTICAS:
+
+GAC0: +2
+Daño:  1D6 +2
+Especial:
+ Concede un 10% de bonificación a la habilidad de Moverse sigilosamente mientras esté equipada
+Tipo de daño:  contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo:  una mano
+Requisitos: Fuerza 5~
+@99011 = ~Clava +5: Consorteingrata
+Forjada para <CHARNAME> con una amalgama de aleaciones, el garrote ácido Sangrenegra y el garrote espinoso Rechinante, Consorteingrata vibra con un poder destructivo. Cubierto con una sustancia como alquitrán que quema la carne al contacto, Consorteingrata también deja astillas o espinas venenosas en la herida. 
+
+Aptitudes especiales: 25% de resistencia al ácido
+GAC0: +5
+Daño: 1D6 + 5, +5 por daño de ácido, las astillas añaden 3 puntos de daño extra por asalto durante cuatro asaltos
+Tipo de daño: contundente
+Peso: 3
+Factor de velocidad: 1 
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99012 = ~Clava +4: 'El fulcro'
+Forjado para <CHARNAME> en una mezcla de la Clava de Hueso y la clava astillada Rechinante, los poderes de "El fulcro" se basan en conservar el equilibrio. Los espíritus de los guerreros muertos guían la mano del portador con certeza y cada vez que golpea al objetivo libera una dolorosa astilla de hueso en la herida. En suma, la clava hace daño adicional contra los oponentes no neutrales.
+
+Aptitudes poseidas: El portador gana Gran Maestría con clavas.
+GAC0: +4
+Daño: 1D6 + 4, +4 si el objetivo es Bueno, Malvado, Legal ó Caótico (acumulativos)
+Extra Daño: Las astillas de hueso hacen 2 puntos de daño extra cada asalto durante 4 asaltos
+Tipo de daño: contundente
+Peso: 3
+Factor de velocidad: 1 
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// PnP Protection Items                             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@99030 = ~Amuleto de protección +1: 'El Protector'
+"El Protector" fue entregado a la escolta real del rey Pyronan, soberano de Impiltur, como símbolo honorífico de su posición. Desgraciadamente, los miembros de la escolta no se ponían de acuerdo sobre quién debía llevarse el amuleto. Tras años de hostilidad interna, el objeto se perdió y los guardias fueron reemplazados por otros individuos menos avariciosos.
+
+CARACTERÍSTICAS:
+
+Bonificación a la Tirada de Salvación:  1~
+@99031 = ~Este sencillo manto ha sido imbuido de algunas pequeñas propiedades mágicas que ayudan a proteger al que lo lleva puesto. Afecta tanto a la reserva de lanzamientos como a la clase de armadura. Es ideal para magos y otros que no pueden usar armaduras más gruesas o que limitan más los movimientos.
+
+CARACTERÍSTICAS:
+
+Tirada de Salvación: +1 de bonificación
+Peso:  3~
+@99032 = ~Manto de protección +2: 'El Escudo del Espíritu'
+Se cuenta que el manto concentra la energía del espíritu de uno mismo en una fuerza protectora. Se rumorea que un vampiro esclavizado se esconde en el mágico objeto, pero es imposible comprobarlo sin destrozar el manto. 
+
+CARACTERÍSTICAS:
+
+Tirada de Salvación: +2 de bonificación
+Peso:  3
+No permitido a:~
+@99033 = ~Las habilidades que confiere esta poderosa capa encantada se refieren a diferentes formas de protección, entre las que se incluyen el desaparecer de la vista y escapar.
+
+CARACTERÍSTICAS:
+   Lanza Celeridad mejorada una vez al día
+   Lanza Invisibilidad mejorada una vez al día
+
+Tirada de Salvación: +2 de bonificación
+Peso:  3~
+@99034 = ~Anillo de protección +1: 'Anillo de los Príncipes'
+Este anillo y otros tantos del mismo tipo fueron originariamente fabricados para proteger a los hijos del rey Castter De'wess, aunque se desconoce quién pronunció el conjuro. En los anales de la historia se hace mención de que estos anillos permanecieron en la misma familia al menos durante trece generaciones, aunque parece ser que todos se perdieron en una sola generación, quizás por la enemistad existente entre el rey y la familia del creador.
+
+CARACTERÍSTICAS:
+
+Tirada de Salvación: +1 de bonificación~
+@99035 = ~Anillo de protección +2: 'El Anillo del Guardián'
+El Guardián era un centinela inmortal encargado de proteger la tumba donde estaba sepultado el cuerpo de la princesa de Akanal. Tras varios milenios, se perdió el respeto por la tumba y la familia real quedó en el olvido. Varios aventureros intentaron probar suerte con el Guardián y finalmente fue inevitable que éste sucumbiera a la tentación. El anillo que llevaba era uno de los muchos tesoros sustraídos de la tumba.
+
+CARACTERÍSTICAS:
+
+Tirada de Salvación: +2 de bonificación~
+@99036 = ~Anillo de protección +1: 'Anillo de los Príncipes'
+Este anillo y otros tantos del mismo tipo fueron originariamente fabricados para proteger a los hijos del rey Castter De'wess, aunque se desconoce quién pronunció el conjuro. En los anales de la historia se hace mención de que estos anillos permanecieron en la misma familia al menos durante trece generaciones, aunque parece ser que todos se perdieron en una sola generación, quizás por la enemistad existente entre el rey y la familia del creador.
+
+CARACTERÍSTICAS:
+
+Tirada de Salvación: +1 de bonificación~
+@99037 = ~El Sello del Guardián
+Según la leyenda, este sencillo anillo de oro fue un regalo de Ao a Helmo como recompensa por el servicio incondicional del dios durante la Era de los Trastornos. Helm, a su vez, pasó el regalo a sus seguidores mortales.
+
+CARACTERÍSTICAS:
+
+Tirada de Salvación: +3 de bonificación~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// +x/+y items                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@99051 = ~Las Raíces del Problema
+Clava +1, +3 contra criaturas sobrenaturales
+Se dice que esta clava encantada ha existido desde la época de la caída de Netheril y el nacimiento del gran Desierto de Anaurokh. Aunque el coste para la civilización fue grande, las verdaderas víctimas fueron las criaturas de la naturaleza, condenadas a quedarse allí y ver cómo sus hogares se pudrían y morían. Cuando sus habitantes retrocedieron, aquellos que se quedaron fueron invadidos por hordas de criaturas desplazadas; las más impacientes cayeron sobre la tierra que quedaba tomando todo lo que querían. Se dice que esta arma en concreto proviene del árbol de una dríada, un último regalo de la naturaleza para un espíritu del bosque que no podía contener a los invasores de su tierra. El suyo era un dolor agridulce, ya que la madera no tendría que haber sufrido así si no hubiera sido tan fuerte. Los estudiosos menos respetuosos le dieron este irónico nombre, aunque su sentido del humor no es muy apreciado entre los más devotos servidores de la naturaleza.
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0:  +1, +3 contra criaturas sobrenaturales
+Daño:  1D6 + 1, +3 contra criaturas sobrenaturales, +1 por daño de ácido
+Tipo de daño:  contundente
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Clava
+Tipo:  una mano
+Requisitos: Fuerza 5
+No permitido a:
+ Mago~
+@99052 = ~Clava de hueso +2, +3 contra muertos vivientes
+Según se dice, esta peligrosa arma fue creada hace cientos de años por un chamán que buscaba venganza. Su familia murió a manos de los muertos vivientes, y su rabia fue tan grande que se arrancó su propia pierna y utilizó el fémur como arma. Las runas mágicas aumentan su poder, aunque es probable que sólo hubiera bastado con la fuerza de su odio. 
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0: +2, +3 contra muertos vivientes
+Daño:  1D6 + 2, +3 contra muertos vivientes
+Tipo de daño:  contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo:  una mano
+Requisitos: Fuerza 5
+No permitido a:
+ Mago~
+@99053 = ~Martillo de guerra +1, +4 contra humanoides gigantes
+Se rumorea que el rompe-rodillas, o "Triturador", como se le conoce cariñosamente en los círculos enanos, fue forjado por el propio Clangeddin. Se lo entregó a un pequeño clan de enanos sin hogar para que pudieran hacerse un sitio entre los gigantes y ogros de su zona. El martillo ha pasado de héroe a héroe; ocasionalmente ha podido verse en manos no enanas.
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +4 al determinar a quién puede golpear.
+GAC0:  +1 bonificador, +4 contra gigantes
+Daño:  1D4 + 2, +5 contra gigantes
+Tipo de daño:  contundente
+Peso: 8
+Factor de velocidad: 2
+Talento marcial: Martillo de guerra
+Tipo:  una mano
+Requisitos: Fuerza 10
+No permitido a:
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+@99054 = ~Espada bastarda +1, +3 contra Cambiaformas: 'Kondar'
+A primera vista, esta espada es como cualquier otra. Sin embargo, ante la presencia de una criatura cambiaforma, la espada se calienta al ir adquiriendo poder. Recibe este nombre por su amo, Kondar. Su historia, casi olvidada durante mucho tiempo, fue forjada de traición y engaño. Se rumorea que pagó una cifra astronómica por esta espada y que reveló la verdadera identidad de aquéllos que querían traicionarlo. Sin embargo, sus nombres y crímenes se han perdido para la historia.
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0:  +1
+Daño:  2D4 + 1, +3 contra Cambiaformas
+Tipo de daño:  cortante
+Peso: 8
+Factor de velocidad: 7
+Talento marcial: Espada bastarda
+Tipo:  una mano
+Requisitos: Fuerza 11
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón
+ Señor de las bestias~
+@99055 = ~Filo Solar: Diastro
+Ya fuese creada específicamente para usarla al servicio de Torm o confiscada en algún momento de la larga historia de la iglesia, los paladines de la Furia Leal han hecho buen uso de Diastro en su lucha contra los malignos muertos vivientes. Por medio de la magia o bendiciones se le ha imbuido el Rayo Solar, una fuerza de energía pura tan potente que es capaz de acabar con vivos y muertos.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales (una vez por día):
+Rayo solar
+ Daño: 3D6 (salvación contra conjuros o quedar cegado durante 10 asaltos)
+ Muertos vivientes: 1D6 puntos de daño adicionales por nivel del lanzador (salvación contra hechizo o resultan destruidos)
+ Alcance: 9 m.
+ Área: radio de 9 m.
+
+Siempre se la considera un arma +4 al determinar a quién puede golpear.
+GAC0:  +2, +4 contra criaturas malignas
+Daño:  1D8 + 2, +4 contra criaturas malignas, doble daño contra muertos vivientes
+Tipo de daño:  cortante
+Peso: 2
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo:  una mano
+Requisitos: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Señor de las bestias~
+@99056 = ~Espada larga: La Igualadora
+Esta espada es tan antigua, que su verdadero origen se ha perdido para siempre; sin embargo, sus marcas indican que probablemente fue forjada para estar al servicio de Helmo. El arma, también llamada "La Espada de la Neutralidad", parece estar diseñada para buscar los extremos y acabar con ellos, llevando al universo hacia un equilibrio más armonioso. Cuanto más alejado de la neutralidad verdadera esté el comportamiento de su víctima, mayor será el daño que ésta sufra.
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0 y Daño:
+  contra neutral auténtico: +0 al ataque y +0 al daño
+  contra caótico neutral y legal neutral: +1 al ataque y +2 al daño
+  contra neutral bueno y neutral maligno: +2 al ataque y +4 al daño
+  contra los demás alineamientos: +3 al ataque y +6 al daño
+Tipo de daño:  cortante
+Aptitudes poseídas: 
+     Inmunidad a Hechizar y Confusión
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo:  una mano
+Requisitos: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Señor de las bestias~
+@99057 = ~Las Raíces del Problema
+Clava +1, +3 contra criaturas sobrenaturales
+Se dice que esta clava encantada ha existido desde la época de la caída de Netheril y el nacimiento del gran Desierto de Anaurokh. Aunque el coste para la civilización fue grande, las verdaderas víctimas fueron las criaturas de la naturaleza, condenadas a quedarse allí y ver cómo sus hogares se pudrían y morían. Cuando sus habitantes retrocedieron, aquellos que se quedaron fueron invadidos por hordas de criaturas desplazadas; las más impacientes cayeron sobre la tierra que quedaba tomando todo lo que querían. Se dice que esta arma en concreto proviene del árbol de una dríada, un último regalo de la naturaleza para un espíritu del bosque que no podía contener a los invasores de su tierra. El suyo era un dolor agridulce, ya que la madera no tendría que haber sufrido así si no hubiera sido tan fuerte. Los estudiosos menos respetuosos le dieron este irónico nombre, aunque su sentido del humor no es muy apreciado entre los más devotos servidores de la naturaleza.
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0:  +1, +3 contra criaturas sobrenaturales
+Daño:  1D6 +1, +3 contra criaturas sobrenaturales, +1 por daño de ácido
+Tipo de daño:  contundente y ácido
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Clava
+Tipo:  una mano
+Requisitos:
+-  Fuerza
+-  Destreza
+Sólo permitido a:
+ Todos~
+@99058  = ~Clava de hueso +2, +3 contra muertos vivientes
+Según se dice, esta peligrosa arma fue creada hace cientos de años por un chamán que buscaba venganza. Su familia murió a manos de los muertos vivientes, y su rabia fue tan grande que se arrancó su propia pierna y utilizó el fémur como arma. Las runas mágicas aumentan su poder, aunque es probable que sólo hubiera bastado con la fuerza de su odio. 
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0: +2, +3 contra muertos vivientes
+Daño:  1D6 + 2, +3 contra muertos vivientes
+Tipo de daño:  contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo:  una mano
+Requisitos:
+-  Fuerza 8
+-  Destreza 6
+Sólo permitido a:
+ Todos~
+@99059  = ~Martillo de guerra +1, +4 contra humanoides gigantes
+Se rumorea que el rompe-rodillas, o "Triturador", como se le conoce cariñosamente en los círculos enanos, fue forjado por el propio Clangeddin. Se lo entregó a un pequeño clan de enanos sin hogar para que pudieran hacerse un sitio entre los gigantes y ogros de su zona. El martillo ha pasado de héroe a héroe; ocasionalmente ha podido verse en manos no enanas.
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +4 al determinar a quién puede golpear.
+GAC0:  +1, +4 contra gigantes
+Daño:  1D6 + 2, +5 contra gigantes
+Tipo de daño: contundente
+Peso: 8
+Factor de velocidad: 2
+Talento marcial: Martillo de guerra
+Tipo:  una mano
+Requisitos:
+-  Fuerza 12
+-  Destreza 6
+No permitido a:
+ Señor de las bestias~
+@99060  = ~Espada bastarda +1, +3 contra Cambiaformas: 'Kondar'
+A primera vista, esta espada es como cualquier otra. Sin embargo, ante la presencia de una criatura cambiaforma, la espada se calienta al ir adquiriendo poder. Recibe este nombre por su amo, Kondar. Su historia, casi olvidada durante mucho tiempo, fue forjada de traición y engaño. Se rumorea que pagó una cifra astronómica por esta espada y que reveló la verdadera identidad de aquéllos que querían traicionarlo. Sin embargo, sus nombres y crímenes se han perdido para la historia.
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0:  +1
+Daño:  2D4 + 1, +3 contra Cambiaformas
+Tipo de daño:  cortante
+Peso: 8
+Factor de velocidad: 7
+Talento marcial: Espada bastarda
+Tipo:  una mano
+Requisitos:
+ - Fuerza 13
+ - Destreza 8
+No permitido a:
+ Señor de las bestias~
+@99061 = ~Filo Solar: Diastro
+Ya fuese creada específicamente para usarla al servicio de Torm o confiscada en algún momento de la larga historia de la iglesia, los paladines de la Furia Leal han hecho buen uso de Diastro en su lucha contra los malignos muertos vivientes. Por medio de la magia o bendiciones se le ha imbuido el Rayo Solar, una fuerza de energía pura tan potente que es capaz de acabar con vivos y muertos.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales (una vez por día):
+Rayo solar
+ Daño: 3D6 (salvación contra conjuros o quedar cegado durante 10 asaltos)
+ Muertos vivientes: 1D6 puntos de daño adicionales por nivel del lanzador (salvación contra hechizo o resultan destruidos)
+ Alcance: 9 m.
+ Área: radio de 9 m.
+
+Siempre se la considera un arma +4 al determinar a quién puede golpear.
+GAC0:  +2, +4 contra criaturas malignas
+Daño:  1D8 + 2, +4 contra criaturas malignas, doble daño contra muertos vivientes
+Tipo de daño: cortante
+Peso: 2
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo:  una mano
+Requisitos:
+-  Fuerza 11
+-  Destreza 8
+No permitido a:
+ Señor de las bestias~
+@99062  = ~Espada larga: La Igualadora
+Esta espada es tan antigua, que su verdadero origen se ha perdido para siempre; sin embargo, sus marcas indican que probablemente fue forjada para estar al servicio de Helmo. El arma, también llamada "La Espada de la Neutralidad", parece estar diseñada para buscar los extremos y acabar con ellos, llevando al universo hacia un equilibrio más armonioso. Cuanto más alejado de la neutralidad verdadera esté el comportamiento de su víctima, mayor será el daño que ésta sufra.
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0 y Daño:
+  contra neutral auténtico: +0 al ataque y +0 al daño
+  contra caótico neutral y legal neutral: +1 al ataque y +2 al daño
+  contra neutral bueno y neutral maligno: +2 al ataque y +4 al daño
+  contra los demás alineamientos: +3 al ataque y +6 al daño
+Tipo de daño:  cortante
+Aptitudes poseídas: 
+     Inmunidad a Hechizar y Confusión
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo:  una mano
+Requisitos:
+-  Fuerza 11
+-  Destreza 8
+No permitido a:
+ Señor de las bestias~
+@99063 = ~Las Raíces del Problema
+Clava +1, +3 contra criaturas sobrenaturales
+Se dice que esta clava encantada ha existido desde la época de la caída de Netheril y el nacimiento del gran Desierto de Anaurokh. Aunque el coste para la civilización fue grande, las verdaderas víctimas fueron las criaturas de la naturaleza, condenadas a quedarse allí y ver cómo sus hogares se pudrían y morían. Cuando sus habitantes retrocedieron, aquellos que se quedaron fueron invadidos por hordas de criaturas desplazadas; las más impacientes cayeron sobre la tierra que quedaba tomando todo lo que querían. Se dice que esta arma en concreto proviene del árbol de una dríada, un último regalo de la naturaleza para un espíritu del bosque que no podía contener a los invasores de su tierra. El suyo era un dolor agridulce, ya que la madera no tendría que haber sufrido así si no hubiera sido tan fuerte. Los estudiosos menos respetuosos le dieron este irónico nombre, aunque su sentido del humor no es muy apreciado entre los más devotos servidores de la naturaleza.The Root of the Problem
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0: +1, +3 contra criaturas sobrenaturales
+Daño: 1D6 +1, +3contra criaturas sobrenaturales +1 por daño de ácido
+Tipo de daño: contundente y ácido
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~
+@99064 = ~Clava de hueso +2, +3 contra muertos vivientes
+Según se dice, esta peligrosa arma fue creada hace cientos de años por un chamán que buscaba venganza. Su familia murió a manos de los muertos vivientes, y su rabia fue tan grande que se arrancó su propia pierna y utilizó el fémur como arma. Las runas mágicas aumentan su poder, aunque es probable que sólo hubiera bastado con la fuerza de su odio. 
+
+CARACTERÍSTICAS:
+
+Siempre se la considera un arma +3 al determinar a quién puede golpear.
+GAC0: +2, +3 contra muertos vivientes
+Daño:  1D6 + 2, +3 contra muertos vivientes
+Tipo de daño:  contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo: una mano
+Requisitos: Fuerza 5~

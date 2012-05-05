@@ -1,0 +1,1145 @@
+IF
+  GlobalLT("DROWITEMCHECKDONE","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("DROWITEMCHECKDONE","GLOBAL",2)
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN01",Player1) // Drow Elven Chain +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN01",Player1) // Drow Elven Chain +3
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN01",Player2) // Drow Elven Chain +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN01",Player2) // Drow Elven Chain +3
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN01",Player3) // Drow Elven Chain +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN01",Player3) // Drow Elven Chain +3
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN01",Player4) // Drow Elven Chain +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN01",Player4) // Drow Elven Chain +3
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN01",Player5) // Drow Elven Chain +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN01",Player5) // Drow Elven Chain +3
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN01",Player6) // Drow Elven Chain +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN01",Player6) // Drow Elven Chain +3
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN02",Player1) // Drow Adamantine Chain +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN02",Player1) // Drow Adamantine Chain +5
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN02",Player2) // Drow Adamantine Chain +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN02",Player2) // Drow Adamantine Chain +5
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN02",Player3) // Drow Adamantine Chain +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN02",Player3) // Drow Adamantine Chain +5
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN02",Player4) // Drow Adamantine Chain +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN02",Player4) // Drow Adamantine Chain +5
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN02",Player5) // Drow Adamantine Chain +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN02",Player5) // Drow Adamantine Chain +5
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCHAN02",Player6) // Drow Adamantine Chain +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCHAN02",Player6) // Drow Adamantine Chain +5
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H01",Player1) // Drow Scimitar +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H01",Player1) // Drow Scimitar +3
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H01",Player2) // Drow Scimitar +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H01",Player2) // Drow Scimitar +3
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H01",Player3) // Drow Scimitar +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H01",Player3) // Drow Scimitar +3
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H01",Player4) // Drow Scimitar +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H01",Player4) // Drow Scimitar +3
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H01",Player5) // Drow Scimitar +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H01",Player5) // Drow Scimitar +3
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H01",Player6) // Drow Scimitar +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H01",Player6) // Drow Scimitar +3
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H02",Player1) // Drow Longsword +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H02",Player1) // Drow Longsword +3
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H02",Player2) // Drow Longsword +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H02",Player2) // Drow Longsword +3
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H02",Player3) // Drow Longsword +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H02",Player3) // Drow Longsword +3
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H02",Player4) // Drow Longsword +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H02",Player4) // Drow Longsword +3
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H02",Player5) // Drow Longsword +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H02",Player5) // Drow Longsword +3
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSW1H02",Player6) // Drow Longsword +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSW1H02",Player6) // Drow Longsword +3
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBLUN01",Player1) // Drow Flail +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBLUN01",Player1) // Drow Flail +3
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBLUN01",Player2) // Drow Flail +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBLUN01",Player2) // Drow Flail +3
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBLUN01",Player3) // Drow Flail +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBLUN01",Player3) // Drow Flail +3
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBLUN01",Player4) // Drow Flail +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBLUN01",Player4) // Drow Flail +3
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBLUN01",Player5) // Drow Flail +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBLUN01",Player5) // Drow Flail +3
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBLUN01",Player6) // Drow Flail +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBLUN01",Player6) // Drow Flail +3
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWHALB01",Player1) // Drow Halberd +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWHALB01",Player1) // Drow Halberd +3
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWHALB01",Player2) // Drow Halberd +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWHALB01",Player2) // Drow Halberd +3
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWHALB01",Player3) // Drow Halberd +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWHALB01",Player3) // Drow Halberd +3
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWHALB01",Player4) // Drow Halberd +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWHALB01",Player4) // Drow Halberd +3
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWHALB01",Player5) // Drow Halberd +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWHALB01",Player5) // Drow Halberd +3
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWHALB01",Player6) // Drow Halberd +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWHALB01",Player6) // Drow Halberd +3
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSPER01",Player1) // Drow Lance +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSPER01",Player1) // Drow Lance +3
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSPER01",Player2) // Drow Lance +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSPER01",Player2) // Drow Lance +3
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSPER01",Player3) // Drow Lance +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSPER01",Player3) // Drow Lance +3
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSPER01",Player4) // Drow Lance +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSPER01",Player4) // Drow Lance +3
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSPER01",Player5) // Drow Lance +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSPER01",Player5) // Drow Lance +3
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSPER01",Player6) // Drow Lance +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSPER01",Player6) // Drow Lance +3
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWXBOW01",Player1) // Drow Crossbow of Speed
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWXBOW01",Player1) // Drow Crossbow of Speed
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWXBOW01",Player2) // Drow Crossbow of Speed
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWXBOW01",Player2) // Drow Crossbow of Speed
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWXBOW01",Player3) // Drow Crossbow of Speed
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWXBOW01",Player3) // Drow Crossbow of Speed
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWXBOW01",Player4) // Drow Crossbow of Speed
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWXBOW01",Player4) // Drow Crossbow of Speed
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWXBOW01",Player5) // Drow Crossbow of Speed
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWXBOW01",Player5) // Drow Crossbow of Speed
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWXBOW01",Player6) // Drow Crossbow of Speed
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWXBOW01",Player6) // Drow Crossbow of Speed
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSHLD01",Player1) // Drow Shield +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSHLD01",Player1) // Drow Shield +3
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSHLD01",Player2) // Drow Shield +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSHLD01",Player2) // Drow Shield +3
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSHLD01",Player3) // Drow Shield +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSHLD01",Player3) // Drow Shield +3
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSHLD01",Player4) // Drow Shield +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSHLD01",Player4) // Drow Shield +3
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSHLD01",Player5) // Drow Shield +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSHLD01",Player5) // Drow Shield +3
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWSHLD01",Player6) // Drow Shield +3
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWSHLD01",Player6) // Drow Shield +3
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCLCK01",Player1) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCLCK01",Player1) // Drow Piwafwi Cloak
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCLCK01",Player2) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCLCK01",Player2) // Drow Piwafwi Cloak
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCLCK01",Player3) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCLCK01",Player3) // Drow Piwafwi Cloak
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCLCK01",Player4) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCLCK01",Player4) // Drow Piwafwi Cloak
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCLCK01",Player5) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCLCK01",Player5) // Drow Piwafwi Cloak
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWCLCK01",Player6) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWCLCK01",Player6) // Drow Piwafwi Cloak
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT01",Player1) // Drow Bolt of Sleep
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT01",Player1) // Drow Bolt of Sleep
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT01",Player2) // Drow Bolt of Sleep
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT01",Player2) // Drow Bolt of Sleep
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT01",Player3) // Drow Bolt of Sleep
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT01",Player3) // Drow Bolt of Sleep
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT01",Player4) // Drow Bolt of Sleep
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT01",Player4) // Drow Bolt of Sleep
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT01",Player5) // Drow Bolt of Sleep
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT01",Player5) // Drow Bolt of Sleep
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT01",Player6) // Drow Bolt of Sleep
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT01",Player6) // Drow Bolt of Sleep
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT02",Player1) // Drow Bolt of Stunning
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT02",Player1) // Drow Bolt of Stunning
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT02",Player2) // Drow Bolt of Stunning
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT02",Player2) // Drow Bolt of Stunning
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT02",Player3) // Drow Bolt of Stunning
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT02",Player3) // Drow Bolt of Stunning
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT02",Player4) // Drow Bolt of Stunning
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT02",Player4) // Drow Bolt of Stunning
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT02",Player5) // Drow Bolt of Stunning
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT02",Player5) // Drow Bolt of Stunning
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT02",Player6) // Drow Bolt of Stunning
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT02",Player6) // Drow Bolt of Stunning
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT03",Player1) // Drow Bolt +1
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT03",Player1) // Drow Bolt +1
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT03",Player2) // Drow Bolt +1
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT03",Player2) // Drow Bolt +1
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT03",Player3) // Drow Bolt +1
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT03",Player3) // Drow Bolt +1
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT03",Player4) // Drow Bolt +1
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT03",Player4) // Drow Bolt +1
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT03",Player5) // Drow Bolt +1
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT03",Player5) // Drow Bolt +1
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWBOLT03",Player6) // Drow Bolt +1
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWBOLT03",Player6) // Drow Bolt +1
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWPLAT01",Player1) // Drow Full Plate +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWPLAT01",Player1) // Drow Full Plate +5
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWPLAT01",Player2) // Drow Full Plate +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWPLAT01",Player2) // Drow Full Plate +5
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWPLAT01",Player3) // Drow Full Plate +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWPLAT01",Player3) // Drow Full Plate +5
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWPLAT01",Player4) // Drow Full Plate +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWPLAT01",Player4) // Drow Full Plate +5
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWPLAT01",Player5) // Drow Full Plate +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWPLAT01",Player5) // Drow Full Plate +5
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("DWPLAT01",Player6) // Drow Full Plate +5
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","DWPLAT01",Player6) // Drow Full Plate +5
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("MISC9W",Player1) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","MISC9W",Player1) // Drow Piwafwi Cloak
+    DisplayStringHead(Player1,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("MISC9W",Player2) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","MISC9W",Player2) // Drow Piwafwi Cloak
+    DisplayStringHead(Player2,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("MISC9W",Player3) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","MISC9W",Player3) // Drow Piwafwi Cloak
+    DisplayStringHead(Player3,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("MISC9W",Player4) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","MISC9W",Player4) // Drow Piwafwi Cloak
+    DisplayStringHead(Player4,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("MISC9W",Player5) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","MISC9W",Player5) // Drow Piwafwi Cloak
+    DisplayStringHead(Player5,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  HasItem("MISC9W",Player6) // Drow Piwafwi Cloak
+THEN
+  RESPONSE #5
+    TakeItemReplace("DWDUST","MISC9W",Player6) // Drow Piwafwi Cloak
+    DisplayStringHead(Player6,@105001)
+    Continue()
+  RESPONSE #95
+    Continue()
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  Global("DROWITEMCHECKDONE","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CDDrowItemTimer","GLOBAL",7200)
+    IncrementGlobal("DROWITEMCHECKDONE","GLOBAL",1)
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  GlobalGT("DROWITEMCHECKDONE","GLOBAL",2)
+  GlobalLT("DROWITEMCHECKDONE","GLOBAL",5)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CDDrowItemTimer","GLOBAL",3600)
+    IncrementGlobal("DROWITEMCHECKDONE","GLOBAL",1)
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  GlobalGT("DROWITEMCHECKDONE","GLOBAL",4)
+  GlobalLT("DROWITEMCHECKDONE","GLOBAL",8)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CDDrowItemTimer","GLOBAL",2400)
+    IncrementGlobal("DROWITEMCHECKDONE","GLOBAL",1)
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  GlobalGT("DROWITEMCHECKDONE","GLOBAL",7)
+  GlobalLT("DROWITEMCHECKDONE","GLOBAL",12)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CDDrowItemTimer","GLOBAL",1800)
+    IncrementGlobal("DROWITEMCHECKDONE","GLOBAL",1)
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  GlobalGT("DROWITEMCHECKDONE","GLOBAL",11)
+  GlobalLT("DROWITEMCHECKDONE","GLOBAL",18)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CDDrowItemTimer","GLOBAL",1200)
+    IncrementGlobal("DROWITEMCHECKDONE","GLOBAL",1)
+END
+
+IF
+  GlobalTimerExpired("CDDrowItemTimer","GLOBAL")
+  GlobalGT("DROWITEMCHECKDONE","GLOBAL",17)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CDDrowItemTimer","GLOBAL",600)
+END
+
+

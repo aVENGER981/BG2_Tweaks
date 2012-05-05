@@ -1,0 +1,7 @@
+DEFINE_PATCH_MACRO ~arcane_descripts_english~ BEGIN
+
+  REPLACE_TEXTUALLY ~\(Weight:[ %tab%]*[0-9]+\)~
+  ~\1
+Miscast Arcane Magic: +%patch_miscast%%~
+
+END

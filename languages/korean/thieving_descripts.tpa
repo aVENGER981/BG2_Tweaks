@@ -1,0 +1,20 @@
+DEFINE_PATCH_MACRO ~thieving_descripts_korean~ BEGIN
+
+  /*
+  REPLACE_TEXTUALLY ~^[ %tab%]*Lock Picking:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Find/Remove Traps:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Pick Pockets:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~\(Weight:[ %tab%]*[0-9]+\)~
+    ~\1
+Lock Picking: -%penalty_lock%CDPERCENTAGE
+Find/Remove Traps: -%penalty_trap%CDPERCENTAGE
+Pick Pockets: -%penalty_pickpocket%CDPERCENTAGE~
+  PATCH_IF ("%patch_hide%" != 2) BEGIN
+    REPLACE_TEXTUALLY ~\(Weight:[ %tab%]*[0-9]+\)~
+    ~\1
+Hide in Shadows: -%penalty_hide%CDPERCENTAGE
+Move Silently: -%penalty_silent%CDPERCENTAGE~
+  END
+  */
+
+END

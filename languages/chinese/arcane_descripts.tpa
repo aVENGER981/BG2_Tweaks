@@ -1,0 +1,7 @@
+DEFINE_PATCH_MACRO ~arcane_descripts_chinese~ BEGIN
+
+  REPLACE_TEXTUALLY ~\(重量：[ %tab%]*[0-9]+\)~
+  ~\1
+魔法失败率： +%patch_miscast%%~
+
+END

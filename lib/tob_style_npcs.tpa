@@ -1,0 +1,134 @@
+DEFINE_PATCH_MACRO ~tob_style_npcs~ BEGIN
+
+  SET "orig_xp" = 0
+
+  INNER_PATCH_FILE ~%DEST_FILE%~ BEGIN // read info from file about to be overwritten
+    READ_LONG  0x2a0 "orig_known_off"
+    READ_LONG  0x2a4 "orig_known_num"
+    READ_LONG  0x2a8 "orig_meminfo_off"
+    READ_LONG  0x2b0 "orig_memspl_off"
+    READ_LONG  0x2b4 "orig_memspl_num"
+    READ_LONG  0x2b8 "orig_slot_off"
+    READ_LONG  0x2bc "orig_item_off"
+    READ_LONG  0x2c0 "orig_item_num"
+    READ_LONG  0x18  "orig_xp"
+    READ_SHORT 0x28  "orig_anim"
+    READ_ASCII 0x280 "orig_dv" (18)
+    READ_ASCII 0x34  "orig_portraits" (16)
+    READ_ASCII 0x248 "orig_scripts" (40)
+    READ_ASCII 0x2cc "orig_dialogue" (8)
+    READ_ASCII "%orig_slot_off%"    "orig_slot_info"    (78)
+    READ_ASCII "%orig_meminfo_off%" "orig_meminfo_info" (272)
+    READ_ASCII "%orig_item_off%"    "orig_item_info"    (0x14 * "%orig_item_num%")
+    READ_ASCII "%orig_known_off%"   "orig_known_info"   (0x0c * "%orig_known_num%")
+    READ_ASCII "%orig_memspl_off%"  "orig_memspl_info"  (0x0c * "%orig_memspl_num%")
+  END
+
+  PATCH_IF (("%orig_xp%" != 0) AND (SOURCE_SIZE > 0x2d3)) BEGIN // only true if read from destination file is successful and source exists
+    WRITE_LONG             0x18 "%orig_xp%"
+    WRITE_SHORT            0x28 "%orig_anim%"
+    WRITE_EVALUATED_ASCII  0x34 "%orig_portraits%" #16
+    WRITE_EVALUATED_ASCII 0x248 "%orig_scripts%"   #40
+    WRITE_EVALUATED_ASCII 0x2cc "%orig_dialogue%"  #8
+    WRITE_EVALUATED_ASCII 0x280 "%orig_dv%"        #18
+
+    READ_LONG  0x2a0 "known_off"
+    READ_LONG  0x2a4 "known_num"
+    READ_LONG  0x2a8 "meminfo_off"
+    READ_LONG  0x2b0 "memspl_off"
+    READ_LONG  0x2b4 "memspl_num"
+    READ_LONG  0x2b8 "slot_off"
+    READ_LONG  0x2bc "item_off"
+    READ_LONG  0x2c0 "item_num"
+    READ_LONG  0x2c4 "fx_off"
+    WRITE_EVALUATED_ASCII "%slot_off%"    "%orig_slot_info%"
+    WRITE_EVALUATED_ASCII "%meminfo_off%" "%orig_meminfo_info%"
+
+    // transfer memorized spells
+    SET "offset" = (0x0c * ("%orig_memspl_num%" - "%memspl_num%"))
+    PATCH_IF ("%offset%" > 0) BEGIN
+      INSERT_BYTES "%memspl_off%" "%offset%"
+    END ELSE
+    PATCH_IF ("%offset%" < 0) BEGIN
+      DELETE_BYTES "%memspl_off%" (0 - "%offset%")
+    END
+    WRITE_EVALUATED_ASCII "%memspl_off%" "%orig_memspl_info%"
+    WRITE_LONG 0x2b4 "%orig_memspl_num%"
+    PATCH_IF NOT ("%memspl_off%" > "%meminfo_off%") BEGIN
+      SET "meminfo_off" = "%meminfo_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%memspl_off%" > "%known_off%") BEGIN
+      SET "known_off" = "%known_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%memspl_off%" > "%slot_off%") BEGIN
+      SET "slot_off" = "%slot_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%memspl_off%" > "%item_off%") BEGIN
+      SET "item_off" = "%item_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%memspl_off%" > "%fx_off%") BEGIN
+      SET "fx_off" = "%fx_off%" + "%offset%"
+    END
+
+    // transfer items
+    SET "offset" = (0x14 * ("%orig_item_num%" - "%item_num%"))
+    PATCH_IF ("%offset%" > 0) BEGIN
+      INSERT_BYTES "%item_off%" "%offset%"
+    END ELSE
+    PATCH_IF ("%offset%" < 0) BEGIN
+      DELETE_BYTES "%item_off%" (0 - "%offset%")
+    END
+    WRITE_EVALUATED_ASCII "%item_off%" "%orig_item_info%"
+    WRITE_LONG 0x2c0 "%orig_item_num%"
+    PATCH_IF NOT ("%item_off%" > "%known_off%") BEGIN
+      SET "known_off" = "%known_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%item_off%" > "%meminfo_off%") BEGIN
+      SET "meminfo_off" = "%meminfo_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%item_off%" > "%memspl_off%") BEGIN
+      SET "memspl_off" = "%memspl_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%item_off%" > "%slot_off%") BEGIN
+      SET "slot_off" = "%slot_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%item_off%" > "%fx_off%") BEGIN
+      SET "fx_off" = "%fx_off%" + "%offset%"
+    END
+
+    // transfer known spells
+    SET "offset" = (0x0c * ("%orig_known_num%" - "%known_num%"))
+    PATCH_IF ("%offset%" > 0) BEGIN
+      INSERT_BYTES "%known_off%" "%offset%"
+    END ELSE
+    PATCH_IF ("%offset%" < 0) BEGIN
+      DELETE_BYTES "%known_off%" (0 - "%offset%")
+    END
+    WRITE_EVALUATED_ASCII "%known_off%" "%orig_known_info%"
+    WRITE_LONG 0x2a4 "%orig_known_num%"
+    PATCH_IF NOT ("%known_off%" > "%meminfo_off%") BEGIN
+      SET "meminfo_off" = "%meminfo_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%known_off%" > "%memspl_off%") BEGIN
+      SET "memspl_off" = "%memspl_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%known_off%" > "%slot_off%") BEGIN
+      SET "slot_off" = "%slot_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%known_off%" > "%item_off%") BEGIN
+      SET "item_off" = "%item_off%" + "%offset%"
+    END
+    PATCH_IF NOT ("%known_off%" > "%fx_off%") BEGIN
+      SET "fx_off" = "%fx_off%" + "%offset%"
+    END
+
+    // commit offset changes
+    WRITE_LONG  0x2a0 "%known_off%"
+    WRITE_LONG  0x2a8 "%meminfo_off%"
+    WRITE_LONG  0x2b0 "%memspl_off%"
+    WRITE_LONG  0x2b8 "%slot_off%"
+    WRITE_LONG  0x2bc "%item_off%"
+    WRITE_LONG  0x2c4 "%fx_off%"
+  END
+  
+END  

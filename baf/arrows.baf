@@ -1,0 +1,13 @@
+// the faster cutscenes eliminate that running thief that gets killed --
+// he has a long bow that you normally want to give to Minsc, etc. 
+IF
+  Global("EaseArrows","AR0602",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EaseArrows","AR0602",1)
+    ActionOverride("Jailkeep Table",CreateItem("sw1h04",1,1,1))
+    ActionOverride("Jailkeep Table",CreateItem("leat01",1,1,1))
+    ActionOverride("Jailkeep Table",CreateItem("rndtre01",1,1,1))
+    ActionOverride("Jailkeep Table",CreateItem("bow01",1,1,1))
+    ActionOverride("Jailkeep Table",CreateItem("arow01",80,80,80))
+END

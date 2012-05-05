@@ -1,0 +1,522 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Clave utilizzabili da chiunque                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@99001 = ~Le clave sono in genere bastoni di legno stretti all'impugnatura e più larghi all'altra estremità. Queste armi dalla struttura molto semplice sono state tra le prime utilizzate dagli uomini. E' facile trovare un buon pezzo di legno con cui colpire ed è per questo che la clava è così diffusa.
+
+STATISTICHE:
+
+Danno: 1d6
+Tipo di danno: contundente
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Richiede: 
+ Forza 5~
+@99002 = ~Le clave sono in genere bastoni di legno stretti all'impugnatura e più larghi all'altra estremità. Queste armi dalla struttura molto semplice sono state tra le prime utilizzate dagli uomini. Nonostante il peso fisico di questa clava, ogni qualvolta la si usa per colpire si revela precisa e leggera come il cuoio.
+
+STATISTICHE:
+
+THAC0: +1
+Danno: 1d6+1
+Tipo di danno: contundente
+Peso: 2
+Fattore-velocità: 2
+Tipo di competenza: Clava
+Tipo: a una mano~
+@99003 = ~La Radice del Problema
+Clava +1, +3 contro creature innaturali
+Si narra che questa mazza incantata esista fin dai tempi della caduta di Netheril e della formazione del grande deserto Anauroch. Anche se il prezzo pagato dalla civiltà fu grande, le vere vittime di questa catastrofe furono le creature della natura, condannate a subire la decadenza e la distruzione definitiva del loro ambiente di vita. A mano a mano che il deserto avanzava, quelli che rimanevano indietro venivano attaccati da orde di creature selvagge, le più impazienti delle quali avanzavano sulle terre che ancora non erano state corrotte e le sfruttavano a piacimento. Si dice che quest'arma in particolare provenga dall'albero di una driade, ultimo dono alla causa della natura da parte di uno spirito di boschi che non riuscì a trattenere gli invasori entrati nel suo territorio. Fu un'esperienza allo stesso tempo dolce e amara per lei, poiché se il suo albero non fosse stato così forte e rigoglioso non avrebbe sofferto tanto. Alcuni studiosi con poco rispetto diedero quindi questo nome ironico all'oggetto, poco apprezzato negli ambienti più devoti alla natura.
+
+STATISTICHE:
+
+THAC0: +1, +3 contro creature innaturali
+Danno: 1d6+1, +3 contro creature innaturali, +1 danno da acido
+Tipo di danno: contundente e da acido
+Peso: 3
+Fattore-velocità: 3
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+@99004 = ~Clava +3: Sangue Nero
+Questa clava di quercia è puntellata di spunzoni nodosi fatti di una sostanza simile a resina. Durante la battaglia questa sostanza risplende di una luce nerastra e diventa spessa e fluida. Quando il randello colpisce un nemico, infligge danno addizionale da acido spargendo il liquido addosso alla vittima.
+
+STATISTICHE:
+
+THAC0: +3
+Danno: 1d6+3, +3 danni da acido
+Tipo di danno: contundente
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+@99005 = ~Clava d'ossa +2, +3 contro non morti
+Questa minacciosa clava è stata creata centinaia di anni fa, si dice da uno sciamano in cerca di vendetta. La sua famiglia era caduta per mano dei non morti e la sua tale era il suo desiderio di vendetta che arrivò ad amputarsi una gamba e utilizzare il femore per formare il corpo di quest'arma. Essa è alimentata da rune magiche, ma si dice che la pura forza dell'odio sia sufficiente a darle energia.
+
+STATISTICHE:
+
+THAC0: +2, +3 contro non morti
+Danno: 1d6+2, +3 contro non morti
+Tipo di danno: contundente
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+@99006 = ~Clava +2: Frantumatore
+Makal del Pino, un druido insidioso, intagliò questa clava e gli donò l'anima del suo animale da compagnia, un orso ghiottone. Come quella creatura tenace, Frantumatore è un'arma pericolosa nelle mani di un abile combattente. Delle schegge acuminate affondano nella carne della vittima, provocando un dolore estremo che persiste anche dopo che il colpo è stato inferto. Makal si è servito della clava con successo in numerose occasioni, guadagnandosi l'odio degli orchetti taglialegna che minacciavano la sua foresta.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1d6+2, le schegge infliggono 2 danni extra ogni round per 4 round.
+Tipo di danno: contundente
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+@99007 = ~Questo rozzo randello di legno contiene lo spirito irato di un demone, per sempre intrappolato al suo interno dai potenti incantesimi che l'hanno creato. Occasionalmente, però, la furia del demone emerge con una terribile esplosione.
+
+STATISTICHE:
+
+Abilità in combattimento: 
+20% di probabilità che il bersaglio subisca ulteriori 10 danni da fuoco ad ogni colpo andato a segno.
+7% di probabilità che una palla di fuoco esploda automaticamente ad ogni attacco andato a segno.
+
+THAC0: +3
+Danno: 1d6+3, +3 danni da fuoco
+Tipo di danno: contundente
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+@99008 = ~Gli incantesimi presenti nell'anello della resistenza al fuoco hanno reso il demone intrappolato in quest'arma più facile da controllare, anche se la rabbia di questa creatura può comunque scatenarsi senza preavviso.
+
+STATISTICHE:
+
+Abilità in combattimento: 
+30% di probabilità che il bersaglio subisca ulteriori 15 danni da fuoco ad ogni colpo andato a segno.
+5% di probabilità che esploda automaticamente una palla di fuoco ad ogni colpo andato a segno.
+
+THAC0: +5
+Danno: 1d6+5, +5 danni da fuoco
+Tipo di danno: contundente
+Peso: 1
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+@99009 = ~La maggior parte dei randelli sono bastoni robusti di legno duro, stretti all'impugnatura e più larghi all'estremità. Quest'arma semplice è stata usata da quando l'umanità ha iniziato ad utilizzare arnesi. Chiunque può trovare un buon pezzo di legno robusto e brandirlo; da qui il diffuso utilizzo del randello. Questo particolare randello è stato potenziato magicamente.
+
+STATISTICHE:
+
+THAC0: +3 
+Danno: 1d6+3
+Tipo di danno: contundente
+Peso: 1
+Fattore-velocità: 1
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+@99010 = ~A prima vista questo sembrerebbe un normale randello, ma un'accurata ispezione rivela agli osservatori più attenti una serie di rune ben distinte tracciata lungo l'impugnatura. Un ladro ne elogerebbe inoltre l'ottimo bilanciamento. Il randello fu incantato anni orsono su commissione del maestro della gilda dei Ladri Tenebrosi per uno dei suoi più leali - e prolifici - protetti. Oltre ad essere un'arma potente, sembra smorzare ogni suono attorno al ladro che si avvicina furtivamente al bersaglio per colpirlo mortalmente. L'ultima cosa i malcapitati hanno potuto udire prima di perdere conoscenza è il leggero spostamento d'aria provocato dal randello alzato sopra le loro teste, procurando all'arma il nomignolo di "Spegni luci". Sfortunatamente, come spesso accade in questi ambienti, il protetto si rivelò ben meno leale di quanto il maestro della gilda avesse osato sperare e in una notte altrimenti tranquilla, quest'arma ha percosso a morte la sua testa mentre riposava nel suo giaciglio. Sua moglie, che stava dormendogli accanto, non udì nulla. Come l'arma sia poi finita nelle tue mani è una storia che più probabilmente preferiresti ignorare.
+
+STATISTICHE:
+
+Abilità durante l'uso: 
++10% Muoversi Silenziosamente
+
+THAC0: +2
+Danno: 1d6+2
+Tipo di danno: contundente
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+@99011 = ~Clava +5: Sposa della Resina
+Forgiata per <CHARNAME> dall'amalgama dell'acidico randello di quercia Sangue Nero e della clava scheggiata Frantumatore, Sposa della Resina pulsa di potere distruttivo. Ricoperta di una sostanza nera simile a resina che brucia la carne del bersaglio colpito, Sposa della Resina ne riempie le ferite di schegge e spine, aggravandone il dolore. 
+
+Abilità durante l'uso: 
+25% resistenza all'acido 
+
+THAC0: +5
+Danno: 1d6+5, +5 danni da acido, le schegge infliggono 3 danni extra ogni round per 4 round
+Tipo di danno: contundente
+Peso: 3
+Fattore-velocità: 1 
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+@99012 = ~Clava +4: Il Fulcro
+Forgiata per <CHARNAME> dall'amalgama della clava d'ossa e della clava scheggiata Frantumatore, il potere de Il Fulcro sta nel mantenimento dell'equilibrio. Gli spiriti dei defunti guerrieri guidano con precisione la mano di colui che la impugna e ad ogni colpo a segno, schegge d'osso riempiono le ferite del bersaglio. Inoltre, la clava infligge ulteriore ai bersagli non neutrali. 
+
+Abilità durante l'uso: 
+Maestria Superiore nell'uso della clava.
+
+THAC0: +4
+Danno: 1d6+4, +4 se il bersaglio è buono, malvagio, legale o caotico (cumulativo)
+Danno extra: le schegge d'osso infliggono 2 danni extra ogni round per 4 round
+Tipo di danno: contudente
+Peso: 3
+Fattore-velocità: 1 
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Oggetti protettivi secondo le regole di AD&D     \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@99030 = ~Amuleto di protezione +1: "Il Protettore"
+La guardia reale di Re Pyronan, sovrano di Impiltur, ricevette "il Protettore" come onorificenza. Sfortunatamente, i membri della guardia non giunsero mai a un accordo circa chi dovesse tenerlo. Dopo anni di contrasti interni, l'oggetto andò perduto e le guardie furono sostituite con da elementi meno avidi.
+
+STATISTICHE:
+
+Bonus ai tiri-salvezza: 1~
+@99031 = ~Questo semplice mantello è stato dotato di alcune piccole proprietà magiche che aiutano a proteggere chi lo indossa. E' ideale per i maghi e chiunque non possa indossare grosse armature o altre protezioni che ne ostacolino i movimenti.
+
+STATISTICHE:
+
+Bonus ai tiri-salvezza: 1
+Peso: 3~
+@99032 = ~Mantello di protezione +2: "Lo Scudo dello Spirito"
+Si dice che questo mantello concentri le energie dello spirito di qualcuno in una forza che lo protegge. Le voci su un vampiro imprigionato nel mantello sono ancora circolanti, ma è impossibile dimostrarle senza distruggere il mantello.
+
+STATISTICHE:
+
+Bonus ai tiri-salvezza: 2
+Peso: 3~
+@99033 = ~Le abilità conferite da questo mantello magico provano che la protezione può assumere diverse forme, incluso nascondersi alla vista dei nemici e fuggire.
+
+STATISTICHE:
+
+Speciale:
+Velocità Potenziata una volta al giorno.
+Invisibilità Potenziata una volta al giorno.
+
+Bonus ai tiri-salvezza: 2
+Peso: 3~
+@99034 = ~Anello di protezione +1: "Anello dei Principi"
+Questo ad altri simili anelli furono originariamente forgiati per proteggere i figli di Re Castter De'wess, sebbene non si sappia chi lanciò l'incantesimo. Secondo la storia, gli anelli rimasero nelle mani della famiglia per almeno tredici generazioni e furono persi nel giro di una sola. Il rancore tra il Re e la famiglia di chi li avevi creati è una possibile spiegazione.
+
+STATISTICHE:
+
+Bonus ai tiri-salvezza: 1~
+@99035 = ~Anello di protezione +2: "L'Anello della Guardia"
+La Guardia era una sentinella immortale assegnata alla protezione di una tomba che conservava il corpo di una principessa di Akanal. Nel corso dei secoli il rispetto per la tomba andò scemando così come i ricordi della famiglia reale e gli avventurieri cominciarono a tentare di vincere la Guardia. Era inevitabile che prima o poi avrebbero avuto la meglio e quando ciò accadde, l'anello che indossava fu uno dei tanti tesori rubati dalla tomba.
+
+STATISTICHE:
+
+Bonus ai tiri-salvezza: 2~
+@99036 = ~Anello di protezione +1: "Anello dei Principi"
+Questo ad altri simili anelli furono originariamente forgiati per proteggere i figli di Re Castter De'wess, sebbene non si sappia chi lanciò l'incantesimo. Secondo la storia, gli anelli rimasero nelle mani della famiglia per almeno tredici generazioni e furono persi nel giro di una sola. Il rancore tra il Re e la famiglia di chi li avevi creati è una possibile spiegazione.
+
+STATISTICHE:
+
+Bonus ai tiri-salvezza: 1~
+@99037 = ~Il Sigillo del Guardiano
+Le leggende affermano che questo anello sia stata la ricompensa di Ao a Helm per il suo impeccabile servizio durante il Periodo dei Disordini. A sua volta Helm passò il regalo ai suoi seguaci mortali.
+
+STATISTICHE:
+
+Bonus ai tiri-salvezza: 3~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Armi +x/+y                                       \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@99051 = ~La Radice del Problema
+Clava +1, +3 contro creature innaturali
+Si narra che questa mazza incantata esista fin dai tempi della caduta di Netheril e della formazione del grande deserto Anauroch. Anche se il prezzo pagato dalla civiltà fu grande, le vere vittime di questa catastrofe furono le creature della natura, condannate a subire la decadenza e la distruzione definitiva del loro ambiente di vita. A mano a mano che il deserto avanzava, quelli che rimanevano indietro venivano attaccati da orde di creature selvagge, le più impazienti delle quali avanzavano sulle terre che ancora non erano state corrotte e le sfruttavano a piacimento. Si dice che quest'arma in particolare provenga dall'albero di una driade, ultimo dono alla causa della natura da parte di uno spirito di boschi che non riuscì a trattenere gli invasori entrati nel suo territorio. Fu un'esperienza allo stesso tempo dolce e amara per lei, poiché se il suo albero non fosse stato così forte e rigoglioso non avrebbe sofferto tanto. Alcuni studiosi con poco rispetto diedero quindi questo nome ironico all'oggetto, poco apprezzato negli ambienti più devoti alla natura.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +3 per determinare le creature può colpire.
+THAC0: +1, +3 contro creature innaturali
+Danno: 1d6+1, +3 contro creature innaturali, +1 danno da acido
+Tipo di danno: contundente e da acido
+Peso: 3
+Fattore-velocità: 3
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5
+Non utilizzabile da:
+ Mago~
+@99052 = ~Clava d'ossa +2, +3 contro non morti
+Questa minacciosa clava è stata creata centinaia di anni fa, si dice da uno sciamano in cerca di vendetta. La sua famiglia era caduta per mano dei non morti e la sua tale era il suo desiderio di vendetta che arrivò ad amputarsi una gamba e utilizzare il femore per formare il corpo di quest'arma. Essa è alimentata da rune magiche, ma si dice che la pura forza dell'odio sia sufficiente a darle energia.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +3 per determinare le creature può colpire.
+THAC0: +2, +3 contro non morti
+Danno: 1d6+2, +3 contro non morti
+Tipo di danno: contundente
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 5
+Non utilizzabile da:
+ Mago~
+@99053 = ~Martello da guerra +1, +4 contro umanoidi giganti
+Lo spezza ginocchia, o "lo spaccatutto", come affettuosamente noto negli ambienti nanici, sembra essere stato forgiato da Clangeddin in persona. Egli lo diede ad un piccolo clan di nani senza dimora, così che potessero ritagliarsi uno spazio tutto loro tra i giganti e gli ogre che infestavano la zona. Il martello è passato di mano più volte, da un eroe all'altro, finendo a volte in possesso di altre razze.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +4 per determinare le creature che può colpire.
+THAC0: +1, +4 contro giganti
+Danno: 1d4+2, +5 contro giganti
+Tipo di danno: contudente
+Peso: 8
+Fattore-velocità: 2
+Tipo di competenza: Martello da guerra
+Tipo: a una mano
+Non utilizzabile da: 
+ Addestratore di animali
+ Druido
+ Ladro
+ Mago
+ Monaco~
+@99054 = ~Spada bastarda +1, +3 contro mutaforma: "Kondar"
+A prima vista questa spada non sembra diversa da qualunque altra. In presenza di creature mutaforma, tuttavia, la lama si riscalda al risveglio del suo potere. La persona da cui prese il nome ne fu il primo proprietario e la sua storia, anche se quasi del tutto dimenticata, era costellata di menzogna e tradimenti. Si dice che la spada gli costò moltissimo, ma grazie ai suoi poteri smascherò l'identità di coloro che volevano tradirlo. I loro nomi e i loro crimini si sono tuttavia perduti nella storia.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +3 per determinare le creature che può colpire.
+THAC0: +1
+Danno: 2d4+1, +3 contro mutaforma
+Tipo di danno: da taglio
+Peso: 8
+Fattore-velocità: 7
+Tipo di competenza: Spada bastarda
+Non utilizzabile da:
+ Addestratore di animali
+ Chierico
+ Druido
+ Ladro
+ Mago~
+@99055 = ~Lama solare: "Stella del Giorno"
+Che sia stata creata appositamente per servire Torm o altrimenti acquisita nel corso della lunga storia della chiesa, i paladini della Furia Fedele hanno sempre fatto buon uso della Stella del Giorno nelle loro battaglie contro gli empi non morti. Attraverso la magia o la benedizione, è dotata dei poteri del Raggio di Sole, una forza di energia pura così potente che uccide sia viventi che i non viventi.
+
+STATISTICHE:
+
+Speciale:
+Raggio di Sole una volta al giorno.
+ Danno: 3d6 (tiro-salvezza contro incantesimi o accecati per 10 round)
+ Non morti: 1d6 danni extra per livello dell'incantatore (tiro-salvezza contro incantesimi o distrutti)
+ Raggio d'azione: 6 m
+ Area d'effetto: 6 m
+
+Viene sempre considerata un'arma +4 per determinare le creature che può colpire.
+THAC0: +2, +4 contro creature malvagie
+Danno: 1d8+2, +4 contro creature malvagie, danno doppio contro non morti
+Tipo di danno: da taglio
+Peso: 2
+Fattore-velocità: 3
+Tipo di competenza: Spada lunga
+Tipo: a una mano
+Richiede: 
+ Forza 6
+Non utilizzabile da:
+ Addestratore di animali
+ Chierico
+ Druido
+ Mago~
+@99056 = ~Spada lunga: l'Equalizzatore
+Questa spada è talmente antica che le sue vere origini si perdono nei secoli, ma alcuni simboli suggeriscono la possibilità che sia stata creata per servire Helm. Anche nota come "Spada della Neutralità", sembra forgiata per cercare e uccidere gli estremi, riportando l'universo più vicino all'equilibrio. Più il comportamento del bersaglio si allontanerà dall'equilibrio, più potente diventerà la spada. 
+
+STATISTICHE:
+
+Abilità durante l'uso: 
+Immunità allo Charme e alla Confusione.
+
+Viene sempre considerata un'arma +3 per determinare le creature che può colpire.
+THAC0 & Danno:
+  contro neutrali: +0 al colpire, +0 al danno
+  contro caotici neutrali, legali neutrali: +1 al colpire, +2 al danno
+  contro neutrali buoni, neutrali malvagi: +2 al colpire, +4 al danno
+  contro gli altri allineamenti: +3 al colpire, +6 al danno
+Tipo di danno: da taglio
+Peso: 3
+Fattore-velocità: 3
+Tipo di competenza: Spada lunga
+Tipo: a una mano
+Non utilizzabile da:
+ Addestratore di animali
+ Chierico
+ Druido
+ Mago~
+@99057 = ~La Radice del Problema
+Clava +1, +3 contro creature innaturali
+Si narra che questa mazza incantata esista fin dai tempi della caduta di Netheril e della formazione del grande deserto Anauroch. Anche se il prezzo pagato dalla civiltà fu grande, le vere vittime di questa catastrofe furono le creature della natura, condannate a subire la decadenza e la distruzione definitiva del loro ambiente di vita. A mano a mano che il deserto avanzava, quelli che rimanevano indietro venivano attaccati da orde di creature selvagge, le più impazienti delle quali avanzavano sulle terre che ancora non erano state corrotte e le sfruttavano a piacimento. Si dice che quest'arma in particolare provenga dall'albero di una driade, ultimo dono alla causa della natura da parte di uno spirito di boschi che non riuscì a trattenere gli invasori entrati nel suo territorio. Fu un'esperienza allo stesso tempo dolce e amara per lei, poiché se il suo albero non fosse stato così forte e rigoglioso non avrebbe sofferto tanto. Alcuni studiosi con poco rispetto diedero quindi questo nome ironico all'oggetto, poco apprezzato negli ambienti più devoti alla natura.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +3 per determinare le creature può colpire.
+THAC0: +1, +3 contro creature innaturali
+Danno: 1d6+1, +3 contro creature innaturali, +1 danno da acido
+Tipo di danno: contundente e da acido
+Peso: 3
+Fattore-velocità: 3
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 8 
+ Destrezza 6~
+@99058  = ~Clava d'ossa +2, +3 contro non morti
+Questa minacciosa clava è stata creata centinaia di anni fa, si dice da uno sciamano in cerca di vendetta. La sua famiglia era caduta per mano dei non morti e la sua tale era il suo desiderio di vendetta che arrivò ad amputarsi una gamba e utilizzare il femore per formare il corpo di quest'arma. Essa è alimentata da rune magiche, ma si dice che la pura forza dell'odio sia sufficiente a darle energia.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +3 per determinare le creature può colpire.
+THAC0: +2, +3 contro non morti
+Danno: 1d6+2, +3 contro non morti
+Tipo di danno: contundente
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+ Forza 8
+ Destrezza 6~
+@99059  = ~Martello da guerra +1, +4 contro umanoidi giganti
+Lo spezza ginocchia, o "lo spaccatutto", come affettuosamente noto negli ambienti nanici, sembra essere stato forgiato da Clangeddin in persona. Egli lo diede ad un piccolo clan di nani senza dimora, così che potessero ritagliarsi uno spazio tutto loro tra i giganti e gli ogre che infestavano la zona. Il martello è passato di mano più volte, da un eroe all'altro, finendo a volte in possesso di altre razze.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +4 per determinare le creature che può colpire.
+THAC0: +1, +4 contro giganti
+Danno: 1d4+2, +5 contro giganti
+Tipo di danno: contundente
+Peso: 8
+Fattore-velocità: 2
+Tipo di competenza: Martello da guerra
+Tipo: a una mano
+Richiede:
+ Forza 12
+ Destrezza 6
+Non utilizzabile da: 
+ Addestratore di animali~
+@99060  = ~Spada bastarda +1, +3 contro mutaforma: "Kondar"
+A prima vista questa spada non sembra diversa da qualunque altra. In presenza di creature mutaforma, tuttavia, la lama si riscalda al risveglio del suo potere. La persona da cui prese il nome ne fu il primo proprietario e la sua storia, anche se quasi del tutto dimenticata, era costellata di menzogna e tradimenti. Si dice che la spada gli costò moltissimo, ma grazie ai suoi poteri smascherò l'identità di coloro che volevano tradirlo. I loro nomi e i loro crimini si sono tuttavia perduti nella storia.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +3 per determinare le creature che può colpire.
+THAC0: +1
+Danno: 2d4+1, +3 contro mutaforma
+Tipo di danno: da taglio
+Peso: 8
+Fattore-velocità: 7
+Tipo di competenza: Spada bastarda
+Richiede:
+ Forza 13
+ Destrezza 8
+Non utilizzabile da:
+ Addestratore di animali~
+@99061 = ~Lama solare: "Stella del Giorno"
+Che sia stata creata appositamente per servire Torm o altrimenti acquisita nel corso della lunga storia della chiesa, i paladini della Furia Fedele hanno sempre fatto buon uso della Stella del Giorno nelle loro battaglie contro gli empi non morti. Attraverso la magia o la benedizione, è dotata dei poteri del Raggio di Sole, una forza di energia pura così potente che uccide sia viventi che i non viventi.
+
+STATISTICHE:
+
+Speciale:
+Raggio di Sole una volta al giorno.
+ Danno: 3d6 (tiro-salvezza contro incantesimi o accecati per 10 round)
+ Non morti: 1d6 danni extra per livello dell'incantatore (tiro-salvezza contro incantesimi o distrutti)
+ Raggio d'azione: 6 m
+ Area d'effetto: 6 m
+
+Viene sempre considerata un'arma +4 per determinare le creature che può colpire.
+THAC0: +2, +4 contro creature malvagie
+Danno: 1d8+2, +4 contro creature malvagie, danno doppio contro non morti
+Tipo di danno: da taglio
+Peso: 2
+Fattore-velocità: 3
+Tipo di competenza: Spada lunga
+Tipo: a una mano
+Richiede: 
+ Forza 11
+ Destrezza 8
+Non utilizzabile da:
+ Addestratore di animali~
+@99062  = ~Spada lunga: l'Equalizzatore
+Questa spada è talmente antica che le sue vere origini si perdono nei secoli, ma alcuni simboli suggeriscono la possibilità che sia stata creata per servire Helm. Anche nota come "Spada della Neutralità", sembra forgiata per cercare e uccidere gli estremi, riportando l'universo più vicino all'equilibrio. Più il comportamento del bersaglio si allontanerà dall'equilibrio, più potente diventerà la spada. 
+
+STATISTICHE:
+
+Abilità durante l'uso: 
+Immunità allo Charme e alla Confusione.
+
+Viene sempre considerata un'arma +3 per determinare le creature che può colpire.
+THAC0 & Danno:
+  contro neutrali: +0 al colpire, +0 al danno
+  contro caotici neutrali, legali neutrali: +1 al colpire, +2 al danno
+  contro neutrali buoni, neutrali malvagi: +2 al colpire, +4 al danno
+  contro gli altri allineamenti: +3 al colpire, +6 al danno
+Tipo di danno: da taglio
+Peso: 3
+Fattore-velocità: 3
+Tipo di competenza: Spada lunga
+Tipo: a una mano
+Richiede:
+ Forza 11
+ Destrezza 8
+Non utilizzabile da:
+ Addestratore di animali~
+@99063 = ~La Radice del Problema
+Clava +1, +3 contro creature innaturali
+Si narra che questa mazza incantata esista fin dai tempi della caduta di Netheril e della formazione del grande deserto Anauroch. Anche se il prezzo pagato dalla civiltà fu grande, le vere vittime di questa catastrofe furono le creature della natura, condannate a subire la decadenza e la distruzione definitiva del loro ambiente di vita. A mano a mano che il deserto avanzava, quelli che rimanevano indietro venivano attaccati da orde di creature selvagge, le più impazienti delle quali avanzavano sulle terre che ancora non erano state corrotte e le sfruttavano a piacimento. Si dice che quest'arma in particolare provenga dall'albero di una driade, ultimo dono alla causa della natura da parte di uno spirito di boschi che non riuscì a trattenere gli invasori entrati nel suo territorio. Fu un'esperienza allo stesso tempo dolce e amara per lei, poiché se il suo albero non fosse stato così forte e rigoglioso non avrebbe sofferto tanto. Alcuni studiosi con poco rispetto diedero quindi questo nome ironico all'oggetto, poco apprezzato negli ambienti più devoti alla natura.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +3 per determinare le creature che può colpire.
+THAC0: +1, +3 contro creature innaturali
+Danno: 1d6+1, +3 contro creature innaturali, +1 danno da acido
+Tipo di danno: da impatto ed acido
+Peso: 3
+Fattore-velocità: 3
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: Forza 5~
+@99064 = ~Clava d'ossa +2, +3 contro non morti
+Questa minacciosa clava è stata creata centinaia di anni fa, si dice da uno sciamano in cerca di vendetta. La sua famiglia era caduta per mano dei non morti e la sua tale era il suo desiderio di vendetta che arrivò ad amputarsi una gamba e utilizzare il femore per formare il corpo di quest'arma. Essa è alimentata da rune magiche, ma si dice che la pura forza dell'odio sia sufficiente a darle energia.
+
+STATISTICHE:
+
+Viene sempre considerata un'arma +3 per determinare le creature può colpire.
+THAC0: +2, +3 contro non morti
+Danno: 1d6+2, +3 contro non morti
+Tipo di danno: da impatto
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Clava
+Tipo: a una mano
+Richiede: 
+Forza 5~

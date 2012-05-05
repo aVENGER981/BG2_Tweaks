@@ -1,0 +1,10 @@
+IF
+	!Global("LovedOne","GLOBAL",0)
+	!Global("LovedOne","GLOBAL",2)
+	InParty(Myself)
+	Global("JaheiraRomanceActive","GLOBAL",2)
+	Global("ExpLoveTalk","LOCALS",3)
+THEN
+	RESPONSE #100
+		SetGlobal("ExpLoveTalk","LOCALS",4)
+END

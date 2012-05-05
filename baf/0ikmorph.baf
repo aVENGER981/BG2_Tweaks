@@ -1,0 +1,25 @@
+IF
+  HotKey(S)
+  CombatCounter(0)
+  !Class(Myself,Monk)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("IKMorph",Myself)
+END
+
+IF
+  HotKey(S)
+  !CombatCounter(0)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@0)
+END
+
+IF
+  HotKey(S)
+  CombatCounter(0)
+  Class(Myself,Monk)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@1)
+END

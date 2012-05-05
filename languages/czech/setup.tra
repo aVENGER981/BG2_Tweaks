@@ -1,0 +1,862 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Setup Messages                                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+     @0 = ~Upravy NPC~
+     @1 = ~Tento krok muze chvilku trvat...~
+     @2 = ~Tato cast vyzaduje komponentu 'Pridat do BG1 Bezedny vak'~
+     @3 = ~Tato cast vyzaduje komponentu
+'Umozneni sesilani magovych kouzel ve zbrojich'~
+     @4 = ~Vyhodne upravy/cheaty~
+     @5 = ~Pro tuto komponentu  je vyzadovana 'Sada exotickych predmetu'~
+     @6 = ~Vyzaduje komponentu 'Umozneni pouziti zlodejskych schopnosti
+a ukryvani v tezkych zbrojich'~
+     @7 = ~Tato cast není dostupna ve tvem jazyce~
+     @8 = ~Tato cast je pouze pro BGT(Baldur's Gate Trilogy)~
+     @9 = ~Zmeny pravidel~
+    @10 = ~Tato cast neni dostupna pro BG1Tutu~
+    @11 = ~Kosmeticke upravy~
+    @12 = ~Tato cast modu vyzaduje datadisk Throne of Bhaal~
+    @13 = ~Vyhovujici upravy~
+    @14 = ~Tato cas je pouze pro BG1Tutu nebo BGT(Baldur's Gate Trilogy)~
+    @15 = ~Tato cast je pouze pro BG1Tutu~
+    @16 = ~Funkce teto casti modu uz bud tva hra obsahuje nebo
+je prekonana jinym, jiz nainstalovanym modem~
+    @17 = ~Vyzaduje cast modu Ucineni +x/+y zbrani konzistentnimi.~
+    @18 = ~Tato cast modu uz je zavrzena.~
+    @19 = ~Camuv domovni rad~
+    @20 = ~Zobrazit dokumentaci?
+  a) Ano
+  b) Ne~
+
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Cosmetic Changes Components                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+  @1000 = ~Odstranit animace prileb~
+
+  @2000 = ~Zmena Imoenina avatara na maga~
+
+  @3000 = ~Zmena Naliana avatara na zlodeje~
+
+  @4000 = ~Zmena barvy Viconiini pokozky na tmave modrou~
+
+  @5000 = ~Script zmeny avatara~
+  @5001 = ~Script zmìny avatara:~
+  @5002 = ~Tento skript dává uivateli kontrolu nad avatarem (animací postavy) charakteru. Stisknìte klávesu 'S' pro aktivování obrazovky vıbìru avatarù. (<script>)~
+
+  @6000 = ~Uprava animace zbrani~
+
+  @7000 = ~Graficke efekty kouzleni z Icewind Dale (Andyr)~
+
+  @8000 = ~Obnoveni nahravacich obrazovek ze SoA (pouze pro ToB)~
+
+  @9000 = ~Zruseni ikon na portretu od nosenych predmetu~
+
+ @10000 = ~Obyvatele uzivaji jednotvarne barvy~
+
+ @11000 = ~Vylepseni ikon~
+
+ @12000 = ~Zmena avatary pri noseni rob nebo brneni(Galactygon)~
+
+ @13000 = ~Pri kazdem dialogu zapauzovat hru~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Content Changes Components                       \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@101000 = ~Vice poznamek~
+
+@102000 = ~Upraveni podminek pro dialogy zranenych NPC~
+
+@103000 = ~Odkryti prirodnych oblasti pred sestou kapitolou~
+
+@103500 = ~Ucin oblasti Zahaleneho lese dostupne pred dokoncenim Tabora banditu~
+@103501 = ~Pouze prvni oblast~
+
+@103600 = ~Vsechny oblasti Zahaleneho lesa, krome Dolu~
+
+@104000 = ~Vylepsena Mestska straz Athkatly~
+@104001 = ~Amnskı voják~
+@104002 = ~Schválenı mág~
+@104003 = ~Klerik mìstské stráe~
+
+@105000 = ~Postupne rozlozeni drowich predmetu~
+@105001 = ~Tvùj drowí pøedmìt se rozloil~
+
+@106000 = ~Rozbitne zelezne nemagicke stity, helmy a zbroje~
+@106001 = ~Tvá zbroj se rozbila~
+@106002 = ~Tvùj štít se rozbil~
+@106003 = ~Tvá pøilba se rozbila~
+
+@107000 = ~Vylepsene dialogy pro vykopnuti v multiplayeru~
+@107001 = ~Jdi na mì èekat do Pøátelské náruèe. Jestli se situace zmìní, pøijdu tam za tebou.~
+@107002 = ~Pøidej se zpìt k druinì, prosím.~
+@107003 = ~Pošlu tì zpìt do Ukryte sféry... èekej tam na mì.~
+
+@108000 = ~Pridat do BG1 Bezedny vak~
+@108001 = ~Pas na munici~
+@108002 = ~Tento pás je ideální pro nošení kamenù do praku, šipek nebo šípù.
+
+VLASTNOSTI:
+
+Kapacita: celkovì 2000 støel do praku, vrhacích šipek, šípù nebo šipek
+Váha: 2~
+@108003  = ~Skøíòka na lektvary~
+@108004  = ~Obvykle ji nosí potulní léèitelé. Tuto koenou skøíòku je moné otevøít a uloit a pro bezpeènou pøepravu upevnit v jejích vypolstrovanıch úchytech mnoství køehkıch lahvièek s lektvary.
+
+VLASTNOSTI:
+
+Kapacita: 100 flakónkù
+Váha: 2~
+
+@109000  = ~Sada exotickych predmetu~
+@109001  = ~Toulec hojnosti~
+@109002  = ~Historie tohoto magického toulce byla dlouho zapomenuta, aèkoli má pravdìpodobnì nìco spoleèného s nevysvìtlenım, ale anály potrvzenım nedostatkem schopnıch vırobcù šípù bìhem Doby nesnází.
+
+VLASTNOSTI:
+
+Nevyèerpatelné mnoství šípù~
+@109003  = ~Schránka hojnosti~
+@109004  = ~Historie této magické schránky byla dlouho zapomenuta, aèkoli má pravdìpodobnì nìco spoleèného s nevysvìtlenım, ale anály potrvzenım nedostatkem schopnıch vırobcù šípù bìhem Doby nesnází.
+
+VLASTNOSTI:
+
+Nevyèerpatelné mnoství šipek~
+@109005  = ~Vak hojnosti~
+@109006  = ~Aèkoli tento váèek z jemného plátna prváì zeje prázdnotou, obklopuje ho stále silná aura magie.
+
+VLASTNOSTI:
+
+Nevyèerpatelné mnoství nábojù do praku~
+@109007  = ~Tmavì fialovı Iounskı kámen~
+@109008  = ~Tmavì fialovı Iounskı kámen
+
+Tento kámen tmavì fialového odstínu umoòuje svému nositeli jasnì vidìt i v temnotì
+
+VLASTNOSTI:
+
+Zvláštní schopnost: infravidìní do 20 metrù
+Váha: 2~
+@109009  = ~Mihotavì bílı Iounskı kámen~
+@109010  = ~Mihotavì bílı Iounskı kámen
+
+Tento kámen je chladnı na dotek a oèividnì vyzaøuje nìjakou energii.
+
+VLASTNOSTI:
+
+Odolnost na chlad: +10%
+Váha: 2~
+@109011  = ~Katana~
+@109012  = ~Katana
+
+Katana je lehce zahnutı meè s jedním ostøím, se sraenım zakonèením. Katana je pravdìpodobnì jeden z nejlepších meèù, jaké kdy byly vyrobeny. Proces jeho zhotovení je dlouhı a tajemnı, je víc umìní ne cokoliv jiného. Tato èepel je dùleitou souèástí kultury Kara-Tur. Dotknout se nebo nést samurajovu katanu znamená urazit samuraje a vyprovokovat jeho hnìv. Vlastnictví takové èepele gaijinem, cizincem, je velmi neobvyklé. Buï je ten gaijin velmi ctìnı pøítel nìjakého dùleitého pøedstavitele, nebo gaijin zavradil samuraje.
+
+VLASTNOSTI:
+
+Zranìní:  1K10
+Druh zranìní:  seèné
+Váha:  6
+Rychlost: 4
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyaduje: Síla 6
+Nemùe uívat:
+ Druid
+ Klerik
+ Mág
+ Pán šelem~
+@109013  = ~Katana +2, Tsu-O-Shi~
+@109014  = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi, nìkdy také známá jako Vytouená èepel, byla vyrobena pøed pìti staletími v zemi Wa. Jejím tvùrcem byl známı meèíø Murakaken Shinji, jeho dovednosti byly tak skvìlé, e o nich kolovaly dokonce povìry o vzívání samotnıch duchù kovu. Tsu-O-Shi prošla rukama mnoha dìdicùm jinak nièím vyjímeèné rodiny Kasunù. A ji jednoho dne spatøil mocnı daimyo a známı milovník meèù, Fushima Takagi. Takagi se stal meèem úplnì posedlı a podnikl mnoho pokusù o jeho získání. Nakonec najal nindu, aby èepel ukradl a nechal na její ztrátu zapomenout zapálením rodinné usedlosti Kasunù. Kdy ninda meè pøinesl svému zamìstnavateli, byla mu jím sata hlava, èím tak byla navdy odstarìna jakákoliv souvislost mezi Tagakim a legitimními vlastníky meèe. Tagaki meè skrıval. Èasto chodíval na místo, kde byl tento jeho poklad ukryt, a kochal se jeho krásou a dokonalostí. Takagi jednoho dne zemøel. Jeho duše však odmítla opustit zemi, a nechat tak meè o samotì. Proto zùstala s Tsu-O-Shi a stala se její souèástí. Od té doby se musí kdokoliv, kdo chce bıt majitelem mocné Tsu-O-Shi, mít na pozoru pøed duchem Fushima Takagiho, kterı se iví esencí tìch, kdo se dotknou zbranì, aby mohl nadále zùstat na Torilu s pøedmìtem své touhy. Vısledkem toho je šance, e tato prokletá èepel oslabí svého nositele, kdykoli je pouita.
+
+VLASTNOSTI:
+
+THAC0: +2 bonus
+Zranìní:  1K10 + 2
+Druh zranìní:  seèné
+Váha:  4
+Rychlost: 2
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyaduje: Síla 6
+
+Šance na trvalé vysátí ivotù èi vlastností nositele kdykoli je pouita
+
+Nemùe uívat:
+Druid
+Klerik
+Mág
+Pán šelem~
+@109015  = ~Úprava moudrosti~
+@109016  = ~Úprava odolnosti~
+@109017  = ~Úprava obratnosti~
+@109018  = ~Úprava charisma~
+@109019  = ~Úprava ivotù~
+@109020  = ~Úprava inteligence~
+@109021  = ~Úprava síly~
+@109022  = ~Gullykinskı chrám~
+
+@110000  = ~Odhalit cele mapy mest pri vstupu~
+
+@111000  = ~Pridat popisky do map~
+@111001  = ~Hostinec~
+@111002  = ~Ubytovna knìzích~
+@111003  = ~Oghmùv chrám~
+@111004  = ~Skladištì~
+@111005  = ~Pøední brána~
+@111006  = ~Knihovna~
+@111007  = ~Noclehárna~
+@111008  = ~Kasárny~
+@111009  = ~Ošetøovna~
+@111010  = ~Sídlo Entara Støíbroštíta~
+@111011  = ~U Helmy a pláštì~
+@111012  = ~Taverna~
+@111013  = ~Helmùv chrám~
+@111014  = ~Brána èerného draka~
+@111015  = ~Ramazithova vì~
+@111016  = ~Duchalùv palác~
+@111017  = ~U Tøí starıch sudù~
+@111018  = ~U Stydlivé moøské panny~
+@111019  = ~U Rozmaøilého jesetera~
+@111020  = ~Ilmaterova kaple~
+@111021  = ~Úètárna~
+@111022  = ~Sklepení~
+@111023  = ~Karavana~
+@111024  = ~Hostinec Pøátelská náruè~
+@111025  = ~Chrám moudrosti~
+@111026  = ~U Veselého kejklíøe~
+@111027  = ~Feldepostùv hostinec~
+@111028  = ~Kovárna hromového kladiva~
+@111029  = ~U Rudé otepy~
+@111030  = ~U Ohnivého èarodìje~
+@111031  = ~Zámeèek~
+@111032  = ~High Hedge~
+@111033  = ~Dùm~
+@111034  = ~Jeskynì~
+@111035  = ~Zaplavenı dùm~
+@111036  = ~Nashkelskı hostinec~
+@111037  = ~Obchod~
+@111038  = ~Krèma U Chrlícího dráèka~
+@111039  = ~Vila~
+@111040  = ~Pevnost~
+@111041  = ~Gnollí pevnost~
+@111042  = ~Vstup do dolù~
+@111043  = ~Chata~
+@111044  = ~Socha~
+@111045  = ~Opuštìnı dùm~
+@111046  = ~Pøedsíò~
+@111047  = ~Chrám ranní písnì~
+@111048  = ~Ruiny Ulcasteru~
+@111049  = ~Vıchod~
+@111050  = ~Do nišího patra~
+@111051  = ~Do vyššího patra~
+@111052  = ~Vıchod na povrch~
+@111053  = ~Gullykin~
+@111054  = ~Vstup do ruin Firewine~
+@111055  = ~Ztroskotaná loï~
+@111056  = ~Opuštìnı maják~
+@111057  = ~Šachta~
+@111058  = ~Farma~
+@111059  = ~Wyrmùm pøechod~
+@111060  = ~Velkı stan~
+@111061  = ~Pavouèí hnízdo~
+@111062  = ~Dùm ve vìtvích~
+@111063  = ~Kolík vpustì øeky~
+@111064  = ~Dùlní vıtah~
+@111065  = ~Elfí píseò~
+@111066  = ~Èarodìjné rozmanitosti~
+@111067  = ~Levné zboí šastného Aella~
+@111068  = ~Maltzovo zbrojíøství~
+@111069  = ~Keexiina taverna~
+@111070  = ~Tichı obchod~
+@111071  = ~Hostinec U Èepele a hvìzd~
+@111072  = ~Koloniál~
+@111073  = ~Hostinec~
+@111074  = ~Dùm správce pøístavu~
+@111075  = ~Nízká lucerna~
+@111076  = ~Dùm vodní královny~
+@111077  = ~eleznı trùn~
+@111078  = ~Jopalinùv hostinec~
+@111079  = ~Sedm sluncí~
+@111080  = ~Ohnivá pìst~
+@111081  = ~Kupeckı svaz~
+@111082  = ~Ye Oldùv hostinec~
+@111083  = ~Dùm Dámy~
+@111084  = ~Síò zázrakù~
+@111085  = ~Velká síò zázrakù~
+@111086  = ~Ragefastùv dùm~
+@111087  = ~Vìštectví~
+@111088  = ~Drùbeí obchod~
+@111089  = ~Drakonova taverna~
+@111090  = ~Vila Felonia Gista~
+@111091  = ~Hostinec Ulgothùv vous~
+@111092  = ~Neobydlená vì~
+@111093  = ~Vchod do Durlagovy vìe~
+@111094  = ~Vıchod z dolù~
+@111095  = ~Vıchod~
+@111096  = ~Bhaalùv chrám~
+
+@112000  = ~Obchody nabizeji vetsi mnozstvi predmetu najednou~
+
+@113000 = ~Znovunastavení reputace pro BG2 (pouze BGT)~
+
+@114000 = ~Klenoty a lektvary vyzaduji identifikaci~
+@114001 = ~Drahokam je ruda, po které je, kdy se obrousí nebo na ní vytvoøí fazety a vyleští, poptávka nebo se mùe uívat na šperky.~
+
+@115000 = ~Vyladeni premenovatelu~
+@115001 = ~Vyvolej zvíøata (Stvoøení/Povolávání) 
+Úroveò: 6
+Sféra: Povolávání 
+Dosah: 60 metrù
+Trvání: 4 tahy
+Doba sesílání: 9
+Oblast pùsobení: zvláštní 
+Záchrannı hod: ádnı 
+
+Toto kouzlo umoòuje sesilateli povolat a ovládat dva  medvìdodlaky s ivotaschopností 20. Po dobu trvání kouzla plní medvìdodlaci kadé sesilatelovo pøání. Medvìdodlaci jsou pomalejší ne velcí vlkodlaci, ale jsou naproti tomu robustnìjší. Jsou té odolní na elementální a magické útoky a velmi rychle regenerují.~
+@115002 = ~Velkı medvìdodlak~
+@115003 = ~Medvìdodlak~
+@115004 = ~Tato symbolická packa reprezentuje pøemìòovatelovu schopnost ovládat lykantropii. Jakmile si ji pøemìòovatel nasadí, stane se vlkodlakem. Sundá-li si ji, stává se opìt èlovìkem. Packy jsou povaovány za zbraò +2.
+
+VLASTNOSTI:
+
+Stupnì vlastností:  19 SIL, 16 OBR, 15 ODL
+Základní tøída zbroje:  1
+Odolnosti:  20% odolnost na magii, imunita na nemagické zbranì
+Poèet útokù za kolo:  2
+Zranìní:  1K12
+Druh zranìn:  seèné
+Rychlost:  3
+Druh dovednosti:  dıka
+Druh:  jednoruèní
+Smí pouívat:  Pøemìòovatel~ 
+@115005 = ~Tato symbolická packa reprezentuje pøemìòovatelovu schopnost ovládat lykantropii. Jakmile si ji pøemìòovatel nasadí, stane se velkım vlkodlakem. Sundá-li si ji, stává se opìt èlovìkem. Packy jsou povaovány za zbraò +3.
+
+VLASTNOSTI:
+
+Stupnì vlastností:  21 SIL, 20 OBR, 25 ODL
+Základní tøída zbroje:  -6
+Základní záchranné hody:  1/1/1/2/1
+Odolnosti:  40% odolnost na magii, 50% odolnost na elementy, imunita na nemagické zbranì
+Regenerace:  3 ivoty za sekundu
+Poèet útokù za kolo:  3
+Základní THAC0 packy:  6 
+Zranìní:  2K8
+Druh zranìní:  seèné
+Rychlost:  3
+Druh dovednosti:  dıka 
+Druh:  jednoruèní
+Smí pouívat:  Pøemìòovatel~
+
+@116000 = ~Vice pevnosti~
+@116001 = ~Zadna omezeni (Baldurdash)~
+@116002 = ~Mám vlastnickou smlouvu na divadla, pokud by sis pøál vyzkoušet svùj talent. Samuel je dobrı èlovìk a rád pøedá tuto smlouvu do tvıch rukou.~ ~Mám smlouvu v divadle, pokud by sis pøála vyzkoušet svùj talent. Samuel je dobrı èlovìk a rád pøedá tuto smlouvu do tvıch rukou.~
+@116003 = ~Je mi líto, Raelis, ale prostì nemám èas.~
+@116004 = ~Dìkuji za laskavou nabídku, ale musím odmítnout. Ani bych nevìdìl, kde zaèít pøi vedení divadla.~~Dìkuji za laskavou nabídku, ale musím odmítnout. Ani bych nevìdìla, kde zaèít pøi vedení divadla.~
+@116005 = ~Vaše divadlo pod Pìti dbánky? Bude mi ctí mít ho za své.~
+@116006 = ~Jo, dìlej co musíš. Bránit ti nemùu. Ale svému zachránci dluím více ne slova na rozlouèenou.~
+@116007 = ~Mám vlastnickou smlouvu na divadla, pokud by sis pøál vyzkoušet svùj talent. Samuel je dobrı èlovìk a rád pøedá tuto smlouvu do tvıch rukou.~ ~Mám smlouvu v divadle, pokud by sis pøála vyzkoušet svùj talent. Samuel je dobrı èlovìk a rád pøedá tuto smlouvu do tvıch rukou.~
+@116008 = ~Pak ti musí staèit naše srdeèné díky. Pojïte, vy Stráci zkázy, musíme vyrazit a rychle. Snad se ještì shledáme, <CHARNAME>.~
+@116009 = ~Je mi líto, ale nemohu. Potøebuji nalézt svou pøítelkyni a vsadím se, e budu èasto daleko od Athkatly.~
+@116010 = ~Nemùu, starosto, protoe se nebudu èasto v tìchto místech. Hledám mocného mága a nejlepší stopy jsou v Athkatle.~
+@116011 = ~Musím odmítnout. Události v Athkatle si vyadují mou pøítomnost a nemùu bıt pravidelnì tak daleko.~
+@116012 = ~Bude mi ctí. Pøijímám a vynasnaím se udìlat co nejvíce pro vesnici svou pøítomností.~
+@116013 = ~Sory, nezájem. Chci zaplatit!~
+@116014 = ~Pøipouštím své zklamání, ale rozumím obtínostem tvé prohlášení, <CHARNAME>. Nezávidím ti zvolenou cestu.~
+@116015 = ~Vy, mùj <LADYLORD>, jste pravım pøítelem zemì. Zem mùe bıt obnovena vedena pevnou rukou nìkoho jako vy.~
+@116016 = ~Mùeš vést tento hájek bìhem èasu obrození?~
+@116017 = ~Vynasnaím se navrátit rovnováhu této zemi.~
+@116018 = ~Tato zem trpìla, a já se vynasnaím odèinit škody napáchané Faldorninımi èiny.~
+@116019 = ~Byl bych špatnım správcem. Mé záleitosti v Athkatla mì nutí odmítnout.~
+@116020 = ~Hledám mocného mága, a nemohu se nechat rozptylovat jinımi záleitostmi.~
+@116021 = ~Má pøítelkynì byla unesena. Aèkoliv mì to mrzí, nemùu tuto záleitost odsunout a pomáhat hájku.~
+@116022 = ~Obdrel jsi poehnání Háje, a já ti pøedávám Hùl hromu a blesku.~
+@116023 = ~Dobrá tedy. Zùstanu zde nadále jako Mistr vyzyvatel, a budu spravovat Háj dokud obøadní nástup nebude splnìn.~
+
+@116100 = ~Ponechej omezeni povolani~
+
+@117000 = ~Bonusovi obchodnici (Baldurdash)~
+
+@118000 = ~Zenska Edwina~
+
+@119000 = ~Romance: Oprava Chyb (vyzaduji dalsi soucasti).~
+
+@120000 = ~Oprava dialogu u Imoen v ToB~
+
+@121000 = ~Uzij rychlost chuze z BG (BETA)~
+
+@122000 = ~Umozni Cromwellovi vylepsovat predmety ze Strazcovi tvrze~
+@122001 = ~Ah, Schránka hojnosti. Mùu ji oèarovat tak, aby vytváøela silnìjší šipky, ale bude tì to nìco stát. 5,000 zlatıch.~
+@122002 = ~Nue, mrknìme se, co dalšího tam máš.~
+@122003 = ~Zlodìjská kápì, jo?~
+@122004 = ~S lahvièkou protijedu a prstenem neviditelnosti, mùe bıt uiteènìjší.~
+@122005 = ~Dobrá, tady je prsten neviditelnosti... a protijed. Máš vše, co potøebuju. Za 10,000 zlatıch, mùu ji udìlat mnohem mocnìjší.~
+@122006 = ~Copak je tohle?~
+@122007 = ~Mám návod jak pøipevnit dva rohy k Helmì kamene, co ji uèiní silnìjší. A najdeš ty èásti, mùu to pro tebe udìlat.~
+@122008 = ~Máš Helmu kamene a dva rohy na pøipevnìní. Za 5,000 zlatıch mùu ty rohy pøipevnit, a vytvoøit tak skvìlou helmu pro bojovníky.~
+@122009 = ~Tohle jsou rukavice bardù.~
+@122010 = ~Mùou bıt vylepšeny nìjakımi drcenımi drahokami. Pøines mi diamant, smaragd, kámen darebákù a hvìzdnı safír, a mùu to pro tebe udìlat.~
+@122011 = ~Rozdrcením diamantu, smaragdu, hvìzdného safíru a kamene darebákù je mùu vylepšit. Bude tì to stát 5,000 zlatıch.~
+@122012 = ~Tohle jsou rukavice pro paladina.~
+@122013 = ~Za 10,000 zlatıch, je mùu pøetvoøit v nìco daleko lepšího.~
+@122014 = ~Hmm, stará kniha golemù.~
+@122015 = ~Urèitımi stránkami mùeš vylepšit golema vyvolaného tìmito knihami.~
+@122016 = ~Se stránkou hlinìného golema a 5,000 zlatımi, mùu tvou knihu vylepšit, aby vyvolávala hlinìné golemy.~
+@122017 = ~Ach, tohle je opravdovı pláš ochrany.~
+@122018 = ~Se svitky neviditelnosti a zdokonaleného spìchu, mùe bıt dokonce vylepšen.~
+@122019 = ~Mùeme pouít ty svitky neviditelnosti a zdokonaleného spìchu k vylepšení toho pláštì. Je to sloitı proces a bude tì to stát 20,000 zlatıch.~
+@122020 = ~Aj, šupiny bílého draka. Mùu z onìch šupin vytvoøit brnìní, pokud chceš, za pouhıch 5,000 zlatıch.~
+@122021 = ~Tak tohle je jedno skvìlé elfí brnìní, dokonce i podle trpaslièích standartù.~
+@122022 = ~Ale ještì je pár trpaslièích trikù, které jsi ještì nespatøil. Se svitkem ochrany pøed normálními zbranìmi, to bude vyadovat trochu magie.~
+@122023 = ~S tím svitkem ochrany pøed normálními zbranìmi, mùeme brnìní oèarovat tak, aby odolalo všemu krom magickıch èepelí. Není jednoduché spojit trpaslièí kouzlo s elfím brnìním, bude tì to stát 40,000 zlatıch.~
+@122024 = ~Tohle je gnómskı prak. Mám pár trikù v rukávu jak jej, za 5,000 zlatıch, udìlat pøesnìjším.~
+@122025 = ~A copak je tohle za toulec? Aj, vytváøí nekoneènı poèet magickıch šípù.~
+@122026 = ~Kdy narazíš na kámen darebákù, mùeme ty šípy dále vylepšit.~
+@122027 = ~S kamenem darebákù a 10,000 zlatımi mùu šípùm zvıšit oèarování.~
+@122028 = ~Ach, tak tohle je skvìlı pohled! Cep vìkù!~
+@122029 = ~Jdou zvìsti, e exituje více hlav pro tento cep. Pokud nìjaké najdeš, mùu je pøipojit.~
+@122030 = ~Vidím, es pro nìj našel další hlavu. Vypadá na jedovou. Za 5,000 zlatıch ji pøipojím.~
+@122031 = ~Mohl by to bıt... ? Jo, je to Vıbušnı kyj.~
+@122032 = ~Kdy najdeš prsten ohnivé odolnosti, mùeme vytvoøit pìknì efektní kyj.~
+@122033 = ~Za 5,000 zlatıch ho mùeme zkombinovat s tvım prstenem ohnivé odolnosti, a bude z toho ještì lepší kyj.~
+@122034 = ~Ah, tak tohle vypadá jako nìco od Ixila.~
+@122035 = ~Toto je èást skvìlého Ixilova kopí. Jestlie se ti podaøí nalézt další èást, dokáu je spojit ve zbraò.~
+@122036 = ~Našels obì èásti Ixilova starého kopí. Za 5,000 zlatıch mùeme spojit Ixilùv høeb s Ixilovım bodcem.~
+@122037 = ~Ah, tak tohle je Dıka hvìzd.~
+@122038 = ~Pokud ji spojíme s pìti hvìzdımi safíry, mùeme dále vylepšit její oèarování.~
+@122039 = ~S tìmi pìti hvìzdnımi safíry a 5,000 zlatımi ji mùeme uèinit dokonce efektivnìjší.~
+@122040 = ~Oni maj tøi hlavice...v miku k tomu pøidám otrávenou a elektrickou hlavu. Pìt hlav, chápaj to? 10,000 zlaákù a já to zvládnu. Chtìj to?~
+@122041 = ~Mùeš tam prozatím pøipojit pouze elektrickou hlavici? Dám ti 5,000 zlatıch.~
+@122042 = ~Mùeš tam prozatím pøipojit pouze otrávenou hlavici? Dám ti 5,000 zlatıch.~
+@122043 = ~Znám recepic pro dvì hlavice k Cepu vìkù. Nejdøív pøidaj otrávenou hlavici... nebo elektrickou hlavici. Jedinı recepicy, co mám, je mi líto~
+@122044 = ~Maj tam tøi hlavice...v miku k tomu pøidám elektrickou hlavu. Ètyry hlavy, chápaj to? 5,000 zlaákù a já to zvládnu. Chtìj to?~
+@122045 = ~Óóó! Oni maj ètyry hlavice a já mùu pøidat poslední hlavu. Fakt šokr, tadle. 5 000 zl a já to udìlám. Chtìj?~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Rule Changes Components                          \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@201000 = ~Tabulky postupu kouzel podle PnP~
+
+@202000 = ~Obourucni mece bastardy~
+
+@203000 = ~Obourucni katany (vyzaduje komponentu Sada exotickych
+predmetu)~
+
+@204000 = ~Kyje pouzitelne kazdym~
+
+@205000 = ~Upravy popisu pro komponentu 'Kyje pouzitelne kazdym'~
+@205001 = ~Vyzaduje nainstalovanou komponentu 'Kyje pouzitelne kazdym'~
+@205002 = ~Jiz je nainstalovan mod Ashes of Embers, ktery upravuje
+popis kyju.~
+
+@206000 = ~Zbranove styly pro kazdeho~
+
+@207000 = ~Pouzit pro druida knezovy tabulky postupu v urovnich
+a kouzlech~
+
+@208000 = ~Oddaleni vysokolevelovych schopnosti~
+
+@209000 = ~Zmena zkusenostniho stropu~
+@209001 = ~Odstranit limit zkusenosti~
+
+@209100 = ~Zkusenostni strop na 20. levelu~
+
+@209200 = ~Zkusenostni strop na 30. levelu~
+
+@210000 = ~Umozneni pouziti zlodejskych schopnosti a ukryvani v tezkych zbrojich~
+
+@211000 = ~Upravy popisu predmetu pro komponentu 'Umozneni pouziti
+zlodejskych schopnosti a ukryvani v tezkych zbrojich'~
+
+@212000 = ~Umozneni sesilani magovych kouzel ve zbrojich~
+
+@213000 = ~Upravy popisu predmetu pro komponentu 'Umozneni sesilani
+magovych kouzel ve zbrojich'~
+
+@214000 = ~Rozsirene moznosti vyberu dual-povolani~
+@214001 = ~barbar / mag~
+@214002 = ~barbar / klerik~
+@214003 = ~barbar / zlodej~
+@214004 = ~barbar / druid~
+
+@215000 = ~Moznost noseni vice ochrannych predmetu najednou~
+@215001 = ~Omezeni podle P&P~
+
+@215100 = ~Bez omezeni~
+
+@216000 = ~Vyladene zbranove dovednosti~
+@216001 = ~KRÁTKİ MEÈ/NINJA-TO:  Této zbrani dává pøednost vìtšina zlodìjù a pùlèíkù. Krátkı meè i ninja-to je lehká, ale uiteèná zbraò.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216002 = ~KATANA/WAKIZASHI:  Katana a wakizashi je dùkazem kováøova mistrovství a vyaduje velkou péèi. Jak se dovednost vyvíjí, zbraò a majitel se stávají jedinou bytostí, naprosto oddanou umìní boje. Tyto zbranì se mimo Kara-Tur tìko hledají, take bys mìl nad touto dovedností popøemıšlet. Koneckoncù, dovednost s katanou èi wakizshi ti bude uiteèná, jedinì kdy nìjakou najdeš.
+
+VAROVÁNÍ:  Magické katany jsou Baldur's Gate 2 velmi vzácné!
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216003 = ~SCIMITAR:  Tato dovednost umoòuje postavì pouívat zakøivené ostré zbranì, jako scimitary.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216004 = ~CEP:  Cepy jsou drtivá zbranì pouívané k omráèení nepøátel. Obtínì se pouívají, ale staèí trocha cviku a jsou to vıborné zbranì.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216005 = ~PALCÁT/ØEMDICH:  Palcát je èasto spojován s kleriky. Je to tupá zbraò podobná kyji, ale nebezpeènìjší. Øemdih je podobnı palcátu, jeho hlavice je posázena bodci.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216006 = ~Uprava systemu zbranovych dovednosti~
+
+@216100 = ~Zbranove dovednosti jako v BG, se zbranovymi styly (the bigg)~
+
+@216200 = ~Zbranove dovednosti jako v BG, bez zbranovych stylu (the bigg)~
+
+@217000 = ~Sesilani kouzel ze svitku (a jinych predmetu) zavisi na levelu
+postavy~
+
+@218000 = ~Opravene tabulky THAC0, zachrannych hodu, velmistrovstvi
+ve zbrani a postupu v kouzelnickych a knezskych kouzlech (Blucher)~
+@218001 = ~Alchymie (Mág)~
+@218002 = ~Alchymie (Knìz)~
+@218003 = ~Alchymie (Tulák)~
+@218004 = ~Alchymie (Mág)
+Tato dovednost umoòuje mágovi vytváøet lektvary. Lektvar, kterı mág vyrobí, je náhodnì vybrán z následujícího seznamu:
+1)  Lektvar pohlcení
+2)  Lektvar ohnivé odolnosti
+3)  Lektvar odolnosti na mráz
+4)  Lektvar neviditelnosti
+5)  Lektvar kamenné podoby
+6)  Lektvar síly
+7)  Lektvar hbitosti
+8)  Lektvar ohnivého dechu
+9)  Olej rychlosti
+10) Olej plamene~
+@218005 = ~Alchymie (Knìz)
+Tato dovednost umoòuje knìzi vytváøet lektvary. Lektvar, kterı knìz vyrobí, je náhodnì vybrán z následujícího seznamu:
+1)  Lektvar léèení
+2)  Lektvar mimoøádného léèení
+3)  Lektvar neuvìøitelného léèení
+4)  Elixír zdraví
+5)  Lektvar pochopení
+6)  Lektvar regenerace
+7)  Lektvar jasné mysli
+8)  Protijed
+9)  Lektvar zaostøení mysli
+10) Lektvar geniality~
+@218006 = ~Alchymie (Tulák)
+Zlodìji jsou ji od pøírody dùmyslní a zkušenı zlodìj ji bìhem svıch cest vidìl spousty lektvarù na to, aby je dokázal také vyrábìt. S touto dovedností mùe zlodìj jednou dennì vytvoøit jeden z osmi lektvarù. 
+
+Vytvoøenı lektvar se urèí náhodnì z tohoto seznamu: 
+1) Lektvar zaostøení mysli
+2) Lektvar vnímavosti
+3) Lektvar neviditelnosti
+4) lektvar neuvìøitelného léèení
+5) Lektvar regenerace
+6) Protijed
+7) Olej rychlosti
+8) Tulákùv lektvar síly mrazivého obra~
+@218007 = ~Psaní svitkù (Mág)~
+@218008 = ~Psaní svitkù (Knìz)~
+@218009 = ~Psaní svitkù (Tulák)~
+@218010 = ~Psaní svitkù (Mág)
+Tato dovednost mágovi umoòuje vytváøet svitky kouzel niších a støedních úrovní. Svitek, kterı mág vyrobí, je náhodnì vybrán z následujícího seznamu:
+1)  Magická støela
+2)  Štít
+3)  Melfùv kyselinovı šíp
+4)  Zrcadlovı obraz
+5)  Melfovy drobné meteory
+6)  Menší odvracení kouzla
+7)  Vylepšená neviditelnost
+8)  Ledová bouøe
+9)  Vìštírna
+10) Zmatek~
+@218011 = ~Psaní svitkù (Knìz)
+Tato dovednost knìzi umoòuje vytváøet svitky knìskıch kouzel. Svitek, kterı knìz vyrobí, je náhodnì vybrán z následujícího seznamu:
+1)  Vyleè kritická zranìní
+2)  Plamennı úder
+3)  Oiv mrtvého
+4)  Obnova
+5)  Ochrana pøed kyselinou
+6)  Ochrana pøed mrazem
+7)  Ochrana pøed elektøinou
+8)  Ochrana pøed ohnìm
+9)  Hrdinská síla
+10) Duševní ovládnutí~
+@218012 = ~Psaní svitkù (Tulák)
+Tato dovednost tulákovi umoòuje vytváøet svitky knìskıch kouzel. Svitek, kterı tulák vyrobí, je náhodnì vybrán z následujícího seznamu:
+1) Magická støela
+2) Spìch
+3) Ohnivá koule
+4) Roztyl magie
+5) Silná náklonost
+6) Neviditelnost
+7) Kuel chladu
+8) Pøivolávání pøíšer II
+9) Pøivolávání pøíšer III~
+
+@219000 = ~Omezeni schopnosti obchodniku identifikovat predmety~
+@219001 = ~Pouze magove a bardi obchodnici mohou identifikovat predmety~
+
+@219100 = ~Schopnost identifikace je zalozena na obchodnikove Uceni~
+
+@219200 = ~Skrizeni obou metod~
+
+@220000 = ~Velmistrovstvi ve zbranovych dovednostech
+i pro multi-povolani (Weimer)~
+
+@221000 = ~Prave velmistrovstvi ve zbrani (Baldurdash)~
+
+@222000 = ~Zmena magicky vytvorenych zbrani na nulovou vahu~
+
+@223000 = ~Ucineni +x/+y zbrani konzistentnimi~
+
+@223100 = ~Pouze anglicky: Rozsireni popisu pro cast modu Ucineni +x/+y zbrani konzistentnimi~
+
+@224000 = ~Upravena THAC0 tabulka~
+@224001 = ~Omezeni, nejlepsi THAC0 je 0 (Blucher)~
+
+@224100 = ~Omezeni, nejlepsi THAC0 je -10 (PnP/BG1 Table)~
+
+@225000 = ~Uprav tabulku sesilani kouzel pro magy~
+
+@226000 = ~Uprav tabulku sesilani kouzel pro magy~
+@226001 = ~Upravena tabulka (Blucher)~
+
+@226100 = ~PnP tabulka~
+
+@227000 = ~Uprav tabulku sesilani kouzel pro bardy~
+
+@228000 = ~Uprav tabulku sesilani kouzel pro kleriky~
+
+@229000 = ~Uprav tabulku sesilani kouzel a urovni pro druidy~
+@229001 = ~Zadne zmeny v postupech urovni, pouze upravena tabulka sesilani kouzel pro druidy (Blucher)~
+
+@229100 = ~Zadne zmeny v postupech urovni, pouze PnP tabulka sesilani kouzel pro druidy/kleriky~
+
+@229200 = ~Uzij tabulku postupu urovni pro kleriky s normalni tabulkou sesilani kouzel pro druidy~
+
+@229300 = ~Uzij tabulku postupu urovni pro kleriky s upravenou tabulkou sesilani kouzel pro druidy (Blucher)~
+
+@229400 = ~Uzij tabulku postupu urovni pro kleriky s PnP tabulkou sesilani kouzel pro druidy/kleriky~
+
+@229500 = ~Uzij tabulku postupu urovni pro kleriky s normalni tabulkou sesilani kouzel pro kleriky~
+
+@229600 = ~Uzij tabulku postupu urovni pro kleriky s upravenou tabulkou sesilani kouzel pro kleriky (Blucher)~
+
+@230000 = ~Tabulky HLA pro troj-povolani~
+
+@231000 = ~Pridej penalizaci na zachranne hody pro kouzla sesilana postavami na vysokych levelech~
+@231001 = ~Pouze pro arkanni magii~
+
+@231100 = ~Pouze pro knezskou magii~
+
+@231200 = ~Arkanni & knezska magie~
+
+@232000 = ~Odtran omezeni poctu pasti (Ardanis/GeN1e)~
+
+@233000 = ~Odtran prodlevu pro magicke pasti (Ardanis/GeN1e)~
+
+@234000 = ~Odstran omezeni poctu vyvolanych Celestialu (Deva, Planetar) (Ardanis/GeN1e)~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Convenience Tweaks                               \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@300000 = ~Vice zivotu pri levelovani~
+@300001 = ~Maximum~
+
+@300100 = ~NWN styl~
+
+@301000 = ~Maximum zivotu pro NPC (the bigg)~
+@301001 = ~Pro vsechny bytosti ve hre~
+
+@301100 = ~Pro vsechna NPC, ktere nelze prijmou do druziny~
+
+@301200 = ~Pro vsechna NPC, ktere lze prijmou do druziny~
+
+@302000 = ~Vsechny predmety identifikovane~
+
+@303000 = ~Jednoduche uceni kouzel~
+@303001 = ~100% nauceni kouzel~
+
+@303100 = ~100% nauceni kouzel a neomezeny pocet kouzel na level~
+
+@304000 = ~Skutecne bezedne Bezedne vaky~
+
+@305000 = ~Odstran unavu z kouzel obnovy~
+
+@306000 = ~Odstraneni hlasky "Shromazdi svoji druzinu,
+nez se vydas dale." (Weimer)~
+
+@307000 = ~Slevy za nizkou reputaci (Sabre)~
+@307001 = ~Zmen vliv reputace na ceny v obchodech~
+
+@307100 = ~Reputace nema zadny vliv, ceny v obchodech nastaveny na 100% (Luiz)~
+
+@307200 = ~Reputace nema zadny vliv, ceny v obchodech nastaveny na 80% (Luiz)~
+
+@307300 = ~Reputace nema zadny vliv, ceny v obchodech nastaveny na 60% (Luiz)~
+
+@308000 = ~Neomezene skladani streliva do jednoho slotu~
+
+@309000 = ~Neomezene skladani drahokamu a sperku do jednoho slotu~
+
+@310000 = ~Neomezene skladani lektvaru do jednoho slotu~
+
+@311000 = ~Neomezene skladani svitku do jednoho slotu~
+
+@312000 = ~Patch dobre nalady (postavy v druzine nebojuji a nestezuji
+si kvuli hodnotam reputace)~
+@312001 = ~NPC nikdy reptat kvuli reputaci~
+
+@312100 = ~NPC muze reptat kvuli reputaci, ale
+nikdy neodejde (Salk)~
+
+@312200 = ~NPC jsou vzdy neutralni k reputaci
+(Anomaly)~
+
+@312300 = ~NPCs don't fight~ 
+
+@312400 = ~Stop Haer'Dalis-Aerie romance from starting~
+
+@312500 = ~Neutralni postavy maji stastne komentare
+pri stredni reputaci~
+
+@313000 = ~Zadne pasti a zamky (Weimer)~
+
+@314000 = ~Rychlejsi sceny a sny v kapitole 1&2~
+@314001 = ~Puvodni verze z EoU (Karzak, Blucher)~
+
+@314100 = ~Nepritroubla verze~
+
+@315000 = ~Vypnout prisernou animaci u Plaste zrcadleni, Kouzelne pasti a Fyzickeho zrcadla~
+
+@316000 = ~Ponechani Drizztovy vybavy, zneskodni Malchora Harpella~
+
+@317000 = ~Zadne drowi avatary v Underdarku~
+
+@317900 = ~Zadne rasove pozadavky na romanci~
+
+@318000 = ~Podvudky s romanci~
+@318001 = ~Zadne pozadavky na pohlavi/rasu pro romanci~
+
+@318100 = ~Zadne pozadavky na pohlavi/rasu pro romanci; umozneni vice romanci~
+
+@318200 = ~Zadne pozadavky na pohlavi/rasu pro romanci; umozneni vice romanci;
+nic nemuze zrusit romanci~
+
+@318300 = ~Podvudky s romanci~
+@318301 = ~Odtran pozadavky na rasu pro romance? (Zvol a nebo b)
+  a) Odstran
+  b) Beze zmen~
+@318302 = ~  * Odtran pozadavky na rasu pro romance~
+@318303 = ~Odtran pozadavky na pohlavi pro romance? (Zvol a nebo b)
+  a) Odstran
+  b) Beze zmen~
+@318304 = ~  * Odtran pozadavky na pohlavi pro romance~
+@318305 = ~Umozni vice romanci najednou? (Zvol a nebo b)
+  a) Umozni
+  b) Beze zmen~
+@318306 = ~  * Umozni vice romanci najednou~
+@318307 = ~Nic nezrusi romance? (Zvol a nebo b)
+  a) Nic nezrusi romance
+  b) Beze zmen~
+@318308 = ~  * Nic nezrusi romance~
+@318309 = ~Zvolil jsi nasledujici moznosti pro instalaci:~
+@318310 = ~Jsou tyto volby spravne?
+  a) Ano, pokracuj s instalaci
+  b) Ne, nech me je navolit znova~
+@318311 = ~Zacit romanci s novou hrou v ToB(datadisk)?
+  a) Zacit s novou ToB hrou
+  b) Beze zmen~
+@318312 = ~  * Zacit romanci s novou hrou v ToB(datadisk)~
+@318313 = ~Pøiveï mi mou milovanou Aerii.~
+@318314 = ~Pøiveï mi mou milovanou Jaheiru.~
+@318315 = ~Pøiveï mi mého milovaného sira Anomena, Rytíøe øádu.~
+@318316 = ~Pøiveï mi mého milovaného Anomena, Helmova knìze.~
+@318317 = ~Pøiveï mi mou milovanou Viconii.~
+
+@319000 = ~Odpocinek je mozny kdekoliv (Japheth)~
+
+@320000 = ~Prodejne hole, kyje a praky (Icelus)~
+
+@321000 = ~Cheat minimalnich vlastnosti~
+@321001 = ~Zvol minimalni hodnotu vlastnosti, v rozmezi 6 az 15:~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// NPC Tweaks                                       \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@400000 = ~Upravit hody na reakci zlych postav,
+ktere se mohou pripojit do druziny~
+
+@401000 = ~Vylepsene povolavani NPC Duchem osudu~
+
+@402000 = ~Styl NPC z ToB~
+
+@403000 = ~Shodne vlastnosti: Edwin~
+@403001 = ~Uzij hodnoty z BG~
+
+@403100 = ~Uzij hodnoty z BG2~
+
+@404000 = ~Shodne vlastnosti: Jaheira~
+
+@405000 = ~Zmen Jaheirino presvedceni na Neutralni dobro~
+
+@406000 = ~Shodne vlastnosti: Minsc~
+
+@407000 = ~Shodne vlastnosti: Viconia~
+
+@408000 = ~Udelej z Khalida Bojovnika/Maga (Domi)~
+@408001 = ~Kdy se ho zeptáš na minulost, KHALID nervóznì odhalí, e se narodil a vyrostl ve státì Calimshan. O rodièích toho moc nepoví, ale máš dojem, e jeho otec obchodník o nìm nemìl valné mínìní a vìnoval mnohem více pozornosti Khalidovım bratrùm. Bez otcovi podpory nebyl Khalid zaplatit, aby se mohl dát do uèení k mágovi. Pøidal se tedy k mìstské strái a doufal, e vydìlá dostatek penìz. Podrobnosti o setkání s Jaheirou si nechává pro sebe, ale jeho láska k ní je více ne? z?ejmá. Kdy se ho zeptáš, jak dobøe znal Goriona, øekne jen, e byli dlouhou dobu pøátelé a e mnoho jejich spoleènıch známıch truchlí nad jeho ztrátou.~
+
+@409000 = ~Udelej z Montarona Zabijaka (Andyr)~
+
+@410000 = ~Zmen Korganovo presvedceni na Neutralni zlo~
+
+@411000 = ~Dej Kagain legalni odolnost 19~

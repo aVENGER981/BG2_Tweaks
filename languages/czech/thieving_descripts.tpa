@@ -1,0 +1,18 @@
+DEFINE_PATCH_MACRO ~thieving_descripts_czech~ BEGIN
+
+  REPLACE_TEXTUALLY ~^[ %tab%]*Otevírání zámků:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Najdi pasti:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Vykrádán�:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~\(Váha:[ %tab%]*[0-9]+\)~
+  ~\1
+Otevírání zámků: -%penalty_lock%CDPERCENTAGE
+Najdi pasti: -%penalty_trap%CDPERCENTAGE
+Vykrádán�: -%penalty_pickpocket%CDPERCENTAGE~
+  PATCH_IF ("%patch_hide%" != 2) BEGIN
+    REPLACE_TEXTUALLY ~\(Váha:[ %tab%]*[0-9]+\)~
+    ~\1
+Hide in Shadows: -%penalty_hide%CDPERCENTAGE
+Move Silently: -%penalty_silent%CDPERCENTAGE~
+  END
+
+END

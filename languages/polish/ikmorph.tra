@@ -1,0 +1,121 @@
+@0    = ~Wybierz p³eæ:~
+
+@1    = ~Mê¿czyzna~
+
+@2    = ~Kobieta~
+
+@3    = ~Wybierz rasê~
+
+@4    = ~Cz³owiek~
+
+@5    = ~Elf (Pó³-Elf)~
+
+@6    = ~Gnom~
+
+@7    = ~Nizio³ek~
+
+@8    = ~Krasnolud~
+
+@9    = ~Pó³-Ork~
+
+@10   = ~Wybierz klasê:~
+
+@11   = ~Wojownik~
+
+@12   = ~Kap³an~
+
+@13   = ~Mag~
+
+@14   = ~Z³odziej~
+
+@15   = ~Przemieniono: Mê¿czyzna Cz³owiek Wojownik (wygl¹d)~
+
+@16   = ~Przemieniono:: Mê¿czyzna Cz³owiek Kap³an (wygl¹d)~
+
+@17   = ~Przemieniono: Mê¿czyzna Cz³owiek Mag (wygl¹d)~
+
+@18   = ~Przemieniono: Mê¿czyzna Cz³owiek Z³odziej (wygl¹d)~
+
+@19   = ~Przemieniono: Kobieta Cz³owiek Wojownik (wygl¹d)~
+
+@20   = ~Przemieniono: Kobieta Cz³owiek Kap³an (wygl¹d)~
+
+@21   = ~Przemieniono: Kobieta Cz³owiek Mag (wygl¹d)~
+
+@22   = ~Przemieniono: Kobieta Cz³owiek Z³odziej (wygl¹d)~
+
+@23   = ~Przemieniono: Mê¿czyzna Elf Wojownik (wygl¹d)~
+
+@24   = ~Przemieniono: Mê¿czyzna Elf Kap³an (wygl¹d)~
+
+@25   = ~Przemieniono: Mê¿czyzna Elf Mag (wygl¹d)~
+
+@26   = ~Przemieniono: Mê¿czyzna Elf Z³odziej (wygl¹d)~
+
+@27   = ~Przemieniono: Kobieta Elf Wojownik (wygl¹d)~
+
+@28   = ~Przemieniono: Kobieta Elf Kap³an (wygl¹d)~
+
+@29   = ~Przemieniono: Kobieta Elf Mag (wygl¹d)~
+
+@30   = ~Przemieniono: Kobieta Elf Z³odziej (wygl¹d)~
+
+@31   = ~Przemieniono: Mê¿czyzna Gnom Wojownik (wygl¹d)~
+
+@32   = ~Przemieniono: Mê¿czyzna Gnom Kap³an (wygl¹d)~
+
+@33   = ~Przemieniono: Mê¿czyzna Gnom Mag (wygl¹d)~
+
+@34   = ~Przemieniono: Mê¿czyzna Gnom Z³odziej (wygl¹d)~
+
+@35   = ~Przemieniono: Kobieta Gnom Wojownik (wygl¹d)~
+
+@36   = ~Przemieniono: Kobieta Gnom Kap³an (wygl¹d)~
+
+@37   = ~Przemieniono: Kobieta Gnom Mag (wygl¹d)~
+
+@38   = ~Przemieniono: Kobieta Gnom Z³odziej (wygl¹d)~
+
+@39   = ~Przemieniono: Mê¿czyzna Nizio³ek Wojownik (wygl¹d)~
+
+@40   = ~Przemieniono: Mê¿czyzna Nizio³ek Kap³an (wygl¹d)~
+
+@41   = ~Przemieniono: Mê¿czyzna Nizio³ek Z³odziej (wygl¹d)~
+
+@42   = ~Przemieniono: Kobieta Nizio³ek Wojownik (wygl¹d)~
+
+@43   = ~Przemieniono: Kobieta Nizio³ek Kap³an (wygl¹d)~
+
+@44   = ~Przemieniono: Kobieta Nizio³ek Z³odziej (wygl¹d)~
+
+@45   = ~Przemieniono: Mê¿czyzna Krasnolud Wojownik (wygl¹d)~
+
+@46   = ~Przemieniono: Mê¿czyzna Krasnolud Kap³an (wygl¹d)~
+
+@47   = ~Przemieniono: Mê¿czyzna Krasnolud Mag (wygl¹d)~
+
+@48   = ~Przemieniono: Mê¿czyzna Krasnolud Z³odziej (wygl¹d)~
+
+@49   = ~Przemieniono: Kobieta Krasnolud Wojownik (wygl¹d)~
+
+@50   = ~Przemieniono: Kobieta Krasnolud Kap³an (wygl¹d)~
+
+@51   = ~Przemieniono: Kobieta Krasnolud Mag (wygl¹d)~
+
+@52   = ~Przemieniono: Kobieta Krasnolud Z³odziej (wygl¹d)~
+
+@53   = ~Przemieniono: Mê¿czyzna Pó³-Ork Wojownik (wygl¹d)~
+
+@54   = ~Przemieniono: Mê¿czyzna Pó³-Ork Kap³an (wygl¹d)~
+
+@55   = ~Przemieniono: Mê¿czyzna Pó³-Ork Mag (wygl¹d)~
+
+@56   = ~Przemieniono: Mê¿czyzna Pó³-Ork Z³odziej (wygl¹d)~
+
+@57   = ~Przemieniono: Kobieta Pó³-Ork Wojownik (wygl¹d)~
+
+@58   = ~Przemieniono: Kobieta Pó³-Ork Kap³an (wygl¹d)~
+
+@59   = ~Przemieniono: Kobieta Pó³-Ork Mag (wygl¹d)~
+
+@60   = ~Przemieniono: Kobieta Pó³-Ork Z³odziej (wygl¹d)~

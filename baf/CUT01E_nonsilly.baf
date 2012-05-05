@@ -1,0 +1,9 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CSIren")
+		DisplayStringWait("CSCowl1",2866) // This is an unsanctioned use of magical energy!
+		DisplayStringWait(Myself,2869) // Must I be interrupted at every turn!  Enough of this!
+		StartCutScene("Cut01f")
+END

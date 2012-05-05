@@ -1,0 +1,7 @@
+DEFINE_PATCH_MACRO ~arcane_descripts_french~ BEGIN
+
+  REPLACE_TEXTUALLY ~\(Poids:[ %tab%]*[0-9]+\)~
+  ~\1
+Echec d'incantation des sorts profanes: +%patch_miscast%%~
+
+END

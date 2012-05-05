@@ -1,0 +1,18 @@
+DEFINE_PATCH_MACRO ~thieving_descripts_polish~ BEGIN
+
+  REPLACE_TEXTUALLY ~^[ %tab%]*Otwieranie zamków:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Wykrywanie/usuwanie pu³apek:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Kradzie¿ kieszonkowe:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~\(Waga:[ %tab%]*[0-9]+\)~
+  ~\1
+Otwieranie zamków: -%penalty_lock%CDPERCENTAGE
+Wykrywanie/usuwanie pu³apek: -%penalty_trap%CDPERCENTAGE
+Kradzie¿ kieszonkowe: -%penalty_pickpocket%CDPERCENTAGE~
+  PATCH_IF ("%patch_hide%" != 2) BEGIN
+    REPLACE_TEXTUALLY ~\(Waga:[ %tab%]*[0-9]+\)~
+    ~\1
+Krycie w cieniu: -%penalty_hide%CDPERCENTAGE
+Ciche chodzenie: -%penalty_silent%CDPERCENTAGE~
+  END
+
+END

@@ -1,0 +1,15 @@
+IF
+	Global("LovedOne","GLOBAL",3)
+	GlobalLT("ExpLoveTalk","LOCALS",4)
+	GlobalGT("ExpLoveTalk","LOCALS",0)
+	InParty(Myself)
+	Global("ViconiaRomanceActive","GLOBAL",2)
+	See(Player1)
+	!See([ENEMY])
+	!Range([NEUTRAL],20)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("ExpLoveTalk","LOCALS",4)
+		Interact(Player1)
+END

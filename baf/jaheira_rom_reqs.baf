@@ -1,0 +1,10 @@
+IF
+	InParty(Myself)
+	!Global("JaheiraMatch","GLOBAL",1)
+	Global("CDRomanceFoo","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CheckJaheiraMatch","GLOBAL",1)
+		SetGlobal("JaheiraMatch","GLOBAL",1)
+		Continue()
+END

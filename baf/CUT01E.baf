@@ -1,0 +1,19 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")  // 
+    Wait(1)
+    StartCutScene("Cut01f")
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSImoen")  // 
+    Wait(1)
+    SmallWait(7)
+    ForceSpell("CSIren",FLASHY_4)
+END
+

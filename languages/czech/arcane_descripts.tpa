@@ -1,0 +1,7 @@
+DEFINE_PATCH_MACRO ~arcane_descripts_czech~ BEGIN
+
+  REPLACE_TEXTUALLY ~\(Váha:[ %tab%]*[0-9]+\)~
+  ~\1
+Selhání seslání arkánních kouzel: +%patch_miscast%%~
+
+END

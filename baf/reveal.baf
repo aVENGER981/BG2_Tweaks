@@ -1,0 +1,8 @@
+IF
+	Global("CDRevealArea","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CDRevealArea","MYAREA",1)
+		Explore()
+		Continue()
+END

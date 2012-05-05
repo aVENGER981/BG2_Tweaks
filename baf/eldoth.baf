@@ -1,0 +1,6 @@
+IF
+        Global("Eldothfight","GLOBAL",1)
+THEN
+        RESPONSE #100
+                SetGlobal("Eldothfight","GLOBAL",99)
+END

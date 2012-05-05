@@ -1,0 +1,33 @@
+IF
+	InParty(Myself)
+	!Global("AnomenRomanceActive","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("AnomenRomanceActive","GLOBAL",2)
+END
+
+IF
+	Global("AnomenSummoned","GLOBAL",1)
+	Global("AnomenIsNotKnight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ChangeAlignment(Myself,CHAOTIC_NEUTRAL)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	Global("AnomenSummoned","GLOBAL",1)
+	Global("AnomenIsKnight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,ANOMEN_TITLE)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	Global("AnomenSummoned","GLOBAL",1)
+	!Global("AnomenIsKnight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END

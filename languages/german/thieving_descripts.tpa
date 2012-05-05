@@ -1,0 +1,18 @@
+DEFINE_PATCH_MACRO ~thieving_descripts_german~ BEGIN
+
+  REPLACE_TEXTUALLY ~^[ %tab%]*Schlösser öffnen:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Fallen finden/entschärfen:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Taschendiebstahl:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~\(Gewicht:[ %tab%]*[0-9]+\)~
+  ~\1
+Schlösser öffnen: -%penalty_lock%CDPERCENTAGE
+Fallen finden/entschärfen: -%penalty_trap%CDPERCENTAGE
+Taschendiebstahl: -%penalty_pickpocket%CDPERCENTAGE~
+  PATCH_IF ("%patch_hide%" != 2) BEGIN
+    REPLACE_TEXTUALLY ~\(Gewicht:[ %tab%]*[0-9]+\)~
+    ~\1
+Im Schatten verstecken: -%penalty_hide%CDPERCENTAGE
+Schleichen: -%penalty_silent%CDPERCENTAGE~
+  END
+
+END

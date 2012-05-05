@@ -1,0 +1,688 @@
+@0      = ~NSC Verbesserungen~ 
+@1      = ~Dieser Schritt kann einen Moment dauern...~
+@2      = ~'Nimmervolle Beutel hinzufuegen' wird fuer diese Komponente vorausgesetzt.~ 
+@3      = ~Setzt die Komponente 'In Ruestung erlauben magische Zauber zu wirken' voraus.~
+@4      = ~Angenehme Verbesserungen/Cheats~ 
+@5      = ~'Exotische Gegenstaende' wird fuer diese Komponente vorausgesetzt.~
+@6      = ~Setzt die Komponente 'Schleichen und Diebesfaehigkeiten in Schwerer Ruestung erlauben' voraus.~
+@7      = ~Diese Komponente ist nicht in Eurer Sprache verfuegbar.~ 
+@8      = ~Diese Komponente ist nur fuer BGT.~
+@9      = ~Regelaenderungen~ 
+@10     = ~Diese Komponente ist nicht fuer Tutu verfuegbar.~
+@11     = ~Kosmetische Aenderungen~
+@12     = ~Thron des Bhaal wird fuer diese Komponente vorausgesetzt.~ 
+@13     = ~Inhaltsaenderungen~
+@14     = ~Diese Komponente ist nur fuer Tutu oder BGT.~ 
+@15     = ~Diese Komponente ist nur fuer Tutu.~
+@16     = ~Die Funktionalitaet dieser Komponente ist entweder bereits enthalten 
+oder durch einen Eurer installlierten Mods bereits ersetzt worden.~
+@17     = ~Die Komponente '+x/+y Waffen konsequent machen' muss dafuer installiert sein.~
+@18     = ~Diese Komponente wurde verworfen. ~ 
+@19     = ~Cams Hausregeln~
+@20     = ~Readme anschauen?
+  a) Ja
+  b) Nein~ 
+@21     = ~Benoetigt die Komponente 'Erfahrungspunktgrenze aendern: Komplett entfernen'.~ 
+@1000   = ~Helm-Animationen entfernen~
+@2000   = ~Imoens Spielfigur zur Magierin aendern~ 
+@3000   = ~Nalias Spielfigur zur Diebin aendern~
+@4000   = ~Viconias Hautfarbe zu Dunkelblau aendern~
+@5000   = ~Spielfigur-Veraenderungs-Skript~
+@5001   = ~SPIELFIGUR-VERÄNDERUNGS-SKRIPT:~
+@5002   = ~Dieses Skript gibt dem Spieler die Kontrolle über die Spielfigur seines Charakters. Drückt 'S', um den Auswahlbildschirm für die Spielfiguren aufzurufen. (<script>)~
+@6000   = ~Waffenanimation Verbesserungen~
+@7000   = ~Icewind Dale Zaubergrafiken (Andyr)]~
+@8000   = ~Logo des SvA Ladebildschirms wieder herstellen (nur TdB)~
+@9000   = ~Zusaetzliche Portraetsymbole der Ausruestungsgegenstaende 
+entfernen~
+@10000  = ~Buerger verwenden graue Farben~
+@11000  = ~Symbol Verbesserungen~
+@12000  = ~Spielfigur aendern, wenn Roben oder Ruestung getragen wird 
+(Galactygon)~
+@13000  = ~Spielpause bei allen Dialogen erzwingen~
+@101000 = ~Mehr Interjektionen~
+@102000 = ~Trefferpunkte-Ausloeser fuer die NSC-Verwundet-Dialoge 
+veraendern~
+@103000 = ~Wildnisgebiete vor Kapitel 6 offenbaren~
+@103500 = ~Mantelwald Gebiete vor Beenden des Banditenlagers bereitstellen~
+@103501 = ~Nur das erste Gebiet~
+@103600 = ~Alle Wildnisgebiete ausser der Mine~
+@104000 = ~Verbesserte Athkatlaner Stadtwache~
+@104001 = ~Amnischer Soldat~
+@104002 = ~Gesetzlicher Zauberer~
+@104003 = ~Kleriker der Miliz~
+@105000 = ~Langsamer Zerfall von Drow Gegenstaenden~
+@105001 = ~Euer Drowgegenstand hat sich aufgelöst~
+@106000 = ~Zerbrechliche nichtmagische Schilder, Helme und Ruestung aus Eisen~
+@106001 = ~Deine Rüstung ist zerstört~
+@106002 = ~Dein Schild ist zerbrochen~
+@106003 = ~Dein Helm ist zerbrochen~
+@107000 = ~Verbesserte Multiplayer-Entlassen-Dialoge~
+@107001 = ~Wartet auf uns im Freundlichen Arm. Wenn sich die Dinge ändern, werden wir Euch dort treffen.~
+@107002 = ~Bitte schließt Euch wieder unserer Gruppe an.~
+@107003 = ~Ich schicke Euch fürs erste zurück in das Einsprengsel... wartet dort auf mich.~
+@108000 = ~Nimmervolle Beutel hinzufuegen~
+@108001 = ~Munitionsgürtel~
+@108002 = ~Der Schultergürtel ist ideal dafür geeignet, Schleuderkugeln, Wurfpfeile, Pfeile oder Bolzen aufzubewahren.
+
+EIGENSCHAFTEN:
+
+Kapazität: insgesamt 2.000 Schleuderkugeln, Wurfpfeile, Pfeile oder Bolzen
+Gewicht: 2~
+@108003 = ~Tränketasche~
+@108004 = ~Diese Ledertasche kann man aufklappen. An den gepolsterten Seiten kann man zahlreiche Tränke mit Lederschnüren sicher festmachen. Eine derartige Ledertasche wird normalerweise von reisenden Heilern benutzt. Egal wie viele Tränke sich in der Ledertasche befinden, wiegt es immer gleich viel.
+
+EIGENSCHAFTEN:
+
+Kapazität: 100 Tränke
+Gewicht: 2~
+@109000 = ~Exotische Gegenstaende~
+@109001 = ~Immervoller Köcher~
+@109002 = ~Die Geschichte dieses magischen Köchers ist schon lange in Vergessenheit geraten. Es muss aber etwas mit der unerklärlichen, aber gut dokumentierten Knappheit fähiger Bogner in der Zeit der Sorgen zu tun haben.
+
+EIGENSCHAFTEN:
+
+Der Köcher enthält eine unbegrenzte Anzahl von Pfeilen~
+@109003 = ~Immervoller Behälter~
+@109004 = ~Die Geschichte dieses magischen Behälters ist schon lange in Vergessenheit geraten. Es muss aber etwas mit der unerklärlichen, aber gut dokumentierten Knappheit fähiger Bogner in der Zeit der Sorgen zu tun haben.
+
+EIGENSCHAFTEN:
+
+Der Behälter enthält eine unbegrenzte Anzahl von Bolzen~
+@109005 = ~Immervoller Beutel~
+@109006 = ~Obwohl dieser kleine Stoffbeutel leer erscheint, wird er doch von einer mächtigen magischen Aura umgeben.
+
+EIGENSCHAFTEN:
+
+Der Stoffbeutel enthält eine unbegrenzte Anzahl von Schleuderkugeln.~
+@109007 = ~Dunkler Purpurner Ionenstein~
+@109008 = ~Mit diesem Stein, von dunkler purpurner Farbe, kann der Träger in die Schatten der Dunkelheit sehen.
+
+EIGENSCHAFTEN:
+
+Infravision (bis zu 30 m)
+Gewicht: 2~
+@109009 = ~Flimmernd Weißer Ionenstein~
+@109010 = ~Der Stein fühlt sich kalt an und strahlt Energie aus.
+
+EIGENSCHAFTEN:
+
+Kältewiderstand: +10%
+Gewicht: 2~
+@109011 = ~Katana~
+@109012 = ~Das Katana ist ein Schwert, dessen Klinge nur auf einer Seite scharf ist. Es ist leicht gekrümmt und endet in einer Spitze, die an die Spitze eines Meißels erinnert. Das Katana stellt vermutlich die aufwendigste Form des Schwertes dar. Seine Fertigung ist ein langer, aufwendiger und höchst geheimer Vorgang, den man schon fast als Kunstwerk bezeichnen müsste. Dieses Schwert spielt in der Kultur von Kara-Tur eine wichtige Rolle. Wenn man es wagt, das Katana eines Samurais zu berühren oder gar zu ziehen, beleidigt man den Samurai, dem es gehört, und zieht seinen Zorn auf sich. Es kommt nur äußerst selten vor, dass ein Gaijin, ein Fremder, in den Besitz einer derartigen Waffe kommt. Entweder handelt es sich bei diesem Gaijin dann um den geehrten Freund eines wichtigen Ministers oder um den Mörder eines Samurais.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Klinge)
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+@109013 = ~Tsu-O-Shi~
+@109014 = ~Tsu-O-Shi, auch als die Begehrte Klinge bekannt, wurde vor über fünfhundert Jahren im Lande Wa von dem Schwertschmied Murakaken Shinji geschmiedet, von dem man sich erzählte, er könnte den Geist des Metalls selbst erwecken. Tsu-O-Shi wurde in der ansonsten unbedeutenden Familie Kasune von Generation zu Generation weitergereicht, bis der mächtige Daimyo Fushima Takagi, ein bekannter Liebhaber von Schwertern, es sah. Takagi, besessen von dem Schwert, versuchte viele Male vergeblich, es in seinen Besitz zu bringen. Schließlich warb er einen Clan von Ninjas an, die die Klinge für ihn stahlen und das Anwesen der Kasunes verbrannten, um den Diebstahl zu vertuschen. Als die Ninjas die Klinge ihrem Auftraggeber übergaben, wurden sie mit ebendieser Waffe niedergemacht und so jede Verbindung zwischen Takagi und den wahren Eigentümern des Schwerts zertrennt. Takagi verbarg das Schwert, zog sich aber oft zu dessen Versteck zurück, um seine Schönheit und Vollkommenheit zu bewundern. Als Takagi starb, weigerte sein Geist sich, die Erde zu verlassen und das Schwert zurückzulassen. So blieb sein Geist bei Tsu-O-Shi und wurde eins mit ihm. Seit diesem Tag muss sich jeder, der die mächtige Waffe führt, vor dem Geist des Fushima Takagi in Acht nehmen, der die Lebenskraft derer trinkt, die die Waffe berühren, um so mit dem Objekt seiner Begierde auf Toril verweilen zu können. Es besteht daher bei jeder Benutzung die Möglichkeit, daß die verfluchte Klinge dem Träger Lebensessenz entzieht.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer besteht eine Chance dem Träger Treffer- oder Attributspunkte permanent abzuziehen.
+
+Schaden: 1W10 +2 (Klinge)
+ETW0-Bonus: -2
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+@109015 = ~Modifikation: Weisheit~
+@109016 = ~Modifikation: Konstitution~
+@109017 = ~Modifikation: Geschicklichkeit~
+@109018 = ~Modifikation: Charisma~
+@109019 = ~Modifikation: Trefferpunkte~
+@109020 = ~Modifikation: Intelligenz~
+@109021 = ~Modifikation: Stärke~
+@109022 = ~Tempel von Gullykin~
+@110000 = ~Stadtkarten beim Betreten des Gebietes enthuellen~
+@111000 = ~Kartennotizen hinzufuegen~
+@111001 = ~Wirtshaus in Kerzenburg~
+@111002 = ~Priesterquartiere~
+@111003 = ~Tempel von Oghma~
+@111004 = ~Lagerhaus~
+@111005 = ~Haupttor~
+@111006 = ~Bibliothek von Kerzenburg~
+@111007 = ~Schlafbaracken~
+@111008 = ~Kaserne~
+@111009 = ~Hospital~
+@111010 = ~Anwesen von Entar Silberschild~
+@111011 = ~Helm und Umhang~
+@111012 = ~Taverne~
+@111013 = ~Tempel des Helm~
+@111014 = ~Schwarzdrachentor~
+@111015 = ~Ramaziths Turm~
+@111016 = ~Herzogspalast~
+@111017 = ~Zu den Drei Alten Fässern~
+@111018 = ~Zur Errötenden Nixe~
+@111019 = ~Zum Feiernden Stör~
+@111020 = ~Schrein von Ilmater~
+@111021 = ~Zählhaus~
+@111022 = ~Keller~
+@111023 = ~Karawane~
+@111024 = ~Zum Freundlichen Arm~
+@111025 = ~Tempel der Weisheit~
+@111026 = ~Windiger Schwindler~
+@111027 = ~Feldeposts Wirtshaus~
+@111028 = ~Donnerhammers Schmiede~
+@111029 = ~Rote Garbe~
+@111030 = ~Brennender Zauberer~
+@111031 = ~Anwesen~
+@111032 = ~Hohe Hecke~
+@111033 = ~Haus~
+@111034 = ~Höhle~
+@111035 = ~Versunkenes Haus~
+@111036 = ~Wirtshaus in Nashkell~
+@111037 = ~Laden in Nashkell~
+@111038 = ~Taverne zum Rülpsenden Drachen~
+@111039 = ~Herrenhaus~
+@111040 = ~Garnison~
+@111041 = ~Gnollfeste~
+@111042 = ~Mineneingang~
+@111043 = ~Hütte~
+@111044 = ~Skulptur~
+@111045 = ~Verlassenes Haus~
+@111046 = ~Vestibül~
+@111047 = ~Tempel des Morgenlieds~
+@111048 = ~Ruinen von Ulcaster~
+@111049 = ~Ausgang~
+@111050 = ~Hinunter zur nächsten Ebene~
+@111051 = ~Hinauf zur nächsten Ebene~
+@111052 = ~Ausgang zur Oberfläche~
+@111053 = ~Gullykin~
+@111054 = ~Feuerwein-Ruinen: Eingang~
+@111055 = ~Schiffswrack~
+@111056 = ~Verlassener Leuchtturm~
+@111057 = ~Grube~
+@111058 = ~Farm~
+@111059 = ~Lindwurmkreuzung~
+@111060 = ~Großes Zelt~
+@111061 = ~Spinnennest~
+@111062 = ~Baumhaus~
+@111063 = ~Fluss-Stöpsel~
+@111064 = ~Minenaufzug~
+@111065 = ~Taverne Elfgesang~
+@111066 = ~Allerlei Zauberei~
+@111067 = ~Billigladen des Glücklichen Aello~
+@111068 = ~Maltz' Waffenladen~
+@111069 = ~Taverne Keexie~
+@111070 = ~Geschäft der Stille~
+@111071 = ~Zur Funkelnden Klinge~
+@111072 = ~Gemischtwarenladen~
+@111073 = ~Taverne~
+@111074 = ~Gebäude des Hafenmeisters~
+@111075 = ~Leuchtende Laterne~
+@111076 = ~Haus der Wasserkönigin~
+@111077 = ~Eisenthron~
+@111078 = ~Jopalins Taverne~
+@111079 = ~Sieben Sonnen~
+@111080 = ~Flammende Faust~
+@111081 = ~Händlerliga~
+@111082 = ~Zum Alten Knacker~
+@111083 = ~Haus der Dame~
+@111084 = ~Halle der Wunder~
+@111085 = ~Hohes Haus der Wunder~
+@111086 = ~Ragefasts Haus~
+@111087 = ~Die Seherin~
+@111088 = ~Geflügelfachgeschäft~
+@111089 = ~Taverne 'Drakon'~
+@111090 = ~Felonius Gists Herrenhaus~
+@111091 = ~Wirtshaus in Ulgoths Bart~
+@111092 = ~Verlassener Turm~
+@111093 = ~Durlags Turm: Eingang~
+@111094 = ~Minenausgang~
+@111095 = ~Ausgang~
+@111096 = ~Tempel des Bhaal~
+@112000 = ~Geschaefte verkaufen groessere Stapel von Gegenstaenden~
+@113000 = ~Ruf am Anfang von BG2 zuruecksetzen (nur BGT)~
+@114000 = ~Edelsteine und Traenke erfordern Identifizierung~
+@114001 = ~Ein Edelstein ist ein Mineral, das, wenn es geschnitten oder in Facetten geschliffen und poliert ist, gesammelt oder für Schmuck verwendet werden kann.~
+@115000 = ~Gestaltwandler neu ausgleichen~
+@115001 = ~Tiere beschwören
+
+Grad: 6
+Schule: Beschwörung
+Domäne: Herbeirufung
+Reichweite: Lang
+Dauer: 4 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers ruft der Druide zwei Werbären mit je 20 Trefferwürfeln herbei. Die Bären befolgen für die Dauer des Zaubers jeden Befehl ihres Beschwörers. Werbären sind langsamer, aber kräftiger als Größere Wolfwere. Sie widerstehen elementaren und magischen Angriffen und regenerieren schnell.~
+@115002 = ~Größerer Werbär~
+@115003 = ~Werbär~
+@115004 = ~Diese symbolische Tatze repräsentiert die Kontrolle eines Gestaltwandler-Druiden über seine Lykanthropie. Solange die Tatze angelegt ist, wird der Gestaltwandler zum Werwolf. Wird sie abgelegt, verwandelt er sich zurück in seine menschliche Form. Die Tatzen eines Werwolfs zählen als Waffen mit einer Verzauberung von +2.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen normale Waffen.
+
+Schaden: 1W12 (Klinge)
+Angriffe/Runde: auf 2 gesetzt
+Rüstungsklasse: auf 1 gesetzt
+Stärke: auf 19 gesetzt
+Geschicklichkeit: auf 16 gesetzt
+Konstitution: auf 15 gesetzt
+Magiewiderstand: +20%
+Gewicht: 1
+Initiativefaktor: 3
+Mindeststärke: 3
+Fertigkeit: Dolch
+Typ: 1-händig
+
+Kann nur verwendet werden von:
+- Gestaltwandlern~
+@115005 = ~Diese symbolische Tatze repräsentiert die vollkommene Kontrolle eines Gestaltwandler-Druiden über seine Lykanthropie. Solange die Tatze angelegt ist, wird der Gestaltwandler zum Größeren Werwolf. Wird sie abgelegt, verwandelt er sich zurück in seine menschliche Form. Die Tatzen eines Werwolfs zählen als Waffen mit einer Verzauberung von +3.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen normale Waffen.
+
+Schaden: 2W8 (Klinge)
+ETW0: auf 6 gesetzt
+Angriffe/Runde: auf 3 gesetzt
+Rüstungsklasse: auf -6 gesetzt
+Stärke: auf 21 gesetzt
+Geschicklichkeit: auf 20 gesetzt
+Konstitution: auf 25 gesetzt
+Magiewiderstand: +40%
+Elektizitätswiderstand: +50%
+Feuerwiderstand: +50%
+Giftwiderstand: +50%
+Kältewiderstand: +50%
+Säurewiderstand: +50% 
+Gewicht: 1
+Initiativefaktor: 3
+Mindeststärke: 3
+Fertigkeit: Dolch
+Typ: 1-händig
+
+Kann nur verwendet werden von:
+- Gestaltwandlern~
+@116000 = ~Mehrere Hochburgen (Baldurdash)~
+@116001 = ~Keine Beschraenkungen (Baldurdash)~
+@116002 = ~Ich habe die Besitzurkunde des Theaters, wenn Ihr Eure Talente im Theater versuchen mögt. Samuel ist ein guter Mann und wird die Besitzurkunde in Euren Händen anerkennen.~
+@116003 = ~Es tut mir Leid, Raelis, aber habe ich einfach nicht die Zeit dafür.~
+@116004 = ~Danke für das freundliche Angebot, aber ich muss ablehnen. Ich weiß nicht einmal, wie ich ein Theater führen sollte.~
+@116005 = ~Euer Theater unter den Fünf Krügen? Ich wäre geehrt, es zu meinem eigenen zu machen. ~
+@116006 = ~Gewiss werdet Ihr tun, was Ihr tun müsst. Ich könnte Euch nie aufhalten. Ich schulde unserem Retter jedoch mehr als Abschiedsworte. ~
+@116007 = ~Ich habe die Besitzurkunde des Theaters, wenn Ihr Eure Talente im Theater versuchen mögt. Samuel ist ein guter Mann und wird die Besitzurkunde in Euren Händen anerkennen.~
+@116008 = ~Dann müsst Ihr mit unserem tief empfundenen Dank zufrieden sein. Kommt, Ihr Schicksalswächter, wir müssen abreisen, und zwar rasch. Vielleicht werden wir uns ja wieder sehen, <CHARNAME>.~
+@116009 = ~Ich bedauere, aber ich kann nicht. Ich muss einen Freund von mir ausfindig machen und ich bezweifle, dass ich das kann, wenn ich häufig weit weg von Athkatla bin.~
+@116010 = ~Ich kann nicht, Minister, weil ich auf diese Weise nicht viel zu Hause sein werde. Ich suche einen mächtigen Magier und meine besten Wege weisen alle zurück nach Athkatla.~
+@116011 = ~Ich muss ablehnen. Die Ereignisse in Athkatla verlangen meine Anwesenheit und ich kann nicht regelmäßig so weit entfernt sein.~
+@116012 = ~Es wäre eine Ehre. Ich akzeptiere und werde hier für das Dorf mein Bestes geben.~
+@116013 = ~Tut mir Leid, Bürgermeister, ich bin nicht interessiert. Ich erwarte, bezahlt zu werden!~
+@116014 = ~Ich gebe zu, dass ich enttäuscht bin, aber ich verstehe die Härte Eures Berufs, <CHARNAME>. Ich beneide Euch nicht um Eurem gewählten Pfad.~
+@116015 = ~Ihr, <LADYLORD>, seid ein wahrer Freund des Landes. Das Land könnte mit einer ruhigen Hand wie Eurer wieder hergestellt werden.~ ~Ihr, <LADYLORD>, seid eine wahre Freundin des Landes. Das Land könnte mit einer ruhigen Hand wie Eurer wieder hergestellt werden.~
+@116016 = ~Könnt Ihr diesen Hain während dieser Zeit der Wiedergeburt führen?~
+@116017 = ~Ich werde mein Bestes tun, um das Gleichgewicht in diesem Land wieder herzustellen.~
+@116018 = ~Diese Land hat gelitten und ich werde mich bemühen, den durch Faldorns Taten erzeugten Schaden rückgängig zu machen.~
+@116019 = ~Ein armerseliger Verwalter wäre ich. Meine Aufgaben liegen in Athkatla und ich muss ablehnen.~
+@116020 = ~Ich suche einen mächtigen Magier und ich kann mich nicht durch andere Belange ablenken lassen.~
+@116021 = ~Mein Freund ist entführt worden. Obwohl es mir weh tut, kann ich nicht diese Sorgen beiseite legen, um dem Hain zu helfen.~
+@116022 = ~Ihr habt den Segen des Hain verdient und ich schenke Euch den Stab des Donners und des Blitzes.~
+@116023 = ~Sehr gut. Ich werde weiterhin Meister der Herausforderung bleiben und der Verwalter, bis die Riten des Aufstiegs erfüllt sind.~
+@116100 = ~Klassenbeschraenkungen behalten~
+@117000 = ~Bonus Haendler (Baldurdash)~
+@118000 = ~Weibliche Edwina~
+@119000 = ~Romanzen Fehlerbehebungen~
+@120000 = ~Imoen TdB Dialogbehebung~
+@121000 = ~BG Schrittgeschwindigkeiten verwenden (BETA)~
+@122000 = ~Cromwell wertet Gegenstaende der Wachenden Festung auf~
+@122001 = ~Ah, ein Immervoller Köcher. Ich kann ihn verzaubern, damit er noch stärkere Bolzen erzeugt, aber es kostet Euch was. 5.000 Goldmünzen sind es.~
+@122002 = ~Nun, lasst uns sehen sehen, was Ihr noch habt.~
+@122003 = ~Eine Diebeskapuze, ja?~
+@122004 = ~Mit einer Flasche Gegengift und einem Unsichtbarkeitsring kann das sehr nützlich sein.~
+@122005 = ~Da ist ein Unsichtbarkeitsring... und ein Gegengift. Ihr habt alles, was ich brauche. Für 10.000 Goldmünzen kann ich das viel stärker machen.~
+@122006 = ~Was ist denn das?~
+@122007 = ~Ich hab ein Rezept, um zwei Hörner an einem Felshelm zu befestigen, um ihn noch mächtiger zu machen. Wenn Ihr die Stücke habt, kann ich es für Euch machen.~
+@122008 = ~Ihr habt den Felshelm und zwei Hörner, um sie daran zu befestigen. Für 5.000 Goldmünzen kann ich die Hörner anfügen und so einen großartigen Helm für Kämpfer machen.~
+@122009 = ~Das sind Bardenhandschuhe.~
+@122010 = ~Mit einigen zerstoßenen Edelsteinen können diese verbessert werden. Bringt mir einen Diamant, Smaragd, Schurkenstein und Sternsaphir, und ich kann es für Euch tun.~
+@122011 = ~Durch das Zerkstoßen eines Diamanten, Smaragds, Sternsaphirs und Schurkensteins kann ich diese verbessern. Es wird Euch 5.000 Goldmünzen kosten.~
+@122012 = ~Dies sind Paladin-Armschützer.~
+@122013 = ~Für 10.000 Goldmünzen kann ich diese in etwas noch besseres umschmieden.~
+@122014 = ~Hmm, ein alter Leitfaden der Golemkonstruktion.~
+@122015 = ~Mit bestimmten Seiten könnt Ihr die Golems verbessern, die durch diese Bücher beschworen werden.~
+@122016 = ~Mit dieser Lehmgolem-Seite und 5.000 Goldmünzen kann ich Euren Leitfaden verbessern, um Lehmgolems zu beschwören.~
+@122017 = ~So, jetzt ist das wirklicher ein Schutzumhang.~
+@122018 = ~Mit den Schriftrollen Unsichtbarkeit und Verbesserte Hast kann das noch besser gemacht werden.~
+@122019 = ~Wir können die Schriftrollen Unsichtbarkeit und Verbesserte Hast verwenden, um diesen Umhang noch besser zu machen. Es ist ein kniffliges Verfahren und kostet Euch 20.000 Goldmünzen.~
+@122020 = ~Ah ja, Schuppen von einem weißen Drachen. Wenn Ihr wollt, kann ich einen Harnisch aus Euren Schuppen machen, für nur 5.000 Goldmünzen.~
+@122021 = ~Nun ist das ein feines Elfenkettenhemd, sogar nach Zwergen-Maßstäben.~
+@122022 = ~Aber es gibt noch einige Zwergen-Tricks, die sie noch nicht kennen. Mit einer Schriftrolle zum Schutz vor normalen Waffen benötigt es etwas Magie, um es besser zu machen.~
+@122023 = ~Mit der Schriftrolle Schutz vor normalen Waffen können wir die Rüstung verzaubern, damit sie alles außer einer magischen Klinge widersteht. Es ist nicht leicht, Zwergen-Magie einem Elfenkettenhemd hinzuzufügen und es kostet Euch 40.000 Goldmünzen.~
+@122024 = ~Dies ist eine Schleuder der Gnome. Für 5.000 Goldmünzen habe ich einige Tricks in meinem Ärmel, die sie zielgenauer machen kann.~
+@122025 = ~Was ist denn das hier für ein Köcher? Ja, er erzeugt unendlich magische Pfeile.~
+@122026 = ~Wenn Ihr auf einen Schurkenstein stoßt, können wir jene Pfeile noch mehr verbessern.~
+@122027 = ~Mit diesem Schurkenstein und 10.000 Goldmünzen kann ich die Pfeile eine weitere Stufe verzaubern.~
+@122028 = ~Ach, das ist jetzt ein schöner Anblick!! Der Flegel der Zeitalter!~
+@122029 = ~Es gibt Gerüchte von noch mehr Waffenköpfen für diesen Flegel. Wenn Ihr welche findet, kann ich sie hinzufügen.~
+@122030 = ~Ich sehe, dass Ihr auch einen weiteren Waffenkopf dafür gefunden habt. Sieht nach Gift aus. Für 5.000 Goldmünzen kann ich ihn anfügen..~
+@122031 = ~Könnte das sein...? Ja, es ist eine explodierende Keule.~
+@122032 = ~Wenn Ihr einen Feuerschutzring findet, können wir damit eine Blitzkeule machen.~
+@122033 = ~Für 5.000 Goldmünzen kann ich dies mit Eurem Feuerschutzring zu einer noch besseren Keule verbinden.~
+@122034 = ~Ah, das sieht jetzt nach etwas von Ixil aus.~
+@122035 = ~Dies ist ein Teil von Ixils großartigem Speer. Wenn Ihr die andere Hälfte findet, kann ich die Waffe vollenden.~
+@122036 = ~Ihr habt beide Teile von Ixils altem Speer gefunden. Für 5.000 Goldmünzen können wir Ixils Nagel mit Ixils Dorn krönen.~
+@122037 = ~Ah, das ist jetzt ein Sternendolch.~
+@122038 = ~Wenn wir das mit fünf Sternensaphiren verbinden, können wir seine Magie weiter vergrößern.~
+@122039 = ~Mit fünf Sternensaphiren und 5.000 Goldmünzen können wir ihn noch wirkungsvoller machen.~
+@122040 = ~Ihr habt dort drei Waffenköpfe... Ich kann sofort den Waffenkopf des Giftes und der Elektrizität hinzufügen. Also fünf Waffenköpfe, versteht Ihr? 10.000 Goldmünzen und ich kann es tun. Wollt Ihr?~
+@122041 = ~Könntet Ihr nur den Waffenkopf der Elektrizität hinzufügen? Wir werden Euch 5.000 Goldmünzen geben.~
+@122042 = ~Könntet Ihr nur den Waffenkopf des Giftes hinzufügen? Wir werden Euch 5.000 Goldmünzen geben.~
+@122043 = ~Ich kenne Rezepte für zwei Waffenköpfe für den Flegel der Zeitalter. Ihr könnt den Waffenkopf des Giftes hinzufügen... oder den mit Elektrizität. Leider habe ich nur die Rezepte.~
+@122044 = ~Ihr habt hier drei Waffenköpfe... Ich kann den Waffenkopf der Elektrizität hinzufügen. Also vier Waffenköpfe, versteht Ihr? 5.000 Goldmünzen und ich kann es tun. Wollt Ihr?~
+@122045 = ~Oho! Ihr habt vier Waffenköpfe und ich kann den letzten hinzufügen. Dieser hier ist ausgesprochen gefährlich. 5.000 Goldmünzen und ich mach es, einverstanden? Wollt Ihr?~
+@201000 = ~PnP Zauberfortschrittsfabellen~
+@202000 = ~Zweihaendige Bastardschwerter~
+@203000 = ~Zweihaendige Katanas~
+@204000 = ~Universelle Keulen~
+@205000 = ~Beschreibung fuer die Universelle Keulen Komponente anpassen~
+@205001 = ~Erfordert die Installation von 'Universelle Keulen'~
+@205002 = ~'Ashes of Embers' ist installiert, welches bereits die Beschreibungen der Keulen angepasst hat.~
+@206000 = ~Kampfstile fuer alle~
+@207000 = ~Druiden benutzen Stufen- und Zaubertabellen von Klerikern~
+@208000 = ~Hohe Stufe Faehigkeiten verzoegern~
+@209000 = ~Erfahrungspunktgrenze aendern~
+@209001 = ~Erfahrungspunktgrenze entfernen ~
+@209100 = ~Erfahrungspunktgrenze bei Stufe 20~
+@209200 = ~Erfahrungspunktgrenze bei Stufe 30~
+@210000 = ~Schleichen und Diebesfaehigkeiten in Schwerer Ruestung 
+erlauben~
+@211000 = ~Veraendert Gegenstandsbeschreibungen fuer die Komponente 'Schleichen und Diebesfaehigkeiten in Schwerer Ruestung erlauben'~
+@212000 = ~In Ruestung erlauben magische Zauber zu wirken~
+@213000 = ~Veraendert Gegenstandsbeschreibungen fuer die Komponente 'In Ruestung erlauben magische Zauber zu wirken'~
+@214000 = ~Erweiterte Mehrklassenoptionen~
+@214001 = ~Barbar / Magier~
+@214002 = ~Barbar / Kleriker~
+@214003 = ~Barbar / Dieb~
+@214004 = ~Barbar / Druide~
+@215000 = ~Mehrere Schutzgegenstaende tragen~
+@215001 = ~PnP Beschraenkungen~
+@215100 = ~Keine Beschraenkungen~
+@216000 = ~Ausgeglichene Waffenfertigkeiten~
+@216001 = ~KURZSCHWERT/NINJA-TO:  Die bevorzugte Waffe von vielen Dieben und Halblingen; Kurzschwerter und Ninja-Tos sind leichte aber nützliche Waffen.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216002 = ~KATANA/WAKIZASHI:  Katanas und Wakizashis sind die besten Beispiele für die Handwerkskunst der Waffenschmiede und erfordern große Umsicht im Gebrauch. Während sich die Fähigkeiten entwickeln, werden der Anwender und die Klinge eine Einheit, die sich mit Leib und Seele der Kunst der Kriegsführung verschrieben haben. Diese Waffen sind schwer außerhalb von Kara-Tur zu finden, also muß man Vorsicht walten lassen, wenn man diese Fertigkeit in Betracht zieht. Schließlich ist die Fertigkeit mit Katanas und Wakizashis nur nützlich, wenn Ihr eine finden könnt. 
+
+WARNUNG:  Magische Katanas sind in Baldurs Gate 2 sehr selten!
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216003 = ~KRUMMSÄBEL:  Diese Waffenkategorie erlaubt dem Charakter, gekrümmte Klingenwaffen wie Krummsäbel zu verwenden.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216004 = ~FLEGEL: Flegel sind stumpfe Waffen, die benutzt werden, um Eure Feinde bewusstlos zu schlagen. Sie sind schwierig zu verwenden, aber mit Geschick und Erfahrung sind diese Waffen sehr nützlich.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216005 = ~STREITKOLBEN/MORGENSTERN:  Der Streitkolben steht häufig im Zusammenhang mit Klerikern. Es ist eine leistungsfähige stumpfe Waffe, die der Keule ähnlich ist, aber entworfen, um mehr Schaden hervorzurufen. Ein Morgenstern ist einem Streitkolben ähnlich, gewöhnlich mit Spitzen anstelle von hervorspringenden Rändern.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216006 = ~Waffenfertigkeitssystem veraendern~
+@216100 = ~BG-Stil Waffenfertigkeiten mit Kampfstile (the bigg)~
+@216200 = ~BG-Stil Waffenfertigkeiten ohne Kampfstile (the bigg)~
+@217000 = ~Zauber von Schriftrollen (und anderen Gegenstaenden) auf der Stufe des Charakters wirken~
+@218000 = ~Regeltreue ETW0-Tabelle, Rettungswuerfe, Großmeisterschaft und magischer sowie goettlicher Zauberfortschritt (Blucher)~
+@218001 = ~Alchimie (Magier)~
+@218002 = ~Alchimie (Priester)~
+@218003 = ~Alchimie (Schurken)~
+@218004 = ~Alchimie (Magier)
+
+Diese Fähigkeit gestattet es einem Magier, Tränke zu brauen. Die Tränke, die der Magier brauen kann, werden zufällig aus folgender Liste ausgewählt:
+
+1)  Trank der Absorption
+2)  Trank des Feuerwiderstands
+3)  Trank des Kältewiderstands
+4)  Unsichtbarkeitstrank
+5)  Trank der Steinform
+6)  Stärketrank
+7)  Trank der Geschicklichkeit
+8)  Trank des Feuerodems
+9)  Schnelligkeitsöl
+10) Brandöl~
+@218005 = ~Alchimie (Priester)
+
+Diese Fähigkeit gestattet es einem Priester, Tränke zu brauen. Die Tränke, die der Priester brauen kann, werden zufällig aus folgender Liste ausgewählt:
+
+1)  Heiltrank
+2)  Konzentrierter Heiltrank
+3)  Extrastarker Heiltrank
+4)  Heilungselixier
+5)  Trank der Einsicht
+6)  Regenerationstrank
+7)  Trank der Klarheit
+8)  Gegengift
+9)  Konzentrationstrank
+10) Trank der Schöpferkraft~
+@218006 = ~Alchimie (Schurken)
+
+Mit der seiner Klasse innewohnenden Schläue hat ein erfahrener Schurke in seiner Abenteurerkarriere genügend Tränke gesehen, um ihre Herstellung nachahmen zu können. Mit der Alchimiefertigkeit kann ein Schurke einmal pro Tag einen von acht Tränken brauen.
+
+Die Tränke, die der Schurke brauen kann, werden zufällig aus folgender Liste ausgewählt:
+
+1) Konzentrationstrank
+2) Wahrnehmungstrank
+3) Unsichtbarkeitstrank
+4) Extrastarker Heiltrank
+5) Regenerationstrank
+6) Gegengift
+7) Schnelligkeitsöl
+8) Trank der Frostriesenstärke für Schurken~
+@218007 = ~Schriftrollen anfertigen (Magier)~
+@218008 = ~Schriftrollen anfertigen (Priester)~
+@218009 = ~Schriftrollen anfertigen (Schurke)~
+@218010 = ~Schriftrollen anfertigen (Magier)
+
+Diese Fertigkeit erlaubt es einem Magier, Schriftrollen mit Zaubern niederer bis mittlerer Grade anzufertigen. Die Schriftrollen, die der Magier anfertigen kann, werden zufällig aus folgender Liste ausgewählt:
+
+1)  Magisches Geschoss
+2)  Schild
+3)  Melfs Säurepfeil
+4)  Spiegelbild
+5)  Melfs Magische Meteoriten
+6)  Geringere Zauberabwehr
+7)  Verbesserte Unsichtbarkeit
+8)  Eissturm
+9)  Orakel
+10) Chaos~
+@218011 = ~Schriftrollen anfertigen (Priester)
+
+Diese Fertigkeit erlaubt es einem Priester, Schriftrollen mit göttlichen Zaubern anzufertigen. Die Schriftrollen, die der Priester anfertigen kann, werden zufällig aus folgender Liste ausgewählt:
+
+1)  Kritische Wunden Heilen
+2)  Flammenschlag
+3)  Tote Erwecken
+4)  Genesung
+5)  Schutz vor Säure
+6)  Schutz vor Kälte
+7)  Schutz vor Elektrizität
+8)  Schutz vor Feuer
+9)  Vereinte Kräfte
+10) Geistige Beherrschung~
+@218012 = ~Schriftrollen anfertigen (Schurke)
+
+Diese Fertigkeit erlaubt es einem Schurken, Schriftrollen mit Zaubern niederer bis mittlerer Grade anzufertigen. Die Schriftrollen, die der Schurke anfertigen kann, werden zufällig aus folgender Liste ausgewählt:
+
+1) Magisches Geschoss
+2) Hast
+3) Feuerball
+4) Magie bannen
+5) Bezauberung des Berserkers
+6) Unsichtbarkeit
+7) Kältekegel
+8) Monster herbeirufen II
+9) Monster herbeirufen III~
+@219000 = ~Begrenzte Faehigkeit der Ladenbesitzer Gegenstaende zu 
+identifizieren~
+@219001 = ~Nur Magier und Barden Ladenbesitzer koennen Gegenstaende identifizieren~
+@219100 = ~Identifizierungsfaehigkeit basiert auf Sagenkunde der Ladenbesitzer~
+@219200 = ~Mischform beider Methoden~
+@220000 = ~Klassenkombination Grossmeisterschaft (Weimer)~
+@221000 = ~Wahre Grossmeisterschaft (Baldurdash)~
+@222000 = ~Aendere magisch erschaffene Waffen zu Null Gewicht~
+@223000 = ~+x/+y Waffen konsequent machen~
+@223100 = ~Aktualisierte Beschreibungen fuer die Komponente '+x/+y Waffen 
+konsequent machen'~
+@224000 = ~Regeltreue ETW0 Tabelle~
+@224001 = ~Begrenzt, beste ETW0 ist 0 (Blucher)~
+@224100 = ~Begrenzt, beste ETW0 ist -10 (PnP/BG1 Tabelle)~
+@225000 = ~Regeltreue Hexenmeister Zauberfortschrittstabelle~
+@226000 = ~Magier Zauberfortschrittstabelle veraendern~
+@226001 = ~Regeltreue Tabelle (Blucher)~
+@226100 = ~PnP-Tabelle~
+@227000 = ~Barden Zauberfortschrittstabelle veraendern~
+@228000 = ~Kleriker Zauberfortschrittstabelle veraendern~
+@229000 = ~Druiden Zauber- und Stufenfortschrittstabelle veraendern~
+@229001 = ~Keine Stufentabelle Aenderungen, nur regeltreue Druiden Zaubertabelle 
+(Blucher)~
+@229100 = ~Keine Stufentabelle Aenderungen, nur PnP Druiden/Kleriker Zaubertabelle~
+@229200 = ~Benutze Kleriker Stufentabelle mit normaler Druiden Zaubertabelle~
+@229300 = ~Benutze Kleriker Stufentabelle mit regeltreuer Druiden Zaubertabelle 
+(Blucher)~
+@229400 = ~Benutze Kleriker Stufentabelle mit PnP Druiden/Kleriker Zaubertabelle~
+@229500 = ~Benutze Kleriker Stufentabelle mit normaler Kleriker Zaubertabelle~
+@229600 = ~Benutze Kleriker Stufentabelle mit regeltreuer Kleriker Zaubertabelle 
+(Blucher)~
+@230000 = ~Dreifach-Klassen HLA Tabellen~
+@231000 = ~Rettungswurf Abzuege fuer gewirkte Zauber von hochstufigen 
+Wesen (BETA)~
+@231001 = ~Nur arkane Magie~
+@231100 = ~Nur goettliche Magie~
+@231200 = ~Arkane und goettliche Magie~
+@232000 = ~Entfernung der Fallen-Obergrenze (Ardanis/GeN1e)~
+@233000 = ~Verzoegerung von magischen Fallen entfernen (Ardanis/GeN1e)~
+@234000 = ~Herbeirufungs-Obergrenze von himmlichen Wesen entfernen 
+(Ardanis/GeN1e)~
+@300000 = ~Hoehere TP beim Stufenaufstieg~
+@300001 = ~Maximum~
+@300100 = ~NWN Stil~
+@301000 = ~Maximale TP fuer NSCs (the bigg)~
+@301001 = ~Fuer alle Kreaturen im Spiel~
+@301100 = ~Nur fuer keine anschlussfaehigen Gruppe-NSCs~
+@301200 = ~Nur fuer anschlussfaehige Gruppen-NSCs~
+@302000 = ~Alle Gegenstaende identifizieren~
+@303000 = ~Einfaches erlernen von Zaubern~
+@303001 = ~100% Zauber zu lernen~
+@303100 = ~100% Zauber zu lernen und keine Hoechstgrenze~
+@304000 = ~Nimmervolle Beutel unerschoepflich machen~
+@305000 = ~Erschoepfung von Genesungszaubern entfernen~
+@306000 = ~'Ihr muesst Eure Gruppe erst sammeln'-Sound entfernen 
+(Weimer)~
+@307000 = ~Preisnachlass bei schlechtem Ruf (Sabre)~
+@307001 = ~Auswirkung des Rufs auf die Ladenpreise aendern~
+@307100 = ~Ruf hat keine Auswirkung, Ladenpreise fest bei 100% (Luiz)~
+@307200 = ~Ruf hat keine Auswirkung, Ladenpreise fest bei 80% (Luiz)~
+@307300 = ~Ruf hat keine Auswirkung, Ladenpreise fest bei 60% (Luiz)~
+@308000 = ~Unbegrenzte Munitionsstapel~
+@309000 = ~Unbegrenzte Schmuck- und Edelsteinstapel~
+@310000 = ~Unbegrenzte Traenkestapel~
+@311000 = ~Unbegrenzte Schriftrollenstapel~
+@312000 = ~Happy Patch (Gruppen-NSCs beschweren sich nicht ueber den Ruf)~
+@312001 = ~NSCs sind niemals ueber den Ruf veraergert~
+@312100 = ~NSCs koennen ueber den Ruf veraergert sein, aber gehen nie (Salk)~
+@312200 = ~NSCs verhalten sich immer neutral ueber den Ruf (Anomaly)~
+@312300 = ~Gruppen-NSCs bekaempfen~ 
+@312400 = ~Verhindern Sie den Romance zwischen Aerie und Haer'Dalis am Anfang~
+@312500 = ~Neutrale Charaktere machen glueckliche Bemerkungen bei 
+durchschnittlichem Ruf~
+@313000 = ~Keine Fallen oder Schloesser (Weimer)~
+@314000 = ~Schnellere Kapitel 1+2 Zwischensequenzen und Traeume~
+@314001 = ~Originale von Ease-of-Use (Karzak, Blucher)~
+@314100 = ~Nicht verrueckte Version~
+@315000 = ~Die schrecklichen Animationen von Spiegelumhang, Zauberfalle und Physischer Spiegel ausschalten~
+@316000 = ~Drizzts Beute behalten, Malchor Harpell entfernen~
+@317000 = ~Keine Drow-Spielfiguren fuer die Gruppe im Unterreich~
+@317900 = ~Keine Rassen Voraussetzungen fuer Romanzen~
+@318000 = ~Romanzen Cheats~
+@318001 = ~Keine Geschlecht/Rassen Voraussetzungen fuer Romanzen~
+@318100 = ~Keine Geschlecht/Rassen Voraussetzungen fuer Romanzen, mehrfache Romanzen erlauben~
+@318200 = ~Keine Geschlecht/Rassen Voraussetzungen fuer Romanzen, mehrfache Romanzen erlauben, nichts zerstoert Romanzen~
+@318300 = ~Romanzen Cheats~
+@318301 = ~Rassenvoraussetzungen fuer Romanzen entfernen? (Waehle a oder b)
+  a) Entfernen
+  b) Keine Aenderungen~
+@318302 = ~  * Rassenvoraussetzungen fuer Romanzen entfernen~
+@318303 = ~Geschlechtsvoraussetzungen fuer Romanzen entfernen? (Waehle a oder b)
+  a) Entfernen
+  b) Keine Aenderungen~
+@318304 = ~  * Geschlechtsvoraussetzungen fuer Romanzen entfernen~
+@318305 = ~Mehrfache Romanzen erlauben? (Waehle a oder b)
+  a) Mehrfache erlauben
+  b) Keine Aenderungen~
+@318306 = ~  * Mehrfache Romanzen erlauben~
+@318307 = ~Nichts zerstoert Romanzen? (Waehle a oder b)
+  a) Nichts zerstoert Romanzen
+  b) Keine Aenderungen~
+@318308 = ~  * Nichts zerstoert Romanzen~
+@318309 = ~Ihr habt folgende Installationsoptionen ausgewaehlt:~
+@318310 = ~Sind diese Einstellungen richtig?
+  a) Ja, mit der Installation fortfahren
+  b) Nein, lass sie mich erneut auswaehlen~
+@318311 = ~Romanzen fuer neue Spiele in TdB starten?
+  a) Starte fuer neue TdB Spiele
+  b) Keine Aenderungen~
+@318312 = ~  * Romanzen fuer neue Spiele in TdB starten~
+@318313 = ~Bring mir meine Geliebte, Aerie.~
+@318314 = ~Bring mir meine Geliebte, Jaheira.~
+@318315 = ~Bring mir meinen Geliebten, Sir Anomen, Ritter des Ordens.~
+@318316 = ~Bring mir meinen Geliebten, Anomen, Priester von Helm.~
+@318317 = ~Bring mir meine Geliebte, Viconia.~
+@319000 = ~Ueberall Rasten (Japheth)~
+@320000 = ~Verkaeufliche Gegenstaende (Icelus)~
+@321000 = ~Cheat: Minimale Eigenschaften~
+@321001 = ~Waehle den minimalen Wert der Eigenschaften, zwischen 6 und 15:~
+@400000 = ~Reaktionswuerfe von anschlussfaehigen boesen NSCs anpassen~
+@401000 = ~Verbessertes Herbeirufen beim Geist des Schicksals~
+@402000 = ~TdB-Stil NSCs~
+@403000 = ~Gleichbleibende Eigenschaften: Edwin~
+@403001 = ~BG Werte benutzen~
+@403100 = ~BG2 Werte benutzen~
+@404000 = ~Gleichbleibende Eigenschaften: Jaheira~
+@405000 = ~Aendere Jaheira zu Neutral Gut~
+@406000 = ~Gleichbleibende Eigenschaften: Minsk~
+@407000 = ~Gleichbleibende Eigenschaften: Viconia~
+@408000 = ~Khalid zum Kaempfer/Magier machen (Domi)~
+@408001 = ~Als er nach seiner Vergangenheit gefragt wird, enthüllt KHALID nervös, dass er in der Nation von Calimshan geboren wurde und dort aufgewachsen ist. Er redet nicht viel über seine Eltern, aber Ihr erhaltet das Gefühl, dass sein Vater, ein Händler, wenig an ihn dachte und er viel mehr Aufmerksamkeit Khalids Halbbrüdern widmete. Ohne Unterstützung seines Vaters war Khalid nicht imstande das Lehrgeld zu bezahlen, um Magier zu werden. Deshalb trat er in die Stadtmiliz ein, in der Hoffnung, dadurch genügend Geld zu verdienen. Er geht nicht ins Detail, wie er Jaheira kennen gelernt hat, aber seine Verehrung für sie liegt auf der Hand. Wenn er danach gefragt wird, wie er Gorion kennen lernte, sagt er nur, dass sie lange Freunde waren und dass viele gemeinsame Bekannte seinen Verlust in einem Harfenlied beklagen.~
+@409000 = ~Montaron zum Meuchelmoerder machen (Andyr)~
+@410000 = ~Aendere Korgan zu Neutral Boese~
+@411000 = ~Kagain ein zulaessiges Konstitutionsergebnis von 19 geben~

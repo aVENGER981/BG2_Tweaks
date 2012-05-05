@@ -1,0 +1,11 @@
+IF
+	GlobalGT("WraithPunish","GLOBAL",0)
+	!Global("LovedOne","GLOBAL",1)
+	InParty(Myself)
+	Global("AerieRomanceActive","GLOBAL",2)
+	GlobalGT("ExpLoveTalk","LOCALS",0)
+	GlobalLT("ExpLoveTalk","LOCALS",6)
+THEN
+	RESPONSE #100
+		SetGlobal("ExpLoveTalk","LOCALS",6)
+END

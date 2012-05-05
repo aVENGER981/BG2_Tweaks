@@ -1,0 +1,7 @@
+DEFINE_PATCH_MACRO ~arcane_descripts_spanish~ BEGIN
+
+  REPLACE_TEXTUALLY ~\(Peso:[ %tab%]*[0-9]+\)~
+  ~\1
+Fallar Magia Arcana: +%patch_miscast%%~
+
+END

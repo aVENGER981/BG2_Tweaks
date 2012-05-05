@@ -1,0 +1,10 @@
+IF
+	InParty(Myself)
+	!Global("ViconiaMatch","GLOBAL",1)
+	Global("CDRomanceFoo","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CheckViconiaMatch","GLOBAL",1)
+		SetGlobal("ViconiaMatch","GLOBAL",1)
+		Continue()
+END

@@ -1,0 +1,20 @@
+COPY_EXISTING ~xplevel.2da~ ~override~
+REPLACE_TEXTUALLY
+~CLERIC \(.*\)
+DRUID \(.*\)~
+~CLERIC \1
+DRUID  \1~
+  BUT_ONLY_IF_IT_CHANGES
+
+ACTION_IF FILE_EXISTS_IN_GAME ~lunumab.2da~ THEN BEGIN
+
+  COPY_EXISTING ~lunumab.2da~ ~override~
+    READ_2DA_ENTRY  2 1 5 "cleric"   // read trueclass cleric value for initial HLA level
+    SET_2DA_ENTRY   6 1 5 "%cleric%" // write trueclass cleric value for initial HLA level into druid slot
+    READ_2DA_ENTRY  9 1 5 "f_c"      // read dual f/c value for initial HLA level
+    SET_2DA_ENTRY  15 1 5 "%f_c%"    // write dual f/c cleric value for initial HLA level into dual f/d slot
+    READ_2DA_ENTRY 22 1 5 "multic"   // read multiclass cleric value for initial HLA level
+    SET_2DA_ENTRY  24 1 5 "%multic%" // write multiclass cleric value for initial HLA level into multiclass druid slot
+    BUT_ONLY_IF_IT_CHANGES
+
+END

@@ -1,0 +1,47 @@
+IF
+  Global("CDResetRep","MYAREA",0)
+  Alignment(Player1,LAWFUL_GOOD)
+THEN
+  RESPONSE #100
+    ReputationSet(12)
+    SetGlobal("CDResetRep","MYAREA",1)
+END
+
+IF
+  Global("CDResetRep","MYAREA",0)
+  OR(2)
+    Alignment(Player1,NEUTRAL_GOOD)
+    Alignment(Player1,CHAOTIC_GOOD)
+THEN
+  RESPONSE #100
+    ReputationSet(11)
+    SetGlobal("CDResetRep","MYAREA",1)
+END
+
+IF
+  Global("CDResetRep","MYAREA",0)
+  OR(2)
+    Alignment(Player1,LAWFUL_EVIL)
+    Alignment(Player1,NEUTRAL_EVIL)
+THEN
+  RESPONSE #100
+    ReputationSet(9)
+    SetGlobal("CDResetRep","MYAREA",1)
+END
+
+IF
+  Global("CDResetRep","MYAREA",0)
+  Alignment(Player1,CHAOTIC_EVIL)
+THEN
+  RESPONSE #100
+    ReputationSet(8)
+    SetGlobal("CDResetRep","MYAREA",1)
+END
+
+IF // all other alignments (i.e. neutral)
+  Global("CDResetRep","MYAREA",0)
+THEN
+  RESPONSE #100
+    ReputationSet(10)
+    SetGlobal("CDResetRep","MYAREA",1)
+END

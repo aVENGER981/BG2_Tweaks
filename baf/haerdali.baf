@@ -1,0 +1,22 @@
+IF
+	InParty("Aerie")
+	!Dead("Aerie")
+	Global("HaerDalisRomanceActive","GLOBAL",2)
+	Global("AerieRomanceActive","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("HaerDalisRomanceActive","GLOBAL",1)
+		Continue()
+END
+
+IF
+	InParty("Aerie")
+	!Dead("Aerie")
+	!Global("HaerDalisRomanceActive","GLOBAL",0)
+	!Global("HaerDalisRomanceActive","GLOBAL",3)
+	Global("AerieRomanceActive","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("HaerDalisRomanceActive","GLOBAL",3)
+		Continue()
+END

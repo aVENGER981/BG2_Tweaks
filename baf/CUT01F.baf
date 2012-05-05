@@ -1,0 +1,10 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")  // 
+    ActionOverride("CSIren",MoveToObject("CSImoen"))
+    SetGlobal("CutScene01","AR0700",4)
+    StartCutScene("cut01g")
+END
+

@@ -1,0 +1,8 @@
+IF
+  Global("wmSpawnDeidre","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("wmart2",[498.456],12)  // wmart2
+    SetGlobal("wmSpawnDeidre","GLOBAL",1)
+END
+

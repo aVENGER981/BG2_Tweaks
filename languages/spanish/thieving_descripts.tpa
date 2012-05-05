@@ -1,0 +1,20 @@
+DEFINE_PATCH_MACRO ~thieving_descripts_spanish~ BEGIN
+
+  REPLACE_TEXTUALLY ~^[ %tab%]*Abrir cerraduras:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Encontrar trampas:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Fallar Magia Arcana:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~\(Peso:[ %tab%]*[0-9]+\)~
+  ~\1
+Abrir cerraduras: -%penalty_lock%CDPERCENTAGE
+Encontrar/desactivar trampas: -%penalty_trap%CDPERCENTAGE
+Robar: -%penalty_pickpocket%CDPERCENTAGE~
+  PATCH_IF ("%patch_hide%" != 2) BEGIN
+    REPLACE_TEXTUALLY ~^[ %tab%]*Esconderse en las sombras:.+$[%mnl%%lnl%%wnl%]+~ ~~
+    REPLACE_TEXTUALLY ~^[ %tab%]*Moverse sigilosamente:.+$[%mnl%%lnl%%wnl%]+~ ~~
+    REPLACE_TEXTUALLY ~\(Peso:[ %tab%]*[0-9]+\)~
+    ~\1
+Esconderse en las sombras: -%penalty_hide%CDPERCENTAGE
+Moverse sigilosamente: -%penalty_silent%CDPERCENTAGE~
+  END
+
+END

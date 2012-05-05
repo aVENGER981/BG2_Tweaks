@@ -1,0 +1,7 @@
+IF
+  Kit(LastSummonerOf(Myself),BARBARIAN)
+THEN
+    RESPONSE #100
+             ActionOverride(LastSummonerOf(Myself),AddKit(barbtw))
+	     DestroySelf()
+END

@@ -1,0 +1,7 @@
+IF
+  Global("CDDrowTimerSet","AR2500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CDDrowTimerSet","AR2500",1)
+    SetGlobalTimer("CDDrowItemTimer","GLOBAL",1)
+END

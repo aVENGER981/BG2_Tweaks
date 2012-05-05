@@ -1,0 +1,11 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")  // 
+    MoveViewPoint([2576.908],INSTANT)
+    Wait(1)
+    FadeFromColor([1.0],0)
+    StartCutScene("cut01b")
+END
+

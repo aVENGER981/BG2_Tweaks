@@ -1,0 +1,21 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")  // 
+    CreateVisualEffectObject("ICRMPARI",Myself)
+    ForceSpell("CSImoen",CUTSCENE_DAMAGE_1)
+    CreateVisualEffectObject("SPDISPMA",Myself)
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSImoen")  // 
+    Wait(2)
+    SmallWait(7)
+    SetGlobal("CutScene01","AR0700",3)
+    StartCutScene("cut01e")
+END
+

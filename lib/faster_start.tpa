@@ -1,0 +1,68 @@
+COMPILE ~BG2_Tweaks/baf/cut01.baf~
+        ~BG2_Tweaks/baf/cut01a.baf~
+        ~BG2_Tweaks/baf/cut01b.baf~
+        ~BG2_Tweaks/baf/movie01b.baf~
+        ~BG2_Tweaks/baf/movie02b.baf~
+        ~BG2_Tweaks/baf/movie02c.baf~
+        ~BG2_Tweaks/dlg/gaelan.d~
+
+COPY_EXISTING ~ar0400.bcs~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~ActionOverride("GAELAN",StartDialogueNoSet(Player1))~ ~~
+  COMPILE_BAF_TO_BCS
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~player1d.bcs~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~StartCutScene("[Cc][Uu][Tt]28[Aa]")~ 
+~Wait(2)
+DisplayStringHead(Player1,34530)
+Wait(10)
+DisplayStringHead(Player1,34531)
+Wait(2)
+RestParty()
+EndCutSceneMode()~
+    REPLACE_TEXTUALLY ~StartCutScene("[Cc][Uu][Tt]49[Aa]")~
+~Wait(2)
+DisplayStringHead(Player1,54089)
+Wait(10)
+DisplayStringHead(Player1,54090)
+Wait(2)
+SetGlobal("GivePowerSlayer","GLOBAL",1)
+RestParty()
+EndCutSceneMode()~
+    REPLACE_TEXTUALLY ~StartCutScene("[Cc][Uu][Tt]67[Aa]")~
+~Wait(2)
+DisplayStringHead(Player1,59617)
+Wait(10)
+DisplayStringHead(Player1,59619)
+Wait(2)
+RestParty()
+EndCutSceneMode()~
+    REPLACE_TEXTUALLY ~StartCutScene("[Cc][Uu][Tt]69[Aa]")~
+~Wait(2)
+DisplayStringHead(Player1,59625)
+Wait(10)
+DisplayStringHead(Player1,59628)
+Wait(2)
+RestParty()
+EndCutSceneMode()~
+    REPLACE_TEXTUALLY ~StartCutScene("[Cc][Uu][Tt]68[Aa]")~
+~Wait(2)
+DisplayStringHead(Player1,59630)
+Wait(10)
+DisplayStringHead(Player1,59639)
+Wait(2)
+RestParty()
+EndCutSceneMode()~
+  COMPILE_BAF_TO_BCS
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~gaelan.cre~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+    WRITE_ASCII 0x250 ~~ #8       // no Gaelan.BCS auto-talk script
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// give all the loot you would have gotten from that dead thief
+EXTEND_BOTTOM ~ar0602.bcs~ ~BG2_Tweaks/baf/arrows.baf~

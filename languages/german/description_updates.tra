@@ -1,0 +1,557 @@
+@99001 = ~Meist besteht eine Keule aus einem festen Stock aus Hartholz, der am Griff schmal ist und zum Ende hin breiter wird. Diese einfache Waffe ist im Gebrauch, seit Menschen Werkzeuge benutzen. Da jeder ein brauchbares festes Holzstück finden und herumschleudern kann, ist die Keule als Waffe weit verbreitet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Wucht)
+Gewicht: 3
+Initiativefaktor: 4
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~ 
+@99002 = ~Meist besteht eine Keule aus einem festen Stock aus Hartholz, der am Griff schmal ist und zum Ende hin breiter wird. Diese einfache Waffe ist im Gebrauch, seit Menschen Werkzeuge benutzen. Die Keule fühlt sich schwer an, aber wenn Ihr sie benutzt, ist sie präzise und leicht wie Leder.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Wucht)
+ETW0-Bonus: -1
+Gewicht: 2
+Initiativefaktor: 2
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~
+@99003 = ~Die Wurzel allen Übels
+
+Man sagt, dass diese magische Keule seit dem Untergang Nesserils und der Entstehung der großen Wüste Anauroch existiert. Die damalige Katastrophe verlangte der zivilisierten Welt natürlich einen fürchterlichen Preis ab, aber die wahren Leidtragenden waren die Wesen der Natur, die hilflos mit ansehen mussten, wie ihr Lebensraum verfiel und starb. Während die Lebensräume immer mehr schrumpften, wurden jene Wesen, die nicht flohen, von jenen überrollt, die aus den noch unwirtlicher gewordenen Gegenden flohen. Diese Wesen nahmen sich, was sie benötigten, und scheuten auch vor Gewaltanwendung nicht zurück. Diese besondere Waffe ist angeblich das letzte Geschenk einer Dryade, die die Invasoren ihres Landes vergeblich aufzuhalten versuchte. Die Keule ist aus dem Baum der Dryade entstanden. Das arme Wesen musste einen bittersüßen Schmerz durchleiden, weil ihr Wald nur wohl deswegen zum Opfer solch fürchterlicher Heimsuchungen wurde, weil er so stark, gesund und reich an Leben war. Die Waffe hat ihren Namen von einem nicht gerade respektvollen Gelehrten erhalten. Die treuen Diener der Natur schätzen diese Art von Humor hingegen gar nicht.
+
+EIGENSCHAFTEN:
+
+Schaden:
+ 1W6 +1 (Wucht)
+ 1W6 +3 (gg. unnatürliche Wesen)
+Schadensbonus: +1 (Säure)
+ETW0-Bonus:
+ -1 (normal)
+ -3 (gg. unnatürliche Wesen)
+Gewicht: 3
+Initiativefaktor: 3
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~ 
+@99004 = ~Schwarzblut
+
+Die Eichenkeule ist mit eingetrockneten, schwarzen Kügelchen einer Substanz überzogen, die an Harz erinnert. Im Kampf glüht die Substanz mit einem inneren, dunklen Licht und wird dickflüssig. Wenn die Keule einen Gegner trifft, spritzt die Flüssigkeit auf das Opfer und richtet zusätzlichen Säureschaden an.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht)
+Schadensbonus: +3 (Säure)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 4
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~
+@99005 = ~Knochenkeule gegen Untote
+
+Die brutale Keule wurde vor hunderten von Jahren erschaffen, angeblich von einem Schamanen, der auf einem Rachefeldzug war. Seine Familie war Untoten zum Opfer gefallen und sein Zorn so groß, dass er sein eigenes Bein amputierte und seinen Oberschenkelknochen benutzte, um daraus diese Keule zu fertigen. Die Waffe wird durch magische Runen verstärkt, aber vermutlich hätte schon die Energie seines unbändigen Hasses allein ausgereicht, um sie zu verzaubern.
+
+EIGENSCHAFTEN:
+
+Schaden:
+ 1W6 +2 (Wucht)
+ 1W6 +3 (gg. Untote)
+ETW0-Bonus: -2, -3 (gg. Untote)
+Gewicht: 3
+Initiativefaktor: 4
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~ 
+@99006 = ~Beißer
+
+Makal von der Kiefer, ein verschlagener Druide, stellte diese Keule her und band den Geist seines Tiergefährten, eines Vielfraßes, an die Keule. Die Keule wird in den Händen eines geschickten Anwenders zu einer ebenso großen Bedrohung wie das beharrliche Tier. Wenn die Keule trifft, graben sich scharfe Splitter in die Haut des Ziels. Sie verursachen starke Schmerzen und richten sogar einige Runden lang zusätzlichen Schaden an. Makal setzte die Keule wiederholt erfolgreich ein und zog sich den Groll von orkischen Holzfällern zu, die seinen Wald bedrohten.
+
+EIGENSCHAFTEN:
+
+Bei einem Treffer verursachen die Splitter für 4 Runden 2 Schadenspunkte je Runde.
+
+Schaden: 1W6 +2 (Wucht)
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 4
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~
+@99007 = ~Keule der Detonation
+
+Diese primitive Holzkeule brennt mit dem unirdischen Feuer des Dämons, der auf immer in ihr gefangen ist. Manchmal kann sich der Zorn des Dämons in Form einer feurigen Entladung manifestieren.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer besteht eine 7%ige Chance einen Feuerball auszulösen.
+
+Schaden: 1W6 +3 (Wucht)
+Schadensbonus: +3 (Feuer)
+ +10 (Feuer): 20% Chance
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 4
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~
+@99008 = ~Keule der Detonation
+
+Diese primitive Holzkeule brennt mit dem unirdischen Feuer des Dämons, der auf immer in ihr gefangen ist. Manchmal kann sich der Zorn des Dämons in Form einer feurigen Entladung manifestieren.
+
+Durch den Ring der Feuerresistenz wird der Dämon, der in der Keule gefangen ist, leichter kontrollierbar. Der Zorn der Kreatur wird aber noch immer manchmal unkontrolliert freigesetzt.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer besteht eine 5%ige Chance einen Feuerball auszulösen.
+
+Schaden: 1W6 +5 (Wucht)
+Schadensbonus: +5 (Feuer)
+ +15 (Feuer): 30% Chance
+ETW0-Bonus: -5
+Gewicht: 1
+Initiativefaktor: 4
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~ 
+@99009 = ~Meist besteht eine Keule aus einem festen Stock aus Hartholz, der am Griff schmal ist und zum Ende hin breiter wird. Diese einfache Waffe ist im Gebrauch, seit Menschen Werkzeuge benutzen. Da jeder ein brauchbares festes Holzstück finden und herumschleudern kann, ist die Keule als Waffe weit verbreitet. Diese spezielle Keule wurde auf magischem Weg verbessert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht)
+ETW0-Bonus: -3
+Gewicht: 1
+Initiativefaktor: 1
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~
+@99010 = ~Licht Aus 
+
+Auf den ersten Blick erscheint dieser Totschläger so gewöhnlich wie zahllose Andere seiner Art, aber gut trainierte Augen dürften nicht die feinen Runen entgehen, welche sich entlang des Griffes schlängeln. Ein Dieb würde ebenfalls bemerken, das die Waffe fein ausgewogen ist.
+
+Die Keule wurde vor langer Zeit von einem Gildenmeister der Schattendiebe für seinen erfolgreichsten und loyalsten Gefolgsmann in Auftrag gegeben. Die mächtige Waffe erleichterte die Arbeit eines Diebes sehr, schließlich schien sie Geräusche um ihn herum regelrecht zu verschlucken und sogar er selbst war scheinbar in Schatten gehüllt, wenn er sich an sein Opfer heranschlich. Das letzte was die Unglücklichen hörten, war das leichte heranrauschen der Luft hinter ihrem Schädel, wodurch die Waffe schnell ihren Spitznamen "Licht Aus" erhielt.
+
+Bedauerlicherweiße, wie es oft der Fall ist, war der Gefolgsmann nicht ganz so Loyal, wie der Gildenmeister gedacht hatte und so wurde er eines Nachts im Schlaf mit dem Knüppel zu Tode geprügelt, während seine Frau, welche neben ihm schlief, nichts von alledem hörte.
+
+Wie diese Waffe ihren Weg ihn Eure Hände gefunden hat, ist vielleicht eine Geschichte, die Ihr gar nicht wissen wollt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Wucht)
+ETW0: -2
+Schleichen: +10%
+Gewicht: 3
+Initiativefaktor: 4
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~ 
+@99011 = ~Schlägerbraut
+
+Die Schlägerbraut wurde für <CHARNAME> aus der eichenen, giftigen Keule Schwarzblut und der splitternden Keule Beisser geschmiedet und pulsiert förmlich vor destruktiver Energie. Dadurch, dass sie mit einer teerartiegen Substanz überzogen ist, verbrennt das Fleisch des Gegners, sobald es mit ihr in Kontakt kommt. Außerdem bleiben noch Splitter und Dornen in der Wunde hängen und verursachen zusätzliche Schmerzen. 
+ 
+EIGENSCHAFTEN:
+ 
+Schaden: 1W6 +5 (Wucht)
+Schadensbonus:
+ +5 (Säure)
+ +12 (Splitter in 24 Sekunden)
+ETW0-Bonus: -5
+Säurewiderstand: +25%
+Gewicht: 3
+Initiativefaktor: 1
+Mindeststärke: 5 
+Fertigkeit: Keule
+Typ: 1-händig~
+@99012 = ~Der Bewahrer
+
+Durch das Vereinen der Knochenkeule mit der splitternden Keule Beißer, wurde diese Waffe fuer <CHARNAME> erschaffen. Die Kräfte des Bewahrers liegen im Bewahren des Gleichgewichts. Die Geister verstorbener Krieger führen die Hand des Trägers mit unbeirrbarer Genauigkeit. Dazu verursacht ein Treffer mit dieser Keule einen nicht unbedeutenden Schaden beim Gegner, da sich die Knochensplitter in die Wunden bohren. Zudem verursacht die Keule zusätzlichen Schaden bei nicht-neutralen Gegnern. 
+ 
+EIGENSCHAFTEN:
+ 
+Der Träger erhält Großmeisterschaft im Umgang mit Keulen.
+
+Bei einem Treffer verursachen die Splitter für 4 Runden 2 Schadenspunkte je Runde.
+
+Schaden: 1W6 +4 (Wucht)
+Schadensbonus:
+ +4 (gg. gute Wesen)
+ +4 (gg. böse Wesen)
+ +4 (gg. rechtschaffen-neutrale Wesen)
+ +4 (gg. chaotisch-neutrale Wesen)
+ETW0-Bonus: -4
+Gewicht: 3
+Initiativefaktor: 1
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~
+@99030 = ~Der Beschützer
+
+Die königliche Garde von König Pyronan, dem Herrscher über Impiltur, erhielt den "Beschützer" als ehrwürdiges Symbol ihres Status. Leider konnte sich die Garde jedoch nicht darauf einigen, wer das Amulett erhalten sollte. Nach Jahren der Feindseligkeit untereinander ging es verloren und die Garde wurde durch bescheidenere Männer ersetzt.
+
+EIGENSCHAFTEN:
+
+RW-Bonus: -1
+Gewicht: 1~ 
+@99031 = ~Dieser einfache Umhang ist mit einigen magischen Fähigkeiten versehen worden, um den Schutz seines Trägers zu erhöhen. Das geschieht, indem der Umhang Rettungswürfe und Rüstungsklasse entsprechend verändert. Er ist ideal für Magier und andere Zeitgenossen, die keine schweren oder einengenden Rüstungen tragen können.
+
+EIGENSCHAFTEN:
+
+RW-Bonus: -1
+Gewicht: 3~
+@99032 = ~Der Geistesschild
+
+Von diesem Umhang sagt man, er konzentriere die Energien des Geistes in einer schützenden Kraft. Gerüchte von einem in diesem magischen Umhang gefangenen Vampir halten sich hartnäckig, können jedoch ohne Zerstörung des Umhangs nicht bewiesen werden.
+
+EIGENSCHAFTEN:
+
+RW-Bonus: -2
+Gewicht: 3~ 
+@99033 = ~Die Fähigkeiten, über die dieser mächtige Umhang verfügt, machen deutlich, dass Schutz die verschiedensten Formen annehmen kann... So ist es manchmal auch eine sehr gute Taktik, sich zu verstecken und davonzulaufen, um keinen Schaden zu erleiden.
+
+EIGENSCHAFTEN:
+
+Verbesserte Hast (1x täglich)
+Verbesserte Unsichtbarkeit (1x täglich)
+
+RW-Bonus: -2
+Gewicht: 3~
+@99034 = ~Prinzenring
+
+Dieser und einige ähnlich geartete Ringe wurden ursprünglich hergestellt, um die Söhne von König Castter De'wess zu schützen, aber es ist nicht bekannt, wer den Zauber über die Ringe aussprach. Geschichtliche Aufzeichnungen besagen, dass die Ringe mindestens 13 Generationen im Besitz dieser Familie blieben, obwohl sie alle schließlich im Verlauf von nur einer Generation verloren gingen. Der Grund hierfür war möglicherweise die Feindschaft zwischen dem König und der Familie des Erschaffers.
+
+EIGENSCHAFTEN:
+
+RW-Bonus: -1~
+@99035 = ~Wächterring
+
+Der Wächter war ein unsterblicher Hüter, der mit dem Schutz eines Grabs beauftragt war, das den Leichnam einer Prinzessin der Akanal enthielt. Über die Jahrtausende schwand der Respekt für das Grab zusammen mit der Erinnerung an die Königsfamilie und Abenteurer begannen ihr Glück bei dem Wächter zu versuchen. Seine Überwindung war nur eine Frage der Zeit und als es soweit war, war der Ring, den er trug, einer von vielen Schätzen, die aus der Grabstätte geraubt wurden.
+
+EIGENSCHAFTEN:
+
+RW-Bonus: -2~
+@99036 = ~Prinzenring
+
+Dieser und einige ähnlich geartete Ringe wurden ursprünglich hergestellt, um die Söhne von König Castter De'wess zu schützen, aber es ist nicht bekannt, wer den Zauber über die Ringe aussprach. Geschichtliche Aufzeichnungen besagen, dass die Ringe mindestens 13 Generationen im Besitz dieser Familie blieben, obwohl sie alle schließlich im Verlauf von nur einer Generation verloren gingen. Der Grund hierfür war möglicherweise die Feindschaft zwischen dem König und der Familie des Erschaffers.
+
+EIGENSCHAFTEN:
+
+RW-Bonus: -1~ 
+@99037 = ~Siegelring des Hüters
+
+Die Legenden besagen, dass dieser simple Goldreif ein Geschenk von Ao an Helm war. Es war eine Belohnung für die unerschütterliche Treue des Gottes während der Zeit der Sorgen. Helm hat den Ring an seine sterblichen Anhänger weitergegeben.
+
+EIGENSCHAFTEN:
+
+RW-Bonus: -3~
+@99051 = ~Die Wurzel allen Übels
+
+Man sagt, dass diese magische Keule seit dem Untergang Nesserils und der Entstehung der großen Wüste Anauroch existiert. Die damalige Katastrophe verlangte der zivilisierten Welt natürlich einen fürchterlichen Preis ab, aber die wahren Leidtragenden waren die Wesen der Natur, die hilflos mit ansehen mussten, wie ihr Lebensraum verfiel und starb. Während die Lebensräume immer mehr schrumpften, wurden jene Wesen, die nicht flohen, von jenen überrollt, die aus den noch unwirtlicher gewordenen Gegenden flohen. Diese Wesen nahmen sich, was sie benötigten, und scheuten auch vor Gewaltanwendung nicht zurück. Diese besondere Waffe ist angeblich das letzte Geschenk einer Dryade, die die Invasoren ihres Landes vergeblich aufzuhalten versuchte. Die Keule ist aus dem Baum der Dryade entstanden. Das arme Wesen musste einen bittersüßen Schmerz durchleiden, weil ihr Wald nur wohl deswegen zum Opfer solch fürchterlicher Heimsuchungen wurde, weil er so stark, gesund und reich an Leben war. Die Waffe hat ihren Namen von einem nicht gerade respektvollen Gelehrten erhalten. Die treuen Diener der Natur schätzen diese Art von Humor hingegen gar nicht.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W6 +1 (Wucht)
+ 1W6 +3 (gg. unnatürliche Wesen)
+Schadensbonus: +1 (Säure)
+ETW0-Bonus: -1, -3 (gg. unnatürliche Wesen)
+Gewicht: 3
+Initiativefaktor: 3
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Magiern~ 
+@99052 = ~Knochenkeule gegen Untote
+
+Die brutale Keule wurde vor hunderten von Jahren erschaffen, angeblich von einem Schamanen, der auf einem Rachefeldzug war. Seine Familie war Untoten zum Opfer gefallen und sein Zorn so groß, dass er sein eigenes Bein amputierte und seinen Oberschenkelknochen benutzte, um daraus diese Keule zu fertigen. Die Waffe wird durch magische Runen verstärkt, aber vermutlich hätte schon die Energie seines unbändigen Hasses allein ausgereicht, um sie zu verzaubern.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W6 +2 (Wucht)
+ 1W6 +3 (gg. Untote)
+ETW0-Bonus: -2, -3 (gg. Untote)
+Gewicht: 3
+Initiativefaktor: 4
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Magiern~ 
+@99053 = ~Kniescheibenzertrümmerer
+
+Dieser Streithammer, von den Zwergen gerne liebevoll nur "Zertrümmerer" genannt, soll angeblich von Clangeddin selbst geschmiedet worden sein. Er übergab ihn an einen kleinen Clan heimatloser Zwerge und erteilte ihnen den Auftrag, sich eine neue Heimat in einem von Ogern und Riesen verseuchten Gebiet zu erobern. Seit jenen Tagen wurde der Hammer von Zwergenheld zu Zwergenheld weitergereicht. Zwischenzeitlich war er auch mal im Besitz eines nicht zwergischen Kämpfers.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +4, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W4 +2 (Wucht)
+ 1W4 +5 (gg. riesige Gegner)
+ETW0-Bonus: -1
+ -4 (gg. riesige Gegner)
+Gewicht: 8
+Initiativefaktor: 2
+Mindeststärke: 10
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+@99054 = ~Kondar
+
+Auf den ersten Blick wirkt das Schwert wie jedes andere. Bei Anwesenheit eines Gestaltwandlers erwärmt sich jedoch die Klinge und entfaltet ihre Kraft. Ihr Name stammt vom ursprünglichen Besitzer der Waffe. Seine Geschichte war gezeichnet von Täuschung und Verrat, auch wenn sie größtenteils in Vergessenheit geraten ist. Es hält sich weiterhin das Gerücht, dass er einen stattlichen Preis für diese Klinge bezahlte, aber er konnte mit ihr den wirklichen Charakter derer aufdecken, die ihn verraten wollten. Ihre Namen und Schandtaten sind allerdings längst in der Geschichte verloren gegangen.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 2W4 +1 (Klinge)
+ 2W4 +3 (gg. Gestaltwandler)
+ETW0-Bonus: -1
+Gewicht: 8
+Initiativefaktor: 7
+Mindeststärke: 11
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Klerikern
+- Magiern~ 
+@99055 = ~Sonnenklinge Tagesstern
+
+Ob die Klinge speziell für den Einsatz der treuesten Diener Torms erschaffen oder irgendwann in der langen Geschichte der Kirche diesem Zweck zugeführt wurde, ist im Nebel der Zeit verloren gegangen. Auf jeden Fall haben die Paladine vom Orden des Heiligen Zorns der Loyalen Streiter das Schwert Tagesstern in ihrem Kampf gegen böse Untote oft sehr effektiv eingesetzt. Magie oder ein mächtiger Segen haben der Waffe die Fertigkeit verliehen, den Zauber "Sonnenstrahl" einzusetzen. Dabei wird eine starke Energie von der Positiven Ebene kanalisiert, die sowohl lebende Wesen als auch Untote vernichten kann.
+
+EIGENSCHAFTEN:
+
+Sonnenstrahl (1x täglich)
+ Schaden: 3W6 (gg. Zauber oder für 10 Runden geblendet)
+ Untote: +1W6 pro Stufe (gg. Zauber oder vernichtet)
+ Reichweite: Mittel
+ Bereich: 6 m Radius
+
+Gilt immer als eine magische Waffe +4, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W8 +2 (Klinge)
+ 1W8 +4 (gg. böse Wesen)
+ (doppelt gg. Untote)
+ETW0-Bonus: -2, -4 (gg. böse Wesen)
+Gewicht: 2
+Initiativefaktor: 3
+Mindeststärke: 6
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+@99056 = ~Der Ausgleicher
+
+Das Schwert existiert schon so lange, dass sein Ursprung in Vergessenheit geraten ist. Die Zeichen auf der Klinge deuten jedoch darauf hin, dass es im Namen Helms gefertigt wurde. Die Waffe wird auch als "Schwert der Neutralität" bezeichnet und dient offenbar dazu, Wesen von extremer Gesinnung auszulöschen, damit das Universum einen Zustand harmonischen Gleichgewichts erreicht. Je weiter sich jemand von dem wahren Gleichgewicht entfernt hat, desto mehr Schaden richtet das Schwert bei ihm an.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Bezauberung und Verwirrung.
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden: 1W8 (Klinge)
+Schadensbonus:
+ +0 (gg. absolut neutrale Wesen)
+ +2 (gg. chaotisch und rechtschaffen neutrale Wesen)
+ +4 (gg. neutral gute und böse Wesen)
+ +6 (gg. alle anderen Wesen)
+ETW0-Bonus:
+ -0 (gg. absolut neutrale Wesen)
+ -1 (gg. chaotisch und rechtschaffen neutrale Wesen)
+ -2 (gg. neutral gute und böse Wesen)
+ -3 (gg. alle anderen Wesen)
+Gewicht: 3
+Initiativefaktor: 3
+Mindeststärke: 6
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+@99057 = ~Die Wurzel allen Übels
+
+Man sagt, dass diese magische Keule seit dem Untergang Nesserils und der Entstehung der großen Wüste Anauroch existiert. Die damalige Katastrophe verlangte der zivilisierten Welt natürlich einen fürchterlichen Preis ab, aber die wahren Leidtragenden waren die Wesen der Natur, die hilflos mit ansehen mussten, wie ihr Lebensraum verfiel und starb. Während die Lebensräume immer mehr schrumpften, wurden jene Wesen, die nicht flohen, von jenen überrollt, die aus den noch unwirtlicher gewordenen Gegenden flohen. Diese Wesen nahmen sich, was sie benötigten, und scheuten auch vor Gewaltanwendung nicht zurück. Diese besondere Waffe ist angeblich das letzte Geschenk einer Dryade, die die Invasoren ihres Landes vergeblich aufzuhalten versuchte. Die Keule ist aus dem Baum der Dryade entstanden. Das arme Wesen musste einen bittersüßen Schmerz durchleiden, weil ihr Wald nur wohl deswegen zum Opfer solch fürchterlicher Heimsuchungen wurde, weil er so stark, gesund und reich an Leben war. Die Waffe hat ihren Namen von einem nicht gerade respektvollen Gelehrten erhalten. Die treuen Diener der Natur schätzen diese Art von Humor hingegen gar nicht.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W6 +1 (Wucht)
+ 1W6 +3 (gg. unnatürliche Wesen)
+Schadensbonus: +1 (Säure)
+ETW0-Bonus: -1, -3 (gg. unnatürliche Wesen)
+Gewicht: 3
+Initiativefaktor: 3
+Mindeststärke: 8
+Mindestgeschicklichkeit: 6
+Fertigkeit: Keule
+Typ: 1-händig~
+@99058 = ~Knochenkeule gegen Untote
+
+Die brutale Keule wurde vor hunderten von Jahren erschaffen, angeblich von einem Schamanen, der auf einem Rachefeldzug war. Seine Familie war Untoten zum Opfer gefallen und sein Zorn so groß, dass er sein eigenes Bein amputierte und seinen Oberschenkelknochen benutzte, um daraus diese Keule zu fertigen. Die Waffe wird durch magische Runen verstärkt, aber vermutlich hätte schon die Energie seines unbändigen Hasses allein ausgereicht, um sie zu verzaubern.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W6 +2 (Wucht)
+ 1W6 +3 (gg. Untote)
+ETW0-Bonus: -2, -3 (gg. Untote)
+Gewicht: 3
+Initiativefaktor: 4
+Mindeststärke: 8
+Mindestgeschicklichkeit: 6
+Fertigkeit: Keule
+Typ: 1-händig~
+@99059 = ~Kniescheibenzertrümmerer
+
+Dieser Streithammer, von den Zwergen gerne liebevoll nur "Zertrümmerer" genannt, soll angeblich von Clangeddin selbst geschmiedet worden sein. Er übergab ihn an einen kleinen Clan heimatloser Zwerge und erteilte ihnen den Auftrag, sich eine neue Heimat in einem von Ogern und Riesen verseuchten Gebiet zu erobern. Seit jenen Tagen wurde der Hammer von Zwergenheld zu Zwergenheld weitergereicht. Zwischenzeitlich war er auch mal im Besitz eines nicht zwergischen Kämpfers.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +4, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W6 +2 (Wucht)
+ 1W6 +5 (gg. riesige Gegner)
+ETW0-Bonus: -1
+ -4 (gg. riesige Gegner)
+Gewicht: 8
+Initiativefaktor: 2
+Mindeststärke: 12
+Mindestgeschicklichkeit: 6
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@99060 = ~Kondar
+
+Auf den ersten Blick wirkt das Schwert wie jedes andere. Bei Anwesenheit eines Gestaltwandlers erwärmt sich jedoch die Klinge und entfaltet ihre Kraft. Ihr Name stammt vom ursprünglichen Besitzer der Waffe. Seine Geschichte war gezeichnet von Täuschung und Verrat, auch wenn sie größtenteils in Vergessenheit geraten ist. Es hält sich weiterhin das Gerücht, dass er einen stattlichen Preis für diese Klinge bezahlte, aber er konnte mit ihr den wirklichen Charakter derer aufdecken, die ihn verraten wollten. Ihre Namen und Schandtaten sind allerdings längst in der Geschichte verloren gegangen.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 2W4 +1 (Klinge)
+ 2W4 +3 (gg. Gestaltwandler)
+ETW0-Bonus: -1
+Gewicht: 8
+Initiativefaktor: 7
+Mindeststärke: 13
+Mindestgeschicklichkeit: 8
+Fertigkeit: Bastardschwert
+Typ: 1-händig~
+@99061 = ~Sonnenklinge Tagesstern
+
+Ob die Klinge speziell für den Einsatz der treuesten Diener Torms erschaffen oder irgendwann in der langen Geschichte der Kirche diesem Zweck zugeführt wurde, ist im Nebel der Zeit verloren gegangen. Auf jeden Fall haben die Paladine vom Orden des Heiligen Zorns der Loyalen Streiter das Schwert Tagesstern in ihrem Kampf gegen böse Untote oft sehr effektiv eingesetzt. Magie oder ein mächtiger Segen haben der Waffe die Fertigkeit verliehen, den Zauber "Sonnenstrahl" einzusetzen. Dabei wird eine starke Energie von der Positiven Ebene kanalisiert, die sowohl lebende Wesen als auch Untote vernichten kann.
+
+EIGENSCHAFTEN:
+
+Sonnenstrahl (1x täglich)
+ Schaden: 3W6 (gg. Zauber oder für 10 Runden geblendet)
+ Untote: +1W6 pro Stufe (gg. Zauber oder vernichtet)
+ Reichweite: Mittel
+ Bereich: 6 m Radius
+
+Gilt immer als eine magische Waffe +4, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W8 +2 (Klinge)
+ 1W8 +4 (gg. böse Wesen)
+ (doppelt gg. Untote)
+ETW0-Bonus: -2, -4 (gg. böse Wesen)
+Gewicht: 2
+Initiativefaktor: 3
+Mindeststärke: 11
+Mindestgeschicklichkeit: 8
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@99062 = ~Der Ausgleicher
+
+Das Schwert existiert schon so lange, dass sein Ursprung in Vergessenheit geraten ist. Die Zeichen auf der Klinge deuten jedoch darauf hin, dass es im Namen Helms gefertigt wurde. Die Waffe wird auch als "Schwert der Neutralität" bezeichnet und dient offenbar dazu, Wesen von extremer Gesinnung auszulöschen, damit das Universum einen Zustand harmonischen Gleichgewichts erreicht. Je weiter sich jemand von dem wahren Gleichgewicht entfernt hat, desto mehr Schaden richtet das Schwert bei ihm an.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Bezauberung und Verwirrung.
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden: 1W8 (Klinge)
+Schadensbonus:
+ +0 (gg. absolut neutrale Wesen)
+ +2 (gg. chaotisch und rechtschaffen neutrale Wesen)
+ +4 (gg. neutral gute und böse Wesen)
+ +6 (gg. alle anderen Wesen)
+ETW0-Bonus:
+ -0 (gg. absolut neutrale Wesen)
+ -1 (gg. chaotisch und rechtschaffen neutrale Wesen)
+ -2 (gg. neutral gute und böse Wesen)
+ -3 (gg. alle anderen Wesen)
+Gewicht: 3
+Initiativefaktor: 3
+Mindeststärke: 11
+Mindestgeschicklichkeit: 8
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@99063 = ~Die Wurzel allen Übels
+
+Man sagt, dass diese magische Keule seit dem Untergang Nesserils und der Entstehung der großen Wüste Anauroch existiert. Die damalige Katastrophe verlangte der zivilisierten Welt natürlich einen fürchterlichen Preis ab, aber die wahren Leidtragenden waren die Wesen der Natur, die hilflos mit ansehen mussten, wie ihr Lebensraum verfiel und starb. Während die Lebensräume immer mehr schrumpften, wurden jene Wesen, die nicht flohen, von jenen überrollt, die aus den noch unwirtlicher gewordenen Gegenden flohen. Diese Wesen nahmen sich, was sie benötigten, und scheuten auch vor Gewaltanwendung nicht zurück. Diese besondere Waffe ist angeblich das letzte Geschenk einer Dryade, die die Invasoren ihres Landes vergeblich aufzuhalten versuchte. Die Keule ist aus dem Baum der Dryade entstanden. Das arme Wesen musste einen bittersüßen Schmerz durchleiden, weil ihr Wald nur wohl deswegen zum Opfer solch fürchterlicher Heimsuchungen wurde, weil er so stark, gesund und reich an Leben war. Die Waffe hat ihren Namen von einem nicht gerade respektvollen Gelehrten erhalten. Die treuen Diener der Natur schätzen diese Art von Humor hingegen gar nicht.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W6 +1 (Wucht)
+ 1W6 +3 (gg. unnatürliche Wesen)
+Schadensbonus: +1 (Säure)
+ETW0-Bonus: -1, -3 (gg. unnatürliche Wesen)
+Gewicht: 3
+Initiativefaktor: 3
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~
+@99064 = ~Knochenkeule gegen Untote
+
+Die brutale Keule wurde vor hunderten von Jahren erschaffen, angeblich von einem Schamanen, der auf einem Rachefeldzug war. Seine Familie war Untoten zum Opfer gefallen und sein Zorn so groß, dass er sein eigenes Bein amputierte und seinen Oberschenkelknochen benutzte, um daraus diese Keule zu fertigen. Die Waffe wird durch magische Runen verstärkt, aber vermutlich hätte schon die Energie seines unbändigen Hasses allein ausgereicht, um sie zu verzaubern.
+
+EIGENSCHAFTEN:
+
+Gilt immer als eine magische Waffe +3, wenn es darum geht, was es verletzten kann.
+
+Schaden:
+ 1W6 +2 (Wucht)
+ 1W6 +3 (gg. Untote)
+ETW0-Bonus: -2, -3 (gg. Untote)
+Gewicht: 3
+Initiativefaktor: 4
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig~

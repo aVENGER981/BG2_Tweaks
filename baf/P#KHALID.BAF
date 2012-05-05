@@ -1,0 +1,29 @@
+IF
+InParty(Myself)
+Global("P#KhalidMage","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P#KhalidMageTime","GLOBAL",3600)
+SetGlobal("P#KhalidMage","GLOBAL",1)
+END
+
+IF
+InParty(Myself) CombatCounter(0) !See([ENEMY])
+RealGlobalTimerExpired("P#KhalidMageTime","GLOBAL")
+Global("P#KhalidMage","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P#KhalidMage","GLOBAL",1)
+RealSetGlobalTimer("P#KhalidMageTimer","GLOBAL",1)
+Interact(Player1)
+END
+
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P#KhalidMageTimer","GLOBAL")
+Global("P#KhalidMage","GLOBAL",2)
+THEN
+RESPONSE #100
+IncrementGlobal("P#KhalidMage","GLOBAL",1)
+RealSetGlobalTimer("P#KhalidMageTime","GLOBAL",3600)
+END

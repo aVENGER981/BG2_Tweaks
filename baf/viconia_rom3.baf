@@ -1,0 +1,19 @@
+IF
+	InParty(Myself)
+	GlobalLT("LoveTalk","LOCALS",50)
+	!Global("ViconiaRomanceActive","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ViconiaRomanceActive","GLOBAL",1)
+		Continue()
+END
+
+IF
+	InParty(Myself)
+	GlobalGT("LoveTalk","LOCALS",49)
+	!Global("ViconiaRomanceActive","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("ViconiaRomanceActive","GLOBAL",2)
+		Continue()
+END

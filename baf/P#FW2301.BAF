@@ -1,0 +1,61 @@
+IF
+!InParty("khalid")
+Global("P#AlreadyTalkedKhalid","GLOBAL",0)
+Global("P#DestroyKhalid","GLOBAL",0)
+Exists("KHALID")
+!Class("KHALID",FIGHTER_MAGE)
+THEN
+RESPONSE #100
+SetGlobal("P#DestroyKhalid","GLOBAL",1)
+ActionOverride("KHALID",DestroySelf())
+END
+
+IF
+LevelLT(Player1,2)
+Global("P#KhalidLevel1","GLOBAL",0)
+Global("P#DestroyKhalid","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("P#DestroyKhalid","GLOBAL",2)
+SetGlobal("P#KhalidLevel1","GLOBAL",1)
+SetGlobal("SPRITE_IS_DEADKHALID","GLOBAL",0)
+CreateCreature("_KHALID",[350.670],3)
+END
+
+IF
+LevelGT(Player1,1) LevelLT(Player1,4)
+Global("P#KhalidLevel2","GLOBAL",0)
+Global("P#DestroyKhalid","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("P#DestroyKhalid","GLOBAL",2)
+SetGlobal("P#KhalidLevel2","GLOBAL",1)
+SetGlobal("SPRITE_IS_DEADKHALID","GLOBAL",0)
+CreateCreature("_KHALID2",[350.670],3)
+END
+
+IF
+LevelGT(Player1,3) LevelLT(Player1,6)
+Global("P#KhalidLevel4","GLOBAL",0)
+Global("P#DestroyKhalid","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("P#DestroyKhalid","GLOBAL",2)
+SetGlobal("P#KhalidLevel4","GLOBAL",1)
+SetGlobal("SPRITE_IS_DEADKHALID","GLOBAL",0)
+CreateCreature("_KHALID4",[350.670],3)
+END
+
+IF
+LevelGT(Player1,5)
+Global("P#KhalidLevel6","GLOBAL",0)
+Global("P#DestroyKhalid","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("P#DestroyKhalid","GLOBAL",2)
+SetGlobal("P#KhalidLevel6","GLOBAL",1)
+SetGlobal("SPRITE_IS_DEADKHALID","GLOBAL",0)
+CreateCreature("_KHALID6",[350.670],3)
+END
+
+

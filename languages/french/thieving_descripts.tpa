@@ -1,0 +1,18 @@
+DEFINE_PATCH_MACRO ~thieving_descripts_french~ BEGIN
+
+  REPLACE_TEXTUALLY ~^[ %tab%]*Crochetage:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Trouver/désamorcer les pièges:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Vol à la tire:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~\(Poids:[ %tab%]*[0-9]+\)~
+  ~\1
+Crochetage: -%penalty_lock%CDPERCENTAGE
+Trouver/désamorcer les pièges: -%penalty_trap%CDPERCENTAGE
+Vol à la tire: -%penalty_pickpocket%CDPERCENTAGE~
+  PATCH_IF ("%patch_hide%" != 2) BEGIN
+    REPLACE_TEXTUALLY ~\(Poids:[ %tab%]*[0-9]+\)~
+    ~\1
+Se cacher dans l'ombre: -%penalty_hide%CDPERCENTAGE
+Déplacement silencieux: -%penalty_silent%CDPERCENTAGE~
+  END
+
+END

@@ -1,0 +1,10 @@
+IF
+	!Global("LovedOne","GLOBAL",0)
+	!Global("LovedOne","GLOBAL",1)
+	InParty(Myself)
+	Global("AerieRomanceActive","GLOBAL",2)
+	Global("ExpLoveTalk","LOCALS",5)
+THEN
+	RESPONSE #100
+		SetGlobal("ExpLoveTalk","LOCALS",6)
+END

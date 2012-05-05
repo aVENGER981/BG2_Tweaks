@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CSIren")
+		DisplayStringWait("CSCowl2",59773) // Even if we fall, our numbers are many.  You will be overwhelmed.
+		CreateCreatureDoor("CSCOWL6",[2547.965],8) // Cowled Wizard
+		CreateCreatureDoor("CSCOWL7",[2504.840],0) // Cowled Wizard
+		CreateCreatureDoor("CSCOWL8",[2657.854],2) // Cowled Wizard
+		DisplayStringWait(Myself,59774) // You bore me mageling.  You may take me in, but you WILL take the girl as well!  
+		DisplayStringWait("CSImoen",17321) // What?  No!  I've done nothing wrong!
+		DisplayStringWait("CSCowl7",17322) // You have been involved in illegal use of magic.  You will come with us!
+		StartCutScene("cut01g")
+END

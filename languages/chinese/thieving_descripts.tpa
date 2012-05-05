@@ -1,0 +1,20 @@
+DEFINE_PATCH_MACRO ~thieving_descripts_english~ BEGIN
+
+  REPLACE_TEXTUALLY ~^[ %tab%]*开锁：.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*找寻陷阱：.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*窃盗：.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~\(重量：[ %tab%]*[0-9]+\)~
+    ~\1
+开锁： -%penalty_lock%CDPERCENTAGE
+找寻陷阱： -%penalty_trap%CDPERCENTAGE
+窃盗： -%penalty_pickpocket%CDPERCENTAGE~
+  PATCH_IF ("%patch_hide%" != 2) BEGIN
+    REPLACE_TEXTUALLY ~^[ %tab%]*阴影躲藏：.+$[%mnl%%lnl%%wnl%]+~ ~~
+    REPLACE_TEXTUALLY ~^[ %tab%]*无声行动：.+$[%mnl%%lnl%%wnl%]+~ ~~
+    REPLACE_TEXTUALLY ~\(重量：[ %tab%]*[0-9]+\)~
+    ~\1
+阴影躲藏： -%penalty_hide%CDPERCENTAGE
+无声行动： -%penalty_silent%CDPERCENTAGE~
+  END
+
+END

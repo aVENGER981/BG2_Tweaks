@@ -1,0 +1,10 @@
+IF
+	InParty(Myself)
+	!Global("AnomenMatch","GLOBAL",1)
+	Global("CDRomanceFoo","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CheckAnomenMatch","GLOBAL",1)
+		SetGlobal("AnomenMatch","GLOBAL",1)
+		Continue()
+END

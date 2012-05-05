@@ -1,0 +1,19 @@
+IF
+	InParty(Myself)
+	Global("AnomenKeldornFight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AnomenKeldornFight","GLOBAL",0)
+END
+
+IF
+	InParty(Myself)
+	Global("AnomenHatesKeldorn","GLOBAL",1)
+	InParty("Keldorn")
+	See("Keldorn")
+	!Dead("Keldorn")
+	HPPercentGT(Myself,75)
+THEN
+	RESPONSE #100
+		SetGlobal("AnomenHatesKeldorn","GLOBAL",0)
+END

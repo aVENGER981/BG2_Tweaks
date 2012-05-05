@@ -1,0 +1,844 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Messaggi di Setup                                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+     @0 = ~Aggiustamenti ai PNG~
+     @1 = ~Questa fase potrebbe richiedere qualche momento...~
+     @2 = ~Questa componente richiede che "Aggiungi Borse Conservanti a BG" sia installato.~
+     @3 = ~La componente "Consenti il lancio di incantesimi arcani in armatura" e' richiesta.~
+     @4 = ~Aggiustamenti/Trucchi di convenienza~
+     @5 = ~Questa componente richiede che il pacchetto "Oggetti esotici" sia installato.~
+     @6 = ~La componente "Consenti l'utilizzo di Nascondersi nelle ombre e delle abilita' da ladro in armatura pesante secondo le regole di AD&D" e' richiesta.~
+     @7 = ~Questa componente non e' disponibile nella tua lingua.~
+     @8 = ~Questa componente e' solo per BGT.~
+     @9 = ~Modifiche alle regole~
+    @10 = ~Questa componente non e' disponibile per Tutu.~
+    @11 = ~Aggiustamenti al... trucco~
+    @12 = ~Questa componente richiede Throne of Bhaal.~
+    @13 = ~Modifiche al contenuto~
+    @14 = ~Questa componente e' solo per Tutu o BGT.~
+    @15 = ~Questa componente e' solo per Tutu.~
+    @16 = ~La funzione di questa componente e' gia' inclusa in - o rimpiazzata da - un'altra facente parte di uno dei mods installati.~
+    @17 = ~La componente "Tratta le armi +x/+y coerentemente" e' richiesta.~
+    @18 = ~Questa componente e' stata deprecata.~
+    @19 = ~Regole personalizzate di Cam~
+    @20 = ~Visualizzare il Readme?
+  a) Sì
+  b) No~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Componenti degli aggiustamenti al... trucco      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+  @1000 = ~Rimuovi le animazioni degli elmi~
+
+  @2000 = ~Cambia l'avatar di Imoen in quello di una maga~
+
+  @3000 = ~Cambia l'avatar di Nalia in quello di una ladra~
+
+  @4000 = ~Cambia il colore della pelle di Viconia in blu scuro~
+
+  @5000 = ~Script per la trasformazione degli avatar~
+  @5001 = ~SCRIPT PER LA TRASFORMAZIONE DEGLI AVATAR:~
+  @5002 = ~Questo script conferisce all'utente totale controllo sull'avatar del personaggio. Premi S per aprire la schermata di selezione dell'avatar. (<script>)~
+
+  @6000 = ~Aggiustamenti alle animazioni delle armi~
+
+  @7000 = ~Sostituisci gli effetti degli incantesimi di Baldur's Gate con quelli di Icewind Dale (Andyr)~
+
+  @8000 = ~Ripristina il logo di SoA nelle schermate di caricamento (solo per ToB)~
+
+  @9000 = ~Disabilita le icone aggiunte al ritratto del personaggio dagli oggetti equipaggiati~
+
+ @10000 = ~Colori opachi per gli abiti della gente comune~
+
+ @11000 = ~Migliora l'aspetto delle icone~
+
+ @12000 = ~Cambia l'avatar dei personaggi a seconda che indossino degli abiti o un'armatura (Galactygon)~
+
+ @13000 = ~Forza tutti i dialoghi a mettere automaticamente in pausa il gioco~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Componenti delle modifiche al contenuto          \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@101000 = ~Incrementa le interazioni~
+
+@102000 = ~Modifica le soglie d'attivazione dei dialoghi dei PNG feriti~
+
+@103000 = ~Rivela le aree selvagge prima del sesto capitolo~
+
+@103500 = ~Rendi accessibili le aree del Bosco Ammantato anche prima di essere stato al Campo di banditi~
+@103501 = ~Solo la prima area~
+@103600 = ~Tutte le aree tranne le miniere~
+
+@104000 = ~Rendi piu' forti le guardie di Athkatla~
+@104001 = ~Soldato di Amn~
+@104002 = ~Mago Autorizzato~
+@104003 = ~Sacerdote della Milizia~
+
+@105000 = ~Disintegrazione graduale degli oggetti drow~
+@105001 = ~Il tuo oggetto drow si è disintegrato~
+
+@106000 = ~Rendi distruttibili armature, scudi ed elmi non magici~
+@106001 = ~La tua armatura si è distrutta~
+@106002 = ~Il tuo scudo si è distrutto~
+@106003 = ~Il tuo elmo si è distrutto~
+
+@107000 = ~Migliora i dialoghi per allontanare i PNG dal gruppo nelle partite multigiocatore~
+@107001 = ~Va ad aspettarci alla Locanda di Braccio Amico. Se le cose dovessero cambiare, ci incontreremo là.~
+@107002 = ~Torna a viaggiare con noi: la tua abilità ci farebbe comodo.~
+@107003 = ~Ti rimanderò nel piano extradimensionale... aspettami là.~
+
+@108000 = ~Aggiungi Borse Conservanti a BG~
+@108001 = ~Cintura delle munizioni~
+@108002 = ~Questa bandoliera è l'ideale per tenere proiettili, dardi, frecce o quadrelli.
+
+STATISTICHE:
+
+Capacità: 2000 unità tra proiettili, dardi, frecce o quadrelli.
+Peso: 2~
+@108003 = ~Astuccio per pozioni~
+@108004 = ~Solitamente in possesso dei guaritori erranti, questo astuccio di cuoio si srotola e permette a chi lo utilizza di fissare delicate bottigliette per le pozioni, nel suo lato imbottito, con numerose strisce di cuoio per una custodia sicura durante il viaggio. Indipendentemente dalla quantità di pozioni al suo interno, il peso dell'astuccio rimane invariato.
+
+STATISTICHE:
+
+Capacità: 100 bottigliette.
+Peso: 2~
+
+@109000 = ~Pacchetto "Oggetti esotici"~
+@109001 = ~Faretra dell'Abbondanza~
+@109002 = ~La storia di questa faretra magica è stata dimenticata da tempo, anche se probabilmente aveva qualcosa a che fare con l'inspiegabile ma ben documentata carenza di costruttori di frecce competenti durante il Periodo dei Disordini.
+
+STATISTICHE:
+
+Frecce a volontà.~
+@109003 = ~Astuccio dell'Abbondanza~
+@109004 = ~La storia di questo astuccio magico è caduta da tempo nell'oblio, anche se probabilmente aveva a che fare con l'inspiegabile ma ben documentata carenza di costruttori di frecce competenti nel corso del Periodo dei Disordini.
+
+STATISTICHE:
+
+Quadrelli a volontà.~
+@109005 = ~Borsa dei Proiettili~
+@109006 = ~Anche se questa borsa di stoffa morbida al momento è vuota, è circondata da una potente aura magica.
+
+STATISTICHE:
+
+Proiettili da fionda a volontà.~
+@109007 = ~Pietra Viola Scuro~
+@109008 = ~Pietra Viola Scuro
+
+Questa pietra, di colore viola scuro, permette all'indossatore di vedere attraverso l'oscurità.
+
+STATISTICHE:
+
+Speciale: Infravisione fino a 18 metri.
+Weight: 2~
+@109009 = ~Pietra Bianca Lampeggiante~
+@109010 = ~Pietra Bianca Lampeggiante
+
+Questa pietra è fredda al tatto ed emana energia.
+
+STATISTICHE:
+
+Bonus: +10% resistenza al freddo.
+Peso: 2~
+@109011 = ~Katana~
+@109012 = ~Katana
+
+La katana è una spada leggermente curva, ad un filo, che termina con una parte appuntita. La katana è forse una delle migliore spade mai fatte, le tappe per la sua creazione sono un lungo e segreto processo, più una forma di arte che altro. Questa spada è un'importante sfaccettatura della cultura Kara-Tur. Toccare o maneggiare la katana di un samurai vuol dire insultarlo o stimolare la sua collera. Per un gaijin, o straniero, avere questa spada è un raro evento. Il gaijin può essere un grande ed onorato amico di un importante ministro oppure ha ucciso un samurai.
+
+STATISTICHE:
+
+Danno: 1d10
+Tipo di danno: da taglio
+Peso: 6
+Fattore-velocità: 4
+Tipo di competenza: Katana
+Tipo: a una mano
+Richiede: 
+ Forza 6
+Non utilizzabile da:
+ Addestratore di animali
+ Chierico
+ Druido
+ Mago~
+@109013 = ~Katana +2, Tsu-O-Shi~
+@109014 = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi, anche conosciuta come la Lama Agognata, fu forgiata in una nazione di Wa più di cinque secoli fa dal fabbro Murakaken Shinji, la cui abilità era talmente straordinaria che si diceva addirittura egli potesse risvegliare lo spirito del metallo. Tsu-O-Shi passò tra le mani dei diversi eredi della altrimenti anonima famiglia Kasune, finché il potente daimyo e noto amante delle spade Fushima Takagi vi posò gli occhi. Presto la spada diventò un'ossessione per Tagaki, che cercò invano, più volte, di acquistarla. Finalmente, assoldò un ninja affinché rubasse la lama per lui, coprendo la perdita con l'incendio della tenuta della famiglia Kasune. Quando il ninja consegnò la spada al suo mandante, essa fu usata per toglier loro la vita, cancellando così ogni collegamento tra Takagi e i legittimi possessori della spada. Takagi la nascose, recandosi sovente al nascondiglio, nei giorni seguenti, per ammirarne la bellezza e la perfezione. Quando morì, la sua anima si rifiutò di lasciare la terra separandosi dalla spada e decise di rimanervi accanto, diventando un tutt'uno con essa. Da quel giorno in avanti, chiunque brandisca la possente Tsu-O-Shi deve fare attenzione allo spirito di Fushima Takagi, che consuma l'essenza vitale di coloro che toccano l'arma per poter restare su Toril con l'oggetto del suo desiderio. Di conseguenza, la vita del portatore rischia di essere risucchiata ogni qualvolta egli, od ella, la impugna.
+
+STATISTICHE:
+
+Speciale: possibilità di risucchiare permanentemente vita o punteggi caratteristica al portatore.
+
+THAC0: +2
+Danno: 1d10+2
+Tipo di danno: da taglio
+Peso: 4
+Fattore-velocità: 2
+Tipo di competenza: Katana
+Tipo: a una mano
+Richiede: 
+ Forza 6
+Non utilizzabile da:
+ Addestratore di animali
+ Chierico
+ Druido
+ Mago~
+@109015 = ~Saggezza modificata~
+@109016 = ~Costituzione modificata~
+@109017 = ~Destrezza modificata~
+@109018 = ~Carisma modificato~
+@109019 = ~Punti ferita modificati~
+@109020 = ~Intelligenza modificata~
+@109021 = ~Forza modificata~
+@109022 = ~Tempio di Gullykin~
+
+@110000 = ~Rivela le mappe della città all'entrata di ogni zona~
+
+@111000 = ~Aggiungi appunti alle mappe~
+@111001 = ~Taverna di Candlekeep~
+@111002 = ~Alloggi del Sacerdote~
+@111003 = ~Tempio di Oghma~
+@111004 = ~Magazzino~
+@111005 = ~Porta principale~
+@111006 = ~Biblioteca di Candlekeep~
+@111007 = ~Dormitorio~
+@111008 = ~Caserma~
+@111009 = ~Ospedale~
+@111010 = ~Proprietà di Enter Silvershield~
+@111011 = ~Elmo e Mantello~
+@111012 = ~Taverna~
+@111013 = ~Tempio di Helm~
+@111014 = ~Portale del Drago Nero~
+@111015 = ~Torre di Ramazith~
+@111016 = ~Palazzo Ducale~
+@111017 = ~I Tre Barili~
+@111018 = ~Sirenetta Timida~
+@111019 = ~La Festa dello Storione~
+@111020 = ~Altare di Ilmater~
+@111021 = ~L'amministrazione~
+@111022 = ~Cantine~
+@111023 = ~Carovana~
+@111024 = ~Locanda di Braccio Amico~
+@111025 = ~Tempio della Saggezza~
+@111026 = ~Giocoliere Gioioso~
+@111027 = ~Feldepost~
+@111028 = ~Martello del Tuono~
+@111029 = ~Covone Rosso~
+@111030 = ~Mago Bruciato~
+@111031 = ~Maniero~
+@111032 = ~Alta Siepe~
+@111033 = ~Casa~
+@111034 = ~Cava~
+@111035 = ~Casa Sommersa~
+@111036 = ~Locanda~
+@111037 = ~Negozio~
+@111038 = ~Taverna del Drago Fiammante~
+@111039 = ~Casa Padronale~
+@111040 = ~Guarnigione~
+@111041 = ~Fortezza Gnoll~
+@111042 = ~Entrata delle Miniere~
+@111043 = ~Cabina~
+@111044 = ~Scultura~
+@111045 = ~Casa abbandonata~
+@111046 = ~Vestibolo~
+@111047 = ~Tempio del Canto del Mattino~
+@111048 = ~Rovine di Ulcaster~
+@111049 = ~Uscita~
+@111050 = ~Scendi al livello successivo~
+@111051 = ~Sali al livello successivo~
+@111052 = ~Uscita verso la superficie~
+@111053 = ~Villaggio Gullykin~
+@111054 = ~Entrata delle Rovine di Firewine~
+@111055 = ~Relitto~
+@111056 = ~Vecchio Faro~
+@111057 = ~Fossa~
+@111058 = ~Fattoria~
+@111059 = ~Incrocio del Dragone~
+@111060 = ~Grossa Tenda~
+@111061 = ~Nido di Ragni~
+@111062 = ~Casa sull'albero~
+@111063 = ~Tappo del fiume~
+@111064 = ~Carrucola~
+@111065 = ~Canto dell'Elfo~
+@111066 = ~Chincaglierie Stregate~
+@111067 = ~Supermercato di Lucky Aello~
+@111068 = ~Armeria di Maltz~
+@111069 = ~Taverna Keexie~
+@111070 = ~Negozio del Silenzio~
+@111071 = ~Spada e Stelle~
+@111072 = ~Emporio~
+@111073 = ~Locanda~
+@111074 = ~Capitano del Porto~
+@111075 = ~Lanterna Fiocca~
+@111076 = ~Casa della Regina delle Acque~
+@111077 = ~Trono di Ferro~
+@111078 = ~Taverna di Jopalin~
+@111079 = ~Sette Soli~
+@111080 = ~Pugno Fiammante~
+@111081 = ~Lega dei Mercanti~
+@111082 = ~La Vecchia Locanda~
+@111083 = ~La Casa della Signora~
+@111084 = ~Sala delle Meraviglie~
+@111085 = ~Grande Sala delle Meraviglie~
+@111086 = ~Casa di Ragefast~
+@111087 = ~La Chiromante~
+@111088 = ~Negozio di Pollame~
+@111089 = ~Locanda Dakron~
+@111090 = ~Maniero di Felonius Gist~
+@111091 = ~Locanda di Ulgoth's Beard~
+@111092 = ~Torre Abbandonata~
+@111093 = ~Entrata della Torre di Durlag~
+@111094 = ~Uscita dalle Miniere~
+@111095 = ~Uscita~
+@111096 = ~Tempio di Bhaal~
+
+@112000 = ~Consenti ai negozi di vendere maggiori quantita' di determinati oggetti (i.e. piu' frecce, piu' proiettili, ecc...)~
+
+@113000 = ~Reputazione resettata all'inizio di BG2 (solo per BGT)~
+
+@114000 = ~Gemme e Pozioni devono essere identificate~
+@114001 = ~Una gemma è un minerale che, se intagliato e levigato, può essere collezionato o usato come gioiello.~
+
+@115000 = ~Ribilanciamento del Mutaforma~
+@115001 = ~Evocare Animali
+(Evocazione/Attirazione) 
+Livello: 6
+Sfera: Evocazione 
+Raggio d'azione: 54 m
+Durata: 4 turni
+Tempo di lancio: 9
+Area d'effetto: Speciale 
+Tiro-salvezza: Nessuno 
+
+Questo incantesimo consente al sacerdote di evocare e controllare due Orsi Mannari con 20 DV. Gli orsi obbediranno ad ogni comando del sacerdote fino al termine dell'incantesimo. Gli Orsi Mannari sono più lenti dei Lupi Mannari Maggiori ma sono anche più resistenti. Gli Orsi Mannari hanno una naturale resistenza agli attacchi magici ed elementali e rigenerano rapidamente.~
+@115002 = ~Orso Mannaro Maggiore~
+@115003 = ~Orso Mannaro~
+@115004 = ~Questa zampa rappresenta simbolicamente il controllo di un Druido Mutaforma sulla licantropia. Quando la zampa viene impugnata, il Mutaforma diventa un Lupo Mannaro. Quando la zampa viene rimossa, il Mutaforma ritorna alla sua forma umana. Le zampe di un Lupo Mannaro contano come armi +2.
+
+STATISTICHE:
+
+Attributi: Forza 19, Destrezza 16, Costituzione 15
+Classe Armatura base: 1
+Resistenze: resistenza alla magia 20%, immunità alle armi non magiche
+Attacchi per round: 2
+Danno: 1d12
+Tipo di danno: da taglio
+Fattore-velocità: 3
+Tipo di competenza: Pugnale 
+Tipo: a una mano
+Utilizzabile da: 
+Mutaforma~ 
+@115005 = ~Questa zampa rappresenta simbolicamente il controllo di un Druido Mutaforma sulla licantropia. Quando la zampa viene impugnata, il Mutaforma diventa un Lupo Mannaro Maggiore. Quando la zampa viene rimossa, il Mutaforma ritorna alla sua forma umana. Le zampe di un Lupo Mannaro Maggiore contano come armi +3.
+
+STATISTICHE:
+
+Attributi: Forza 21, Destrezza 20, Costituzione 25
+Classe Armatura base: -6
+Tiri-salvezza base: 1/1/1/2/1
+Resistenze: resistenza alla magia 40%, resistenza ai danni elementali 50%, immunità alle armi non magiche
+Rigenerazione: 3 punti ferita al secondo
+Attacchi per round: 3
+THAC0 base: 6 
+Danno: 2d8
+Tipo di danno: da taglio
+Fattore-velocità: 3
+Tipo di competenza: Pugnale 
+Tipo: a una mano
+Utilizzabile da: 
+Mutaforma~
+
+@116000 = ~Fortezze Multiple~
+@116001 = ~Nessuna restrizione (Baldurdash)~
+@116002 = ~Ho l'atto di proprietà del teatro, se voleste mettere il vostro talento a disposizione di questa arte. Samuel è un buon uomo sarà lieto di cedervi la proprietà.~
+@116003 = ~Mi dispiace Raelis, ma non ne avrei davvero il tempo.~
+@116004 = ~Vi ringrazio della gentile offerta ma mi vedo costretto a declinare. Non saprei nemmeno da che parte cominciare a gestire un teatro.~
+@116005 = ~Il vostro teatro sotto i Cinque Boccali? Sarei onorato di prenderlo sotto la mia ala.~
+@116006 = ~D'accordo, fate quel che dovete. Non farei nulla per fermarvi. Vi devo molto più di un commiato, tuttavia.~
+@116007 = ~Ho l'atto di proprietà del teatro, se voleste mettere il vostro talento a disposizione di questa arte. Samuel è un buon uomo sarà lieto di cedervi la proprietà.~
+@116008 = ~Allora dovrete accontentarvi dei nostri più sentiti ringraziamenti. Venite, miei Custodi del Fato, dobbiamo andarcene e alla svelta. Forse ci incontreremo di nuovo, <CHARNAME>.~
+@116009 = ~Mi dispiace, non posso. Devo ritrovare una mia amica e dubito di potermi permettere di stare così lontano da Athkatla molto spesso.~
+@116010 = ~Temo di non potere, ministro, in quanto non capiterò spesso da queste parti. Sto inseguendo un potente stregone e tutte le mie tracce migliori sono ad Athkatla.~
+@116011 = ~Devo declinare. Gli eventi di Athkatla richiedono la mia presenza e non posso allontanarmi così tanto regolarmente.~
+@116012 = ~Sarebbe un onore. Accetto, e farò del mio meglio per essere presente e aiutare il villaggio.~
+@116013 = ~Mi dispiace, sindaco, ma non sono interessato. Ora vorrei essere pagato!~
+@116014 = ~Ammetto di essere amareggiato dalla vostra risposta ma d'altro canto mi rendo conto delle implicazioni della vostra professione, <CHARNAME>. Non invidio la strada che avete intrapreso.~
+@116015 = ~Voi, mio signore, siete un vero amico della terra. La stessa terra che potrebbe essere curata da una persona di polso come voi.~
+@116016 = ~Vorreste prendervi cura di questo bosco nel periodo della sua rinascita?~
+@116017 = ~Farò del mio meglio per ripristinare l'equilibrio in queste terre.~
+@116018 = ~Questa terra ha sofferto, e io farò del mio meglio per curarla dai danni provocati dalle azioni di Faldorn.~
+@116019 = ~Non sarei un buon Grande Druido. I miei affari mi riportano ad Athkatla, perciò mi vedo costretto a declinare.~
+@116020 = ~Sto dando la caccia ad un potente stregone e non posso lasciarmi distrarre da altri problemi.~
+@116021 = ~Una mia amica è stata rapita. Per quanto mi dispiaccia, non posso lasciarla perdere per curarmi del bosco.~
+@116022 = ~Vi siete guadagnati la benedizione del Bosco e, da parte mia, il Bastone dei Tuoni e dei Fulmini.~
+@116023 = ~D'accordo. Continuerò a fungere da maestro di sfida e da Grande Druido finché i riti di ascensione non saranno portati a termine.~
+@116100 = ~Mantieni le restrizioni dovute alla classe~
+
+@117000 = ~Mercanti bonus (Baldurdash)~
+
+@118000 = ~Ritratto femminile per Edwina~
+
+@119000 = ~Correzione dei bug alle romance~
+
+@120000 = ~Correzioni ai dialoghi di Imoen in ToB~
+
+@121000 = ~Ripristina la velocità di movimento originale di Baldur's Gate (BETA)~
+
+@122000 = ~Consenti a Cromwell di potenziare gli oggetti della Fortezza dell'Osservatore~
+@122001 = ~Ah, un Astuccio dell'Abbondanza. Posso incantarlo affinché produca quadrelli ancora più potenti, ma vi costerà. 5000 monete, per la precisione.~
+@122002 = ~Beh, vediamo che altro avete.~
+@122003 = ~Un cappuccio da ladro, eh?~
+@122004 = ~Con una fiala di antidoto e un anello di invisibilità, posso renderlo molto utile.~
+@122005 = ~Avete un anello di invisibilità, vedo... e un antidoto. Avete tutto il necessario. Per 10000 monete posso potenziarlo notevolmente.~
+@122006 = ~Cos'abbiamo qui?~
+@122007 = ~Ho una ricetta per potenziare l'Elmo della Roccia riattaccandovi i due corni. Quando avrete tutti i pezzi, ne riparleremo.~
+@122008 = ~Avete l'Elmo della Roccia e due corni da attaccare alle estremità. Per 5000 monete potrei farne un ottimo elmo per ogni guerriero.~
+@122009 = ~Questi sono i Guanti del Bardo.~
+@122010 = ~Sbriciolando tre gemme, potrebbero essere notevolmente potenziati. Portatemi un diamante, uno smeraldo, una pietra del ladro, uno zaffiro stellato e vedrò cosa posso fare.~
+@122011 = ~Sbriciolando un diamante, uno smeraldo, uno zaffiro stellato e una pietra del ladro potrei potenziarli. Vi costerebbe 5000 monete.~
+@122012 = ~Questi sono Bracciali del Paladino.~
+@122013 = ~Per 10000 pezzi d'oro, posso riforgiarli in qualcosa di addirittura migliore.~
+@122014 = ~Mmh, un vecchio Manuale dei Golem.~
+@122015 = ~Con le pagine giuste, è possibile potenziare i golem evocati da questo libro.~
+@122016 = ~Con questa pagina del Golem di Argilla e 5000 monete, potrei rendere il vostro manuale in grado di evocare Golem di Argilla.~
+@122017 = ~Ach, questo sì che è un mantello di protezione come si deve.~
+@122018 = ~Con una pergamena di Invisibilità e una di Velocità Potenziata, potrei renderlo ancora migliore.~
+@122019 = ~Potremmo usare questa pergamena di Invisibilità e quest'altra di Velocità Potenziata per rendere questo mantello ancora più potente. Non è un lavoro semplice, tuttavia, perciò non posso farlo per meno di 20000 monete d'oro.~
+@122020 = ~Wow, scaglie di drago bianco. Potrei usarle per forgiarvi una splendida armatura, se lo voleste. Vi costerebbe solo 5000 monete d'oro.~
+@122021 = ~Questa cotta di maglia elfica è davvero di ottima fattura, persino per gli standard di un nano.~
+@122022 = ~Ma ci sono un paio di trucchetti nanici che le orecchie a punta ancora non conoscono. Con una pergamena di Protezione dalle Armi Normali, ci vorrà qualcosa di magico per riuscire a scalfirla.~
+@122023 = ~Con quella pergamena di Protezione dalle Armi Normali, questa cotta di maglia potrà resistere a tutto ciò che non è una lama magica. Applicare incantamenti nanici a una corazza elfica non sarà un'impresa facile, però... vi costerà 40000 monete.~
+@122024 = ~Questa è una fionda gnomica. Per 5000 monete, ho un paio d'assi nella manica che la renderanno mortalmente precisa.~
+@122025 = ~Cos'è questa faretra che avete qui? Oh, produce infinite frecce magiche.~
+@122026 = ~Se doveste imbattervi in una pietra del ladro, potremmo potenziare ulteriormente quelle frecce.~
+@122027 = ~Con questa pietra del ladro e 10000 monete posso portare quelle frecce a un livello di qualità superiore.~
+@122028 = ~Ach, questa sì che è una visione! Il Mazzafrusto delle Ere!~
+@122029 = ~Si mormora che esistano ancora altre teste per questo mazzafrusto. Se le trovaste, potrei aggiungervele.~
+@122030 = ~E vedo che avete trovato una testa aggiuntiva, pure. Sembra avvelenata. Per 5000 monete posso riattaccarla.~
+@122031 = ~E questo cosa potrebbe mai essere... ? Oh, è un Randello della Detonazione.~
+@122032 = ~Se trovaste un anello della resistenza al fuoco, potremmo farne un randello eccezionale.~
+@122033 = ~Per 5000 monete posso combinarlo con il vostro anello di resistenza al fuoco e ottenerne un randello ancora più potente.~
+@122034 = ~Ah, questo ha tutta l'aria di essere un oggetto di Ixil.~
+@122035 = ~In effetti è una parte della leggendaria lancia di Ixil. Se doveste trovare l'altra metà, io potrei completare l'arma.~
+@122036 = ~Avete trovato entrambe le parti della vecchia lancia di Ixil. Per 5000 monete possiamo unire l'Unghia di Ixil e la Spina di Ixil.~
+@122037 = ~Ah, questo è un Pugnale delle Stelle.~
+@122038 = ~Combinandolo con cinque zaffiri stellati, potremmo potenziarne ulteriormente l'incantamento.~
+@122039 = ~Con cinque di quegli zaffiri stellati e 5000 monete potremmo renderlo ancora più efficiente.~
+@122040 = ~Hai tre teste qui... posso aggiungervi una testa del veleno e una dell'elettricità tutte insieme. In tutto fanno cinque teste, sai? 10000 monete e posso farlo. Che ne dici?~
+@122041 = ~Non potresti aggiungere solo la testa elettrica, per ora? Ti daremo 5000 monete.~
+@122042 = ~Non potresti aggiungere solo la testa del veleno, per ora? Ti daremo 5000 monete.~
+@122043 = ~Conosco le ricette di due delle teste del Mazzafrusto delle Ere. Una per la testa del veleno... un'altra per la testa dell'elettricità. Sono le uniche che conosco, mi dispiace.~
+@122044 = ~Hai tre teste qui... posso aggiungervi una testa dell'elettricità. In tutto fanno quattro teste, sai? 5000 monete e posso farlo. Ti va?~
+@122045 = ~Oooh! Hai quattro teste e volendo posso aggiungergli la testa finale... Proprio velenosa questa. 5000 mo e ci penso io. Ti va?~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Componenti delle modifiche alle regole           \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@201000 = ~Tabelle di progressione degli incantesimi secondo le regole di AD&D~
+
+@202000 = ~Usa le spade bastarde a due mani~
+
+@203000 = ~Usa le katane a due mani~
+
+@204000 = ~Rendi le clave utilizzabili da chiunque~
+
+@205000 = ~Aggiorna la descrizione delle clave affinche' rispecchino la componente "Rendi le clave utilizzabili da chiunque"~
+@205001 = ~Questa componente richiede che "Rendi le clave utilizzabili da chiunque" sia installato.~
+@205002 = ~Il mod Ashes of Embers e' installato: non e' necessario aggiornare le descrizioni.~
+
+@206000 = ~Consenti a tutte le classi di specializzarsi negli stili di combattimento~
+
+@207000 = ~Applica ai druidi le stesse tabelle di avanzamento di livello e progressione degli incantesimi dei chierici~
+
+@208000 = ~Ritarda le Abilita' di Alto Livello~
+
+@209000 = ~Modifica il limite dei punti esperienza~
+@209001 = ~Rimuovi ogni limite ai punti esperienza~
+
+@209100 = ~Limita al 20simo livello~
+
+@209200 = ~Limita al 30simo livello~
+
+@210000 = ~Consenti l'utilizzo di Nascondersi nelle ombre e delle abilita' da ladro in armatura pesante secondo le regole di AD&D~
+
+@211000 = ~Modifica la descrizione degli oggetti affinche' rispecchino la componente "Consenti l'utilizzo di Nascondersi nelle ombre e delle abilita' da ladro in armatura pesante secondo le regole di AD&D"~
+
+@212000 = ~Consenti il lancio di incantesimi arcani in armatura~
+
+@213000 = ~Modifica la descrizione degli oggetti affinche' rispecchino la componente "Consenti il lancio di incantesimi arcani in armatura"~
+
+@214000 = ~Aggiungi alcune combinazioni possibili per la classe duale~
+@214001 = ~barbaro / mago~
+@214002 = ~barbaro / chierico~
+@214003 = ~barbaro / ladro~
+@214004 = ~barbaro / druido~
+
+@215000 = ~Indossa contemporaneamente piu' oggetti protettivi~
+@215001 = ~Applica le restrizioni secondo le regole di AD&D~
+
+@215100 = ~Non applicare alcuna restrizione~
+
+@216000 = ~Ribilanciamento delle sfere di competenza nelle armi~
+@216001 = ~SPADA CORTA/NINJA-TO: Armi preferite di diversi ladri e halfling, la spada corta e il ninja-to sono utili e leggere.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216002 = ~KATANA/WAKIZASHI: Le katane e i wakizashi sono la più elevata manifestazione manifatturiera in campo di spade e il loro impiego richiede grande cura. A mano a mano che sviluppa la sua maestria, il proprietario e la lama diventano una cosa sola, interamente dedicata all'arte della guerra. Queste armi sono difficili da reperire al di fuori di Kara-Tur, perciò occorre ponderare oculatamente la scelta di tale competenza. Dopo tutto, essere abili nell'utilizzo di una katana o di un wakizashi è utile solo se si riesce a trovarli.
+
+ATTENZIONE: le katane magiche sono molto rare in Baldur's Gate 2!
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216003 = ~SCIMITARRA: Questa classe di armi consente al personaggio di padroneggiare l'utilizzo di lame ricurve come, ad esempio, le scimitarre.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216004 = ~FLAGELLO: I flagelli sono armi contundenti particolarmente adatte a stordire gli avversari. Non sono propriamente semplici da utilizzare ma con un pò di pratica possono essere letali.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216005 = ~MAZZA/MORNINGSTAR: La mazza è solitamente associata alla figura del chierico. È un'arma contundente molto potente, simile alla clava ma costruita in modo da arreccare un maggior danno. Un morningstar è simile a una mazza con delle punte al posto delle flangie.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216006 = ~Modifica il sistema delle Capacità con le Armi~
+
+@216100 = ~Ripristina il sistema di Baldur's Gate conservando gli Stili di combattimento (the bigg)~
+
+@216200 = ~Ripristina il sistema di Baldur's Gate senza gli Stili di combattimento (the bigg)~
+
+@217000 = ~Lancia incantesimi dalle pergamene (e da altri oggetti) al livello del personaggio~
+
+@218000 = ~Ripristina le tabelle originali di THAC0, tiri salvezza, maestria superiore e progressione degli incantesimi arcani e divini (Blucher)~
+@218001 = ~Alchimia (Mago)~
+@218002 = ~Alchimia (Sacerdote)~
+@218003 = ~Alchimia (Vagabondo)~
+@218004 = ~Alchimia (Mago)
+Questa abilità consente a un mago di creare pozioni. Le pozioni che il mago può creare sono scelte causalmente da questa lista:
+1)  Pozione di assorbimento
+2)  Pozione di resistenza al fuoco
+3)  Pozione di resistenza al freddo
+4)  Pozione di invisibilità
+5)  Pozione di forma di pietra
+6)  Pozione di forza
+7)  Pozione di agilità
+8)  Pozione di respiro di fuoco
+9)  Olio di velocità
+10) Olio di incendio impetuoso~
+@218005 = ~Alchimia (Sacerdote)
+Questa abilità consente a un sacerdote di creare pozioni. Le pozioni che il sacerdote può creare sono scelte casualmente da questa lista:
+1)  Pozione di guarigione
+2)  Pozione di Super Guarigione
+3)  Pozione di Guarigione Superiore
+4)  Elisir di salute
+5)  Pozione di intuito
+6)  Pozione di rigenerazione
+7)  Pozione di chiarezza
+8)  Antidoto
+9)  Pozione di focalizzazione dei pensieri
+10) Pozione di genio~
+@218006 = ~Alchimia (Vagabondo)
+Grazie alla sua innata astuzia, un vagabondo esperto ha visto abbastanza pozioni nel corso delle sue avventure per potersi permettere di simularne la creazione. Attraverso l'abilità Alchimia, il vagabondo può creare una pozione scelta da una gamma di otto tipologie, una volta al giorno.
+
+Le pozioni che il vagabondo può creare sono scelte casualmente da questa lista: 
+1) Pozione di focalizzazione dei pensieri
+2) Pozione di percezione
+3) Pozione di invisibilità
+4) Pozione di Guarigione Superiore
+5) Pozione di rigenerazione
+6) Antidoto
+7) Olio di velocità
+8) Pozione di forza del gigante dei ghiacci (vagabondo)~
+@218007 = ~Scrivere Pergamene (Mago)~
+@218008 = ~Scrivere Pergamene (Sacerdote)~
+@218009 = ~Scrivere Pergamene (Vagabondo)~
+@218010 = ~Scrivere Pergamene (Mago)
+Questa abilità consente a un mago di creare pergamene di incantesimi arcani di basso o medio livello. Le pergamene che il mago può creare sono scelte casualmente da questa lista:
+1)  Dardo incantato
+2)  Scudo
+3)  Freccia acida di Melf
+4)  Immagine Speculare
+5)  Piccole meteore di Melf
+6)  Respingi Incantesimo Minore
+7)  Invisibilità potenziata
+8)  Tempesta di ghiaccio
+9)  Oracolo
+10) Caos~
+@218011 = ~Scrivere Pergamene (Sacerdote)
+Questa abilità consente a un sacerdote di creare pergamene di incantesimi divini. Le pergamene che il sacerdote può creare sono scelte casualmente da questa lista:
+1)  Cura ferite critiche
+2)  Colonna di fuoco
+3)  Rianimare morti
+4)  Ristorare
+5)  Protezione dall'acido
+6)  Protezione dal freddo
+7)  Protezione dall'elettricità
+8)  Protezione dal fuoco
+9)  Forza del Campione
+10) Dominio Mentale~
+@218012 = ~Scrivere Pergamene (Vagabondo)
+Questa abilità consente a un vagabondo di creare pergamene di incantesimi di basso o medio livello. Le pergamene che il vagabondo può creare sono scelte casualmente da questa lista:
+1) Dardo incantato
+2) Velocità
+3) Palla di fuoco
+4) Dissolvi magie
+5) Charme estremo
+6) Invisibilità
+7) Cono di freddo
+8) Evocare mostri II
+9) Evocare mostri III~
+
+@219000 = ~Limita la capacita' dei negozianti di identificare gli oggetti~
+@219001 = ~Limita la capacita' di identificare gli oggetti ai soli negozianti bardi o maghi~
+
+@219100 = ~Limita la capacita' di identificare gli oggetti in base al punteggio di Conoscenza dei negozianti~
+
+@219200 = ~Utilizza un ibrido di entrambi i sistemi~
+
+@220000 = ~Maestria Superiore per i personaggi multiclasse (Weimer)~
+
+@221000 = ~Ripristina la Maestria Superiore secondo le regole di AD&D (Baldurdash)~
+
+@222000 = ~Imposta a zero il peso delle armi magiche~
+
+@223000 = ~Tratta le armi +x/+y coerentemente~
+
+@223100 = ~Modifica la descrizione degli oggetti affinche' rispecchno la componente "Tratta le armi +x/+y coerentemente"~
+
+@224000 = ~Modifica la progressione della THAC0~
+@224001 = ~Limita a un valore minimo di 0 (Blucher)~
+@224100 = ~Limita a un valore minimo di -10 (AD&D\BG1)~
+
+@225000 = ~Modifica la tabella di progressione degli incantesimi dello Stregone~
+
+@226000 = ~Modifica la tabella di progressione degli incantesimi del Mago~
+@226001 = ~Tabella migliorata (Blucher)~
+
+@226100 = ~Tabella secondo le regole di AD&D~
+
+@227000 = ~Modifica la tabella di progressione degli incantesimi del Bardo~
+
+@228000 = ~Modifica la tabella di progressione degli incantesimi del Chierico~
+
+@229000 = ~Modifica la tabella di progressione degli incantesimi del Druido~
+@229001 = ~Nessuna modifica agli incantesimi per livello, set migliorato di incantesimi del Druido (Blucher)~
+
+@229100 = ~Nessuna modifica agli incantesimi per livello, set originale di incantesimi del Druido\Chierico (AD&D)~
+
+@229200 = ~Usa la tabella di progressione degli incantesimi del Chierico modificata con il normale set di incantesimi del Druido~
+
+@229300 = ~Usa la tabella di progressione degli incantesimi del Chierico modificata con il set migliorato di incantesimi del Druido (Blucher)~
+
+@229400 = ~Usa la tabella di progressione degli incantesimi del Chierico modificata con il set originale di incantesimi del Druido\Chierico (AD&D)~
+
+@229500 = ~Usa la tabella di progressione degli incantesimi del Chierico modificata con il set normale di incantesimi del Chierico~
+
+@229600 = ~Usa la tabella di progressione degli incantesimi del Chierico modificata con il set migliorato di incantesimi del Chierico (Blucher)~
+
+@230000 = ~Consenti ai personaggi con tre classi di accedere alle Abilità di Alto Livello di tutte e tre le classi~
+
+@231000 = ~Applica penalita' ai tiri-salvezza contro incantesimi lanciati da incantatori di alto livello~
+@231001 = ~Solo per gli incantesimi arcani~
+
+@231100 = ~Solo per gli incantesimi divini~
+
+@231200 = ~Per gli incantesimi sia arcani che divini~
+
+@232000 = ~Rimuovi il limite massimo di trappole che possono essere piazzate (Ardanis/GeN1e)~
+
+@233000 = ~Rimuovi il ritardo nelle trappole magiche (Ardanis/GeN1e)~
+
+@234000 = ~Rimuovi il limite massimo al numero di celestiali che può essere evocato (Ardanis/GeN1e)~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Aggiustamenti/Trucchi di convenienza             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@300000 = ~Guadagna piu' punti ferita al passaggio di livello~
+@300001 = ~Guadagna sempre punti ferita massimi~
+
+@300100 = ~Guadagna punti ferita in stile Neverwinter Nights~
+
+@301000 = ~Tutti i PNG hanno punti ferita massimi (the bigg)~
+@301001 = ~Tutte le creature nel gioco hanno punti ferita massimi~
+
+@301100 = ~Solo i PNG che non possono unirsi al gruppo hanno punti ferita massimi~
+
+@301200 = ~Solo i PNG che possono unirsi al gruppo hanno punti ferita massimi~
+
+@302000 = ~Identifica automaticamente tutti gli oggetti~
+
+@303000 = ~Apprendimento semplificato degli incantesimi~
+@303001 = ~Imposta la possibilità di imparare gli incantesimi al 100%~
+
+@303100 = ~Imposta la possibilità di imparare gli incantesimi al 100% e rimuovi il limite al numero di incantesimi di ogni livello che è possibile imparare~
+
+@304000 = ~Borse Conservanti senza fondo~
+
+@305000 = ~Rimuovi la fatica dopo l'incantesimo "Ristorare"~
+
+@306000 = ~Rimuovi l'effetto sonoro "Devi radunare il tuo gruppo..." (Weimer)~
+
+@307000 = ~Sconti ai negozi per una bassa reputazione (Sabre)~
+@307001 = ~Modifica l'effetto della reputazione sul prezzo degli oggetti~
+
+@307100 = ~La reputazione è ininfluente, prezzi fissati al 100% (Luiz)~
+
+@307200 = ~La reputazione è ininfluente, prezzi fissati all'80% (Luiz)~
+
+@307300 = ~La reputazione è ininfluente, prezzi fissati al 60% (Luiz)~
+
+@308000 = ~Rimuovi il limite di 20 alla quantita' di munizioni che si possono impilare contemporaneamente~
+
+@309000 = ~Consenti di impilare un numero illimitato di gemme e gioielli~
+
+@310000 = ~Rimuovi il limite di 5 alla quantità di pozioni che si possono impilare contemporaneamente~
+
+@311000 = ~Rimuovi il limite di 5 alla quantità di pergamene che si possono impilare contemporaneamente~
+
+@312000 = ~Patch dell'allegria (i membri del gruppo non si lamenteranno della reputazione del gruppo)~
+@312001 = ~I PNG non si contrariano mai per la reputazione del gruppo~
+
+@312100 = ~I PNG si contrariano per la reputazione ma non abbandonano mai il gruppo per questo (Salk)~
+
+@312200 = ~I PNG sono sempre neutrali rispetto alla reputazione del gruppo (Anomaly)~
+
+@312300 = ~I membri del gruppo non combatteranno tra loro~ 
+
+@312400 = ~Impedica il romance fra Aerie e Haer'Dalis iniziare~
+
+@312500 = ~I personaggi neutrali fanno commenti compiaciuti se la reputazione del gruppo è a un livello medio~
+@318317 = ~Portami la mia amante, Viconia.~
+
+@313000 = ~Rimuovi tutte le trappole e apri tutte le serrature chiuse (Weimer)~
+
+@314000 = ~Intermezzi e sogni piu' rapidi nei capitoli 1 e 2 (Karzak, Blucher) (LEGGI LE AVVERTENZE)~
+
+@314001 = ~Originali da EoU (Karzak, Blucher)~
+@314100 = ~Versione seria~
+
+@315000 = ~Disabilita la fastidiosa animazione del Mantello Speculare e degli incantesimi "Trappola Magica" e "Specchio fisico"~
+
+@316000 = ~Tieni l'equipaggiamento di Drizzt, disabilita Malchor Harpell~
+
+@317000 = ~Disabilità gli avatar da drow sui membri del gruppo nell'Underdark~
+
+@317900 = ~Disabilita i requisiti di razza per le romance~
+
+@318000 = ~Trucchi per le romance~
+@318001 = ~Disabilita i requisiti di sesso e di razza~
+
+@318100 = ~Disabilita i requisiti di sesso e di razza, consenti più romance simultaneamente~
+
+@318200 = ~Disabilita i requisiti di sesso e di razza, consenti più romance simultaneamente, impossibile interrompere una romance~
+
+@318300 = ~Trucchi per le romance~
+@318301 = ~Disabilitare i requisiti di razza per le romance? (Selezionare a o b)
+  a) Si
+  b) No~
+@318302 = ~  * Disabilita i requisiti di razza per le romance~
+@318303 = ~Disabilitare i requisiti di sesso per le romance? (Selezionare a o b)
+  a) Si
+  b) No~
+@318304 = ~  * Disabilita i requisiti di sesso per le romance~
+@318305 = ~Consentire lo svolgimento di più romance contemporaneamente? (Selezionare a o b)
+  a) Si
+  b) No~
+@318306 = ~  * Consenti lo svolgimento di più romance contemporaneamente~
+@318307 = ~Rendere impossibile l'interruzione di una romance? (Selezionare a o b)
+  a) Si
+  b) No~
+@318308 = ~  * Rendi impossibile l'interruzione di una romance~
+@318309 = ~Hai scelto di installare le seguenti opzioni:~
+@318310 = ~Sono corrette?
+  a) Si, procedi con l'installazione
+  b) No, desidero cambiare le mie selezioni~
+@318311 = ~Consentire l'inizio di una romance nelle nuove partite di ToB?
+  a) Si
+  b) No~
+@318312 = ~  * Consenti l'inizio di una romance nelle nuove partite di ToB~
+@318313 = ~Portami la mia amante, Aerie.~
+@318314 = ~Portami la mia amante, Jaheira.~
+@318315 = ~Portami il mio amante, Sir Anomen, Cavaliere dell'Ordine.~
+@318316 = ~Portami il mio amante, Anomen, sacerdote di Helm.~
+
+@319000 = ~Riposa ovunque (Japheth)~
+
+@320000 = ~Rendi bastoni, clave e fionde vendibili (Icelus)~
+
+@321000  = ~Imposta un punteggio minimo per le caratteristiche del personaggio~
+@321001  = ~Seleziona il valore minimo dei punteggi caratteristica, compreso tra 6 e 15:~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Aggiustamenti ai PNG                             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@400000 = ~Aggiusta i tiri per la reazione dei PNG malvagi che possono unirsi al gruppo~
+
+@401000 = ~Migliora l'evocazione dei PNG da parte dello Spirito del Fato~
+
+@402000 = ~PNG in stile Throne Of Bhaal~
+
+@403000 = ~Rendi i punteggi caratteristica di Edwin coerenti con quelli che aveva in Baldur's Gate 1~
+@403001 = ~Usa i valori di Baldur's Gate~
+
+@403100 = ~Usa i valori di Baldur's Gate 2~
+
+@404000 = ~Rendi i punteggi caratteristica di Jaheira coerenti con quelli che aveva in Baldur's Gate 1~
+
+@405000 = ~Cambia l'allineamento di Jaheira in Neutrale Buono~
+
+@406000 = ~Rendi i punteggi caratteristica di Minsc coerenti con quelli che aveva in Baldur's Gate 1~
+
+@407000 = ~Rendi i punteggi caratteristica di Viconia coerenti con quelli che aveva in Baldur's Gate 1~
+
+@408000 = ~Rendi Khalid un Guerriero-Mago (Domi)~
+@408001 = ~Se interrogato sul suo passato, KHALID rivela nervosamente che è nato è cresciuto in una regione del Calimshan. Non parla molto dei suoi genitori ma le sue parole ti danno la sensazione che suo padre, un mercante, lo trascurasse per i suoi fratellastri. Non potendo contare sul supporto paterno, Khalid non potè permettersi di diventare l'apprendista di un mago, così si decise di unirsi alla milizia cittadina nella speranza di guadagnare quanto gli occorreva. Anche sui dettagli circa il suo incontro con Jaheira rimane vago, per quanto la sua adorazione per la compagnia sia evidente. Se interrogato su come incontrò Gorion, risponde solamente che sono stati amici per lungo tempo e che molte comuni conoscenze ne piangeranno la perdita con una melodia d'arpa.~
+
+@409000 = ~Rendi Montaron un Assassino (Andyr)~
+
+@410000 = ~Cambia l'allineamento di Korgan in Neutrale Malvagio~
+
+@411000 = ~Dai a Kagain un più verosimile punteggio di 19 alla costituzione~

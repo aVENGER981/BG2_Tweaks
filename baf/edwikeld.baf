@@ -1,0 +1,7 @@
+IF
+	InParty(Myself)
+	Global("EdwinKeldornFight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("EdwinKeldornFight","GLOBAL",0)
+END

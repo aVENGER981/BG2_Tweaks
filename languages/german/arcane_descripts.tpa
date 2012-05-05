@@ -1,0 +1,7 @@
+DEFINE_PATCH_MACRO ~arcane_descripts_german~ BEGIN
+
+  REPLACE_TEXTUALLY ~\(Gewicht:[ %tab%]*[0-9]+\)~
+  ~\1
+Fehlgeschlagene Arkane Magie: +%patch_miscast%%~
+
+END

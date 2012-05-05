@@ -1,0 +1,18 @@
+DEFINE_PATCH_MACRO ~thieving_descripts_russian~ BEGIN
+
+  REPLACE_TEXTUALLY ~^[ %tab%]*Вскрытие замков:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Нахождение и обезвреживание ловушек:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Воровство:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~\(Вес:[ %tab%]*[0-9]+\)~
+    ~\1
+Вскрытие замков: -%penalty_lock%CDPERCENTAGE
+Нахождение и обезвреживание ловушек: -%penalty_trap%CDPERCENTAGE
+Воровство: -%penalty_pickpocket%CDPERCENTAGE~
+  PATCH_IF ("%patch_hide%" != 2) BEGIN
+    REPLACE_TEXTUALLY ~\(Weight:[ %tab%]*[0-9]+\)~
+    ~\1
+Спрятаться в Тенях: -%penalty_hide%CDPERCENTAGE
+Бесшумное движение: -%penalty_silent%CDPERCENTAGE~
+  END
+
+END

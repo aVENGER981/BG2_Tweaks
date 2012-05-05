@@ -1,0 +1,6 @@
+IF
+        Global("Yeslickfight","GLOBAL",1)
+THEN
+        RESPONSE #100
+                SetGlobal("Yeslickfight","GLOBAL",99)
+END

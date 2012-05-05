@@ -1,0 +1,19 @@
+IF
+	InParty(Myself)
+	GlobalLT("LoveTalk","LOCALS",36)
+	!Global("AerieRomanceActive","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AerieRomanceActive","GLOBAL",1)
+		Continue()
+END
+
+IF
+	InParty(Myself)
+	GlobalGT("LoveTalk","LOCALS",35)
+	!Global("AerieRomanceActive","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("AerieRomanceActive","GLOBAL",2)
+		Continue()
+END

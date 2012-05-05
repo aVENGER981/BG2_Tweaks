@@ -1,0 +1,370 @@
+/*
+Rather than a series of huge CEs, we temporarily set the item types here so we only need one REGEXP.
+201 - Chainmail
+202 - Elven Chainmail
+203 - Full Plate
+204 - Hide Armor
+205 - Plate Mail
+206 - Scale Mail
+207 - Splint Mail
+208 - Studded Leather
+209 - elven chain
+210 - chain special - normal chain w/o hide & move silently penalties
+211 - studded leather special - studded leather w/o hide & move silently penalties
+*/
+
+// chain mail
+COPY_EXISTING ~_chan01.itm~  ~override~
+              ~_chan02.itm~  ~override~
+              ~_chan03.itm~  ~override~
+              ~_chan06.itm~  ~override~
+              ~_chan07.itm~  ~override~
+              ~_ichan01.itm~ ~override~
+              ~_juschan.itm~ ~override~
+              ~cbchanp4.itm~ ~override~ // chain mail +4 (chain mail)
+              ~cbcl013.itm~  ~override~ // baleful mail (chainmail)
+              ~cbcl033.itm~  ~override~ // mail of life (chainmail(
+              ~cbsbmltk.itm~ ~override~
+              ~cbtsch01.itm~ ~override~ // chain mail +5 (chain mail armour)
+              ~cbxtgcdd.itm~ ~override~ // masterwork chain mail armor +1 (chain mail armour)
+              ~chan01.itm~   ~override~
+              ~chan02.itm~   ~override~
+              ~chan03.itm~   ~override~
+              ~chan06.itm~   ~override~
+              ~chan07.itm~   ~override~
+              ~chan08.itm~   ~override~
+              ~chan09.itm~   ~override~
+              ~chan10.itm~   ~override~
+              ~chan11.itm~   ~override~
+              ~chan12zz.itm~ ~override~
+              ~chan21.itm~   ~override~
+              ~chan6xx.itm~  ~override~
+              ~chands01.itm~ ~override~ // chain mail +2, blessed chain mail (chain mail)
+              ~chands09.itm~ ~override~ // chain mail +3 (chain mail)
+              ~coma06.itm~   ~override~
+              ~deitm053.itm~ ~override~
+              ~deitm087.itm~ ~override~
+              ~dschan01.itm~ ~override~
+              ~dschan02.itm~ ~override~
+              ~dschan03.itm~ ~override~
+              ~elvarmx.itm~  ~override~
+              ~fwchan01.itm~ ~override~
+              ~fwchan04.itm~ ~override~
+              ~i1ch002.itm~  ~override~ // voice of doom (chain mail)
+              ~ichan01.itm~  ~override~
+              ~juschan.itm~  ~override~
+              ~kkchain.itm~  ~override~ // chain mail +3 (chain mail)
+              ~maforg07.itm~ ~override~ // improved chainmail +3, chainmail +3: mail of the dead (chainmail)
+              ~maillif.itm~  ~override~
+              ~npchan.itm~   ~override~
+              ~ntchan03.itm~ ~override~ // chain mail +3: 'sage's armor' (chain mail armour)
+              ~ntchan05.itm~ ~override~ // chailmail +5: 'ebon chain' (chainmail)
+              ~o!bom003.itm~ ~override~ // tangor’s mystical chain (chain mail)
+              ~r#swan.itm~   ~override~
+              ~s!chan01.itm~ ~override~ // supreme chain mail +6 (chain mail armour)
+              ~s!leat03.itm~ ~override~ // improved corthala family armor (as per valygar's existing armour)
+              ~sgchan06.itm~ ~override~
+              ~sgchan3.itm~  ~override~
+              ~shararm.itm~  ~override~
+              ~slayer3.itm~  ~override~ // jet'laya's chainmail (chain mail armour)
+              ~tamchain.itm~ ~override~
+              ~vischan1.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+    WRITE_SHORT 0x1C 201
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// full plate
+COPY_EXISTING ~_plat04.itm~  ~override~
+              ~_plat05.itm~  ~override~
+              ~bruenpla.itm~ ~override~
+              ~c!gplate.itm~ ~override~
+              ~c2keld01.itm~ ~override~
+              ~cbrjr017.itm~ ~override~ // laeral's storm armor (full plate armour, non-metallic)
+              ~cbsbmltu.itm~ ~override~
+              ~cbsbmltv.itm~ ~override~
+              ~cbtspt01.itm~ ~override~ // full plate mail +5 (full plate mail armour)
+              ~chalarm.itm~  ~override~
+              ~cmgforg7.itm~ ~override~
+              ~coma04.itm~   ~override~
+              ~deitm086.itm~ ~override~
+              ~deitm090.itm~ ~override~
+              ~deitm096.itm~ ~override~
+              ~dplate.itm~   ~override~
+              ~dsebplat.itm~ ~override~
+              ~dwplat01.itm~ ~override~
+              ~ebonplt.itm~  ~override~ // full plate armor +1: 'ebon plate (full plate armour)
+              ~elemplat.itm~ ~override~
+              ~flat01.itm~   ~override~
+              ~flat02.itm~   ~override~
+              ~flat03.itm~   ~override~
+              ~flat04.itm~   ~override~
+              ~gcmpl01.itm~  ~override~
+              ~jera.itm~     ~override~
+              ~kinplat.itm~  ~override~ // kindrek's full plate (full plate armour)
+              ~kreeplat.itm~ ~override~ // full metal plate of stone +2 (full plate armour)
+              ~mdsiplat.itm~ ~override~
+              ~mgiplat1.itm~ ~override~ // full plate +1, restless spirit (full plate armour)
+              ~minbalpl.itm~ ~override~
+              ~minplatx.itm~ ~override~
+              ~npplat.itm~   ~override~
+              ~palplat.itm~  ~override~
+              ~plat04.itm~   ~override~
+              ~plat05.itm~   ~override~
+              ~plat05xx.itm~ ~override~
+              ~plat09.itm~   ~override~
+              ~plat14.itm~   ~override~
+              ~plat15.itm~   ~override~
+              ~plat16.itm~   ~override~
+              ~plat19.itm~   ~override~
+              ~plat20.itm~   ~override~
+              ~plat21.itm~   ~override~
+              ~plat22.itm~   ~override~
+              ~plat23.itm~   ~override~
+              ~plat74.itm~   ~override~ // full plate mail of unknown origin (full plate armour, very light)
+              ~platj4.itm~   ~override~
+              ~platsar.itm~  ~override~
+              ~psq64.itm~    ~override~
+              ~r#plat.itm~   ~override~
+              ~raidplat.itm~ ~override~
+              ~s!plat01.itm~ ~override~ // enhanced pride of the legion +4 (full plate armor)
+              ~s!plat02.itm~ ~override~ // huskar lord's armor +5 (full plate armour)
+              ~secret05.itm~ ~override~
+              ~sgplat1.itm~  ~override~
+              ~trollarm.itm~ ~override~ // troll flesh (hide armour?)
+              ~tzplat01.itm~ ~override~
+              ~u#plat01.itm~ ~override~
+              ~visplat2.itm~ ~override~
+              ~wa2plat.itm~  ~override~
+              ~xarm001.itm~  ~override~
+              ~xarm003.itm~  ~override~
+              ~xarm005.itm~  ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+    WRITE_SHORT 0x1C 203
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// hide armor
+COPY_EXISTING ~_leat10.itm~  ~override~
+              ~ararmor.itm~  ~override~ // ariena's armor (hide armour)
+              ~bleat01.itm~  ~override~
+              ~bleat02.itm~  ~override~
+              ~bleat03.itm~  ~override~
+              ~c2hide01.itm~ ~override~
+              ~dleat10.itm~  ~override~
+              ~fwleat03.itm~ ~override~
+              ~fwleat04.itm~ ~override~
+              ~leat10.itm~   ~override~
+              ~leat20.itm~   ~override~
+              ~leatbal.itm~  ~override~ // bala's leather +4 (hide armour)
+              ~leatbar.itm~  ~override~ // barbarian hide +1 (hide armour)
+              ~leatds03.itm~ ~override~ // thorfinn's hide armor (hide armour)
+              ~o!bom011.itm~ ~override~ // troll hide +4 (hide armour)
+              ~u#hfheah.itm~ ~override~ // cornugan hide armour (hide armour +1)
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+    WRITE_SHORT 0x1C 204
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// plate mail
+COPY_EXISTING ~_iplat01.itm~ ~override~
+              ~_plat01.itm~  ~override~
+              ~_plat02.itm~  ~override~
+              ~_plat06.itm~  ~override~
+              ~_plat07.itm~  ~override~
+              ~_plat08.itm~  ~override~
+              ~_plat98.itm~  ~override~
+              ~blood.itm~    ~override~ // bathed in blood (plate armour)
+              ~brueplt1.itm~ ~override~ // bruenor's armor, plate mail +2 (plate armour)
+              ~c2plat01.itm~ ~override~
+              ~cbbdarmr.itm~ ~override~ // blue dragon plate (plate armour)
+              ~cbcl027.itm~  ~override~
+              ~cblyplat.itm~ ~override~ // lyrar's plate (plate armour)
+              ~cbmilt01.itm~ ~override~
+              ~cbmilt11.itm~ ~override~
+              ~cbmilt21.itm~ ~override~
+              ~cbplat13.itm~ ~override~ // gorgon plate +5 (plate armour)
+              ~cbuhgvar.itm~ ~override~ // holy armor of torm (plate armour)
+              ~cbuhgvct.itm~ ~override~
+              ~coma05.itm~   ~override~
+              ~coma07.itm~   ~override~
+              ~coma11.itm~   ~override~ // green dragon's plate (plate armour)
+              ~deitm088.itm~ ~override~
+              ~drowplt1.itm~ ~override~ // drow adamantite plate armor +3 (drow plate armour)
+              ~drowplt2.itm~ ~override~ // drow adamantite plate armor +4 (drow plate armour)
+              ~drowplt3.itm~ ~override~ // drow adamantite plate armor +5 (drow plate armour)
+              ~dscoarm.itm~  ~override~
+              ~dscryarm.itm~ ~override~
+              ~dsfearm.itm~  ~override~
+              ~flamplat.itm~ ~override~ // plate of smoldering (plate armour)
+              ~fwplat01.itm~ ~override~
+              ~fwplat02.itm~ ~override~
+              ~fwplat03.itm~ ~override~
+              ~fwplat04.itm~ ~override~
+              ~glory.itm~    ~override~ // the glory of suffering (plate armour)
+              ~i1pl001.itm~  ~override~ // gubbie armor (plate armour)
+              ~iceplat.itm~  ~override~ // ice plate (plate armour)
+              ~iplat01.itm~  ~override~
+              ~king.itm~     ~override~ // winter king's plate (hide armour)
+              ~lotharmo.itm~ ~override~ // lothaullan (plate armour)
+              ~mapla001.itm~ ~override~ // duragons plate +4 (plate armour)
+              ~maplat02.itm~ ~override~ // dwarven mithril plate (plate armour)
+              ~mplat01.itm~  ~override~ // king's plate mail +5 (plate armour)
+              ~ntplat01.itm~ ~override~ // (plate armour)
+              ~o!bom001.itm~ ~override~ // mother’s curse +1 (plate armour)
+              ~plat01.itm~   ~override~
+              ~plat02.itm~   ~override~
+              ~plat06.itm~   ~override~
+              ~plat07.itm~   ~override~
+              ~plat08.itm~   ~override~
+              ~plat10.itm~   ~override~
+              ~plat11.itm~   ~override~
+              ~plat12.itm~   ~override~
+              ~plat13.itm~   ~override~
+              ~plat17.itm~   ~override~
+              ~plat18.itm~   ~override~
+              ~plat98.itm~   ~override~
+              ~plat99.itm~   ~override~
+              ~platds01.itm~ ~override~ // crystal plate mail (plate armour)
+              ~platds03.itm~ ~override~ // ferthgil's dwarven mithril plate battle armor (plate armour)
+              ~platds04.itm~ ~override~ // conchobhair strongblade's blessed plate mail armor (plate armour
+              ~platds05.itm~ ~override~ // plate mail +3 : 'the practical defense (plate armour)
+              ~platgr01.itm~ ~override~
+              ~platraid.itm~ ~override~
+              ~psq62.itm~    ~override~
+              ~psq63.itm~    ~override~
+              ~r!kitplt.itm~ ~override~ // bringer of vengeance: kitanya's plate mail (plate armour, specifically tailored for the npc)
+              ~runeplat.itm~ ~override~
+              ~s!plat03.itm~ ~override~ // improved ankheg mail (as per improved ankheg mail in item upgrade)
+              ~sgplat2.itm~  ~override~
+              ~swanarm.itm~  ~override~ // black swan armor (plate armour?)
+              ~ucmgpl01.itm~ ~override~ // winter king's plate (plate armour)
+              ~visplat1.itm~ ~override~
+              ~xarm006.itm~  ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+    WRITE_SHORT 0x1C 205
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// scale mail
+COPY_EXISTING ~c2valy01.itm~ ~override~
+              ~cbbnlch8.itm~ ~override~
+              ~chan17.itm~   ~override~
+              ~chan20.itm~   ~override~
+              ~cmgcha01.itm~ ~override~
+              ~fwleat02.itm~ ~override~
+              ~kiyoarm1.itm~ ~override~ // verdant vigil (scale armour)
+              ~kiyoarm2.itm~ ~override~ // verdant vigil +2 (scale armour)
+              ~kiyoarm3.itm~ ~override~ // verdant vigil +4 (scale armour)
+              ~platblue.itm~ ~override~ // blue dragon scale (scale armour)
+              ~platwy.itm~   ~override~ // wyvern's scale ("fashioned from the hide of a dead wyvern, the armor is as cumbersome as scalemail but provides the protection of magical platemail")
+              ~ritdrag.itm~  ~override~
+              ~scal01.itm~   ~override~
+              ~scal02.itm~   ~override~
+              ~scal03.itm~   ~override~
+              ~sgsplt3.itm~  ~override~
+              ~u#plat02.itm~ ~override~
+              ~xarm002.itm~  ~override~
+              ~zilfgt.itm~   ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+    WRITE_SHORT 0x1C 206
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// splint mail
+COPY_EXISTING ~_chan04.itm~  ~override~
+              ~_chan05.itm~  ~override~
+              ~_ichan04.itm~ ~override~
+              ~band01.itm~   ~override~
+              ~band02.itm~   ~override~
+              ~band03.itm~   ~override~
+              ~band04.itm~   ~override~
+              ~cbtsst01.itm~ ~override~ // splint mail +4 (splint mail)
+              ~celebros.itm~ ~override~ // mail of celebros (splint armour)
+              ~chan04.itm~   ~override~
+              ~chan05.itm~   ~override~
+              ~chan18.itm~   ~override~
+              ~chands05.itm~ ~override~ // sukien holy armor (splint mail armour)
+              ~chands08.itm~ ~override~ // crusaders armor (splint mail armour)
+              ~dschan04.itm~ ~override~
+              ~ichan04.itm~  ~override~
+              ~j#spli06.itm~ ~override~
+              ~korim.itm~    ~override~ // splint mail armor +4 - korim's skin (splint mail armour)
+              ~machan01.itm~ ~override~ // splint mail, mystra's armor (splint mail)
+              ~sgsplt1.itm~  ~override~
+              ~sgsplt2.itm~  ~override~
+              ~vischan2.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+    WRITE_SHORT 0x1C 207
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// studded leather
+COPY_EXISTING ~_ileat04.itm~ ~override~
+              ~_leat04.itm~  ~override~
+              ~_leat05.itm~  ~override~
+              ~_leat07.itm~  ~override~
+              ~cbxtshdd.itm~ ~override~ // masterwork leather armor +4 (studded leather armour)
+              ~cyleat.itm~   ~override~
+              ~d0leat08.itm~ ~override~
+              ~d0t#leat.itm~ ~override~ // studded leather armour +3 (studded leather armour)
+              ~dscuarm.itm~  ~override~
+              ~dsleat01.itm~ ~override~
+              ~dsthrarm.itm~ ~override~
+              ~dswrkarm.itm~ ~override~
+              ~fwleat05.itm~ ~override~
+              ~fwleat06.itm~ ~override~
+              ~g#leat01.itm~ ~override~
+              ~gnwml.itm~    ~override~ // gnomish workman's leather +2 (studded leather armour)
+              ~ileat04.itm~  ~override~
+              ~leat04.itm~   ~override~
+              ~leat05.itm~   ~override~
+              ~leat06.itm~   ~override~
+              ~leat07.itm~   ~override~
+              ~leat15.itm~   ~override~
+              ~leat16.itm~   ~override~
+              ~leat17.itm~   ~override~
+              ~leat18.itm~   ~override~
+              ~leat19.itm~   ~override~
+              ~leat23.itm~   ~override~
+              ~leat24.itm~   ~override~
+              ~leata7.itm~   ~override~ // studded leather armor +3 (studded leather armour)
+              ~leatds01.itm~ ~override~ // armor of thorns (studded leather armour)
+              ~leatraid.itm~ ~override~
+              ~leatveng.itm~ ~override~ // vengeful shadows (studded leather armour)
+              ~macmle02.itm~ ~override~ // studded leather, stormcloud (studded leather armour)
+              ~mgileat1.itm~ ~override~ // studded leather +3, cured leaf hauberk (studded leather armour)
+              ~ntleat04.itm~ ~override~ // studded leather armor +3 (studded leather armour)
+              ~ntleat05.itm~ ~override~ // studded leather of resistance (studded leather armour)
+              ~psq65.itm~    ~override~
+              ~rr#abih.itm~  ~override~
+              ~sdim526.itm~  ~override~
+              ~sgleat2.itm~  ~override~
+              ~sileat.itm~   ~override~
+              ~u#leat01.itm~ ~override~
+              ~u#leat02.itm~ ~override~
+              ~visleat2.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+    WRITE_SHORT 0x1C 208
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// chain special
+COPY_EXISTING ~o!bom002.itm~ ~override~ // ranger mail +5 (chain mail armour, allows hide/move silently to be used unrestricted)
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+    WRITE_SHORT 0x1C 210
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// chain special
+COPY_EXISTING ~_leat08.itm~  ~override~
+              ~leat08.itm~   ~override~
+              ~leat08a.itm~  ~override~ // improved shadow armor (shadow studded armour with +15% hide in shadows)
+              ~m#asleat.itm~ ~override~ // apprentice shadow armor (studded leather armour, +5% hide in shadows)
+              ~ntleat01.itm~ ~override~ // improved shadow armor (studded leather armour, +15% hide in shadows)
+              ~sd_vs.itm~    ~override~ // vengeful shadows (studded leather armour, +10% hide in shadows)
+              ~ucmgle01.itm~ ~override~ // woodland armor +6 (studded leather, druid usable, +20% bonus to hide in shadows)
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+    WRITE_SHORT 0x1C 211
+  END
+  BUT_ONLY_IF_IT_CHANGES

@@ -1,0 +1,23 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    FadeFromColor([30.0],0)
+    Wait(1)
+    MoveViewPoint([763.771],VERY_FAST)
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("cuwizc")  // 
+    MoveViewPoint([763.771],VERY_FAST)
+    Wait(1)
+    DisplayStringWait(Myself,6300)  // ~These are the prisoners from the disturbance at Waukeen's Promenade.~ [CSCOW701]
+    SmallWait(6)
+    DisplayStringWait("cuwizsu",56605)  // ~They are deviants. Let them rot in Spellhold.~ [CSCOWS03]
+    StartCutScene("Movie01c")
+END
+

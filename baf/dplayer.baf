@@ -1,0 +1,75 @@
+IF
+  Kit(Myself,BARBARIAN)
+  Class(Myself,FIGHTER)
+  Global("CDBarb","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CDBarb","LOCALS",1)
+END
+
+IF
+  OR(2)
+    !Kit(Myself,BARBARIAN)
+    !Class(Myself,FIGHTER)
+  Global("CDBarb","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CDBarb","LOCALS",99)
+END
+
+// refinements goodies
+IF
+	Kit(Player1,BARBARIAN)
+	Class(Player1,MAGE)
+	!Global("CDBarb","LOCALS",99)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,AddKit(barbtF))
+END
+IF
+	OR(2)
+		Kit(Player1,BARBARIAN)
+		Kit(Player1,barbtF)
+	Class(Player1,FIGHTER_MAGE)
+	!Global("CDBarb","LOCALS",99)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,AddKit(barbtw))
+END
+
+// this blocks covers the first stage of dual-class when barbarian is inactive
+IF
+  OR(3)
+    Kit(Myself,BARBARIAN)
+    Kit(Myself,barbtw)
+    Kit(Myself,barbtF)
+  Global("CDBarb","LOCALS",1)
+  OR(3)
+    Class(Myself,CLERIC)
+    Class(Myself,MAGE)
+    Class(Myself,THIEF)
+THEN
+  RESPONSE #100
+    ApplySpellRES("CDTITLE0",Myself)
+    SetGlobal("CDBarb","LOCALS",2)
+END
+
+// this blocks covers the second stage of dual-class when barbarian is active
+// or if inactive stage is bypassed
+IF
+  OR(3)
+    Kit(Myself,BARBARIAN)
+    Kit(Myself,barbtw)
+    Kit(Myself,barbtF)
+  OR(2)
+    Global("CDBarb","LOCALS",1)
+    Global("CDBarb","LOCALS",2)
+  OR(6)
+    Class(Myself,FIGHTER_CLERIC)
+    Class(Myself,FIGHTER_MAGE)
+    Class(Myself,FIGHTER_THIEF)
+THEN
+  RESPONSE #100
+    ApplySpellRES("CDTITLE0",Myself)
+    SetGlobal("CDBarb","LOCALS",3)
+END

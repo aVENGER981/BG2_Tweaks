@@ -1,0 +1,8 @@
+IF
+	InParty(Myself)
+	!Global("JaheiraRomanceActive","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("JaheiraRomanceActive","GLOBAL",2)
+END
+

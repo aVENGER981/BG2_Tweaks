@@ -1,0 +1,10 @@
+IF
+	InParty("Korgan")
+	InParty("Aerie")
+	!Global("KorganAerieGrump","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("KorganAerieGrump","GLOBAL",0)
+		Continue()
+END
+

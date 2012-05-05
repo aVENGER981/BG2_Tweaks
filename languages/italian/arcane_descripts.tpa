@@ -1,0 +1,7 @@
+DEFINE_PATCH_MACRO ~arcane_descripts_italian~ BEGIN
+
+  REPLACE_TEXTUALLY ~\(Peso:[ %tab%]*[0-9]+\)~
+  ~\1
+Sbagliare il lancio di magie arcane: +%patch_miscast%%~
+
+END

@@ -1,0 +1,26 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CSIren")
+		CreateVisualEffectObject("ICRMPARI",Myself)
+		ForceSpell("CSImoen",CUTSCENE_DAMAGE_1)
+		CreateVisualEffectObject("SPDISPMA",Myself)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CSImoen")
+		Wait(2)
+		SmallWait(7)
+		CreateCreatureDoor("CSCOWL1",[2554.802],0) // Cowled Wizard
+		CreateCreatureDoor("CSCOWL2",[2637.874],2) // Cowled Wizard
+		CreateCreatureDoor("CSCOWL3",[2484.891],14) // Cowled Wizard
+		CreateCreatureDoor("CSCOWL4",[2768.869],4) // Cowled Wizard
+		CreateCreatureDoor("CSCOWL5",[2527.972],8) // Cowled Wizard
+		Wait(3)
+		SetGlobal("CutScene01","AR0700",3)
+		StartCutScene("cut01e")
+END

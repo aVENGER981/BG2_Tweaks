@@ -1,0 +1,30 @@
+// cdstores.2da will be the lookup table for the actual store patching
+COPY ~BG2_Tweaks/2da/cdstores.2da~ ~override~
+
+// build list creature-store relations
+COPY_EXISTING_REGEXP GLOB ~^.+\.cre$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+    SET "store" = 0
+    SET "MATCH1" = 0
+    READ_ASCII 0x2cc "dialog" ELSE ""
+    // look through dialogue for StartStore references
+    INNER_PATCH_FILE ~%dialog%.dlg~ BEGIN
+
+      COUNT_REGEXP_INSTANCES ~StartStore("\([^"]+\)"~ "store" // if dialog contains a StartStore call
+      PATCH_IF ("%store%" > 0) BEGIN
+        // what follows is a horrible hack to extract store names
+        REPLACE_EVALUATE ~StartStore("\([^"]+\)"~ BEGIN // abused to get store file name
+          // really shouldn't break out of a R_E, but... has to go here otherwise MATCH1 would only get last 
+          // store referenced in dlg, not all of them (needed for multi-store dialogues like ribald and bernard)
+          INNER_ACTION BEGIN
+            ACTION_IF (NOT FILE_CONTAINS_EVALUATED (~cdstores.2da~ ~%MATCH1%\.sto~)) THEN BEGIN // unless clause can't take vars, so use action_if
+              APPEND ~cdstores.2da~ ~%MATCH1%.sto    %SOURCE_FILE%~
+            END
+          END
+        END
+        ~StartStore("%MATCH1%"~ // don't actually change anything (wouldn't anyway since we're in an inner_patch_file)
+      END
+    
+    END
+  END
+  BUT_ONLY_IF_IT_CHANGES

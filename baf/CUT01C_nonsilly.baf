@@ -1,0 +1,23 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSIren")  // 
+    Face(10)
+    Wait(1)
+		DisplayStringWait(Myself,2854) // So godchild, you have escaped.  You are more resourceful than I had thought.
+		DisplayStringWait("CSImoen",2855) // You're not going to torture us any longer.
+		ActionOverride("CSImoen",ForceSpell("CSIren",WIZARD_MAGIC_MISSILE))
+    SetGlobal("CutScene01","AR0700",2)
+    StartCutScene("cut01d")
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CSGayl")
+		Wait(3)
+		MoveToPoint([2671.1220])
+		DestroySelf()
+END

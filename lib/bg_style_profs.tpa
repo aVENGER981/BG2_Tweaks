@@ -1,0 +1,362 @@
+// allows us to regexp match tabs and newlines
+INCLUDE ~BG2_Tweaks/lib/extra_regexp_vars.tpa~
+
+DEFINE_PATCH_MACRO ~tb#is_it_a_proficiency~ BEGIN
+
+/* accepts ~%proficiency%~ as a parameter
+* returns tb#its_a_proficiency if it is a BG2 weapon proficiency
+* its BG1 correspondant value is returned in tb#it_is (or 0 if to be removed)
+*/
+// 59h    Bastard Sword                  -> Large Sword 5ch
+// 5Ah    Long Sword                    -> Large Sword 5ch
+// 5Bh    Short Sword                    -> Small Sword 5bh
+// 5Ch    Axe                            -> Axe 5dh
+// 5Dh    Two-Handed Sword              -> Large Sword 5ch
+// 5Eh    Katana                        -> Large Sword 5ch
+// 5Fh    Scimitar/Wakizashi/Ninja-To    -> Large Sword 5ch
+// 60h    Dagger                        -> Small Sword 5bh
+// 61h    War Hammer                    -> Blunt Weapons 5eh
+// 62h    Spear                          -> Spear 60h
+// 63h    Halberd                        -> Spear 60h
+// 64h    Flail/Morningstar              -> Spiked Weapons 5ah
+// 65h    Mace                          -> Blunt Weapons 5eh
+// 66h    Quarterstaff                  -> Blunt Weapons 5eh
+// 67h    Crossbow                      -> Missile Weapons 5fh
+// 68h    Long Bow                      -> Bow 59h
+// 69h    Short Bow                      -> Bow 59h
+// 6Ah    Darts                          -> Missile Weapons 5fh
+// 6Bh    Sling                          -> Missile Weapons 5fh
+// 73h    Club                          -> Blunt Weapons 5e
+    SET tb#its_a_proficiency = 0
+    PATCH_IF proficiency = 0x59 || proficiency = 0x5a || proficiency = 0x5d ||
+            proficiency = 0x5e || proficiency = 0x5f BEGIN
+      SET tb#it_is = 0x5c
+      SET tb#its_a_proficiency = 1
+    END
+    PATCH_IF proficiency = 0x5b || proficiency = 0x60 BEGIN
+      SET tb#it_is = 0x5b
+      SET tb#its_a_proficiency = 1
+    END
+    PATCH_IF proficiency = 0x5c BEGIN
+      SET tb#it_is = 0x5d
+      SET tb#its_a_proficiency = 1
+    END
+    PATCH_IF proficiency = 0x61 || proficiency = 0x65 || proficiency = 0x66 ||
+            proficiency = 0x73 BEGIN
+      SET tb#it_is = 0x5e
+      SET tb#its_a_proficiency = 1
+    END
+    PATCH_IF proficiency = 0x62 || proficiency = 0x63 BEGIN
+      SET tb#it_is = 0x60
+      SET tb#its_a_proficiency = 1
+    END
+    PATCH_IF proficiency = 0x64 BEGIN
+      SET tb#it_is = 0x5a
+      SET tb#its_a_proficiency = 1
+    END
+    PATCH_IF proficiency = 0x67 || proficiency = 0x6a || proficiency = 0x6b BEGIN
+      SET tb#it_is = 0x5f
+      SET tb#its_a_proficiency = 1
+    END
+    PATCH_IF proficiency = 0x68 || proficiency = 0x69 BEGIN
+      SET tb#it_is = 0x59
+      SET tb#its_a_proficiency = 1
+    END
+    PATCH_IF tb#tutu_realloc_style BEGIN
+      PATCH_IF proficiency >= 111 && proficiency <= 114 BEGIN
+        SET tb#it_is = 0
+        SET tb#its_a_proficiency = 1
+      END
+    END
+END
+
+DEFINE_PATCH_MACRO ~tb#weapprof_names_tutu~ BEGIN
+/* accepts ~%proficiency%~ as a parameter
+* returns the name of the BG1 proficiency as ~tb#name~
+*/
+  PATCH_IF tb#it_is = 0x59 BEGIN
+    SPRINT ~tb#name~ ~Bow~
+  END
+  PATCH_IF tb#it_is = 0x5a BEGIN
+    SPRINT ~tb#name~ ~Spiked Weapons~
+  END
+  PATCH_IF tb#it_is = 0x5b BEGIN
+    SPRINT ~tb#name~ ~Small Sword~
+  END
+  PATCH_IF tb#it_is = 0x5c BEGIN
+    SPRINT ~tb#name~ ~Large Sword~
+  END
+  PATCH_IF tb#it_is = 0x5d BEGIN
+    SPRINT ~tb#name~ ~Axe~
+  END
+  PATCH_IF tb#it_is = 0x5e BEGIN
+    SPRINT ~tb#name~ ~Blunt Weapons~
+  END
+  PATCH_IF tb#it_is = 0x5f BEGIN
+    SPRINT ~tb#name~ ~Missile Weapons~
+  END
+  PATCH_IF tb#it_is = 0x60 BEGIN
+    SPRINT ~tb#name~ ~Spear~
+  END
+END
+
+DEFINE_MACRO_ACTION ~tb#tutu_weapprof~ BEGIN
+  // Bow 59h
+  // Spiked Weapons 5ah
+  // Small Sword 5bh
+  // Large Sword 5ch
+  // Axe 5dh
+  // Blunt Weapons 5eh
+  // Missile Weapons 5fh
+  // Spear 60h
+
+  COPY_EXISTING ~stats.ids~ ~override~
+    REPLACE_TEXTUALLY ~^89 .*~ ~89 PROFICIENCYBOW~
+    REPLACE_TEXTUALLY ~^90 .*~ ~90 PROFICIENCYSPIKEDWEAPONS~
+    REPLACE_TEXTUALLY ~^91 .*~ ~91 PROFICIENCYSMALLSWORD~
+    REPLACE_TEXTUALLY ~^92 .*~ ~92 PROFICIENCYLARGESWORD~
+    REPLACE_TEXTUALLY ~^93 .*~ ~93 PROFICIENCYAXE~
+    REPLACE_TEXTUALLY ~^94 .*~ ~94 PROFICIENCYBLUNTWEAPONS~
+    REPLACE_TEXTUALLY ~^95 .*~ ~95 PROFICIENCYMISSILEWEAPONS~
+    REPLACE_TEXTUALLY ~^96 .*~ ~96 PROFICIENCYSPEAR~
+    FOR (i = 97; i <= 107; i+=1) BEGIN
+      REPLACE_TEXTUALLY ~^%i% .*~ ~%i% UNASSIGNED%i%~
+    END
+    PATCH_IF tb#tutu_realloc_style BEGIN
+      FOR (i = 111; i <= 114; i+=1) BEGIN
+        REPLACE_TEXTUALLY ~^%i% .*~ ~%i% UNASSIGNED%i%~
+      END
+    END
+  
+  CLEAR_IDS_MAP
+  
+  // fix weapprof.2da
+  COPY_EXISTING ~weapprof.2da~ ~override~
+    READ_2DA_ENTRIES_NOW ~___weapprof~ 3
+    FOR (i = 0; VARIABLE_IS_SET EVALUATE_BUFFER "___weapprof_1_%i%"; i+=1) BEGIN END
+    SET classcnt = i
+    FOR (class = 4; class < classcnt; class += 1) BEGIN
+      READ_2DA_ENTRY_FORMER ~___weapprof~ 0 (class - 1) classname
+      FOR (i = 0x59; i <= 0x60; i+=1) BEGIN
+        SET $max("%i%") = 0
+      END
+      FOR (weap = 9; weap <= 28; weap +=1) BEGIN
+        READ_2DA_ENTRY_FORMER ~___weapprof~ weap class this
+        READ_2DA_ENTRY_FORMER ~___weapprof~ weap 1 proficiency
+        LAUNCH_MACRO_PATCH ~tb#is_it_a_proficiency~
+        SET v = $max("%tb#it_is%")
+        SET $max("%tb#it_is%") = (this > v ? this : v)
+      END
+      FOR (weap = 9; weap <= 28; weap +=1) BEGIN
+        READ_2DA_ENTRY_FORMER ~___weapprof~ weap 1 proficiency
+        SPRINT v $max("%proficiency%")
+        PATCH_IF proficiency <= 0x60 && proficiency >= 0x59 BEGIN
+          SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ weap class ~%v%~
+        END ELSE BEGIN
+          SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ weap class 0
+        END
+      END
+    END
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 9  2 8733
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 10 2 9401
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 11 2 8732
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 12 2 8668
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 13 2 9402
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 14 2 9400
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 15 2 9403
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 16 2 8734
+  
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 9  3 9591
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 10 3 9594
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 11 3 9590
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 12 3 9589
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 13 3 9595
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 14 3 9593
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 15 3 9596
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 16 3 9592
+    INNER_PATCH ~1234~ BEGIN
+      SAY 0 ~Unused~
+      READ_LONG 0 ~Unused~
+    END
+    FOR (i = 17; i <= 28; i+=1) BEGIN
+      SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ i 2 ~%Unused%~
+      SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ i 3 ~%Unused%~
+    END
+    REPLACE_TEXTUALLY ~^[ %tab%]*ID[ %tab%]~ ~ID ID ~
+    REPLACE_TEXTUALLY ~^BASTARDSWORD ~  ~BOW_TUTU ~
+    REPLACE_TEXTUALLY ~^LONGSWORD ~  ~SPIKED_TUTU ~
+    REPLACE_TEXTUALLY ~^SHORTSWORD ~  ~SMALL_SWORD_TUTU ~
+    REPLACE_TEXTUALLY ~^AXE ~  ~LARGE_SWORD_TUTU ~
+    SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ 7 0 ~UNUSED~
+    REPLACE_TEXTUALLY ~^TWOHANDEDSWORD ~  ~AXE_TUTU ~
+    REPLACE_TEXTUALLY ~^KATANA ~  ~BLUNT_TUTU ~
+    REPLACE_TEXTUALLY ~^SCIMITARWAKISASHININJATO ~  ~MISSILE_TUTU ~
+    REPLACE_TEXTUALLY ~^DAGGER ~ ~SPEAR_TUTU ~
+    PATCH_FOR_EACH thisone IN ~DAGGER~ ~WARHAMMER~ ~CLUB~ ~SPEAR~ ~HALBERD~ ~FLAILMORNINGSTAR~ ~MACE~
+                        ~QUARTERSTAFF~ ~CROSSBOW~ ~LONGBOW~ ~SHORTBOW~ ~DART~ ~SLING~ ~LARGE_SWORD~
+                        ~SMALL_SWORD~ ~BOW~ ~BLUNT~ ~SPIKED~ ~AXE~ ~MISSILE~ BEGIN
+      REPLACE_TEXTUALLY ~^%thisone% ~ ~UNUSED ~
+    END
+    PATCH_IF tb#tutu_realloc_style BEGIN
+      PATCH_FOR_EACH thisone IN ~2HANDED~ ~SWORDANDSHIELD~ ~SINGLEWEAPON~ ~2WEAPON~ BEGIN
+        REPLACE_TEXTUALLY ~^%thisone% ~ ~UNUSED ~
+      END
+      FOR (i = 29; i <= 33; i+=1) BEGIN
+        SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ i 2 ~%Unused%~
+        SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ i 3 ~%Unused%~
+        FOR (class = 4; class < classcnt; class += 1) BEGIN
+          SET_2DA_ENTRY_LATER ~_#_#_#weapprof~ i class 0
+        END
+      END
+    END
+    REPLACE_TEXTUALLY ~_TUTU ~ ~ ~
+    SET_2DA_ENTRIES_NOW ~_#_#_#weapprof~ 3
+    REPLACE_TEXTUALLY ~^ID ~ ~   ~
+  BUT_ONLY_IF_IT_CHANGES
+
+  PRINT @1
+
+  // all items now use the new proficiencies
+  COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
+    PATCH_IF SOURCE_SIZE > 0x71 THEN BEGIN
+      READ_BYTE 0x31 proficiency
+      LAUNCH_PATCH_MACRO ~tb#is_it_a_proficiency~
+      PATCH_IF tb#its_a_proficiency BEGIN
+        WRITE_BYTE 0x31 tb#it_is
+        PATCH_IF ("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) BEGIN
+          LAUNCH_PATCH_MACRO ~tb#weapprof_names_tutu~
+          PATCH_FOR_EACH this IN 0x54 80 BEGIN
+            READ_LONG this strref
+            PATCH_IF (("%strref%" < 2147483647) AND ("%strref%" > 0)) BEGIN
+              READ_STRREF this curdesc
+              INNER_PATCH_SAVE curdesc "%curdesc%" BEGIN
+                REPLACE_TEXTUALLY  ~Proficiency\( Type\)?[:-].*~ ~Proficiency Type: %tb#name%~
+              END
+              SAY_EVALUATED this "%curdesc%"
+            END
+          END
+        END
+      END
+    END
+  BUT_ONLY_IF_IT_CHANGES
+  
+  // adjust magical abilities
+  COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
+                            ~^.+\.itm$~ ~override~
+    PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+      READ_ASCII 0 whatis (3)
+      PATCH_IF (~%whatis%~ STRING_EQUAL_CASE ~ITM~) /* if it's a ITM */ BEGIN
+        extended_header_size = 0x38
+      END ELSE BEGIN // otherwise it's a SPL
+        extended_header_size = 0x28
+      END
+      READ_LONG 0x64 ext_off
+      READ_SHORT 0x68 ext_count
+      READ_LONG 0x6a eff_off
+      READ_SHORT 0x6e eq_eff_indx
+      READ_SHORT 0x70 eq_eff_count
+      // check all equiped / global EFFS
+      FOR (i = 0; i < eq_eff_count; i += 1) BEGIN
+        READ_SHORT (0x30 * i + eq_eff_indx) + eff_off      opcode ELSE 0
+        PATCH_IF (opcode = 233) BEGIN
+          READ_LONG  (0x30 * i + eq_eff_indx) + eff_off + 8 proficiency ELSE 0
+          LAUNCH_PATCH_MACRO ~tb#is_it_a_proficiency~
+          PATCH_IF tb#its_a_proficiency BEGIN
+            PATCH_IF tb#it_is BEGIN
+              WRITE_LONG  (0x30 * i + eq_eff_indx) + eff_off + 8 tb#it_is
+            END ELSE BEGIN // if I want to remove it altogether (IE, a style)
+              WRITE_SHORT  (0x30 * i + eq_eff_indx) + eff_off + 0x12 0 /* -- */
+            END
+          END
+        END
+      END
+  
+      // extended header EFFS
+      FOR (j = 0; j < ext_count; j += 1) BEGIN
+        READ_SHORT (ext_off + (j * extended_header_size) + 0x1e) ext_eff_count ELSE 0
+        READ_SHORT (ext_off + (j * extended_header_size) + 0x20) ext_eff_indx ELSE 0
+  
+        FOR (i = 0; i < ext_eff_count; i += 1) BEGIN
+          READ_SHORT (0x30 * i + ext_eff_indx) + eff_off      opcode ELSE 0
+          PATCH_IF (opcode = 233) BEGIN
+            READ_LONG  (0x30 * i + ext_eff_indx) + eff_off + 8 proficiency ELSE 0
+            LAUNCH_PATCH_MACRO ~tb#is_it_a_proficiency~
+            PATCH_IF tb#its_a_proficiency BEGIN
+              PATCH_IF tb#it_is BEGIN
+                WRITE_LONG  (0x30 * i + ext_eff_indx) + eff_off + 8 tb#it_is
+              END ELSE BEGIN // if I want to remove it altogether (IE, a style)
+                WRITE_SHORT  (0x30 * i + ext_eff_indx) + eff_off + 0x12 0 /* -- */
+              END
+            END
+          END
+        END
+      END
+    END
+  BUT_ONLY_IF_IT_CHANGES
+
+// adjust creature proficiencies
+  COPY_EXISTING_REGEXP GLOB ~^.+\.cre$~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+      READ_LONG 0x2c4 effoff ELSE 0
+      READ_LONG 0x2c8 effcnt ELSE 0
+      READ_BYTE 0x33  effv2  ELSE 0
+      // initialize counters
+      SET unallocated = 0
+      FOR (i = 0x59; i <= 0x60; i+= 1) BEGIN
+        SET $curmax("%i%") = 0
+      END
+      PATCH_IF effv2 BEGIN
+        // Adjust proficiencies for EFF v2
+        FOR (i = 0; i < effcnt; i+=1) BEGIN
+          READ_LONG effoff + i * 0x108 + 0x8 opcode ELSE 0
+          READ_LONG effoff + i * 0x108 + 0x14 amount ELSE 0
+          READ_LONG effoff + i * 0x108 + 0x18 proficiency ELSE 0
+          PATCH_IF opcode = 233 BEGIN
+            LAUNCH_PATCH_MACRO "tb#is_it_a_proficiency"
+            PATCH_IF tb#its_a_proficiency BEGIN
+              PATCH_IF tb#it_is BEGIN
+                PATCH_IF $curmax("%tb#it_is%") < amount BEGIN
+                  SET unallocated += $curmax("%tb#it_is%")
+                  SET $curmax("%tb#it_is%") = amount
+                  WRITE_LONG effoff + i * 0x108 + 0x18 tb#it_is
+                END ELSE BEGIN
+                  SET unallocated += amount
+                  WRITE_LONG effoff + i * 0x108 + 0x14 0
+                END
+              END ELSE BEGIN
+                SET unallocated += amount
+                WRITE_LONG effoff + i * 0x108 + 0x14 0 /* -- */
+              END
+            END
+          END
+        END
+      END ELSE BEGIN
+        // Adjust proficiencies for EFF v1
+        FOR (i = 0; i < effcnt; i+=1) BEGIN
+          READ_SHORT effoff + i * 0x30       opcode ELSE 0
+          READ_LONG  effoff + i * 0x30 + 0x4 amount ELSE 0
+          READ_LONG  effoff + i * 0x30 + 0x8 proficiency ELSE 0
+          PATCH_IF opcode = 233 BEGIN
+            LAUNCH_PATCH_MACRO "tb#is_it_a_proficiency"
+            PATCH_IF tb#its_a_proficiency BEGIN
+              PATCH_IF tb#it_is BEGIN
+                PATCH_IF $curmax("%tb#it_is%") < amount BEGIN
+                  SET unallocated += $curmax("%tb#it_is%")
+                  SET $curmax("%tb#it_is%") = amount
+                  WRITE_LONG effoff + i * 0x30 + 8 tb#it_is
+                END ELSE BEGIN
+                  SET unallocated += amount
+                  WRITE_LONG effoff + i * 0x30 + 4 0
+                END
+              END ELSE BEGIN
+                SET unallocated += amount
+                WRITE_LONG effoff + i * 0x30 + 4 0 /* -- */
+              END
+            END
+          END
+        END
+      END
+    END
+  BUT_ONLY_IF_IT_CHANGES
+
+END

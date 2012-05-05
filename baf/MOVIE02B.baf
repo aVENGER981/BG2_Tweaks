@@ -1,0 +1,13 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    OpenDoor("DOOR06")
+    CreateVisualEffect("SPFLESHS",[1080.846])
+    Wait(1)
+    CreateCreature("CUJON2",[1080.846],14)  // ~Jon Irenicus~
+    ActionOverride("cujon2",DisplayStringHead(Myself,18646))  // ~I cannot be caged. ~ [DPJON147]
+    StartCutScene("Movie02c")
+END
+

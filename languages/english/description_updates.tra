@@ -1,0 +1,516 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// universal clubs                                  \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@99001 = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end. This simple weapon has been used since mankind first began using tools. Anyone can find a good stout piece of wood and swing it; hence the club's widespread use.
+
+STATISTICS:
+
+Damage: 1D6
+Damage type: crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99002 = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end.  This simple weapon has been used since mankind first began using tools.
+You feel this club heavy but when you strike with it, it is precise and light as a leather.
+
+STATISTICS:
+THAC0: +1
+Damage:  1D6+1
+Damage type:  crushing
+Weight: 2
+Speed Factor: 2
+Proficiency Type: Club
+Type:  1-handed~
+@99003 = ~The Root of the Problem
+Club +1, +3 vs. unnatural creatures
+This enchanted club is said to have existed since the time of the fall of Netheril and the birth of the great Anauroch Desert. While the toll on civilization was great, the true victims were nature's creatures, condemned to stand and watch as their homes decayed and died. As habitats receded, those that remained were invaded by displaced hordes of creatures, the more impatient of which marched on unspoiled land taking whatever they wished. This particular weapon is said to have come from a dryad's tree, a final gift to nature's cause from a woodland spirit that could not hold back the invaders of her land. Hers was a bittersweet pain, as her wood might not have suffered so if it had not been so strong and lush. Less respecting scholars have since bestowed the item's ironic name, though the humor is not appreciated among nature's more devout followers.
+
+STATISTICS:
+
+THAC0: +1, +3 vs. unnatural creatures
+Damage: 1D6 +1, +3 vs. unnatural creatures, +1 acid damage
+Damage type: crushing and acid
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99004 = ~Club +3: Blackblood
+This oak club is coated with darkened dried globs of a tar-like substance. During battle this substance glows black with an inner light, and becomes thick and fluid. When the club strikes an opponent it delivers additional acid damage from the liquid splashing over the victim.
+
+STATISTICS:
+
+THAC0: +3 bonus
+Damage: 1D6 + 3, +3 acid damage
+Damage type: crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99005 = ~Bone Club +2, +3 vs. Undead
+This vicious club was created hundreds of years ago, reportedly by a shaman on a quest for revenge. His family had fallen to undead, and so personal was his rage that he amputated his own leg, using the femur for the body of the weapon. Magical runes empower it, though it is likely the sheer force of his hatred would have served on its own.
+
+
+STATISTICS:
+
+THAC0: +2, +3 vs. Undead
+Damage: 1D6 + 2, +3 vs. Undead
+Damage type: crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99006 = ~Club +2: Gnasher
+Makal of the Pine, a devious druid, carved this club and bonded it with the spirit of his wolverine companion. Like that tenacious creature, Gnasher is a dangerous weapon in the hands of a skilled user. When the club strikes, sharp splinters dig into the victim's flesh, causing extreme pain and even extra damage that continues for some time after the blow. Makal used the club successfully on several occasions, earning the anger of orc loggers threatening his forests.
+
+
+STATISTICS:
+
+THAC0: +2 bonus
+Damage: 1D6 + 2, slivers add 2 points extra damage each round for four rounds
+Damage type: crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99007 = ~This crude wooden club burns with the raging spirit of the demon forever trapped within by the powerful enchantments placed on the weapon. Occasionally, however, the demon's wrath escapes in a fiery blast.
+
+STATISTICS:
+
+Combat Abilities:
+20% chance target will take an additional 10 points of fire damage with each successful attack
+7% chance a fireball will automatically detonate with each successful attack
+
+THAC0: +3 bonus
+Damage: 1D6 + 3, +3 fire damage
+Damage type: crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99008 = ~The enchantments from the Ring of Fire resistance makes the demon spirit trapped within this weapon easier to control - though the wrath of the creature may occasionally still be released without warning.
+
+STATISTICS:
+
+Combat Abilities:
+30% chance target will take an additional 15 points of fire damage with each successful attack
+5% chance a fireball will automatically detonate with each successful attack
+
+THAC0: +5 bonus
+Damage: 1D6 + 5, +5 fire damage
+Damage type: crushing
+Weight: 1
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99009 = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end. This simple weapon has been used since mankind first began using tools. Anyone can find a good stout piece of wood and swing it; hence the club's widespread use. This particular club has been magically enhanced.
+
+STATISTICS:
+
+THAC0: +3 bonus
+Damage: 1D6 +3
+Damage type: crushing
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99010 = ~At first glance this appears to be an ordinary cudgel, but closer inspection by a well-trained eye reveals a series of discrete runes traced along the grip. A thief would also remark on the weapon's fine balance.
+
+The cudgel was enchanted in ages past at the behest of a Shadow Thief guildmaster for one of his most loyal - and prolific - protegees. As well as being a potent weapon, it seemed to mute the sound around a thief as he snuck up on his target to achieve a knockout blow. The last thing many foes would hear before slipping into unconsciousness would be the slight rush of air as the cudgel was raised behind their head, quickly earning it the nickname 'Lights Out'.
+
+Unfortunately, as is often the way with these things, the protegee was not quite as loyal as his guildmaster had hoped, and one quiet night this weapon was used to bludgeon said guildmaster to death in his own bed. His wife, sleeping beside him, heard nothing.
+
+How the weapon has since found its way into your hands is probably a tale you do not want to know.
+
+STATISTICS:
+
+thac0: +2 bonus
+Damage:  1D6 +2
+Special:
+ Grants a 10% bonus to the Move Silently skill while equipped
+Damage type:  crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type:Club
+Type:  1-handed
+Requires: 5 Strength~
+@99011 = ~Club +5: Pitchwife
+Forged for <CHARNAME> by amalgamating the oaken, acidic club Blackblood and the splintered club Gnasher, Pitchwife pulses with destructive power. Covered in a tar-like pitchy substance that burns flesh on contact, Pitchwife also drives aggravating spines and splinters into the wound. 
+
+Equipped Abilities: 25% acid resistance
+THAC0: +5 bonus
+Damage: 1D6 + 5, +5 acid damage, slivers add 3 points of extra damage each round for four rounds
+Damage type: crushing
+Weight: 3
+Speed Factor: 1 
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99012 = ~Club +4: The Fulcrum
+Forged for <CHARNAME> by amalgamating the Bone Club and the splintered club Gnasher, The Fulcrum's powers lie in preserving balance. The spirits of the dead warriors guide the hand of the wielder to unerring accuracy and every hit from the club itself sends painful bone shards into the target. In addition, the Club does additional damage against non-neutral opponents. 
+
+Equipped Abilities: Wielder becomes proficient to the point of Grand Mastery in Clubs.
+THAC0: +4 bonus
+Damage: 1D6 + 4, +4 if target is Good, Evil, Lawful or Chaotic (cumulative)
+Extra Damage: bone shards add 2 points of extra damage each round for four rounds
+Damage type: crushing
+Weight: 3
+Speed Factor: 1 
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// PnP Protection Items                             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@99030 = ~Amulet of Protection +1 : 'The Protector'
+The royal guard of King Pyronan, ruler of Impiltur, were given 'The Protector' as an honorary show of status.  Unfortunately, members of the guard had trouble coming to a consensus amongst themselves as to whom the amulet should go to.  After years of internal hostility, the item was lost and the guards were replaced by less greedy individuals.
+
+STATISTICS:
+
+Saving Throw Bonus:  1~
+@99031 = ~This simple cloak has been imbued with some small magical properties to help protect its wearer. It does so by affecting both saving throws and armor class. It is ideal for mages and others who cannot wear bulkier or more restrictive types of armor.
+
+STATISTICS:
+
+Saving Throw:  +1 bonus
+Weight:  3~
+@99032 = ~Cloak of Protection +2:  'The Spirit's Shield'
+This cloak is said to focus the energies of one's spirit into a force that protects him or her.  Rumors of a vampire enslaved in the magical item are ever-present, but they are impossible to prove without destroying the cloak. 
+
+STATISTICS:
+
+Saving Throw:  +2 bonus
+Weight:  3
+Not usable by:~
+@99033 = ~The abilities conferred by this powerfully enchanted cloak attest to the fact that protection can take many forms - including hiding from view and running away.
+
+STATISTICS:
+   Cast Improved Haste once/day
+   Cast Improved Invisibility once/day
+
+Saving Throw:  +2 bonus
+Weight:  3~
+@99034 = ~Ring of Protection +1:  'Ring of the Princes'
+This ring and several of its type were originally crafted to protect the sons of King Castter De'wess, though who uttered the enchantment is unknown.  History records that the rings remained within that family for at least 13 generations, though they were all apparently lost within the space of one.  Enmity between the King and the family of the creator may be to blame.
+
+STATISTICS:
+
+Saving Throws:  +1 bonus~
+@99035 = ~Ring of Protection +2:  'The Guard's Ring'
+The Guard was an immortal sentry assigned to protect a tomb that sheltered the body of a princess of the Akanal.  Over millennia respect for the grave disappeared with the memory of the royal family, and adventurers began to try their luck with the Guard.  It was inevitable that he would eventually be bested, and when he was, the ring he wore was one of many treasures taken from the tomb.
+
+STATISTICS:
+
+Saving Throws:  +2 bonus~
+@99036 = ~Ring of Protection +1:  'Ring of the Princes'
+This ring and several of its type were originally crafted to protect the sons of King Castter De'wess, though who uttered the enchantment is unknown.  History records that the rings remained within that family for at least 13 generations, though they were all apparently lost within the space of one.  Enmity between the King and the family of the creator may be to blame.
+
+STATISTICS:
+
+Saving Throws:  +1 bonus~
+@99037 = ~The Warder's Signet
+Legend holds that this plain gold band was a gift from Ao to Helm as a reward for the God's stalwart service during the Time of Troubles.  Helm in turn passed the gift on to his mortal followers.
+
+STATISTICS:
+
+Saving Throws:  +3 bonus~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// +x/+y items                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@99051 = ~The Root of the Problem
+Club +1, +3 vs. unnatural creatures
+This enchanted club is said to have existed since the time of the fall of Netheril and the birth of the great Anauroch Desert. While the toll on civilization was great, the true victims were nature's creatures, condemned to stand and watch as their homes decayed and died. As habitats receded, those that remained were invaded by displaced hordes of creatures, the more impatient of which marched on unspoiled land taking whatever they wished. This particular weapon is said to have come from a dryad's tree, a final gift to nature's cause from a woodland spirit that could not hold back the invaders of her land. Hers was a bittersweet pain, as her wood might not have suffered so if it had not been so strong and lush. Less respecting scholars have since bestowed the item's ironic name, though the humor is not appreciated among nature's more devout followers.
+
+STATISTICS:
+
+Always considered to be of +3 enchantment when determining what it can hit.
+THAC0:  +1, +3 vs. unnatural creatures
+Damage:  1D6 + 1, +3 vs. unnatural creatures, +1 acid damage
+Damage type:  Crushing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Club
+Type:  1-handed
+Requires: 5 Strength
+Not Usable By:
+ Mage~
+@99052 = ~Bone Club +2, +3 vs. Undead
+This vicious club was created hundreds of years ago, reportedly by a shaman on a quest for revenge.  His family had fallen to undead, and so personal was his rage that he amputated his own leg, using the femur for the body of the weapon.  Magical runes empower it, though it is likely the sheer force of his hatred would have served on its own. 
+
+STATISTICS:
+
+Always considered to be of +3 enchantment when determining what it can hit.
+THAC0: +2, +3 vs. Undead
+Damage:  1D6 + 2, +3 vs. Undead
+Damage type:  crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Club
+Type:  1-handed
+Requires: 5 Strength
+Not Usable By:
+ Mage~
+@99053 = ~War Hammer +1, +4 vs. Giant Humanoids:
+The Knee-capper, or "The Capper", as it is affectionately known in dwarven circles, is rumored to have been forged by Clangeddin himself. He gave it to a small clan of homeless dwarves that they might carve a place for themselves amongst the giants and ogres in their area. The hammer has been passed from hero to hero, occasionally finding its way into non-dwarven hands.
+
+STATISTICS:
+
+Always considered to be of +4 enchantment when determining what it can hit.
+THAC0:  +1 bonus, +4 vs. giants
+Damage:  1D4 + 2, +5 vs. giants
+Damage type:  crushing
+Weight: 8
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 10 Strength
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@99054 = ~Bastard sword +1, +3 vs. Shapeshifters:  'Kondar'
+At first glance, this sword appears much like any other.  In the presence of any shapeshifting creature however, the blade becomes warm as its power stirs.  Its namesake was the original owner of the weapon, and his tale, though mostly long forgotten, was wrought with treachery and deceit.  Rumors persist that he paid a fearsome price for this blade, but with it he revealed the true identities of those that sought to betray him.  Their names and crimes however, are long since lost to history.
+
+STATISTICS:
+
+Always considered to be of +3 enchantment when determining what it can hit.
+THAC0:  +1 bonus
+Damage:  2D4 + 1, +3 vs. Shapeshifters
+Damage type:  slashing
+Weight: 8
+Speed Factor: 7
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 11 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Beast Master~
+@99055 = ~Sunblade: Daystar
+Whether created specifically for use in the service of Torm or appropriated at some point in the long history of the church, Paladins of the Loyal Fury have made good use of Daystar in their battles against evil undead.  Through magic or blessing it is empowered with the Sunray, a force of pure life energy so potent that it slays both living and unliving.
+
+STATISTICS:
+Special Abilities (once per day):
+Sunray
+ Damage: 3D6 (save vs. spells or be blinded for 10 rounds)
+ Undead: an additional 1d6 points of damage per level of caster (save vs. spells or be destroyed)
+ Range: 20 ft
+ Area: 20 ft radius
+
+Always considered to be of +4 enchantment when determining what it can hit.
+THAC0:  +2 bonus, +4 vs. evil creatures
+Damage:  1D8 + 2, +4 vs. evil creatures, does double damage against undead
+Damage type:  slashing
+Weight: 2
+Speed Factor: 3
+Proficiency Type: Long sword
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@99056 = ~Long Sword: The Equalizer
+Such is the age of this sword that its true origin has been lost to time, but markings hint that it was possibly forged in the service of Helm.  Also called the "Sword of Neutrality", it seems designed to seek and terminate extremes, to shift the universe closer to harmonious equilibrium.  The further the behavior of a target from true balance, the more potent the damage they suffer.
+
+STATISTICS:
+
+Always considered to be of +3 enchantment when determining what it can hit.
+THAC0 & Damage:
+  vs True Neutral: +0 to hit, +0 damage
+  vs Chaotic Neutral, Lawful Neutral: +1 to hit, +2 damage
+  vs Neutral Good, Neutral Evil: +2 to hit, +4 damage
+  vs other alignments: +3 to hit, +6 damage
+Damage type:  slashing
+Equipped Abilities: 
+     Immune to Charm and Confusion
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Long sword
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@99057 = ~The Root of the Problem
+Club +1, +3 vs. unnatural creatures
+This enchanted club is said to have existed since the time of the fall of Netheril and the birth of the great Anauroch Desert. While the toll on civilization was great, the true victims were nature's creatures, condemned to stand and watch as their homes decayed and died. As habitats receded, those that remained were invaded by displaced hordes of creatures, the more impatient of which marched on unspoiled land taking whatever they wished. This particular weapon is said to have come from a dryad's tree, a final gift to nature's cause from a woodland spirit that could not hold back the invaders of her land. Hers was a bittersweet pain, as her wood might not have suffered so if it had not been so strong and lush. Less respecting scholars have since bestowed the item's ironic name, though the humor is not appreciated among nature's more devout followers.
+
+STATISTICS:
+
+Always considered to be of +3 enchantment when determining what it can hit.
+THAC0:  +1, +3 vs. unnatural creatures
+Damage:  1D6 +1, +3 vs. unnatural creatures, +1 acid damage
+Damage type:  crushing and acid
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Club
+Type:  1-handed
+Requires:
+-  8 Strength
+-  6 Dexterity
+Usable By:
+ All~
+@99058  = ~Bone Club +2, +3 vs. Undead
+This vicious club was created hundreds of years ago, reportedly by a shaman on a quest for revenge.  His family had fallen to undead, and so personal was his rage that he amputated his own leg, using the femur for the body of the weapon.  Magical runes empower it, though it is likely the sheer force of his hatred would have served on its own.
+
+
+STATISTICS:
+
+Always considered to be of +3 enchantment when determining what it can hit.
+THAC0: +2, +3 vs. Undead
+Damage:  1D6 + 2, +3 vs. Undead
+Damage type:  crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Club
+Type:  1-handed
+Requires:
+-  8 Strength
+-  6 Dexterity
+Usable By:
+ All~
+@99059  = ~War Hammer +1, +4 vs. Giant Humanoids:
+The Knee-capper, or "The Capper", as it is affectionately known in dwarven circles, is rumored to have been forged by Clangeddin himself. He gave it to a small clan of homeless dwarves that they might carve a place for themselves amongst the giants and ogres in their area. The hammer has been passed from hero to hero, occasionally finding its way into non-dwarven hands.
+
+STATISTICS:
+
+Always considered to be of +4 enchantment when determining what it can hit.
+THACO:  +1 bonus, +4 vs. giants
+Damage:  1D6 + 2, +5 vs. giants
+Damage type:  crushing
+Weight: 8
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires:
+-  12 Strength
+-  6 Dexterity
+Unusable By:
+ Beastmaster~
+@99060  = ~Bastard sword +1, +3 vs. Shapeshifters:  'Kondar'
+At first glance, this sword appears much like any other.  In the presence of any shapeshifting creature however, the blade becomes warm as its power stirs.  Its namesake was the original owner of the weapon, and his tale, though mostly long forgotten, was wrought with treachery and deceit.  Rumors persist that he paid a fearsome price for this blade, but with it he revealed the true identities of those that sought to betray him.  Their names and crimes however, are long since lost to history.
+
+STATISTICS:
+
+Always considered to be of +3 enchantment when determining what it can hit.
+THACO:  +1 bonus
+Damage:  2D4 +1, +3 vs. Shapeshifters
+Damage type:  slashing
+Weight: 8
+Speed Factor: 7
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires:
+ - 13 Strength
+ - 8 Dexterity
+Not Usable By:
+ Beastmaster~
+@99061 = ~Sunblade: Daystar
+Whether created specifically for use in the service of Torm or appropriated at some point in the long history of the church, Paladins of the Loyal Fury have made good use of Daystar in their battles against evil undead.  Through magic or blessing it is empowered with the Sunray, a force of pure life energy so potent that it slays both living and unliving.
+
+STATISTICS:
+Special Abilities (once per day):
+Sunray
+ Damage: 3D6 (save vs. spells or be blinded for 10 rounds)
+ Undead: an additional 1d6 points of damage per level of caster (save vs. spells or be destroyed)
+ Range: 20 ft
+ Area: 20 ft radius
+
+Always considered to be of +4 enchantment when determining what it can hit.
+THACO:  +2 bonus, +4 vs. evil creatures
+Damage:  1D8 +2, +4 vs. evil creatures, does double damage against undead
+Damage type:  slashing
+Weight: 2
+Speed Factor: 3
+Proficiency Type: Long sword
+Type:  1-handed
+Requires:
+-  11 Strength
+-  8 Dexterity
+Unusable By:
+ Beastmaster~
+@99062  = ~Long Sword: The Equalizer
+Such is the age of this sword that its true origin has been lost to time, but markings hint that it was possibly forged in the service of Helm.  Also called the "Sword of Neutrality", it seems designed to seek and terminate extremes, to shift the universe closer to harmonious equilibrium.  The further the behavior of a target from true balance, the more potent the damage they suffer.
+
+STATISTICS:
+
+Always considered +3 when determining what it can hit.
+THACO & Damage:
+  vs True Neutral: +0 to hit, +0 damage
+  vs Chaotic Neutral, Lawful Neutral  +1 to hit, +2 damage
+  vs Neutral Good, Neutral Evil: +2 to hit, +4 damage
+  vs other alignments: +3 to hit, +6 damage
+Damage type:  slashing
+Equipped Abilities:
+     Immune to Charm and Confusion
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Long sword
+Type:  1-handed
+Requires:
+-  11 Strength
+-  8 Dexterity
+Unusable By:
+ Beastmaster~
+@99063 = ~The Root of the Problem
+Club +1, +3 vs. unnatural creatures
+This enchanted club is said to have existed since the time of the fall of Netheril and the birth of the great Anauroch Desert. While the toll on civilization was great, the true victims were nature's creatures, condemned to stand and watch as their homes decayed and died. As habitats receded, those that remained were invaded by displaced hordes of creatures, the more impatient of which marched on unspoiled land taking whatever they wished. This particular weapon is said to have come from a dryad's tree, a final gift to nature's cause from a woodland spirit that could not hold back the invaders of her land. Hers was a bittersweet pain, as her wood might not have suffered so if it had not been so strong and lush. Less respecting scholars have since bestowed the item's ironic name, though the humor is not appreciated among nature's more devout followers.
+
+STATISTICS:
+
+Always considered to be of +3 enchantment when determining what it can hit.
+THAC0: +1, +3 vs. unnatural creatures
+Damage: 1D6 +1, +3 vs. unnatural creatures, +1 acid damage
+Damage type: crushing and acid
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength~
+@99064 = ~Bone Club +2, +3 vs. Undead
+This vicious club was created hundreds of years ago, reportedly by a shaman on a quest for revenge.  His family had fallen to undead, and so personal was his rage that he amputated his own leg, using the femur for the body of the weapon.  Magical runes empower it, though it is likely the sheer force of his hatred would have served on its own. 
+
+STATISTICS:
+
+Always considered to be of +3 enchantment when determining what it can hit.
+THAC0: +2, +3 vs. Undead
+Damage:  1D6 + 2, +3 vs. Undead
+Damage type:  crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Club
+Type:  1-handed
+Requires: 5 Strength~

@@ -1,0 +1,7 @@
+DEFINE_PATCH_MACRO ~arcane_descripts_russian~ BEGIN
+
+  REPLACE_TEXTUALLY ~\(Вес:[ %tab%]*[0-9]+\)~
+  ~\1
+Шанс ошибиться в заклинании: +%patch_miscast%%~
+
+END

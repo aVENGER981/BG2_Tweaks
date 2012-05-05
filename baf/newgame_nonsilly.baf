@@ -1,0 +1,105 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CSJon")
+		CreateCreature("M05PCSPY",[3374.3068],0) // No such index
+		MoveViewPoint([3566.2928],INSTANT)
+		Wait(3)
+		MultiPlayerSync()
+		MoveToPoint([3651.2893])
+		MoveToPoint([3666.2878])
+		MultiPlayerSync()
+		SmallWait(1)
+		Wait(1)
+		SmallWait(7)
+		ActionOverride(Player1,FaceObject("CSJon"))
+		DisplayStringHead(Myself,5416) // It is time for more experiments.
+		Wait(3)
+		SmallWait(3)
+		CreateVisualEffectObject("ICRMPARI",Myself)
+		ForceSpell(Player1,CUTSCENE_DAMAGE_1)
+		PlaySound("EFF_M20")
+		CreateCreature("CSGOLEM",[3240.3304],10) // Golem
+		ActionOverride("csgolem",MoveToPoint([3732.2958]))
+		ActionOverride("csgolem",MultiPlayerSync())
+		ActionOverride("csgolem",Face(6))
+		ActionOverride("csgolem",SmallWait(1))
+		ActionOverride("csgolem",DisplayStringHead(Myself,2820)) // More intruders have entered the complex, master.
+		Wait(8)
+		Face(11)
+		Face(12)
+		Face(13)
+		Face(14)
+		DisplayStringWait(Myself,2833) // They act sooner than we had anticipated.
+		Wait(1)
+		ActionOverride("csgolem",MoveToPoint([3349.3220]))
+		ActionOverride("csgolem",DestroySelf())
+		ForceSpellPoint([3036.3443],WIZARD_DIMENSION_DOOR)
+		Wait(5)
+		ActionOverride("Imoen",OpenDoor("DOOR11"))
+		ActionOverride("Imoen",MoveToPoint([3405.2924]))
+		ActionOverride("Imoen",Face(0))
+		ActionOverride("Imoen",SmallWait(5))
+		ActionOverride("Imoen",MultiPlayerSync())
+		ActionOverride("Imoen",MoveToObject(Player1))
+		ActionOverride("Imoen",Unlock("Cell03"))
+		ActionOverride("Imoen",OpenDoor("Cell03"))
+		ActionOverride("Imoen",MultiPlayerSync())
+		ActionOverride("Imoen",UnhideGUI())
+		ActionOverride("Imoen",Dialogue(Player1))
+		DestroySelf()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player2)
+		Face(2)
+		Wait(2)
+		SmallWait(7)
+		Face(1)
+		Face(0)
+		Wait(2)
+		Face(15)
+		Face(14)
+		Wait(1)
+		SmallWait(7)
+		Face(12)
+		Face(11)
+		Face(10)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player3)
+		Face(2)
+		Wait(2)
+		Face(1)
+		Face(0)
+		Wait(2)
+		Face(15)
+		Face(14)
+		Wait(2)
+		Face(12)
+		Face(11)
+		Face(10)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+		Wait(2)
+		Face(15)
+		Face(14)
+		Wait(2)
+		Face(12)
+		Face(11)
+		Face(10)
+END
+

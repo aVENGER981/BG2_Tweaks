@@ -1,0 +1,7 @@
+IF
+  Global("wmSpawnJoluv","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("wmart1",[1337.1751],4)  // ~Joluv~
+    SetGlobal("wmSpawnJoluv","GLOBAL",1)
+END

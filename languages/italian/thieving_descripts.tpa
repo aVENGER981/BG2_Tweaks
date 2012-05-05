@@ -1,0 +1,18 @@
+DEFINE_PATCH_MACRO ~thieving_descripts_italian~ BEGIN
+
+  REPLACE_TEXTUALLY ~^[ %tab%]*Scassinare Serrature:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Scoprire\Rimuovere Trappole:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~^[ %tab%]*Svuotare Tasche:.+$[%mnl%%lnl%%wnl%]+~ ~~
+  REPLACE_TEXTUALLY ~\(Peso:[ %tab%]*[0-9]+\)~
+    ~\1
+Scassinare Serrature: -%penalty_lock%CDPERCENTAGE
+Scoprire\Rimuovere Trappole: -%penalty_trap%CDPERCENTAGE
+Svuotare Tasche: -%penalty_pickpocket%CDPERCENTAGE~
+  PATCH_IF ("%patch_hide%" != 2) BEGIN
+    REPLACE_TEXTUALLY ~\(Weight:[ %tab%]*[0-9]+\)~
+    ~\1
+Nascondersi nelle ombre: -%penalty_hide%CDPERCENTAGE
+Muoversi Silenziosamente: -%penalty_silent%CDPERCENTAGE~
+  END
+
+END

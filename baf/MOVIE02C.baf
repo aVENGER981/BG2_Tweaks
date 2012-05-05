@@ -1,0 +1,27 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("cujon2")  // 
+    Wait(2)
+    ReallyForceSpell("cucow1",WIZARD_FINGER_OF_DEATH_IGNORE_RESISTANCE)
+    ReallyForceSpell("cucow2",WIZARD_FINGER_OF_DEATH_IGNORE_RESISTANCE)
+    Wait(1)
+    MoveViewPoint([1110.530],VERY_FAST)
+    MoveToPointNoInterrupt([1117.746])
+    MoveToPointNoInterrupt([1280.559])
+    MoveToPointNoInterrupt([1158.489])
+    Face(2)
+    OpenDoor("DOOR05")
+    ActionOverride("cuimoen2",Face(12))
+    DisplayStringWait(Myself,18647)  // ~Hello, little one.  You and I have a great deal to do.~ [DPJON150]
+    Wait(1)
+    MultiPlayerSync()
+    FadeToColor([30.0],0)
+    Wait(2)
+    IncrementChapter("")
+    FadeFromColor([30.0],0)
+    EndCutSceneMode()
+    RestorePartyLocations()
+END
+

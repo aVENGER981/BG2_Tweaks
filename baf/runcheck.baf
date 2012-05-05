@@ -1,0 +1,96 @@
+IF
+	Kit(Player1,BARBARIAN)
+	Class(Player1,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,AddKit(barbtF))
+END
+IF
+	OR(2)
+		Kit(Player1,BARBARIAN)
+		Kit(Player1,barbtF)
+	Class(Player1,FIGHTER_MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,AddKit(barbtw))
+END
+IF
+	Kit(Player2,BARBARIAN)
+	Class(Player2,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,AddKit(barbtF))
+END
+IF
+	OR(2)
+		Kit(Player2,BARBARIAN)
+		Kit(Player2,barbtF)
+	Class(Player2,FIGHTER_MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,AddKit(barbtw))
+END
+IF
+	Kit(Player3,BARBARIAN)
+	Class(Player3,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,AddKit(barbtF))
+END
+IF
+	OR(2)
+		Kit(Player3,BARBARIAN)
+		Kit(Player3,barbtF)
+	Class(Player3,FIGHTER_MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,AddKit(barbtw))
+END
+IF
+	Kit(Player4,BARBARIAN)
+	Class(Player4,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,AddKit(barbtF))
+END
+IF
+	OR(2)
+		Kit(Player4,BARBARIAN)
+		Kit(Player4,barbtF)
+	Class(Player4,FIGHTER_MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,AddKit(barbtw))
+END
+IF
+	Kit(Player5,BARBARIAN)
+	Class(Player5,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,AddKit(barbtF))
+END
+IF
+	OR(2)
+		Kit(Player5,BARBARIAN)
+		Kit(Player5,barbtF)
+	Class(Player5,FIGHTER_MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,AddKit(barbtw))
+END
+IF
+	Kit(Player6,BARBARIAN)
+	Class(Player6,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,AddKit(barbtF))
+END
+IF
+	OR(2)
+		Kit(Player6,BARBARIAN)
+		Kit(Player6,barbtF)
+	Class(Player6,FIGHTER_MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,AddKit(barbtw))
+END

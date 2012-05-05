@@ -1,0 +1,105 @@
+// bogstandard bg2 conflicts; don't bother if Tutu game
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~_sw1h01.itm~ THEN BEGIN
+
+  //anomen-keldorn
+  COPY_EXISTING ~anomen.bcs~  ~override~
+                ~keldorn.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF
+      REPLACE_TEXTUALLY ~Global("AnomenKeldornFight","GLOBAL",1)~ ~False()~
+      REPLACE_TEXTUALLY ~Global("AnomenHatesKeldorn","GLOBAL",1)~ ~False()~
+    COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
+  EXTEND_TOP ~anomen.bcs~  ~BG2_Tweaks/baf/anomkeld.baf~
+  EXTEND_TOP ~keldorn.bcs~ ~BG2_Tweaks/baf/anomkeld.baf~
+  
+  //edwin-minsc
+  COPY_EXISTING ~edwin.bcs~ ~override~
+                ~minsc.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF
+      REPLACE_TEXTUALLY ~Global("EdwinMinscFight","GLOBAL",1)~ ~False()~
+    COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
+  EXTEND_TOP ~edwin.bcs~   ~BG2_Tweaks/baf/edwimins.baf~
+  EXTEND_TOP ~minsc.bcs~   ~BG2_Tweaks/baf/edwimins.baf~
+  
+  //edwin-keldorn
+  COPY_EXISTING ~edwin.bcs~   ~override~
+                ~keldorn.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF
+      REPLACE_TEXTUALLY ~Global("EdwinKeldornFight","GLOBAL",1)~ ~False()~
+    COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
+  EXTEND_TOP ~edwin.bcs~   ~BG2_Tweaks/baf/edwikeld.baf~
+  EXTEND_TOP ~keldorn.bcs~ ~BG2_Tweaks/baf/edwikeld.baf~
+  
+  //edwin-valygar
+  COPY_EXISTING ~edwin.bcs~   ~override~
+                ~valygar.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF
+      REPLACE_TEXTUALLY ~Global("EdwinValygarFight","GLOBAL",1)~ ~False()~
+    COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
+  EXTEND_TOP ~edwin.bcs~   ~BG2_Tweaks/baf/edwivaly.baf~
+  EXTEND_TOP ~valygar.bcs~ ~BG2_Tweaks/baf/edwivaly.baf~
+  
+  // stop haer'dalis-aerie romance from starting
+/*  COPY_EXISTING ~haerdali.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF
+      REPLACE_TEXTUALLY ~Global("RomanceConflict","GLOBAL",0)~ ~False()~
+    COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
+  EXTEND_TOP ~haerdali.bcs~ ~BG2_Tweaks/baf/haerdali.baf~
+  */
+  //viconia-keldorn
+  COPY_EXISTING ~viconia.bcs~ ~override~
+                ~keldorn.bcs~ ~override~
+    DECOMPILE_BCS_TO_BAF
+      REPLACE_TEXTUALLY ~Global("ViconiaKeldornFight","GLOBAL",1)~ ~False()~
+    COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
+  EXTEND_TOP ~viconia.bcs~ ~BG2_Tweaks/baf/vicokeld.baf~
+  EXTEND_TOP ~keldorn.bcs~ ~BG2_Tweaks/baf/vicokeld.baf~
+  
+  // removes korgan-aerie grumpiness
+  EXTEND_TOP ~korgan.bcs~ ~BG2_Tweaks/baf/korgan.baf~
+
+END ELSE BEGIN // Tutu
+
+  EXTEND_TOP ~_edwin.bcs~   ~BG2_Tweaks/baf/edwin.baf~
+  EXTEND_TOP ~_minsc.bcs~   ~BG2_Tweaks/baf/edwin.baf~
+  EXTEND_TOP ~_ynaheir.bcs~ ~BG2_Tweaks/baf/edwin.baf~
+  EXTEND_TOP ~_yeslick.bcs~ ~BG2_Tweaks/baf/yeslick.baf~
+  EXTEND_TOP ~_kagain.bcs~  ~BG2_Tweaks/baf/yeslick.baf~
+  EXTEND_TOP ~_khalid.bcs~  ~BG2_Tweaks/baf/xzar.baf~
+  EXTEND_TOP ~_jaheira.bcs~ ~BG2_Tweaks/baf/xzar.baf~
+  EXTEND_TOP ~_montaro.bcs~ ~BG2_Tweaks/baf/xzar.baf~
+  EXTEND_TOP ~_xzar.bcs~    ~BG2_Tweaks/baf/xzar.baf~
+  EXTEND_TOP ~_kivan.bcs~   ~BG2_Tweaks/baf/kivan.baf~
+  EXTEND_TOP ~_viconia.bcs~ ~BG2_Tweaks/baf/kivan.baf~
+  EXTEND_TOP ~_eldoth.bcs~  ~BG2_Tweaks/baf/eldoth.baf~
+  EXTEND_TOP ~_harteel.bcs~ ~BG2_Tweaks/baf/eldoth.baf~
+  EXTEND_TOP ~_tiax.bcs~    ~BG2_Tweaks/baf/tiax.baf~
+  EXTEND_TOP ~_quayle.bcs~  ~BG2_Tweaks/baf/tiax.baf~
+
+END 
+
+// bgt conflicts
+ACTION_IF FILE_EXISTS_IN_GAME ~bg1start.2da~ THEN BEGIN 
+
+  EXTEND_TOP ~bgedwin.bcs~  ~BG2_Tweaks/baf/edwin.baf~
+  EXTEND_TOP ~bgminsc.bcs~  ~BG2_Tweaks/baf/edwin.baf~
+  EXTEND_TOP ~dynaheir.bcs~ ~BG2_Tweaks/baf/edwin.baf~
+  EXTEND_TOP ~yeslick.bcs~  ~BG2_Tweaks/baf/yeslick.baf~
+  EXTEND_TOP ~kagain.bcs~   ~BG2_Tweaks/baf/yeslick.baf~
+  EXTEND_TOP ~khalid.bcs~   ~BG2_Tweaks/baf/xzar.baf~
+  EXTEND_TOP ~bgjheira.bcs~ ~BG2_Tweaks/baf/xzar.baf~
+  EXTEND_TOP ~montaron.bcs~ ~BG2_Tweaks/baf/xzar.baf~
+  EXTEND_TOP ~xzar.bcs~     ~BG2_Tweaks/baf/xzar.baf~
+  EXTEND_TOP ~kivan.bcs~    ~BG2_Tweaks/baf/kivan.baf~
+  EXTEND_TOP ~bgvicnia.bcs~ ~BG2_Tweaks/baf/kivan.baf~
+  EXTEND_TOP ~eldoth.bcs~   ~BG2_Tweaks/baf/eldoth.baf~
+  EXTEND_TOP ~sharteel.bcs~ ~BG2_Tweaks/baf/eldoth.baf~
+  EXTEND_TOP ~tiax.bcs~     ~BG2_Tweaks/baf/tiax.baf~
+  EXTEND_TOP ~quayle.bcs~   ~BG2_Tweaks/baf/tiax.baf~
+
+END

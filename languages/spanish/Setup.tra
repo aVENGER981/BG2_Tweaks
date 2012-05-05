@@ -1,0 +1,845 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Setup Messages                                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+     @0 = ~Retoques a los PNJ~
+     @1 = ~Esto puede llevar unos momentos ...~
+     @2 = ~Este componente requiere "Agregar bolsas contenedoras al BG1"~
+     @3 = ~Requiere el componente 'Permitir lanzar hechizos arcanos con armadura'~
+     @4 = ~Retoques/Trucos de conveniencia~
+     @5 = ~El Exotic Item Pack se requiere para este componente.~
+     @6 = ~Requiere el componente 'Permitir robar y actividades de ladron en armadura pesada'~
+     @7 = ~Este componente no esta disponible en tu idioma.~
+     @8 = ~Este componete es solo para BGT.~
+     @9 = ~Cambio de Reglas~
+    @10 = ~Este componente no es necesario para tutu~
+    @11 = ~Cambios Cosmeticos~
+    @12 = ~Se requiere el TOB para este componente.~
+    @13 = ~Cambios de Contenidos~
+    @14 = ~Este componente es solo para Tutu o BGT.~
+    @15 = ~Este componente es solo para Tutu.~
+    @16 = ~La funcionalidad de este componente esta ya incluída en algun mod instalado previamente.~
+    @17 = ~Este componente requiere el hacer consistentes las armas +x/+y.~
+    @18 = ~Este componente esta desactualizado.~
+    @19 = ~Reglas de la casa de Cam~
+    @20 = ~Ver Leeme?
+  a) Si
+  b) No~
+	@21 = ~Requiere el componente 'Cambiar el Cap de Puntos de Experiencia: Quita el tope de nivel'.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Cosmetic Changes Components                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+  @1000 = ~Quitar animaciones de los yelmos~
+
+  @2000 = ~Cambiar el Avatar de Imoen a maga~
+
+  @3000 = ~Cambiar el Avatar de Nalia a Ladrona~
+
+  @4000 = ~Cambiar el color de piel de Viconia a azul oscuro~
+
+  @5000 = ~Script de Polimorfar Avatar~
+  @5001 = ~SCRIPT DE POLIMORFAR AVATAR:~
+  @5002 = ~Este script deja que el usuario tenga el control sobre el avatar del personaje. Presionad 'S' para activar la pantalla de selección de avatar.(<script>)~
+
+  @6000 = ~Cambios en las animaciones de armas~
+
+  @7000 = ~Graficos de lanzamiento de hechizos de Icewind Dale (Andyr)~
+
+  @8000 = ~Restaurar el logo de carga de pantalla de SoA (solo TOB)~
+
+  @9000 = ~Desactivar los Iconos de los Portraits que agregan los Objetos Equipados~
+
+ @10000 = ~Los plebeyos usan colores oscuros~
+
+ @11000 = ~Mejoras en los Iconos~
+
+ @12000 = ~Diferente avatar al llevar túnica o armadura de cuero~
+
+ @13000 = ~Forzar a pausa a todos los diálogos~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Content Changes Components                       \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@101000 = ~Mas Interjecciones~
+
+@102000 = ~Hacer que la perdida de PG que activa los dialogos de PNJ heridos sea menor~
+
+@103000 = ~Revelar areas silvestres antes del Capítulo Seis~
+
+@103500 = ~Hacer que las areas del Bosque de las Capas esten accesibles antes de completar el Campamento de los Bandidos~
+@103501 = ~Solo primer area~
+
+@103600 = ~Todo el Bosque de las Capas excepto las minas~
+
+@104000 = ~Guardias de Athkatla mejorados~
+@104001 = ~Soldado de Amn~
+@104002 = ~Mago Aprobado~
+@104003 = ~Clérigo de la Milicia~
+
+@105000 = ~Desintegracion Gradual de los Objetos Drow~
+@105001 = ~Vuestro objeto drow se ha desintegrado~
+
+@106000 = ~Escudos, Yelmos y Armaduras de hierro no-magicas que se rompen~
+@106001 = ~Vuestra armadura se ha roto~
+@106002 = ~Vuestra escudo se ha roto~
+@106003 = ~Vuestra yelmo se ha roto~
+
+@107000 = ~Dialogos multiplayer mejorados~
+@107001 = ~Id y esperad en el Mesón del Brazo Amigo. Si las cosas cambian, os veré allí.~
+@107002 = ~Por favor, regresad al grupo.~
+@107003 = ~Os enviaré a la esfera planar. Espéradme allí.~
+
+@108000  = ~Agregar bolsas contenedoras al BG1~
+@108001  = ~Faja de municiones~
+@108002  = ~Esta faja se usa para poder guardar balas, dardos, flechas o virotes.
+
+CARACTERÍSTICAS:
+
+Capacidad: 2.000 virotes, dardos, flechas o balas en total
+Peso: 2 lbs~
+@108003  = ~Contenedor de Pociones~
+@108004  = ~Típicamente llevado por curanderos, este contenedor de cuero permite llevar delicadas botellas de pociones gracias a su interior acolchonado. No importa cuantas pociones lleve dentro, siempre tendrá el mismo peso.
+
+CARACTERÍSTICAS:
+
+Capacidad: 100 botellas
+Peso: 2 lbs~
+
+@109000 = ~Exotic Item Pack~
+@109001 = ~Carcaj de Abundancia~
+@109002 = ~La historia de este carcaj hace mucho que fué olvidada, aunque lo mas probable es que hubiese tenido mucho que ver con la falta de arqueros competentes en los Tiempos de los Problemas.
+
+CARACTERÍSTICAS:
+
+Flechas Ilimitadas~
+@109003 = ~Caja de Abundancia~
+@109004 = ~La historia de esta caja hace mucho que fué olvidada, aunque lo mas probable es que hubiese tenido mucho que ver con la falta de arqueros competentes en los Tiempos de los Problemas.
+
+CARACTERÍSTICAS:
+
+Virotes Ilimitados~
+@109005 = ~Bolsa de Abundancia~
+@109006 = ~Aunque esta bolsita esté ahora vacía, tiene un aura mágica rodeándola.
+
+CARACTERÍSTICAS:
+
+Balas limitadas~
+@109007 = ~Piedra Ioun Púrpura Oscuro~
+@109008 = ~Piedra Ioun Púrpura Oscuro
+
+Esta piedra, púrpura oscura, permite a quien la lleva ver entre las sombras.
+
+CARACTERÍSTICAS:
+
+Habilidad Especial: 60' infravision
+Peso: 2 lbs~
+@109009 = ~Piedra Ioun Blanco Brillante~
+@109010 = ~Piedra Ioun Blanco Brillante
+
+Esta piedra es fría al tacto e irradia energía.
+
+CARACTERÍSTICAS:
+
+Especial: +10% resistencia al frío
+Peso: 2 lbs~
+@109011 = ~Katana~
+@109012 = ~Katana
+
+La katana es una espada delgada y curvada. Tal vez una de las espadas mas finas que se han hecho, los pasos para su creación son secretos, es mas arte que otra cosa. Esta espada es una fase importante de la cultura Kara-Tur. El tocar o llevar una katana es un gran insulto para un samurai. El que un forastero posea una es algo muy extraño. O es un gran amigo o ha matado a un samurai.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+Tipo de daño: cortante
+Peso: 6 lbs
+Factor de Velocidad: 4
+Talento marcial: Katana
+Tipo: A una mano
+Requisitos: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Señor de las bestias~
+@109013 = ~Katana +2, Tsu-O-Shi~
+@109014 = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi se forjó en la nación de Wa hace ya mas de cinco siglos, por el herrero Murakaken Shinji, cuya habilidad era tan grande que se rumoreaba que podía despertar el espíritu del metal. Tsu-O-Shi ha pasado por varias generaciones de la familia Kasune, hasta que el poderoso daimyo y amante de las espadas, Fushima Takagi, la vió. Takagi se obsesionó con esta espada, e intento apoderarse de ella muchas veces. Finalmente contrató un clan de ninjas para robarla. Takagi escondió la espada, muchas veces iba a su lugar escondido para admirarla en su perfección. El día de su muerte, su espíritu se negó a dejar este mundo, para quedarse con Tsu-O-Shi, uniéndose a ésta. Desde ese día, cualquiera que use a Tsu-O-Shi debe tener cuidado con el espíritu de Fushima Takagi, que bebe de la esencia de quien toque el arma para poder quedarse en  Toril junto a ella. Como resultado, esta arma maldita puede beber de la vida de quien la lleve.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10 +2
+GAC0: +2 adicional
+Especial: Probabilidad de drenar la vida permanentemente de quien la usa
+Tipo de daño: cortante
+Peso: 4 lbs
+Factor de Velocidad: 2
+Talento marcial: Katana
+Tipo: A una mano
+Requisitos: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Señor de las bestias~
+@109015 = ~Modificación de la Sabiduría~
+@109016 = ~Modificación de la Constitución~
+@109017 = ~Modificación de la Destreza~
+@109018 = ~Modificación del Carisma~
+@109019 = ~Modificación de los puntos de golpe~
+@109020 = ~Modificación de la Inteligencia~
+@109021 = ~Modificación de la Fuerza~
+@109022 = ~Templo Gullykin~
+
+@110000 = ~Descubrir el mapa de las ciudades cuando se entre a un area~
+
+@111000 = ~Agregar notas al mapa~
+@111001 = ~Posada de Candelero~
+@111002 = ~Cuartel del Clérigo~
+@111003 = ~Templo de Oghma~
+@111004 = ~Almacén~
+@111005 = ~Puerta Principal~
+@111006 = ~Biblioteca de Candelero~
+@111007 = ~Posada~
+@111008 = ~Cuartel~
+@111009 = ~Enfermería~
+@111010 = ~Finca de Entar Escudo de Plata~
+@111011 = ~Yelmo y Capa~
+@111012 = ~Taberna~
+@111013 = ~Templo de Helm~
+@111014 = ~Puerta del Dragón Negro~
+@111015 = ~Torre de Ramazith~
+@111016 = ~Palacio Ducal~
+@111017 = ~Tres Viejos Barriles~
+@111018 = ~Sirena Ruborizada~
+@111019 = ~Esturión Derrochón~
+@111020 = ~Santuario de Ilmater~
+@111021 = ~Archivos de Comercio~
+@111022 = ~Áticos~
+@111023 = ~Caravana~
+@111024 = ~Mesón del Brazo Amigo~
+@111025 = ~Templo de la Sabiduría~
+@111026 = ~Malabarista Jovial~
+@111027 = ~Mesón de Feldepost~
+@111028 = ~Herrero Martillo Tronante~
+@111029 = ~Pluma Roja~
+@111030 = ~Brujo Ardiente~
+@111031 = ~Ayuntamiento~
+@111032 = ~Seto Alto~
+@111033 = ~Casa~
+@111034 = ~Cueva~
+@111035 = ~Casa Sumergida~
+@111036 = ~Mesón de Nashkel~
+@111037 = ~Tienda de Nashkel~
+@111038 = ~Taberna el Eructo del Dragón~
+@111039 = ~Casa del Alcalde~
+@111040 = ~Guarnición~
+@111041 = ~Fuerte Gnoll~
+@111042 = ~Entrada a la Mina~
+@111043 = ~Cabina~
+@111044 = ~Escultura~
+@111045 = ~Casa Abandonada~
+@111046 = ~Vestíbulo~
+@111047 = ~Templo Canción de la Mañana~
+@111048 = ~Ruinas de Ulcaster~
+@111049 = ~Salida~
+@111050 = ~Bajada al siguiente nivel~
+@111051 = ~Subida al siguiente nivel~
+@111052 = ~Salida a la Superficie~
+@111053 = ~Villa Gullykin~
+@111054 = ~Entrada a las Ruinas de Vinoardiente~
+@111055 = ~Barco encallado~
+@111056 = ~Faro Abandonado~
+@111057 = ~Fosa~
+@111058 = ~Granja~
+@111059 = ~Cruce del Dragón~
+@111060 = ~Tienda Grande~
+@111061 = ~Nido de Arañas~
+@111062 = ~Casa del Arbol~
+@111063 = ~Tapón del Río~
+@111064 = ~Elevador de la Mina~
+@111065 = ~Taberna de la Canción Élfica~
+@111066 = ~Artículos Hechizados~
+@111067 = ~Tienda de Descuentos de Aello Suertudo~
+@111068 = ~Tienda de armas Maltz~
+@111069 = ~Taberna de Keexie~
+@111070 = ~Tienda de Silencio~
+@111071 = ~La Cuchilla y las Estrellas~
+@111072 = ~Almacén General~
+@111073 = ~Posada~
+@111074 = ~Edificio del Capitán del Puerto~
+@111075 = ~Farol Bajo~
+@111076 = ~Casa de la Reina del Agua~
+@111077 = ~Trono de Hierro~
+@111078 = ~Taberna Jopalin~
+@111079 = ~Siete Soles~
+@111080 = ~Puño Ardiente~
+@111081 = ~Liga de Mercaderes~
+@111082 = ~Vieja Posada~
+@111083 = ~La casa de la Dama~
+@111084 = ~Vestíbulo de las Maravillas~
+@111085 = ~Alto Vestíbulo de las Maravillas~
+@111086 = ~Casa de Furiaveloz~
+@111087 = ~El Vidente~
+@111088 = ~Tienda de aves de corral~
+@111089 = ~Taberna Drakon~
+@111090 = ~Finca de Felonius Gist~
+@111091 = ~Posada Barba de Ulgoth~
+@111092 = ~Torre Desierta~
+@111093 = ~Entrada a la torre de Durlag~
+@111094 = ~Salida de la Mina~
+@111095 = ~Salida~
+@111096 = ~Templo de Bhaal~
+
+@112000 = ~Las tiendas venden mas cantidad de objetos apilados~
+
+@113000 = ~Reseteo de Reputación en BG2 (Sólo BGT)~
+
+@114000 = ~Las gemas y pociones requieren ser identificadas~
+@114001 = ~Una gema es un mineral que al cortarse o facetarse y pulirse puede coleccionarse o ser usada en joyería.~
+
+@115000 = ~Rebalanceo del Cambiaformas~
+@115001 = ~Conjurar Animales
+(Conjuración/Convocación)
+Nivel: 6
+Esfera: Convocación
+Alcance: 60 yardas
+Duración: 4 turnos
+Tiempo de Lanzamiento: 9
+Área de Efecto: Especial
+Tirada de Salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Este conjuro permite al lanzador convocar y controlar dos Hombres-oso de 20 dados de vida. Los osos responderán a todo capricho del lanzador durante toda la duración del conjuro. Los Hombres-oso son más lentos que los Hombres-lobo Mayor, pero también son más duros. Los Hombres-oso son resistentes a los ataques elementales y mágicos y se regeneran rápidamente.~
+@115002 = ~Hombre-oso Mayor~
+@115003 = ~Hombre-oso~
+@115004 = ~Esta garra simbólica representa el control de un Druida Cambiaformas sobre la licantropía. Mientras la garra sea portada, el Cambiaformas se vuelve un Hombre-lobo. Cuando la garra es removida, el Cambiaformas regresa a su forma humana. Las garras de un Hombre-lobo cuentan como armas +2.
+
+CARACTERÍSTICAS:
+
+Atributos: FUE 19, DES 16, CON 15
+CA Base: 1
+Resistencias: 20% de resistencia mágica, inmunidad a las armas no mágicas
+Ataques por Asalto: 2
+Daño: 1D12
+Tipo de Daño: Cortante
+Factor de Velocidad: 3
+Talento Marcial: Daga
+Tipo: A una mano
+Permitido a:
+ Cambiaformas~
+
+@115005 = ~Esta garra simbólica representa el máximo control de un Druida Cambiaformas sobre la licantropía. Mientras es portada por el cambiaformas, éste se convierte en un Hombre-lobo mayor. Cuando la garra sea removida, el Cambiaformas regresa a su forma humana. Las garras de un Hombre-lobo mayor cuentan como armas +3.
+
+CARACTERÍSTICAS:
+
+Atributos: FUE 21, DES 20, CON 25
+CA Base: -6
+Tiradas de Salvación Base: 1/1/1/2/1
+Resistencias: 40% de resistencia mágica, 50% de resistencia elemental, inmunidad a las armas no mágicas
+Regeneración: 3 puntos de vida por segundo
+Ataques por Asalto: 3
+GAC0 Base: 6
+Daño: 2D8
+Tipo de Daño: Cortante
+Factor de Velocidad: 3
+Talento Marcial: Daga
+Tipo: A una mano
+Permitido a:
+ Cambiaformas~
+
+@116000 = ~Múltiples fortalezas~
+@116001 = ~Sin Restricciones (Baldurdash)~
+@116002 = ~Tengo la escritura del teatro si es que queréis probar vuestros talentos allí. Samuel es un buen hombre y honrará la escritura en vuestras manos.~
+@116003 = ~Lo siento Raelis, pero no tengo tiempo.~
+@116004 = ~Gracias por la oferta pero debo negarme. No sabría por dónde empezar.~
+@116005 = ~¿El teatro de las Cinco Jarras? Me honrará ser el dueño.~ ~¿El teatro de las Cinco Jarras? Me honrará ser la dueña.~
+@116006 = ~Sí, haré como me pedís. Nunca podré deteneros. Sin embargo, debo a mi salvador más que un adiós.~ ~Sí, haré como me pedís. Nunca podré deteneros. Sin embargo, debo a mi salvadora más que un adiós.~
+@116007 = ~Tengo la escritura del teatro si es que queréis probar vuestros talentos allí. Samuel es un buen hombre y honrará la escritura en vuestras manos.~
+@116008 = ~Entonces espero que quedéis satisfecho con nuestras gracias. Vamos, Guardia de la Condenación, debemos irnos rápidamente. Tal vez nos volvamos a ver, <CHARNAME>.~ ~Entonces espero que quedéis satisfecha con nuestras gracias. Vamos, Guardia de la Condenación, debemos irnos rápidamente. Tal vez nos volvamos a ver, <CHARNAME>.~
+@116009 = ~Lo siento, pero no puedo. Debo encontrar a una amiga y no creo que pueda alejarme tanto de Athkatla.~
+@116010 = ~No puedo, pastor, porque no estaré tan lejos de la ciudad. Busco a un poderoso mago y las pistas me llevan a Athkatla.~
+@116011 = ~Debo negarme. Los eventos en Athkatla requieren mi presencia y no estaré lejos de la ciudad tan regularmente.~
+@116012 = ~Será un honor. Acepto y haré lo que pueda por el pueblo.~
+@116013 = ~Lo siento, pastor, no puedo. ¡Pero espero tener una recompensa!~
+@116014 = ~Admito que estoy decepcionado pero entiendo la dureza de vuestra profesión, <CHARNAME>. No envidio el camino que habéis elegido.~
+@116015 = ~Vos, mi señor, sois un amigo de la tierra. La tierra puede ser restituída con una mano tan firme como la vuestra.~ ~Vos, mi señora, sois una amiga de la tierra. La tierra puede ser restituída con una mano tan firme como la vuestra.~
+@116016 = ~¿Podéis guiar a esta arboleda en sus momentos de renacimiento?~
+@116017 = ~Haré lo que esté en mis manos para devolver el equilibrio.~
+@116018 = ~Esta tierra ha sufrido y pondré todos mis esfuerzos en deshacer el daño de las acciones de Faldorn.~
+@116019 = ~Sería un pobre criado. Mis deberes están en Athkatla, y debo negarme.~ ~Sería una pobre criada. Mis deberes están en Athkatla, y debo negarme.~
+@116020 = ~Busco un mago poderoso y no puedo distraerme con otras responsabilidades.~
+@116021 = ~Han raptado a mi amiga. Aunque me duela, no puedo dar la espalda a este hecho para ayudar en la arboleda.~
+@116022 = ~Tenéis la bendición de la Arboleda y por eso os doy el Bastón del Trueno y Rayo.~
+@116023 = ~Muy bien. Continuaré siendo el Maestro de Desafíos y el criado hasta que los ritos de ascensión hayan sido completados.~
+
+@116100 = ~Mantener las restricciones de clase~
+
+@117000 = ~Mercaderes extra (Baldurdash)~
+
+@118000 = ~Edwina Femenina~
+
+@119000 = ~Romance: corrección de errores~
+
+@120000 = ~Arreglo del diálogo de Imoen en ToB~
+
+@121000 = ~Utilizar la velocidad de caminar de BG (BETA)~
+
+@122000 = ~Hacer que Cromwell mejore objetos del Torreón del Vigilante~
+@122001 = ~Ah, un Carcaj de la abundancia. Puedo encantarlo para que cree mejores virotes, pero os costará. Serán 5.000 piezas de oro.~
+@122002 = ~Veamos que más tenéis.~
+@122003 = ~La capucha de un ladrón, ¿eh?~
+@122004 = ~Con una botella de antídoto y un anillo de invisibilidad esto podría ser muy útil.~
+@122005 = ~Sí que hay un anillo de invisibilidad... y el antídoto. Tenéis lo que necesito. Por 10.000 piezas de oro puedo hacer este objeto mucho más poderoso.~
+@122006 = ~¿Qué es esto?~
+@122007 = ~Tengo una receta para ponerle cuernos al Yelmo de la Roca para hacerlo más poderoso. Cuando tengáis las piezas podré construírlo.~
+@122008 = ~Tenéis el Yelmo de la Roca y los dos cuernos. Por 5,000 piezas de oro puedo añadir los cuernos para crear un yelmo para luchadores.~
+@122009 = ~Estos son guanteletes de Bardo.~
+@122010 = ~Los puedo mejorar con algunas gemas. Traedme un diamante, esmeralda, piedra de bribón, y zafiro estrella y os haré este favor.~
+@122011 = ~Machacando este diamante, esmeralda, piedra de bribón, y zafiro estrella puedo mejorarlos. Os costará 5,000 piezas de oro.~
+@122012 = ~Estos son brazales para paladín.~
+@122013 = ~Por 10.000 piezas de oro, puedo hacer algo mucho mejor.~
+@122014 = ~Hmm, un viejo manual de gólem.~
+@122015 = ~Con ciertas páginas se pueden mejorar los gólems convocados.~
+@122016 = ~Con esa página de gólem de arcilla y 5.000 piezas de oro, puedo mejorar el manual.~
+@122017 = ~Ach, ahora sí que es una verdadera capa de protección.~
+@122018 = ~Este objeto puede mejorar con hechizos de invisibilidad y celeridad mejorada.~
+@122019 = ~Podemos utilizar los hechizos de invisibilidad y celeridad mejorada para mejorar esta capa. Es un proceso difícil y os costará 20.000 piezas de oro.~
+@122020 = ~Sí, escamas de draco blanco. Puedo crear una armadura con estas escamas, si lo deseáis, tenéis que pagar solamente 5.000 piezas de oro.~
+@122021 = ~Con que una cota de malla élfica de buena calidad... incluso con los estándares enanos.~
+@122022 = ~Pero no conocéis algunos trucos enanos. Con un hechizo de protección contra armas normales, sólo habría que utilizar un poco de magia para mejorarla.~
+@122023 = ~Con un hechizo de protección contra armas normales, puedo encantar esta armadura para resistirlo todo excepto una espada mágica. No es facil agregar magia enana sobre una cota de mallas élfica y por eso os costará 40,000 piezas de oro.~
+@122024 = ~Esta es una honda gnomo. Por 5.000 piezas de oro, puedo hacerla más exacta.~
+@122025 = ~¿Qué es este carcaj? Ah, produce flechas mágicas infinitas.~
+@122026 = ~Si encontráis una piedra de bribón puedo mejorar esas flechas aún más.~
+@122027 = ~Con esta piedra de bribón y 10.000 piezas de oro puedo encantar las flechas.~
+@122028 = ~Ach, ¡vaya cosa! ¡El Mayal de las edades!~
+@122029 = ~Hay rumores que dicen que existen más cabezas para este mayal. Si las encontráis puedo agregarlas.~
+@122030 = ~Veo que habéis encontrado otra cabeza. Parece veneno. Por 5.000 piezas de oro puedo unirla al resto del arma.~
+@122031 = ~¿Puede ser... ? Sí, es un palo detonante.~
+@122032 = ~Si encontráis un anillo de resistencia al fuego puedo combinarlo con ese palo.~
+@122033 = ~Por 5.000 piezas de oro puedo combinar este objeto con vuestro anillo de resistencia.~
+@122034 = ~Ah, ahora parece como algo de Ixil.~
+@122035 = ~Esta es una parte de la gran lanza de Ixil. Si encontráis la otra parte puedo completarla.~
+@122036 = ~Habéis encontrado partes de la vieja lanza de Ixil. Por 5.000 piezas de oro podemos mejorar la Púa de Ixil y la Uña de Ixil.~
+@122037 = ~Ah, esta es la Daga de la estrella.~
+@122038 = ~Si la combinamos con cinco zafiros estrella, podemos mejorar su encantamiento.~
+@122039 = ~Con cinco zafiros estrella y .,000 piezas de oro puedo hacerla más efectiva.~
+@122040 = ~Tenéis tres cabezas aquí... puedo agregar la cabeza de veneno y eléctrica a la vez. Para tener cinco, ¿véis? Dadme 10.000 piezas de oro y lo haré. ¿Os apetece?~
+@122041 = ~¿Podríais agregar sólo la cabeza eléctrica por ahora? Os daré 5.000 piezas de oro.~
+@122042 = ~¿Podríais agregar sólo la cabeza de veneno por ahora? Os daré 5.000 piezas de oro.~
+@122043 = ~Conozco la receta para dos cabezas del Mayal de las edades. Podéis agregar la cabeza de veneno... o la eléctrica. Son las únicas recetas que tengo, lo siento.~
+@122044 = ~Tenéis tres cabezas aquí... puedo agregar la eléctrica. Para tener cuatro, ¿véis?  Dadme 5,000 piezas de oro y lo haré. ¿Os apetece?~
+@122045 = ~ ¡Ooo! Tenéis cuatro cabezas y puedo agregar la última. Muy pestilente, sí. 5.000 piezas de oro solamente. ¿Os apetece?~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Rule Changes Components                          \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@201000 = ~Progresiones de hechizos según tablas de PnP~
+
+@202000 = ~Espadas bastardas de dos puños~
+
+@203000 = ~Katanas de dos puños~
+
+@204000 = ~Palos universales~
+
+@205000 = ~Actualizaciones a las Descripciones para los Palos Universales~
+@205001 = ~Requiere tener instalado el componente de Palos Universales~
+@205002 = ~Ashes of Embers esta instalado, y ya ajusta las descripciones.~
+
+@206000 = ~Estilos de Armas para todos~
+
+@207000 = ~Druidas usan progresion de clérigos al subir niveles y hechizos~
+
+@208000 = ~Demorar las habilidades de alto nivel~
+
+@209000 = ~Cambiar el Cap de Puntos de Experiencia~
+@209001 = ~Quita el tope de nivel~
+
+@209100 = ~Tope de nivel 20~
+
+@209200 = ~Tope de nivel 30~
+
+@210000 = ~Permitir habilidades de ladrón con armadura pesada~
+
+@211000 = ~Alterar las descripciones para 'Permitir el robo y el uso de las habilidades de Ladron en Armadura Pesada'~
+
+@212000 = ~Permitir lanzar hechizos con armadura~
+
+@213000 = ~Alterar las descripciones de los objetos para 'Permitir lanzar hechizos Arcanos en Armadura Pesada'~
+
+@214000 = ~Opciones de Clase Dual Expandidas~
+@214001 = ~Bárbaro/Mago~
+@214002 = ~Bárbaro/Clérigo~
+@214003 = ~Bárbaro/Ladrón~
+@214004 = ~Bárbaro/Druida~
+
+@215000 = ~Usar Multiples Objetos de Proteccion~
+@215001 = ~Restricciones al estilo P&P~
+
+@215100 = ~Sin Restricciones~
+
+@216000 = ~Talentos con Armas Re-balanceados~
+@216001 = ~ESPADA CORTA/NINJA TO: Las armas preferidas de varios ladrones y medianos, las espadas cortas y ninja-tos son livianas pero muy útiles.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216002 = ~KATANA/WAKIZASHI: Las katanas y wakizashis son los mejores ejemplos de la habilidad de un herrero, y requieren ser manejadas con cuidado. A medida que la habilidad se desarrolla, el portador y el arma se unen en un solo ser, dedicado completamente al arte de la guerra. Estas armas son difíciles de encontrar fuera de Kara-Tur, y por debe considerarse seriamente al momento de elegir este talento. Después de todo, las katanas y wakizashis sólo son útiles si las encuentras.
+
+CUIDADO: ¡Las katanas mágicas son difíciles de encontrar en Baldur´s Gate 2!
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216003 = ~CIMITARRA: Esta clase de armas permite al personaje usar armas de hojas curvadas como las cimitarras.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216004 = ~MAYAL: Los mayales son armas contundentes que se usan para dejar sin sentido a los oponentes. Son difíciles de usar pero con habilidad y práctica son muy útiles.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216005 = ~MAZA/MANGUAL: La maza es comunmente asociada con los clérigos. Es un arma contundente muy poderosa, similar al garrote, pero diseñada para hacer más daño. El mangual es parecido a la maza, pero suele tener pinchos en lugar de pestañas.
+
+<DOTS1>
+<DOTS2>
+<DOTS3>
+<DOTS4>
+<DOTS5>~
+@216006 = ~Cambiar el sistema de talentos marciales.~
+
+@216100 = ~Talentos marciales al estilo BG, con estilos de lucha (the bigg)~
+@216200 = ~Talentos marciales al estilo BG, sin estilos de lucha (the bigg)~
+
+@217000 = ~Lanzar hechizos de pergaminos (y otros objetos) al nivel del personaje~
+
+@218000 = ~Arreglar la tabla del GAC0, las tiradas de salvacion, gran maestria la progresion de los conjuros arcanos y divinos (Blucher)~
+@218001 = ~Alquimia (Mago)~
+@218002 = ~Alquimia (Clérigo)~
+@218003 = ~Alquimia (Ladrón)~
+@218004 = ~Alquimia (Mago)
+Esta habilidad permite que un mago cree pociones. Las pociones que crea pueden ser cualquiera de las siguientes:
+1) Poción de Absorción
+2) Poción de Resistencia al Fuego
+3) Poción de Resistencia al Frío
+4) Poción de Invisibilidad
+5) Poción de Piel Pétrea
+6) Poción de Fuerza
+7) Poción de Agilidad
+8) Poción de Aliento de Fuego
+9) Aceite de Velocidad
+10) Aceite de Fuego Ardiente~
+@218005 = ~Alquimia (Clérigo)
+Esta habilidad permite que un clérigo cree pociones. Las pociones que crea pueden ser cualquiera de las siguientes:
+1) Poción de Curación
+2) Poción de Curación Extra
+3) Poción de Curación Superior
+4) Elixir de Salud
+5) Poción de Perspicacia
+6) Poción de Regeneración
+7) Poción de Claridad
+8) Antídoto
+9) Poción de Concentración Mental
+10) Poción de Genio~
+@218006 = ~Alquimia (Ladrón)
+Esta habilidad permite que un ladrón cree pociones. Las pociones que crea pueden ser cualquiera de las siguientes:
+1) Poción de Concentración Mental
+2) Poción de Percepción
+3) Poción de Invisibilidad
+4) Poción de Curación Superior
+5) Poción de Regeneración
+6) Antídoto
+7) Aceite de Velocidad
+8) Poción de Fuerza de Gigante de la Escarcha para Ladrones~
+@218007 = ~Inscribir hechizos (Mago)~
+@218008 = ~Inscribir hechizos (Clérigo)~
+@218009 = ~Inscribir hechizos (Ladrón)~
+@218010 = ~Inscribir hechizos (Mago)
+Esta habilidad permite al mago crear hechizos. Los que puede crear son los siguientes en esta lista:
+1) Proyectil Mágico
+2) Escudo
+3) Flecha Ácida de Melf
+4) Imágen Espejada
+5) Meteoritos de Melf
+6) Desvío Menor de Conjuros
+7) Invisibilidad Mejorada
+8) Tormenta de Hielo
+9) Oráculo
+10) Caos~
+@218011 = ~Inscribir hechizos (Clérigo)
+Esta habilidad permite al clérigo crear hechizos. Los que puede crear son los siguientes en esta lista:
+1) Curar Heridas Críticas
+2) Golpe de Fuego
+3) Revivir a los muertos
+4) Restablecimiento
+5) Protección contra el Acido
+6) Protección contra el Frío
+7) Protección contra la Electricidad
+8) Protección contra el Fuego
+9) Fuerza de Campeón
+10) Dominación Mental~
+@218012 = ~Inscribir hechizos (Ladrón)
+Esta habilidad permite al ladrón crear hechizos. Los que puede crear son los siguientes en esta lista:
+1) Proyectil Mágico
+2) Celeridad
+3) Bola de Fuego
+4) Disipar Magia
+5) Hechizo Horrible
+6) Invisibilidad
+7) Cono de Frío
+8) Convocar Monstruo II
+9) Convocar Monstruo III~
+
+@219000 = ~Limitar la habilidad de los Vendedores para Identificar Objetos~
+@219001 = ~Solo los vendedores Magos y Bardos pueden identificar objetos~
+
+@219100 = ~La habilidad de Identificar se basa en el Conocimiento del vendedor~
+
+@219200 = ~Hibrido de ambos métodos~
+
+@220000 = ~Gran Maestria en armas para los multi-clase (Weimer)~
+
+@221000 = ~Gran Maestria Verdadera (medio ataque extra, etc.) (Baldurdash)~
+
+@222000 = ~Cambiar el peso de las armas creadas magicamente a 0~
+
+@223000 = ~Hacer coherentes las armas +x/+y~
+
+@223100 = ~Solo Ingles: Actualizaciones a las descripciones para hacer consistentes las armas +x/+y~
+
+@224000 = ~Tabla de GAC0 extendida ~
+@224001 = ~Con tope, mejor GAC0 es 0 (Blucher)~
+
+@224100 = ~Con tope, mejor GAC0 es -10 (PnP/Tabla BG1)~
+
+@225000 = ~Tabla de progresión de hechizos de hechicero extendida~
+
+@226000 = ~Alterar la tabla de progresion de hechizos de mago~
+@226001 = ~Tabla extendida (Blucher)~
+
+@226100 = ~Tabla PnP ~
+
+@227000 = ~Alterar la tabla de progresion de hechizos de bardo~
+
+@228000 = ~Alterar la tabla de progresion de hechizos de clerigo~
+
+@229000 = ~Alterar las tablas de hechizos y progresion druidicas~
+@229001 = ~Sin cambios en la progresión de niveles, solo tabla de hechizos druidica extendida (Blucher)~
+
+@229100 = ~Sin cambios en la progresión de niveles, solo tabla de hechizos PnP para druida/clérigo~
+
+@229200 = ~Usar los cambios a la progresion de niveles de clérigo con tabla de hechizos druidicos normal~
+
+@229300 = ~Usar los cambios a la progresion de niveles de clérigo con tabla de hechizos druidicos extendida (Blucher)~
+
+@229400 = ~Usar los cambios a la progresion de niveles de clérigo con tabla de hechizos PnP Druida/Clerigo~
+
+@229500 = ~Usar los cambios a la progresion de niveles de clérigo con tabla de hechizos de clerigo normal~
+
+@229600 = ~Usar los cambios a la progresion de niveles de clérigo con tabla de hechizos de clerigo extendida (Blucher)~
+
+@230000 = ~Tablas de Habilidades de Alto Nivel de clase triple~
+
+@231000 = ~Agregar penalizaciones de salvación para los hechizos lanzados por lanzadores de alto nivel~
+@231001 = ~Sólo magia arcana~
+
+@231100 = ~Sólo magia divina~
+
+@231200 = ~Magias arcana y divina~
+
+@232000 = ~Eliminar tope de trampas (Ardanis/GeN1e)~
+
+@233000 = ~Eliminar retraso de Trampas magicas (Ardanis/GeN1e)~
+
+@234000 = ~Eliminar tope de convocacion para Celestiales (Ardanis/GeN1e)~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Convenience Tweaks                               \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@300000 = ~Mayor numero de PG al subir de nivel~
+@300001 = ~Maximo~
+
+@300100 = ~Estilo NWN~
+
+@301000 = ~PG Maximos para (the bigg)~
+@301001 = ~Para todas las Criaturas del Juego~
+
+@301100 = ~Para PNJ que no se unen al grupo solamente~
+
+@301200 = ~Para PNJ que se unen al grupo solamente~
+
+@302000 = ~Identificar todos los objetos~
+
+@303000 = ~Aprender hechizos facilmente~
+@303001 = ~Siempre aprender hechizos~
+
+@303100 = ~Aprender hechizos al 100% y quitar el tope de hechizos aprendidos~
+
+@304000 = ~Hacer la bolsa de contencion sin fondo~
+
+@305000 = ~Quitar la fatiga de los hechizos de restauracion.~
+
+@306000 = ~Callar la voz de "Debes juntar a tu grupo antes de continuar" (Weimer)~
+
+@307000 = ~Descuentos en tiendas a baja reputacion (Sabre)~
+@307001 = ~Cambiar el efecto de la reputacion en los precios de las tiendas~
+
+@307100 = ~La reputacion no tiene efecto, precios de las tiendas fijos al 100% (Luiz)~
+
+@307200 = ~La reputacion no tiene efecto, precios de las tiendas fijos al 80% (Luiz)~
+
+@307300 = ~La reputacion no tiene efecto, precios de las tiendas fijos al 60% (Luiz)~
+
+@308000 = ~Apilacion de municiones ilimitada~
+
+@309000 = ~Apilacion de gemas y joyas ilimitada~
+
+@310000 = ~Apilacion de pociones ilimitada~
+
+@311000 = ~Apilacion de Hechizos ilimitada~
+
+@312000 = ~Parche Feliz (Los PNJ del grupo no se quejan cuando baja la reputacion)~
+@312001 = ~Los PNJ nunca se enfadan dependiendo de la reputación~
+
+@312100 = ~Los PNJ se enfadan dependiendo de la reputacion pero nunca abandonan el grupo (Salk)~
+
+@312200 = ~Los PNJ siempre son neutrales con cualquier reputacion (Anomaly)~
+
+@312300 = ~Los PNJ del grupo no luchan~ 
+
+@312400 = ~Evite que el romance entre Aerie y Haer'Dalis comience~
+
+@312500 = ~Personajes Neutrales hacen comentarios felices con reputacion media~
+
+@313000 = ~No trampas o Cerraduras (Weimer)~
+
+@314000 = ~Escenas y sueños del capítulo 1&2 mas rápidas~
+@314001 = ~Originales de EoU (Karzak, Blucher)~
+
+@314100 = ~Version no-tonta~
+
+@315000 = ~Deshabilitar las animaciones de la Capa del espejo, Trampa contra conjuros, y Espejo fisico~
+
+@316000 = ~Guardar el botin de Drizzt, desactivar a Malchor Harpell~
+
+@317000 = ~No mostrar los avatares drow para el grupo en la Antipoda Oscura~
+
+@317900 = ~Sin requerimientos de raza para el romance~
+
+@318000 = ~Trucos en los Romances~
+@318001 = ~Quitar el requerimiento Racial y de Sexo de los Romances~
+
+@318100 = ~Sin requerimientos de sexo/raza para los romances, permitir romances multiples~
+
+@318200 = ~Quitar el requerimiento Racial y de Sexo de los Romances, Permitir Romances Multiples, Nada Mata a los Romances~
+
+@318300 = ~Trucos en los Romances~
+@318301 = ~Eliminar requerimientos raciales para romances? (Selecciona a o b)
+  a) Eliminar
+  b) Sin cambios~
+@318302 = ~  * Eliminar requerimientos raciales para romances~
+@318303 = ~Eliminar requerimientos de genero para romances? (Selecciona a o b)
+  a) Eliminar
+  b) Sin cambios~
+@318304 = ~  * Eliminar requerimientos de genero para romances~
+@318305 = ~Permitir romances multiples? (Selecciona a o b)
+  a) Permitir
+  b) Sin cambios~
+@318306 = ~  * Permitir romances multiples~
+@318307 = ~Nada mata romances? (Selecciona a o b)
+  a) Nada mata romances
+  b) Sin cambios~
+@318308 = ~  * Nada mata romances~
+@318309 = ~Has elegido instalar las siguientes opciones:~
+@318310 = ~Has elegido correctamente?
+  a) Si, instalar
+  b) No, quiero re-seleccionarlos~
+@318311 = ~Comenzar romances para nuevas partidas en ToB?
+  a) Romances para nuevas partidas de ToB
+  b) Sin cambios~
+@318312 = ~  * Start romances para new games in ToB~
+@318313 = ~Deseo a mi amante, Aerie.~
+@318314 = ~Deseo a mi amante, Jaheira.~
+@318315 = ~Deseo a mi amante, Sir Anomen, Caballero de la Orden.~
+@318316 = ~Deseo a mi amante, Anomen, clérigo de Helm.~
+@318317 = ~Deseo a mi amante, Viconia.~
+
+@319000 = ~Descansar en cualquier sitio (Japheth)~
+
+@320000 = ~Bastones, Palos y Hondas vendibles (Icelus)~
+
+@321000 = ~Truco de estadísticas mínimas~
+@321001 = ~Selecciona un valor mínimo de estadísticas, entre 6 y 15:~
+    
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// NPC Tweaks                                       \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@400000 = ~Ajustar las reacciones de los NPCs de alineamiento malvado~
+
+@401000 = ~Convocar Espiritu del Destino Mejorado~
+
+@402000 = ~Los NPCs se comportan como en ToB~
+
+@403000 = ~Estadisticas Consistentes: Edwin~
+@403001 = ~Usar Valores del BG1~
+
+@403100 = ~Usar Valores del BG2~
+
+@404000 = ~Estadisticas Consistentes: Jaheira~
+
+@405000 = ~Cambiar a Jaheira a Neutral Buena~
+
+@406000 = ~Estadisticas Consistentes: Minsc~
+
+@407000 = ~Estadisticas Consistentes: Viconia~
+
+@408000 = ~Hacer a Khalid un guerrero-mago (Domi)~
+@408001 = ~Cuando le preguntáis por su pasado, KHALID nerviosamente os comenta que ha nacido en la nación de Calimshan. No habla mucho de sus padres, pero os dáis cuenta que su padre comerciante no tenía mucho tiempo para él, dándole más atención a sus medio hermanos. Sin la aprobación de su padre, Khalid no pudo pagar las lecciones para ser aprendiz de mago, así que se unió a la milicia esperando ganar el dinero suficiente. No da muchos detalles de como conoció a Jaheira, pero su adoración hacia ella es obvia. Cuando le preguntáis como conoció a Gorion sólo os dice que han sido amigos, y que muchos lloran su pérdida.~
+
+@409000 = ~Hacer a Montaron un Asesino (Andyr)~
+
+@410000 = ~Cambiar a Korgan a Neutral Malvado~
+
+@411000 = ~Dar constitucion legal de 19 a Kagain~

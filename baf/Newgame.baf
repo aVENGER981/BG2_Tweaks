@@ -1,0 +1,93 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CSJon")  // 
+    CreateCreature("M05PCSPY",[3374.3068],0)  // <Invalid Strref -1>
+    MoveViewPoint([3566.2928],INSTANT)
+    Wait(3)
+    MultiPlayerSync()
+    MoveToPoint([3651.2893])
+    MoveToPoint([3666.2878])
+    MultiPlayerSync()
+    SmallWait(1)
+    Wait(1)
+    SmallWait(7)
+    ActionOverride(Player1,FaceObject("CSJon"))
+    DisplayStringHead(Myself,44363)  // ~You aren't going to throw rocks at me, now, are you?~
+    Wait(1)
+    ForceSpell(Player1,CUTSCENE_DAMAGE_1)
+    Wait(1)
+    ForceSpell(Player1,CUTSCENE_DAMAGE_1)
+    Wait(1)
+    SmallWait(7)
+    DisplayStringHead(Myself,44361)  // ~I wanna go to the Underdark!  I've heard there's cool stuff there!~
+    Wait(3)
+    ForceSpellPoint([3036.3443],WIZARD_DIMENSION_DOOR)
+    Wait(2)
+    ActionOverride("Imoen",OpenDoor("DOOR11"))
+    ActionOverride("Imoen",MoveToPoint([3405.2924]))
+    ActionOverride("Imoen",Face(0))
+    ActionOverride("Imoen",SmallWait(5))
+    ActionOverride("Imoen",MultiPlayerSync())
+    ActionOverride("Imoen",MoveToObject(Player1))
+    ActionOverride("Imoen",Unlock("Cell03"))
+    ActionOverride("Imoen",OpenDoor("Cell03"))
+    ActionOverride("Imoen",MultiPlayerSync())
+    ActionOverride("Imoen",UnhideGUI())
+    ActionOverride("Imoen",Dialog(Player1))
+    DestroySelf()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player2)  // 
+    Face(2)
+    Wait(2)
+    SmallWait(7)
+    Face(1)
+    Face(0)
+    Wait(2)
+    Face(15)
+    Face(14)
+    Wait(1)
+    SmallWait(7)
+    Face(12)
+    Face(11)
+    Face(10)
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player3)  // 
+    Face(2)
+    Wait(2)
+    Face(1)
+    Face(0)
+    Wait(2)
+    Face(15)
+    Face(14)
+    Wait(2)
+    Face(12)
+    Face(11)
+    Face(10)
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player4)  // 
+    Wait(2)
+    Face(15)
+    Face(14)
+    Wait(2)
+    Face(12)
+    Face(11)
+    Face(10)
+END
+
