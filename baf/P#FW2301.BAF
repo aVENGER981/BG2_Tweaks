@@ -19,7 +19,7 @@ RESPONSE #100
 SetGlobal("P#DestroyKhalid","GLOBAL",2)
 SetGlobal("P#KhalidLevel1","GLOBAL",1)
 SetGlobal("SPRITE_IS_DEADKHALID","GLOBAL",0)
-CreateCreature("_KHALID",[350.670],3)
+CreateCreature("%tutu_var%KHALID",[350.670],3)
 END
 
 IF
@@ -31,7 +31,7 @@ RESPONSE #100
 SetGlobal("P#DestroyKhalid","GLOBAL",2)
 SetGlobal("P#KhalidLevel2","GLOBAL",1)
 SetGlobal("SPRITE_IS_DEADKHALID","GLOBAL",0)
-CreateCreature("_KHALID2",[350.670],3)
+CreateCreature("%tutu_var%KHALID2",[350.670],3)
 END
 
 IF
@@ -43,7 +43,7 @@ RESPONSE #100
 SetGlobal("P#DestroyKhalid","GLOBAL",2)
 SetGlobal("P#KhalidLevel4","GLOBAL",1)
 SetGlobal("SPRITE_IS_DEADKHALID","GLOBAL",0)
-CreateCreature("_KHALID4",[350.670],3)
+CreateCreature("%tutu_var%KHALID4",[350.670],3)
 END
 
 IF
@@ -55,7 +55,7 @@ RESPONSE #100
 SetGlobal("P#DestroyKhalid","GLOBAL",2)
 SetGlobal("P#KhalidLevel6","GLOBAL",1)
 SetGlobal("SPRITE_IS_DEADKHALID","GLOBAL",0)
-CreateCreature("_KHALID6",[350.670],3)
+CreateCreature("%tutu_var%KHALID6",[350.670],3)
 END
 
 

@@ -8,7 +8,7 @@ Tutu: 2^51 * 3^12 * 4^3       =        76,588,719,666,220,920,471,552
 BGT:  2^63 * 3^12 * 4^3 * 5^1 = 1,568,536,978,764,204,451,257,384,960
 */
 
-VERSION ~v9~
+VERSION ~v9.01~
 
 README ~bg2_tweaks/readme-bg2tweaks.html~
 
@@ -874,10 +874,13 @@ COPY_EXISTING ~sw1h01.itm~ ~override/cdt00010.g3~
 
 PRINT @1
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
+PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
   READ_SHORT 0x1c "itemtype" ELSE 0
-  PATCH_IF ("%itemtype%" = 7) BEGIN
-    WRITE_LONG 0x22 0
+  READ_SHORT 0x22 anim
+  PATCH_IF ("%itemtype%" = 7) && ! (anim=0x5759 || anim=0x575a) BEGIN
+	WRITE_LONG 0x22 0
   END
+END
   BUT_ONLY_IF_IT_CHANGES
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -2409,7 +2412,7 @@ END
 COPY_EXISTING ~roger.sto~   ~override~ // roger
               ~murcrag.sto~ ~override~ // Cragmoon
               ~shop05.sto~  ~override~ // perter
-              ~trmer03.sto~ ~override~ // trademeet blacksmith
+              ~trmer04.sto~ ~override~ // trademeet blacksmith
   READ_LONG  0x34 "sale_offset"
   READ_LONG  0x38 "sale_number"
   WRITE_LONG 0x38 ("%sale_number%" + 1)
@@ -2425,7 +2428,8 @@ COPY_EXISTING ~roger.sto~   ~override~ // roger
     END ELSE
     PATCH_IF ("shop05" STRING_COMPARE_CASE ~%SOURCE_RES%~ = 0) BEGIN // if store is perter add ammo belt 1
       WRITE_ASCII ("%sale_offset%" +        ("%sale_number%" * 0x1c)) ~cdammo~
-    END ELSE BEGIN // else ammo belt 2
+    END ELSE
+    PATCH_IF ("trmer04" STRING_COMPARE_CASE ~%SOURCE_RES%~ = 0) BEGIN // if store is Trademeet blacksmith add ammo belt 2
       WRITE_ASCII ("%sale_offset%" +        ("%sale_number%" * 0x1c)) ~cdammo2~
     END
     WRITE_LONG  ("%sale_offset%" + 0x10 + ("%sale_number%" * 0x1c)) 3 // identified and unstealable
@@ -3921,28 +3925,13 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.cre$~ ~override~
     OR ("%anim%" = 0x6315)
     OR ("%anim%" = 0x6500)
     OR ("%anim%" = 0x6510)) BEGIN
-    READ_BYTE   0x33 "fx_type"
-    READ_LONG  0x2b0 "known_off"
-    READ_LONG  0x2b8 "slot_off"
-    READ_LONG  0x2bc "itm_off"
-    READ_LONG  0x2c4 "fx_off"
-    READ_LONG  0x2c8 "fx_num"
-    WRITE_LONG 0x2c8 ("%fx_num%" + 1)
-    PATCH_IF ("%known_off%" >= "%fx_off%") BEGIN
-      WRITE_LONG 0x2b0 ("%known_off%" + (0x30 + (0xd8 * "%fx_type%")))
-    END
-    PATCH_IF ("%slot_off%" >= "%fx_off%") BEGIN
-      WRITE_LONG 0x2b8 ("%slot_off%" + (0x30 + (0xd8 * "%fx_type%")))
-    END
-    PATCH_IF ("%itm_off%" >= "%fx_off%") BEGIN
-      WRITE_LONG 0x2bc ("%itm_off%" + (0x30 + (0xd8 * "%fx_type%")))
-    END
-    INSERT_BYTES   ("%fx_off%"                              ) (0x30 + (0xd8 * "%fx_type%"))
-      WRITE_SHORT  ("%fx_off%"        + (0x08 * "%fx_type%"))        176 // movement rate bonus
-      WRITE_BYTE   ("%fx_off%" + 0x02 + (0x0a * "%fx_type%"))          1 // target: self
-      WRITE_LONG   ("%fx_off%" + 0x04 + (0x10 * "%fx_type%")) 0xfffffffd // -2 walking speed
-      WRITE_LONG   ("%fx_off%" + 0x0c + (0x10 * "%fx_type%"))          9 // instant/permanent
-      WRITE_LONG   ("%fx_off%" + 0x12 + (0x18 * "%fx_type%"))        100 // probability
+    LPF ~ADD_CRE_EFFECT~
+      INT_VAR
+        opcode = 176 // movement rate bonus
+        target = 1 // self
+        parameter1 = 0xfffffffd // -2 walking speed
+        timing = 9 // instant/permanent
+  END
   END
   BUT_ONLY_IF_IT_CHANGES
 
@@ -7936,6 +7925,17 @@ COPY_EXISTING ~hprog.2da~ ~override~
   SET_2DA_ENTRIES_NOW ~hprog~ 1
   BUT_ONLY_IF_IT_CHANGES
 
+ACTION_IF FILE_EXISTS_IN_GAME ~hpbarb.2da~ BEGIN                                   // if TobEx is installed and the Barbarian HP table is externalized
+COPY_EXISTING ~hpbarb.2da~ ~override~                                              // Barbarian HP table
+  FOR (row = 3; row < 12; row = row + 1) BEGIN
+    READ_2DA_ENTRY row 1 1 dice
+    SET_2DA_ENTRY_LATER ~hpbarb~ row 2 0
+    SET_2DA_ENTRY_LATER ~hpbarb~ row 3 dice
+  END
+  SET_2DA_ENTRIES_NOW ~hpbarb~ 1
+BUT_ONLY_IF_IT_CHANGES
+END
+
 /////                                                  \\\\\
 ///// nwn-style                                        \\\\\
 /////                                                  \\\\\
@@ -7969,6 +7969,18 @@ COPY_EXISTING ~hprog.2da~ ~override~
   END
   SET_2DA_ENTRIES_NOW ~hprog~ 1
   BUT_ONLY_IF_IT_CHANGES
+
+ACTION_IF FILE_EXISTS_IN_GAME ~hpbarb.2da~ BEGIN                                   // if TobEx is installed and the Barbarian HP table is externalized
+COPY_EXISTING ~hpbarb.2da~ ~override~                                              // Barbarian HP table
+  FOR (row = 3; row < 12; row = row + 1) BEGIN
+    READ_2DA_ENTRY row 1 1 dice
+    SET_2DA_ENTRY_LATER ~hpbarb~ row 1 2
+    SET_2DA_ENTRY_LATER ~hpbarb~ row 2 (dice / 2)
+    SET_2DA_ENTRY_LATER ~hpbarb~ row 3 0
+  END
+  SET_2DA_ENTRIES_NOW ~hpbarb~ 1
+BUT_ONLY_IF_IT_CHANGES
+END
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -8337,7 +8349,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~ // looking for ammo
                ("%type%" = 16)    // dagger
              )
            ) BEGIN
-    WRITE_SHORT 0x38 9999
+    WRITE_SHORT 0x38 999
   END
   BUT_ONLY_IF_IT_CHANGES
 
@@ -8372,7 +8384,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~ // looking for gems and jewelry
                  ("%type%" = 10)    // or rings
                )
              ) BEGIN
-      WRITE_SHORT 0x38 9999
+      WRITE_SHORT 0x38 999
     END
   END
   BUT_ONLY_IF_IT_CHANGES
@@ -8404,7 +8416,7 @@ PRINT @1
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~ // looking for potions
   READ_SHORT  0x1C "type" ELSE 0
   PATCH_IF ("%type%" = 9) BEGIN // potions
-    WRITE_SHORT 0x38 9999
+    WRITE_SHORT 0x38 999
   END
   BUT_ONLY_IF_IT_CHANGES
 
@@ -8427,7 +8439,7 @@ PRINT @1
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~ // looking for scrolls
   READ_SHORT  0x1C "type" ELSE 0
   PATCH_IF ("%type%" = 11) BEGIN // scrolls
-    WRITE_SHORT 0x38 9999
+    WRITE_SHORT 0x38 999
   END
   BUT_ONLY_IF_IT_CHANGES
 
@@ -8627,6 +8639,7 @@ BEGIN @314001 DESIGNATED 3140 // original EoU
 GROUP @4
 SUBCOMPONENT @314000 // faster chap 1&2 cutscenes
 REQUIRE_PREDICATE NOT FILE_EXISTS_IN_GAME ~_sw1h01.itm~ @10 // non-Tutu
+REQUIRE_PREDICATE !GAME_IS ~bgt~ @10                        // Forbid installation on BGT
 
 // this file does nothing, it just allows other mods to detect this component
 COPY_EXISTING ~sw1h01.itm~ ~override/cdt03140.g3~
@@ -8648,6 +8661,7 @@ BEGIN @314100 DESIGNATED 3141 // original EoU
 GROUP @4
 SUBCOMPONENT @314000 // faster chap 1&2 cutscenes
 REQUIRE_PREDICATE NOT FILE_EXISTS_IN_GAME ~_sw1h01.itm~ @10 // non-Tutu
+REQUIRE_PREDICATE !GAME_IS ~bgt~ @10                        // Forbid installation on BGT
 
 // this file does nothing, it just allows other mods to detect this component
 COPY_EXISTING ~sw1h01.itm~ ~override/cdt03141.g3~
@@ -9896,7 +9910,11 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bg1start.2da~ THEN BEGIN // BGT
 
   COMPILE ~BG2_Tweaks/dlg/p#khalid_bgt.d~ USING ~BG2_Tweaks/languages/%s/p#khalid.tra~
 
-  EXTEND_BOTTOM ~ar6801.bcs~ ~BG2_Tweaks/baf/p#fw2301.baf~
+  OUTER_SPRINT tutu_var ~~
+  ACTION_IF (GAME_IS ~tutu tutu_totsc~) BEGIN
+    OUTER_SPRINT tutu_var ~_~
+  END
+  EXTEND_BOTTOM ~ar6801.bcs~ ~BG2_Tweaks/baf/p#fw2301.baf~ EVALUATE_BUFFER
   EXTEND_TOP    ~khalid.bcs~ ~BG2_Tweaks/baf/p#khalid.baf~
 
 END ELSE BEGIN // Tutu
@@ -9983,8 +10001,12 @@ END ELSE BEGIN // Tutu
     ADD_CRE_ITEM ~_ring06~ #0 #0 #0 ~IDENTIFIED~ ~LRING~
 
   COMPILE ~BG2_Tweaks/dlg/p#khalid.d~
-
-  EXTEND_BOTTOM ~_ar2301.bcs~ ~BG2_Tweaks/baf/p#fw2301.baf~
+  
+  OUTER_SPRINT tutu_var ~~
+  ACTION_IF (GAME_IS ~tutu tutu_totsc~) BEGIN
+    OUTER_SPRINT tutu_var ~_~
+  END
+  EXTEND_BOTTOM ~_ar2301.bcs~ ~BG2_Tweaks/baf/p#fw2301.baf~ EVALUATE_BUFFER  
   EXTEND_TOP    ~_khalid.bcs~ ~BG2_Tweaks/baf/p#khalid.baf~
 
 END
