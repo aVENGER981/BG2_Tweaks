@@ -1090,19 +1090,13 @@ REQUIRE_PREDICATE NOT FILE_EXISTS_IN_GAME ~_sw1h01.itm~ @10 // non-Tutu
 // this file does nothing, it just allows other mods to detect this component
 COPY_EXISTING ~sw1h01.itm~ ~override/cdt00080.g3~
 
-// copy w/o changes to force WeiDU to have a backup of these files...
-COPY_EXISTING ~loadcntr.bam~ ~override~
-              ~gprogbar.mos~ ~override~
-              ~gtrspsk.mos~  ~override~
-              ~gtrspsk2.mos~ ~override~
-              ~stoneopt.mos~ ~override~
+//Force the game to use the SoA files in the biffs
+MOVE ~override/loadcntr.bam~ ~bg2_tweaks/backup~
+     ~override/gprogbar.mos~ ~bg2_tweaks/backup~
+     ~override/gtrspsk.mos~  ~bg2_tweaks/backup~
+     ~override/gtrspsk2.mos~ ~bg2_tweaks/backup~
+     ~override/stoneopt.mos~ ~bg2_tweaks/backup~
 
-// then invoke shell scripts to delete the override versions, forcing the game to use the SoA versions in the biffs
-ACTION_IF ("%WEIDU_ARCH%" STRING_COMPARE_CASE "x86" = 0) THEN BEGIN // if Windows
-  AT_NOW ~BG2_Tweaks/soascreens.bat~
-END ELSE BEGIN
-  AT_NOW ~sh BG2_Tweaks/soascreens.sh~
-END
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
