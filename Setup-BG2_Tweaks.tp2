@@ -8,7 +8,7 @@ Tutu: 2^51 * 3^12 * 4^3       =        76,588,719,666,220,920,471,552
 BGT:  2^63 * 3^12 * 4^3 * 5^1 = 1,568,536,978,764,204,451,257,384,960
 */
 
-VERSION ~v9.01~
+VERSION ~v9.02~
 
 README ~bg2_tweaks/readme-bg2tweaks.html~
 
@@ -7533,6 +7533,12 @@ REQUIRE_PREDICATE NOT FILE_EXISTS_IN_GAME ~_sw1h01.itm~ @10 // non-Tutu
 
 // this file does nothing, it just allows other mods to detect this component
 COPY_EXISTING ~sw1h01.itm~ ~override/cdt02300.g3~
+
+// gives f/m/c and f/m/t unique HLAs; tables created below
+COPY_EXISTING ~LUABBR.2DA~ ~override~
+  SET_2DA_ENTRY 14 1 1 ~FMT~
+  SET_2DA_ENTRY 19 1 1 ~FMC~
+BUT_ONLY_IF_IT_CHANGES
 
 ACTION_IF (NOT FILE_EXISTS_IN_GAME ~lufmc.2da~) BEGIN
   COPY ~BG2_Tweaks/2da/lufmc.2da~ ~override~
